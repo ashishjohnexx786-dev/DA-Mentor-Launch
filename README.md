@@ -1,20 +1,28 @@
-# DA Mentor OS
+# DA Mentor OS v4 — Final Master
 
-Personal offline-first Data Analyst study mentor and tracker.
+Offline-first mentor + progress tracker synchronized to the locked **Data Analyst Zero-to-Job-Ready 2026** curriculum.
 
-## Current v3 includes
-- Full 112-day day-by-day skill-gated roadmap
-- Foundations, Excel, SQL, Power BI, Python/Statistics, AI/Modern Analyst, Portfolio/Hiring
-- Required project milestones and locked independent stage exit gates
-- Mentor-generated daily tasks with estimated Pomodoros
-- Customizable Focus / Short Break / Long Break timer
-- Automatic focus logging and study streak
-- Today / 7-day / monthly focus reports and focus-by-skill bars
-- Daily notes and optional custom projects
-- Daily focus target
-- Dark, warm and focus themes
-- Timer alarm/vibration when supported
-- Local progress saving, JSON backup/restore and CSV focus export
-- PWA install metadata and offline cache
+## Final curriculum
+- 12 phases
+- 120 lesson units
+- 12 mastery gates
+- Planning workload: roughly 372–516 focused hours
+- Calendar estimate is separate from mastery; 120 units are **not** 120 days
 
-The 112 days are a planning runway. Stage completion depends on independent skill evidence, not the calendar.
+## Curriculum source of truth
+The app mirrors:
+`135_Final_Master_Study_Tracker_2026.xlsx`
+
+Each unit shows the exact master-package Lesson Book and Practice path.
+
+## Upgrade from v3
+v3 used a 7-stage / 112-day plan. v4 intentionally starts curriculum completion clean so old day checkboxes cannot create false mastery in the rebuilt curriculum. Settings, notes and focus history can be migrated; the old `daMentorOSv3` localStorage key is not deleted.
+
+## Data
+Progress is stored locally under:
+`daMentorOSv4`
+
+Use Backup/Restore regularly.
+
+## Deployment
+GitHub Pages serves the static PWA. The service worker cache is `da-mentor-os-v4`.
