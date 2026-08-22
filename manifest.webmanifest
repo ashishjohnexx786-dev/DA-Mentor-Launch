@@ -1,7 +1,7 @@
 {
-  "name": "DA Mentor OS",
+  "name": "DA Mentor OS — Final Master",
   "short_name": "DA Mentor",
-  "description": "Offline-first Data Analyst study mentor, tracker, projects and focus timer.",
+  "description": "Offline-first Data Analyst final-master curriculum mentor, tracker, evidence gates and focus timer.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
