@@ -2,12 +2,19 @@
 
 Personal offline-first Data Analyst study mentor and tracker.
 
-## Includes
-- 112-day skill-gated roadmap
+## Current v3 includes
+- Full 112-day day-by-day skill-gated roadmap
 - Foundations, Excel, SQL, Power BI, Python/Statistics, AI/Modern Analyst, Portfolio/Hiring
-- Required project milestones and stage exit gates
-- Daily mentor tasks and Pomodoro focus timer
-- Local progress saving, study streak, backup and restore
-- PWA install metadata and offline support
+- Required project milestones and locked independent stage exit gates
+- Mentor-generated daily tasks with estimated Pomodoros
+- Customizable Focus / Short Break / Long Break timer
+- Automatic focus logging and study streak
+- Today / 7-day / monthly focus reports and focus-by-skill bars
+- Daily notes and optional custom projects
+- Daily focus target
+- Dark, warm and focus themes
+- Timer alarm/vibration when supported
+- Local progress saving, JSON backup/restore and CSV focus export
+- PWA install metadata and offline cache
 
-The calendar is a planning runway; stage completion depends on independent skill evidence.
+The 112 days are a planning runway. Stage completion depends on independent skill evidence, not the calendar.
