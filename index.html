@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>DA Mentor OS</title>
+<title>DA Mentor OS — Final Master</title>
 <meta name="theme-color" content="#0d1117">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,25 +13,26 @@
 </head>
 <body>
 <div class="wrap">
-<div class="top"><div class="brand"><div class="logo">✓</div><div>DA Mentor OS <span class="small">mentor + tracker</span></div></div><div class="row"><button class="btn primary" id="install" hidden>Install app</button><button class="btn" id="reportsBtn">Reports</button><button class="btn" id="backup">Backup</button><button class="btn" id="restore">Restore</button><input id="restoreFile" type="file" accept="application/json,.json" hidden></div></div>
+<div class="top"><div class="brand"><div class="logo">✓</div><div>DA Mentor OS <span class="small">final master • mentor + tracker</span></div></div><div class="row"><button class="btn primary" id="install" hidden>Install app</button><button class="btn" id="reportsBtn">Reports</button><button class="btn" id="backup">Backup</button><button class="btn" id="restore">Restore</button><input id="restoreFile" type="file" accept="application/json,.json" hidden></div></div>
 
 <div class="grid"><main>
 <section class="card hero">
-<div class="kick">Mentor dashboard</div><div class="row space"><div><h1 id="hello">Your course is planned.</h1><div class="small" id="line"></div></div><button class="btn" id="settings">Settings</button></div>
-<div class="stats"><div class="stat"><b id="pct">0%</b><span>Course progress</span></div><div class="stat"><b id="dayDone">0/112</b><span>Study days completed</span></div><div class="stat"><b id="focus">0m</b><span>Focus today</span></div><div class="stat"><b id="streak">0 🔥</b><span>Study streak</span></div></div>
-<div class="progress" style="margin-top:10px"><i id="bar"></i></div><div class="call warn" style="margin-top:11px"><b>Rule:</b> 112 days is a planning runway, not an automatic pass. A stage is finished only when its study days, required project and independent skill gate are complete.</div>
+<div class="kick">Master curriculum dashboard</div><div class="row space"><div><h1 id="hello">Your final master curriculum is mapped.</h1><div class="small" id="line"></div></div><button class="btn" id="settings">Settings</button></div>
+<div class="stats"><div class="stat"><b id="pct">0%</b><span>Course progress</span></div><div class="stat"><b id="dayDone">0/120</b><span>Lesson units mastered</span></div><div class="stat"><b id="focus">0m</b><span>Focus today</span></div><div class="stat"><b id="streak">0 🔥</b><span>Study streak</span></div></div>
+<div class="progress" style="margin-top:10px"><i id="bar"></i></div>
+<div class="call warn" style="margin-top:11px"><b>Rule:</b> 120 lesson units are <b>not</b> 120 calendar days. The master plan is about 372–516 focused hours (roughly 4–5 months full-time planning range). A phase advances only after its learning units, required evidence and independent Gate are complete.</div>
 </section>
 
 <section class="card">
-<div class="row space sectionhead"><div><div class="kick">Current stage</div><h2 id="stageTitle"></h2></div><div><span class="pill" id="stageDaysDone"></span> <span class="pill" id="stageNo"></span></div></div>
+<div class="row space sectionhead"><div><div class="kick">Current phase</div><h2 id="stageTitle"></h2></div><div><span class="pill" id="stageDaysDone"></span> <span class="pill" id="stageNo"></span></div></div>
 <div class="progress"><i id="stageBar"></i></div><p class="small" id="goal" style="margin-top:8px"></p>
-<details open><summary>Day-by-day plan</summary><div class="scroll" id="schedule"></div></details>
-<div class="gate" id="gateBox"><b>Stage exit gate</b><p class="small" id="gateText" style="margin:6px 0"></p><div class="small" id="gateLock"></div><label class="item" style="border:0"><input id="gate" type="checkbox"><span>I can do this independently without the tutorial open.</span></label><button class="btn primary" id="next" hidden>Complete stage & move on →</button></div>
+<details open><summary>Lesson-unit plan</summary><div class="scroll" id="schedule"></div></details>
+<div class="gate" id="gateBox"><b>Phase mastery gate</b><p class="small" id="gateText" style="margin:6px 0"></p><div class="small" id="gateLock"></div><label class="item" style="border:0"><input id="gate" type="checkbox"><span>I passed this Gate independently with the required review/remediation rules.</span></label><button class="btn primary" id="next" hidden>Complete phase & move on →</button></div>
 </section>
 
 <section class="card">
-<div class="row space"><div><div class="kick">Required project</div><h2 id="project"></h2></div><span class="pill" id="projectPct"></span></div>
-<div class="small">Mandatory evidence for this stage. You do not need to invent the sequence.</div><div id="milestones"></div>
+<div class="row space"><div><div class="kick">Required evidence</div><h2 id="project"></h2></div><span class="pill" id="projectPct"></span></div>
+<div class="small">Mandatory evidence for this phase. Do not replace it with random extra projects or playlists.</div><div id="milestones"></div>
 </section>
 
 <section class="card">
@@ -40,7 +41,7 @@
 </section>
 
 <section class="card">
-<div class="row space"><h2>Daily notes</h2><span class="note-save" id="noteSaved"></span></div><div class="small">Write only what helps tomorrow: what I learned, what confused me, and what I will do first.</div><textarea id="notes" placeholder="Today's notes..."></textarea>
+<div class="row space"><h2>Daily notes</h2><span class="note-save" id="noteSaved"></span></div><div class="small">Write only what helps tomorrow: what I learned, what confused me, what I verified, and what I will do first.</div><textarea id="notes" placeholder="Today's notes..."></textarea>
 </section>
 </main>
 
@@ -51,13 +52,13 @@
 
 <section class="card"><div class="row space"><h2>Focus target</h2><span class="pill" id="targetText"></span></div><div class="progress"><i id="targetBar"></i></div><div class="small" id="focusSummary" style="margin-top:7px"></div></section>
 
-<section class="card"><div class="row space"><h2>Full course map</h2><span class="small">7 stages • 112 days</span></div><div id="map"></div></section>
+<section class="card"><div class="row space"><h2>Full course map</h2><span class="small">12 phases • 120 units</span></div><div id="map"></div></section>
 
-<section class="card"><h2>Portfolio finish line</h2><div class="small">Required projects are prebuilt. Optional personal projects can wait until you are ready.</div><div id="portfolio"></div><details><summary>Optional custom project</summary><div style="margin-top:8px"><input id="customName" placeholder="Project name" style="width:100%"><textarea id="customGoal" placeholder="Goal / business question" style="min-height:75px;margin-top:7px"></textarea><button class="btn" id="customAdd">Add optional project</button><div id="customList"></div></div></details></section>
+<section class="card"><h2>Evidence finish line</h2><div class="small">Required evidence is mapped to the final curriculum. Optional personal projects can wait until core evidence is strong.</div><div id="portfolio"></div><details><summary>Optional custom project</summary><div style="margin-top:8px"><input id="customName" placeholder="Project name" style="width:100%"><textarea id="customGoal" placeholder="Goal / business question" style="min-height:75px;margin-top:7px"></textarea><button class="btn" id="customAdd">Add optional project</button><div id="customList"></div></div></details></section>
 
-<section class="card"><h2>Data safety</h2><div class="call">Progress auto-saves on this phone. Use <b>Backup</b> regularly. If site/app data is ever cleared, reopen the app and use <b>Restore</b>.</div><div class="row" style="margin-top:8px"><button class="btn" id="csv">Export CSV</button></div><div class="small" id="backupInfo" style="margin-top:7px"></div></section>
+<section class="card"><h2>Data safety</h2><div class="call">Progress auto-saves on this device. Use <b>Backup</b> regularly. The v4 final-master backup is separate from the old v3/112-day curriculum.</div><div class="row" style="margin-top:8px"><button class="btn" id="csv">Export CSV</button></div><div class="small" id="backupInfo" style="margin-top:7px"></div></section>
 </aside></div>
-<div class="footer">DA Mentor OS v3 • offline-first • local progress + backup/restore • reports + mentor guidance</div></div>
+<div class="footer">DA Mentor OS v4 • final master curriculum • offline-first • local progress + backup/restore • reports + mentor guidance</div></div>
 
 <div class="modal" id="settingsModal"><div class="card"><div class="row space"><h2>Settings</h2><button class="btn ghost" data-close="settingsModal">×</button></div><div class="form">
 <label class="small">Your name<input id="name" placeholder="Name"></label>
@@ -69,11 +70,11 @@
 <label class="small">Long break<input id="longMin" type="number" min="5" max="60"></label>
 <label class="small">Theme<select id="theme"><option value="dark">Dark</option><option value="warm">Warm</option><option value="focus">Focus green</option></select></label>
 <label class="small">Timer alarm<select id="alarm"><option value="on">On</option><option value="off">Off</option></select></label>
-</div><div class="call warn" style="margin-top:10px">Changing the start date changes the calendar estimate only. It never marks study work complete.</div><div class="row" style="margin-top:10px"><button class="btn primary" id="saveSettings">Save settings</button><button class="btn danger" id="resetAll">Reset all data</button></div></div></div>
+</div><div class="call warn" style="margin-top:10px">Changing the start date changes the calendar estimate only. It never marks a lesson unit or Gate complete.</div><div class="row" style="margin-top:10px"><button class="btn primary" id="saveSettings">Save settings</button><button class="btn danger" id="resetAll">Reset v4 data</button></div></div></div>
 
 <div class="modal" id="reportsModal"><div class="card"><div class="row space"><h2>Focus reports</h2><button class="btn ghost" data-close="reportsModal">×</button></div>
 <div class="reportgrid"><div class="stat"><b id="rToday">0m</b><span>Today</span></div><div class="stat"><b id="rWeek">0m</b><span>Last 7 days</span></div><div class="stat"><b id="rMonth">0m</b><span>This month</span></div></div>
-<h3 style="margin-top:14px">Last 7 days</h3><div id="dailyBars"></div><h3 style="margin-top:14px">Focus by skill</h3><div id="skillBars"></div>
+<h3 style="margin-top:14px">Last 7 days</h3><div id="dailyBars"></div><h3 style="margin-top:14px">Focus by phase</h3><div id="skillBars"></div>
 <div class="small" style="margin-top:10px">Reports count completed focus sessions only. Breaks are not counted as study time.</div></div></div>
 
 <script src="curriculum.js"></script>
