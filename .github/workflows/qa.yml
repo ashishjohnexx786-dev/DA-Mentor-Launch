@@ -1,0 +1,43 @@
+name: DA Mentor Launch QA
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: JavaScript syntax
+        run: |
+          node --check app.js
+          node --check curriculum.js
+          node --check enhancements.js
+          node --check theme-picker.js
+          node --check service-worker.js
+      - name: Curriculum integrity
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),vm=require('vm');
+          const code=fs.readFileSync('curriculum.js','utf8')+'\nthis.__course=C;';
+          const ctx={}; vm.createContext(ctx); vm.runInContext(code,ctx);
+          const c=ctx.__course;
+          const units=c.reduce((n,p)=>n+p.units,0);
+          if(c.length!==12) throw new Error(`Expected 12 phases, got ${c.length}`);
+          if(units!==120) throw new Error(`Expected 120 lesson units, got ${units}`);
+          console.log(`PASS: ${c.length} phases / ${units} lesson units`);
+          NODE
+      - name: Required static files
+        run: |
+          test -f index.html
+          test -f styles.css
+          test -f manifest.webmanifest
+          test -f theme-picker.js
+          grep -q 'curriculum.js' index.html
+          grep -q 'theme-picker.js' index.html
