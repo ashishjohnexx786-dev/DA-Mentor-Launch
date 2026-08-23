@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   const currentLabel=document.getElementById('themeCurrent');
   if(grid)grid.innerHTML=Object.keys(names).map(k=>`<button type="button" data-launch-theme="${k}"><i class="swatch" style="background:${swatches[k]}"></i><span>${names[k]}<small>${desc[k]}</small></span></button>`).join('');
 
-  const style=document.createElement('style');style.textContent=`.settingsThemeGallery{grid-column:1/-1;margin-top:2px}.settingsThemeGallery>span{display:block;margin-bottom:8px}.settingsThemeGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.settingsThemeCard{display:flex;gap:9px;align-items:center;text-align:left;border:1px solid var(--bd);background:var(--p2);color:var(--txt);border-radius:12px;padding:9px;cursor:pointer}.settingsThemeCard.active,.themeGrid button.active{outline:1px solid var(--a);border-color:var(--a)}.settingsThemeCard i{width:34px;height:34px;border-radius:10px;flex:0 0 34px;border:1px solid var(--bd)}.settingsThemeCard b,.settingsThemeCard small{display:block}.settingsThemeCard small{color:var(--mut);margin-top:2px}@media(max-width:560px){.settingsThemeGrid{grid-template-columns:1fr}}`;
+  const style=document.createElement('style');style.textContent=`.settingsThemeGallery{grid-column:1/-1;margin-top:2px}.settingsThemeGallery>span{display:block;margin-bottom:8px}.settingsThemeGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.settingsThemeCard{display:flex;gap:9px;align-items:center;text-align:left;border:1px solid var(--bd);background:var(--p2);color:var(--txt);border-radius:12px;padding:9px;cursor:pointer}.settingsThemeCard.active,.themeGrid button.active{outline:1px solid var(--a);border-color:var(--a)}.settingsThemeCard i{width:34px;height:34px;border-radius:10px;flex:0 0 34px;border:1px solid var(--bd)}.settingsThemeCard b,.settingsThemeCard small{display:block}.settingsThemeCard small{color:var(--mut);margin-top:2px}.reportgrid{grid-template-columns:repeat(4,1fr)}@media(max-width:560px){.settingsThemeGrid{grid-template-columns:1fr}.reportgrid{grid-template-columns:1fr 1fr}}`;
   document.head.appendChild(style);
 
   const form=document.querySelector('#settingsModal .form');
@@ -31,5 +31,10 @@ document.addEventListener('DOMContentLoaded',()=>{
   document.addEventListener('click',e=>{if(pop?.classList.contains('show')&&!pop.contains(e.target)&&e.target!==trigger)pop.classList.remove('show')});
   document.getElementById('settings')?.addEventListener('click',()=>setTimeout(sync,0));
   document.getElementById('saveSettings')?.addEventListener('click',()=>setTimeout(sync,0));
+
+  const exportBtn=document.getElementById('csv');if(exportBtn)exportBtn.textContent='📤 Export';
+  const reportGrid=document.querySelector('#reportsModal .reportgrid');
+  if(reportGrid&&!document.getElementById('rStreakParity'))reportGrid.insertAdjacentHTML('beforeend','<div class="stat"><b id="rStreakParity">0 🔥</b><span>Study streak</span></div>');
+  document.getElementById('reportsBtn')?.addEventListener('click',()=>{const el=document.getElementById('rStreakParity');if(el)el.textContent=`${(D?.streak?.count)||0} 🔥`});
   sync();
 });
