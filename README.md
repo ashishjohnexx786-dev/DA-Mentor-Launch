@@ -1,28 +1,34 @@
-# DA Mentor OS v4 — Final Master
+# DA Mentor Launch
 
-Offline-first mentor + progress tracker synchronized to the locked **Data Analyst Zero-to-Job-Ready 2026** curriculum.
+Course 1 companion app for the **Data Analyst Zero-to-Job-Ready 2026** curriculum.
 
-## Final curriculum
+## Course 1 scope
 - 12 phases
 - 120 lesson units
 - 12 mastery gates
-- Planning workload: roughly 372–516 focused hours
-- Calendar estimate is separate from mastery; 120 units are **not** 120 days
+- exact lesson/practice routing
+- mentor guidance, daily tasks and notes
+- focus timer, daily target, reports and streak
+- Error & Repair Center
+- sanitized Evidence Vault
+- JSON backup/restore and CSV export
+- seven restrained dark themes, including true AMOLED Black
+- offline-first PWA support
+
+## Design system
+Launch is the first member of the shared Mentor family:
+
+`DA Mentor Launch → DA Mentor Advance → DA Mentor Engineering`
+
+The three apps intentionally use nearly identical navigation, study tools and visual structure. Later Mentors add more advanced career, assessment and engineering controls without making the user relearn the app.
+
+The visual system is dark, minimalist and lightly dimensional: subtle card depth and hover lift, no heavy neon/glow effects.
+
+## Progress safety
+The existing Course 1 local progress store is retained for backward compatibility. Renaming the product does not intentionally reset learner progress.
 
 ## Curriculum source of truth
-The app mirrors:
-`135_Final_Master_Study_Tracker_2026.xlsx`
-
-Each unit shows the exact master-package Lesson Book and Practice path.
-
-## Upgrade from v3
-v3 used a 7-stage / 112-day plan. v4 intentionally starts curriculum completion clean so old day checkboxes cannot create false mastery in the rebuilt curriculum. Settings, notes and focus history can be migrated; the old `daMentorOSv3` localStorage key is not deleted.
-
-## Data
-Progress is stored locally under:
-`daMentorOSv4`
-
-Use Backup/Restore regularly.
+The app mirrors the locked Course 1 master tracker and its 120-unit architecture.
 
 ## Deployment
-GitHub Pages serves the static PWA. The service worker cache is `da-mentor-os-v4`.
+Static offline-first PWA designed for GitHub Pages.
