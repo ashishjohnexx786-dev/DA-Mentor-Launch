@@ -1,12 +1,16 @@
 (()=>{
- const trigger=document.getElementById('themeMenuBtn'),pop=document.getElementById('themePopover'),label=document.getElementById('themeCurrent'),settingsTheme=document.getElementById('theme');
  const names={dark:'Dark','pro-midnight':'Pro Midnight',slate:'Slate',forest:'Forest',warm:'Warm',focus:'Focus Green'};
- if(!trigger||!pop)return;
+ const desc={dark:'Classic OS','pro-midnight':'Deep violet','slate':'Cool neutral',forest:'Deep green',warm:'Soft amber',focus:'Low distraction'};
+ const swatches={dark:'linear-gradient(135deg,#0d1117,#ef6a68)','pro-midnight':'linear-gradient(135deg,#0b1020,#8b7cf6)','slate':'linear-gradient(135deg,#11151b,#69a7ff)',forest:'linear-gradient(135deg,#0c1512,#53d18f)',warm:'linear-gradient(135deg,#17120f,#f28c5d)',focus:'linear-gradient(135deg,#0d1412,#5dd39e)'};
+ const settingsTheme=document.getElementById('theme');
  [['pro-midnight','Pro Midnight'],['slate','Slate'],['forest','Forest']].forEach(([v,t])=>{if(settingsTheme&&![...settingsTheme.options].some(o=>o.value===v)){const o=document.createElement('option');o.value=v;o.textContent=t;settingsTheme.appendChild(o)}});
+ const trigger=document.getElementById('themeMenuBtn'),pop=document.getElementById('themePopover'),legacy=document.getElementById('quickTheme');
+ trigger?.remove();pop?.remove();legacy?.remove();
+ const top=document.querySelector('.topActions');const csv=document.getElementById('csv'),reports=document.getElementById('reportsBtn');if(top&&csv&&reports)top.insertBefore(csv,reports);
+ const style=document.createElement('style');style.textContent=`.settingsThemeGallery{grid-column:1/-1;margin-top:2px}.settingsThemeGallery>span{display:block;margin-bottom:8px}.settingsThemeGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.settingsThemeCard{display:flex;gap:9px;align-items:center;text-align:left;border:1px solid var(--bd);background:var(--p2);color:var(--txt);border-radius:12px;padding:9px;cursor:pointer}.settingsThemeCard.active{outline:2px solid var(--a);border-color:var(--a)}.settingsThemeCard i{width:34px;height:34px;border-radius:10px;flex:0 0 34px}.settingsThemeCard b,.settingsThemeCard small{display:block}.settingsThemeCard small{color:var(--mut);margin-top:2px}@media(max-width:560px){.settingsThemeGrid{grid-template-columns:1fr 1fr}}`;document.head.appendChild(style);
+ const form=document.querySelector('#settingsModal .form');let gallery=document.getElementById('osSettingsThemeGallery');if(form&&!gallery){gallery=document.createElement('div');gallery.id='osSettingsThemeGallery';gallery.className='settingsThemeGallery';gallery.innerHTML=`<span class="small">Appearance</span><div class="settingsThemeGrid">${Object.keys(names).map(k=>`<button type="button" class="settingsThemeCard" data-os-theme="${k}"><i style="background:${swatches[k]}"></i><span><b>${names[k]}</b><small>${desc[k]}</small></span></button>`).join('')}</div>`;const label=settingsTheme?.closest('label');if(label)label.style.display='none';form.appendChild(gallery)}
  function current(){return (typeof D!=='undefined'&&D.theme)||document.body.dataset.theme||'dark'}
- function sync(){const t=current();label.textContent=names[t]||t;if(settingsTheme)settingsTheme.value=t;pop.querySelectorAll('[data-theme-choice]').forEach(b=>b.classList.toggle('active',b.dataset.themeChoice===t))}
- trigger.addEventListener('click',e=>{e.stopPropagation();pop.classList.toggle('show');sync()});
- pop.addEventListener('click',e=>{const b=e.target.closest('[data-theme-choice]');if(!b||typeof D==='undefined')return;D.theme=b.dataset.themeChoice;if(settingsTheme)settingsTheme.value=D.theme;if(typeof save==='function')save();if(typeof render==='function')render();sync();pop.classList.remove('show')});
- document.addEventListener('click',e=>{if(!pop.contains(e.target)&&e.target!==trigger)pop.classList.remove('show')});
+ function sync(){const t=current();if(settingsTheme)settingsTheme.value=t;document.querySelectorAll('[data-os-theme]').forEach(b=>b.classList.toggle('active',b.dataset.osTheme===t))}
+ gallery?.addEventListener('click',e=>{const b=e.target.closest('[data-os-theme]');if(!b||typeof D==='undefined')return;D.theme=b.dataset.osTheme;if(settingsTheme)settingsTheme.value=D.theme;if(typeof save==='function')save();if(typeof render==='function')render();sync()});
  document.getElementById('settings')?.addEventListener('click',()=>setTimeout(sync,0));document.getElementById('saveSettings')?.addEventListener('click',()=>setTimeout(sync,0));sync();
 })();
