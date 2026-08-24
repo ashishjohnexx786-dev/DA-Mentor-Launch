@@ -1,5 +1,5 @@
 (()=>{
-  const RECOMMENDED=new Set(["EF1","EF2","EF5","EF6","EF7","EF8","EF9","EFA1","EFA2","EFA3","EFA5","EFA7","EFA8","EFA9","EFA10","SF0","SF2","SF3","SF4","SF6","SF7","SF8","SA1","SA3","SA5","SA6","SA9","PBM0","PBM1","PBM2","PBM3","PBM4","PBM7","PBD5","PBD6","PBD7","PBD10","PY0","PY1","PY2","PY3","PY4","PY5","PY6","PY7","PY8","STAT1","STAT2","STAT3","STAT4","STAT5","STAT6","STAT8","IBA4","IBA6","IBA9","PCH4","PCH7","PCH11","PCH12","PCH13"]);
+  const RECOMMENDED=new Set(["EF1","EF2","EF5","EF6","EF7","EF8","EF9","EFA1","EFA2","EFA3","EFA5","EFA7","EFA8","EFA9","EFA10","SF0","SF2","SF3","SF4","SF6","SF7","SF8","SA1","SA3","SA5","SA6","SA9","PBM0","PBM1","PBM2","PBM3","PBM4","PBM7","PBD5","PBD6","PBD7","PBD10","PY0","PY1","PY2","PY3","PY4","PY5","PY6","PY7","PY8","STAT1","STAT2","STAT3","STAT4","STAT5","STAT6","STAT8","IBA4","IBA6","IBA9","AIA8","PCH4","PCH7","PCH11","PCH12","PCH13"]);
   const status=id=>RECOMMENDED.has(id)?"☑ Recommended visual":"☐ Not required";
   function applyData(){if(typeof C!=="undefined")C.forEach(p=>p.plan.forEach(u=>{u.videoStatus=status(u.id);u.videoUrl="";}));}
   function decorate(){
