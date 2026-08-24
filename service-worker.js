@@ -1,4 +1,4 @@
-const CACHE='da-mentor-launch-v5.5';
+const CACHE='da-mentor-launch-v5.6';
 const ASSETS=['./','./index.html','./styles.css','./curriculum.js','./app.js','./enhancements.js','./theme-picker.js','./course-sync.js','./optional-videos.js','./optional-videos-ui.js','./optional-videos.css','./manifest.webmanifest','./icon-192.svg','./icon-512.svg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting();});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE&&(k.startsWith('da-mentor-os')||k.startsWith('da-mentor-launch'))).map(k=>caches.delete(k)))));self.clients.claim();});
