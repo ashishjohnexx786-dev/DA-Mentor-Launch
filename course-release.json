@@ -1,7 +1,7 @@
 {
   "mentor": "DA Mentor Launch",
   "course": "Course 1 — Zero to Job-Ready Data Analyst",
-  "final_course_version": "2026-v1.5",
+  "final_course_version": "2026-v1.6",
   "phases": 12,
   "core_lessons": 120,
   "video_required_dependencies": 0,
@@ -10,6 +10,6 @@
   "optional_video_resources_unrouted": 1,
   "video_status_values": ["☐ Not required", "☑ Recommended visual"],
   "storage_key_preserved": "daMentorOSv4",
-  "canonical_archive": "COURSE_1_ZERO_TO_JOB_READY_MASTER_2026_v1.5_FINAL_SYNCED.zip",
+  "canonical_archive": "COURSE_1_ZERO_TO_JOB_READY_MASTER_2026_v1.6_FINAL_SYNCED.zip",
   "sync_policy": "Lesson IDs, course routes, optional-video routing, video status and release controls match the canonical final course. Videos are optional reinforcement and never gate progress. Existing progress storage is preserved."
 }
