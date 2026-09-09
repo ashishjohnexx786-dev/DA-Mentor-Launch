@@ -1,4 +1,4 @@
-const CACHE='da-mentor-launch-unified-2026-09-09-v2';
+const CACHE='da-mentor-launch-unified-2026-09-09-v3';
 const ASSETS=[
   './',
   './index.html',
@@ -6,6 +6,13 @@ const ASSETS=[
   './mentor-config.js',
   './unified-app-pack.js',
   './unified-app-gz-loader.js',
+  './unified-source-01.js',
+  './unified-source-02.js',
+  './unified-source-03.js',
+  './unified-source-04.js',
+  './unified-source-05.js',
+  './unified-source-06.js',
+  './unified-source-07.js',
   './curriculum.js',
   './manifest.webmanifest',
   './icon-192.svg'
