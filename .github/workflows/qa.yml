@@ -1,7 +1,8 @@
-name: DA Mentor Launch QA
+name: DA Mentor Launch Unified UX QA
 
 on:
   pull_request:
+    branches: [main]
   push:
     branches: [main]
   workflow_dispatch:
@@ -14,30 +15,39 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: JavaScript syntax
+      - name: Unified DE-style shell checks
         run: |
-          node --check app.js
-          node --check curriculum.js
-          node --check enhancements.js
-          node --check theme-picker.js
+          test -f index.html
+          test -f unified-style.css
+          test -f mentor-config.js
+          test -f unified-app-pack.js
+          test -f unified-app-gz-loader.js
+          test -f service-worker.js
+          node --check mentor-config.js
+          node --check unified-app-pack.js
+          node --check unified-app-gz-loader.js
           node --check service-worker.js
+          grep -q 'data-view="home"' index.html
+          grep -q 'data-view="learn"' index.html
+          grep -q 'data-view="course"' index.html
+          grep -q 'data-view="repair"' index.html
+          grep -q 'data-view="evidence"' index.html
+          grep -q 'data-view="jobs"' index.html
+          grep -q 'data-view="reports"' index.html
+          grep -q 'Manual study tracker' index.html
+          grep -q 'START STUDY' index.html
+          ! grep -q '25:00' index.html
+          ! grep -q 'Short break' index.html
+          grep -q 'unified-2026-09-09-v2' service-worker.js
+          grep -q "e.request.mode==='navigate'" service-worker.js
+          grep -q "storageKey:" mentor-config.js
       - name: Curriculum integrity
         run: |
           node - <<'NODE'
           const fs=require('fs'),vm=require('vm');
-          const code=fs.readFileSync('curriculum.js','utf8')+'\nthis.__course=C;';
-          const ctx={}; vm.createContext(ctx); vm.runInContext(code,ctx);
-          const c=ctx.__course;
-          const units=c.reduce((n,p)=>n+p.units,0);
-          if(c.length!==12) throw new Error(`Expected 12 phases, got ${c.length}`);
-          if(units!==120) throw new Error(`Expected 120 lesson units, got ${units}`);
-          console.log(`PASS: ${c.length} phases / ${units} lesson units`);
+          const ctx={};vm.createContext(ctx);vm.runInContext(fs.readFileSync('curriculum.js','utf8')+'\nthis.__c=C;',ctx);
+          const c=ctx.__c,n=c.reduce((a,p)=>a+p.units,0);
+          if(c.length!==12||n!==120) throw new Error(`Expected 12 phases/120 lessons; got ${c.length}/${n}`);
+          console.log('PASS 12 phases / 120 lessons');
           NODE
-      - name: Required static files
-        run: |
-          test -f index.html
-          test -f styles.css
-          test -f manifest.webmanifest
-          test -f theme-picker.js
-          grep -q 'curriculum.js' index.html
-          grep -q 'theme-picker.js' index.html
+          grep -q "storageKey:'daMentorOSv4'" mentor-config.js
