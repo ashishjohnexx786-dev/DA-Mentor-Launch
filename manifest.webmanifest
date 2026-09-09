@@ -1,7 +1,7 @@
 {
-  "name": "DA Mentor Launch — Course 1",
+  "name": "DA Mentor Launch",
   "short_name": "Mentor Launch",
-  "description": "Course 1 Data Analyst mentor with mastery tracking, focus tools, repair tracking, evidence capture and offline progress.",
+  "description": "Course 1 Data Analyst learning companion using the unified DE Mentor 2026 study workflow, protected review, mastery evidence, repair, and an exact-timestamp study tracker.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
