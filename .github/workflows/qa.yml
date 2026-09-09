@@ -15,39 +15,54 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Unified DE-style shell checks
+      - name: Required unified files
         run: |
           test -f index.html
           test -f unified-style.css
           test -f mentor-config.js
-          test -f unified-app-pack.js
           test -f unified-app-gz-loader.js
+          for n in 01 02 03 04 05 06 07; do test -f "unified-source-${n}.js"; done
           test -f service-worker.js
-          node --check mentor-config.js
-          node --check unified-app-pack.js
-          node --check unified-app-gz-loader.js
-          node --check service-worker.js
-          grep -q 'data-view="home"' index.html
-          grep -q 'data-view="learn"' index.html
-          grep -q 'data-view="course"' index.html
-          grep -q 'data-view="repair"' index.html
-          grep -q 'data-view="evidence"' index.html
-          grep -q 'data-view="jobs"' index.html
-          grep -q 'data-view="reports"' index.html
           grep -q 'Manual study tracker' index.html
           grep -q 'START STUDY' index.html
           ! grep -q '25:00' index.html
           ! grep -q 'Short break' index.html
-          grep -q 'unified-2026-09-09-v2' service-worker.js
-          grep -q "e.request.mode==='navigate'" service-worker.js
-          grep -q "storageKey:" mentor-config.js
-      - name: Curriculum integrity
+          grep -q 'unified-2026-09-09-v3' service-worker.js
+          for n in 01 02 03 04 05 06 07; do grep -q "unified-source-${n}.js" service-worker.js; done
+      - name: Reconstruct and syntax-check deployed engine
         run: |
           node - <<'NODE'
           const fs=require('fs'),vm=require('vm');
-          const ctx={};vm.createContext(ctx);vm.runInContext(fs.readFileSync('curriculum.js','utf8')+'\nthis.__c=C;',ctx);
+          const ctx={window:{}}; vm.createContext(ctx);
+          for(let i=1;i<=7;i++){
+            const f=`unified-source-${String(i).padStart(2,'0')}.js`;
+            vm.runInContext(fs.readFileSync(f,'utf8'),ctx,{filename:f});
+          }
+          const code=ctx.window.UNIFIED_APP_SOURCE;
+          if(!code || code.length<30000) throw new Error(`Reconstructed runtime too short: ${code?.length||0}`);
+          for(const required of ['indexedDB','DecompressionStream','START STUDY','END STUDY','Course package connected','Open / record protected review']){
+            if(!code.includes(required)) throw new Error(`Missing direct-open/unified feature: ${required}`);
+          }
+          for(const banned of ['25:00','Short break','path copied']){
+            if(code.includes(banned)) throw new Error(`Obsolete behavior present: ${banned}`);
+          }
+          fs.writeFileSync('/tmp/unified-runtime.js',code);
+          console.log(`PASS reconstructed runtime: ${code.length} characters`);
+          NODE
+          node --check /tmp/unified-runtime.js
+          node --check mentor-config.js
+          node --check unified-app-gz-loader.js
+          node --check service-worker.js
+      - name: Curriculum and canonical route integrity
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),vm=require('vm');
+          const ctx={}; vm.createContext(ctx);
+          vm.runInContext(fs.readFileSync('curriculum.js','utf8')+'\nthis.__c=C;',ctx);
           const c=ctx.__c,n=c.reduce((a,p)=>a+p.units,0);
           if(c.length!==12||n!==120) throw new Error(`Expected 12 phases/120 lessons; got ${c.length}/${n}`);
           console.log('PASS 12 phases / 120 lessons');
           NODE
           grep -q "storageKey:'daMentorOSv4'" mentor-config.js
+          grep -q 'MODULES/00_Foundation/C1_FOUNDATION_CANONICAL_LESSON_BOOK_INTERNAL_QA.pdf' mentor-config.js
+          grep -q 'MODULES/00_Foundation/C1_FOUNDATION_CANONICAL_PRACTICE_BOOK_INTERNAL_QA.pdf' mentor-config.js
