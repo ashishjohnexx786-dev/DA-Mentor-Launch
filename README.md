@@ -2,33 +2,34 @@
 
 Course 1 companion app for the **Data Analyst Zero-to-Job-Ready 2026** curriculum.
 
-## Course 1 scope
-- 12 phases
-- 120 lesson units
-- 12 mastery gates
-- exact lesson/practice routing
-- mentor guidance, daily tasks and notes
-- focus timer, daily target, reports and streak
-- Error & Repair Center
-- sanitized Evidence Vault
-- JSON backup/restore and CSV export
-- seven restrained dark themes, including true AMOLED Black
-- offline-first PWA support
+## Identity
+- Product: **DA Mentor Launch**
+- Course role: **Course 1 — Data Analyst foundation**
+- Maintained branch: **main only**
+- Interaction model: shared **DE Mentor 2026** study experience; the Course 1 curriculum itself is unchanged.
 
-## Design system
-Launch is the first member of the shared Mentor family:
+## Standard study route
+Every lesson follows the same teacher-like route used across the four Mentor apps:
+1. Understand the lesson goal.
+2. Learn / read / watch the assigned material.
+3. Follow one guided example.
+4. Make a genuine independent attempt.
+5. Open the protected review only after that attempt.
+6. Complete a fresh retry without copying the review.
+7. Explain the result aloud in your own words.
+8. Mark Mastered only after the fresh retry and explanation are complete.
 
-`DA Mentor Launch → DA Mentor Bridge (2B accelerated) → DA Mentor Engineering`, with `DA Mentor Advance (2A)` as the optional Senior/BI branch.
+**Skip for now is not completion.** **I’m stuck** routes the learner into repair rather than awarding mastery.
 
-The Mentor apps intentionally use nearly identical navigation, study tools and visual structure. Later Mentors add more advanced career, assessment and engineering controls without making the user relearn the app.
+## Study tracking and assessment integrity
+- Manual **START STUDY / END STUDY** tracker based on the real start timestamp; there is no fixed Pomodoro countdown.
+- Course-specific Mini-Labs, Gates and retests remain authoritative.
+- Protected reviews remain locked before a genuine attempt.
+- Progress, notes, repair evidence, reports and backup/restore stay local to the learner’s browser unless explicitly exported.
+- Existing Course 1 progress storage is retained for backward compatibility.
 
-The visual system is dark, minimalist and lightly dimensional: subtle card depth and hover lift, no heavy neon/glow effects.
+## Curriculum and media
+The app mirrors the locked Course 1 architecture and exact lesson/practice routes. Assigned and optional visual/video resources are preserved; the unified Mentor UX does not remove them.
 
-## Progress safety
-The existing Course 1 local progress store is retained for backward compatibility. Renaming the product does not intentionally reset learner progress.
-
-## Curriculum source of truth
-The app mirrors the locked Course 1 master tracker and its 120-unit architecture.
-
-## Deployment
-Static offline-first PWA designed for GitHub Pages.
+## PWA / deployment
+Static offline-ready PWA for GitHub Pages. The manifest identity is **DA Mentor Launch**, and the shipped icon files belong to this Course 1 app.
