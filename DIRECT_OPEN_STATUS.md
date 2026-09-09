@@ -1,1 +1,0 @@
-Direct-open asset rollout started 2026-09-09. Foundation canonical learner PDFs are being deployed at their exact MODULES/00_Foundation paths so Mentor buttons open real files instead of copying paths.
