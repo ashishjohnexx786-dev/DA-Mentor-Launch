@@ -24,24 +24,25 @@
     },
     {
       "path": "index.html",
-      "bytes": 73702,
-      "sha256": "4a38d324d0cda175095aeb2f5fec93f24cbb032fe83846b0479d6223761cb8a7"
+      "bytes": 74135,
+      "sha256": "9a8eb511db4330abcc1bb33db8a5dacd877133e8d73128270e1f9d6387f86331"
     },
     {
       "path": "manifest.webmanifest",
-      "bytes": 588,
-      "sha256": "5374eafdefb8a98a15b5b8f0d60486f6ea6b2708edc43bb4c0ad33d3c404bcdb"
+      "bytes": 626,
+      "sha256": "b09bde837576a51a435794a5c4e0a59308c6392e820db829239cff5273773f87"
     },
     {
       "path": "service-worker.js",
-      "bytes": 931,
-      "sha256": "20968e8f2c400d2d37067f38315a75ee8ab5eb13783ae69c6bcce46b2f57c26c"
+      "bytes": 932,
+      "sha256": "2f45009ce4bd8c8a04dace327f44dc16850e66679e1a59ac3d90fdc1d569eb03"
     }
   ],
-  "runtimeFix": "LIVE_QA_STEP_RERENDER_2026_09_09",
+  "runtimeFix": "DE2026_FINAL_RUNTIME_2026_09_10",
   "mobileMarkupFix": "8_SIBLING_STEPS_NO_OVERLAP",
   "studyNavigation": "ALL_LESSONS_OPEN_ASSESSMENTS_PROTECTED",
   "finalRelease": "2026-09-10",
   "reviewProtection": "GENUINE_ATTEMPT_BOOLEAN_REQUIRED",
-  "sourceLinks": "CURRENT_2026_09_10"
+  "sourceLinks": "CURRENT_2026_09_10",
+  "practiceAccess": "VISIBLE_ON_TODAY_LEARN_AND_COURSE_ROWS"
 }
