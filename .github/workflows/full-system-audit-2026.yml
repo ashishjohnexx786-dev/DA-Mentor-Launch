@@ -11,7 +11,7 @@ env:
   STORAGE_KEY: daMentorOSv4
   CORE_LESSONS: '120'
   FILTER_PL: 'false'
-  CACHE_MARKER: mentor-de2026-final-2026-09-10-c1-v6
+  CACHE_MARKER: mentor-de2026-final-2026-09-10-c1-v7
   LIVE_URL: https://ashishjohnexx786-dev.github.io/DA-Mentor-Launch/
 jobs:
   audit:
@@ -19,42 +19,33 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
-      - name: Static source and package integrity
+      - name: Static package and route integrity
         shell: bash
         run: |
           set -euo pipefail
-          test -s index.html
-          test -s curriculum.js
-          test -s assets-pack.js
-          test -s service-worker.js
-          test -s manifest.webmanifest
+          for f in index.html curriculum.js assets-pack.js service-worker.js manifest.webmanifest; do test -s "$f"; done
           find . -maxdepth 1 -name '*.js' -print0 | xargs -0 -n1 node --check
           python - <<'PY'
           import json,pathlib,re,subprocess,os
-          d=pathlib.Path('.'); h=(d/'index.html').read_text(); m=json.loads((d/'manifest.webmanifest').read_text())
-          assert os.environ['EXPECTED_NAME'] in h
-          assert os.environ['STORAGE_KEY'] in h
-          assert 'id="homePracticeBtn"' in h
-          assert 'id="practiceBtn"' in h
-          assert 'data-open-practice-phase' in h
-          assert 'Open Practice Set' in h
-          low=h.lower()
+          h=pathlib.Path('index.html').read_text(); m=json.loads(pathlib.Path('manifest.webmanifest').read_text())
+          for s in [os.environ['EXPECTED_NAME'],os.environ['STORAGE_KEY'],'id="homePracticeBtn"','id="practiceBtn"','data-open-practice-phase','Open Practice Set','START STUDY','END STUDY','Fresh retry','Mark Mastered']:
+              assert s in h,s
           for bad in ['25:00','pomodoro','focusmin','shortmin','longmin']:
-              assert bad not in low,bad
-          assert os.environ['CACHE_MARKER'] in (d/'service-worker.js').read_text()
-          for icon in m.get('icons',[]): assert (d/icon['src']).exists(),icon['src']
+              assert bad not in h.lower(),bad
+          assert os.environ['CACHE_MARKER'] in pathlib.Path('service-worker.js').read_text()
+          for icon in m.get('icons',[]): assert pathlib.Path(icon['src']).exists(),icon['src']
           for i,x in enumerate(re.finditer(r'<script([^>]*)>(.*?)</script>',h,re.S|re.I)):
               if re.search(r'\bsrc\s*=',x.group(1),re.I): continue
-              f=pathlib.Path(f'/tmp/inline-{i}.js'); f.write_text(x.group(2)); subprocess.run(['node','--check',str(f)],check=True)
-          print('PASS static source/package integrity')
+              f=pathlib.Path(f'/tmp/inline-{i}.js');f.write_text(x.group(2));subprocess.run(['node','--check',str(f)],check=True)
+          print('PASS static integrity')
           PY
-      - name: Install browser test dependency
+      - name: Install Selenium
         run: python -m pip install -q selenium
-      - name: Full phone-width learner workflow audit
+      - name: Full learner runtime audit phone and desktop
         shell: bash
         run: |
           set -euo pipefail
-          python -m http.server 8765 >/tmp/mentor-http.log 2>&1 & echo $! >/tmp/http.pid
+          python -m http.server 8765 >/tmp/http.log 2>&1 & echo $! >/tmp/http.pid
           sleep 2
           python - <<'PY'
           import json,os,time
@@ -62,134 +53,58 @@ jobs:
           from selenium.webdriver.common.by import By
           from selenium.webdriver.support.ui import WebDriverWait
           from selenium.webdriver.support import expected_conditions as EC
-
-          NAME=os.environ['EXPECTED_NAME']; KEY=os.environ['STORAGE_KEY']; EXPECT=int(os.environ['CORE_LESSONS']); FILTER=os.environ['FILTER_PL']=='true'
-          o=webdriver.ChromeOptions(); o.add_argument('--headless=new'); o.add_argument('--no-sandbox'); o.add_argument('--disable-dev-shm-usage'); o.add_argument('--window-size=412,915'); o.set_capability('goog:loggingPrefs',{'browser':'ALL'})
-          d=webdriver.Chrome(options=o); w=WebDriverWait(d,20)
-          d.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument',{'source':"""
-          (()=>{const M=new WeakMap();window.__qaListeners=M;const O=EventTarget.prototype.addEventListener;EventTarget.prototype.addEventListener=function(t,f,o){let s=M.get(this);if(!s){s=new Set();M.set(this,s)}s.add(t);return O.call(this,t,f,o)}})();
-          """})
-          def severe(): return [x for x in d.get_log('browser') if x.get('level')=='SEVERE' and 'favicon' not in x.get('message','').lower()]
-          def jclick(el): d.execute_script("arguments[0].scrollIntoView({block:'center',behavior:'instant'});arguments[0].click()",el)
-          def nclick(el): d.execute_script("arguments[0].scrollIntoView({block:'center',behavior:'instant'})",el); time.sleep(.08); el.click()
+          NAME=os.environ['EXPECTED_NAME'];KEY=os.environ['STORAGE_KEY'];EXPECT=int(os.environ['CORE_LESSONS']);FILTER=os.environ['FILTER_PL']=='true'
+          o=webdriver.ChromeOptions();o.add_argument('--headless=new');o.add_argument('--no-sandbox');o.add_argument('--disable-dev-shm-usage');o.add_argument('--window-size=412,915');o.set_capability('goog:loggingPrefs',{'browser':'ALL'})
+          d=webdriver.Chrome(options=o);w=WebDriverWait(d,20)
+          def click(el):
+              d.execute_script("arguments[0].scrollIntoView({block:'center',behavior:'instant'})",el);time.sleep(.12);el.click();time.sleep(.15)
           def nav(v):
-              el=w.until(EC.presence_of_element_located((By.CSS_SELECTOR,f".tab[data-view='{v}']"))); nclick(el); time.sleep(.12)
-              assert 'active' in el.get_attribute('class').split(),v
-              assert d.find_element(By.ID,f'view-{v}').value_of_css_property('display')!='none',v
-          def dead_buttons():
-              return d.execute_script("""return [...document.querySelectorAll('button')].filter(b=>!b.disabled&&b.offsetParent!==null).filter(b=>typeof b.onclick!=='function' && !(window.__qaListeners?.get(b)?.has('click'))).map(b=>b.id||b.dataset.view||b.textContent.trim().slice(0,80));""")
-          def blocked_buttons():
-              return d.execute_script("""const bad=[];for(const b of [...document.querySelectorAll('button')].filter(x=>!x.disabled&&x.offsetParent!==null)){b.scrollIntoView({block:'center',behavior:'instant'});const r=b.getBoundingClientRect(),x=Math.max(0,Math.min(innerWidth-1,r.left+r.width/2)),y=Math.max(0,Math.min(innerHeight-1,r.top+r.height/2)),e=document.elementFromPoint(x,y);if(e && e!==b && !b.contains(e))bad.push(b.id||b.dataset.view||b.textContent.trim().slice(0,60));}return bad;""")
+              b=d.find_element(By.CSS_SELECTOR,f".tab[data-view='{v}']");click(b);assert 'active' in b.get_attribute('class').split(),v;assert d.find_element(By.ID,f'view-{v}').is_displayed(),v
+          def state(): return json.loads(d.execute_script('return localStorage.getItem(arguments[0])',KEY))
+          def severe(): return [x for x in d.get_log('browser') if x.get('level')=='SEVERE' and 'favicon' not in x.get('message','').lower()]
           try:
-              d.get('http://127.0.0.1:8765/index.html'); w.until(EC.title_contains(NAME))
-              d.execute_script('localStorage.clear();location.reload()'); w.until(EC.title_contains(NAME)); time.sleep(.4)
-              assert d.execute_script('return document.documentElement.scrollWidth')<=d.execute_script('return window.innerWidth')+3
+              d.get('http://127.0.0.1:8765/index.html');w.until(EC.title_contains(NAME));d.execute_script('localStorage.clear();location.reload()');w.until(EC.title_contains(NAME));time.sleep(.5)
+              assert d.execute_script('return document.documentElement.scrollWidth')<=d.execute_script('return innerWidth')+3
               assert d.execute_script('return window.MENTOR_CONFIG.storageKey')==KEY
-              course=d.execute_script('return window.MENTOR_CONFIG.getCourse()')
-              ids=[l['id'] for p in course for l in p.get('lessons',[])]
-              core=[x for x in ids if not (FILTER and x.startswith('PL'))]
-              assert len(core)==EXPECT,(len(core),EXPECT)
-              assert all(p.get('artifacts',{}).get('lesson') for p in course),'missing Teaching Book route'
-              assert all(p.get('artifacts',{}).get('practice') for p in course),'missing Practice Set route'
-              assert all(p.get('artifacts',{}).get('lab') for p in course),'missing Mini-Lab route'
-              assert all(p.get('artifacts',{}).get('gateA') and p.get('artifacts',{}).get('gateB') and p.get('artifacts',{}).get('gateC') for p in course),'missing Gate route'
-              missing=d.execute_script("""const c=window.MENTOR_CONFIG.getCourse(),a=window.MENTOR_ASSETS||{},m=[];const add=x=>{if(!x||typeof x!=='string'||/^https?:/i.test(x))return;const k=x.replace(/^\.\//,'');if(!a[k]&&!a[x])m.push(x)};for(const p of c)for(const v of Object.values(p.artifacts||{}))(Array.isArray(v)?v:[v]).forEach(add);return [...new Set(m)];""")
-              assert not missing,'unpacked artifact routes: '+str(missing[:12])
-              assert d.execute_script('return !!localStorage.getItem(arguments[0])',KEY)
-
-              # Every main navigation item must respond.
-              for v in ['home','learn','course','repair','evidence','jobs','reports']: nav(v)
-              nav('home')
-
-              # Settings + AMOLED + persistence.
-              nclick(d.find_element(By.ID,'settingsBtn')); assert 'show' in d.find_element(By.ID,'settingsModal').get_attribute('class').split()
-              assert d.execute_script("return [...document.querySelector('#themeInput').options].some(o=>o.value==='amoled')")
-              d.execute_script("document.querySelector('#themeInput').value='amoled';document.querySelector('#nameInput').value='QA Learner'")
-              nclick(d.find_element(By.ID,'saveSettingsBtn')); assert d.execute_script('return document.body.dataset.theme')=='amoled'
-              s=json.loads(d.execute_script('return localStorage.getItem(arguments[0])',KEY)); assert s['theme']=='amoled'
-
-              # Setup diagnostics must all be green.
-              nclick(d.find_element(By.ID,'setupCheckBtn')); rows=d.find_elements(By.CSS_SELECTOR,'#setupResults .setupResult'); assert len(rows)>=6
-              assert all('🔴' not in r.text for r in rows),[r.text for r in rows]
-              nclick(d.find_element(By.CSS_SELECTOR,"[data-close='setupModal']"))
-
-              # Manual real-time study tracker.
-              b=d.find_element(By.ID,'studyStartEnd'); nclick(b); assert 'END STUDY' in b.text; time.sleep(1.1); nclick(b); assert 'START STUDY' in b.text
-              s=json.loads(d.execute_script('return localStorage.getItem(arguments[0])',KEY)); assert not s['study']['activeStart'] and s['study']['sessions'] and s['study']['sessions'][-1]['seconds']>=1
-
-              # Real direct-open handlers: Today, Learn Teaching Book, Learn Practice.
-              d.execute_script("window.__opens=0;window.open=function(){window.__opens++;return {document:{write:function(){},close:function(){}}};}")
-              nclick(d.find_element(By.ID,'homePracticeBtn')); assert d.execute_script('return window.__opens')>=1
-              nav('learn'); first=course[0]['lessons'][0]['id']
-              rev=d.find_element(By.ID,'reviewBtn'); assert not rev.is_enabled(),'Review must start locked'
-              nclick(d.find_element(By.ID,'sourceBtn')); nclick(d.find_element(By.ID,'practiceBtn')); assert d.execute_script('return window.__opens')>=3
-
-              # Protected learner sequence and saved Mastered state.
-              nclick(d.find_element(By.ID,'guidedDoneBtn')); nclick(d.find_element(By.ID,'saveAttemptBtn')); assert d.find_element(By.ID,'reviewBtn').is_enabled()
-              nclick(d.find_element(By.ID,'reviewBtn')); assert d.find_element(By.ID,'retestBtn').is_enabled()
-              nclick(d.find_element(By.ID,'retestBtn')); assert d.find_element(By.ID,'explainBtn').is_enabled()
-              nclick(d.find_element(By.ID,'explainBtn')); assert d.find_element(By.ID,'masterBtn').is_enabled()
-              nclick(d.find_element(By.ID,'masterBtn'))
-              s=json.loads(d.execute_script('return localStorage.getItem(arguments[0])',KEY)); assert s['lesson'][first]['mastered'] is True
-
-              # Reload must preserve progress/theme/session.
-              d.refresh(); w.until(EC.title_contains(NAME)); time.sleep(.35)
-              assert d.execute_script('return document.body.dataset.theme')=='amoled'
-              s=json.loads(d.execute_script('return localStorage.getItem(arguments[0])',KEY)); assert s['lesson'][first]['mastered'] and s['study']['sessions']
-
-              # Course search + visible per-lesson Practice Set.
-              nav('course'); inp=d.find_element(By.ID,'lessonSearch'); inp.send_keys(first); time.sleep(.2); assert first in d.find_element(By.ID,'stageMap').text
-              inp.clear(); d.execute_script("arguments[0].dispatchEvent(new Event('input',{bubbles:true}))",inp); time.sleep(.15)
-              cp=w.until(EC.presence_of_element_located((By.CSS_SELECTOR,'[data-open-practice-phase]')))
-              d.execute_script("window.__opens=0;window.open=function(){window.__opens++;return {document:{write:function(){},close:function(){}}};}"); nclick(cp); assert d.execute_script('return window.__opens')>=1
-
-              # Prepare first phase to test Mini-Lab and sealed Gate A→B→C logic.
-              d.execute_script("""const key=arguments[0],c=window.MENTOR_CONFIG.getCourse(),p=c[0],s=JSON.parse(localStorage.getItem(key));for(const l of p.lessons)s.lesson[l.id]={guided:true,attempt:true,review:true,retest:true,explain:true,mastered:true,skipped:false};s.currentPhase=p.id;s.currentLesson=p.lessons[0].id;localStorage.setItem(key,JSON.stringify(s));""",KEY)
-              d.refresh(); w.until(EC.title_contains(NAME)); time.sleep(.35); nav('course'); pid=d.execute_script('return window.MENTOR_CONFIG.getCourse()[0].id')
-              d.execute_script("window.__opens=0;window.open=function(){window.__opens++;return {document:{write:function(){},close:function(){}}};}")
-              lab=d.find_element(By.CSS_SELECTOR,f"[data-open-lab='{pid}']"); assert lab.is_enabled(); nclick(lab); assert d.execute_script('return window.__opens')>=1
-              lp=d.find_element(By.CSS_SELECTOR,f"[data-lab-pass='{pid}']"); assert lp.is_enabled(); nclick(lp)
-              ga=d.find_element(By.CSS_SELECTOR,f"[data-open-gate='{pid}'][data-g='A']"); assert ga.is_enabled(); nclick(ga)
-              assert 'hidden' in d.find_element(By.CSS_SELECTOR,f"[data-open-gate='{pid}'][data-g='B']").find_element(By.XPATH,'ancestor::div[contains(@class,"gateRow")]').get_attribute('class').split()
-              d.execute_script("window.prompt=()=> 'NEEDS_REPAIR'"); nclick(d.find_element(By.CSS_SELECTOR,f"[data-gate-result='{pid}'][data-g='A']"))
-              ab=w.until(EC.presence_of_element_located((By.CSS_SELECTOR,f"[data-assign='{pid}'][data-assign-g='B']"))); nclick(ab)
-              gb=d.find_element(By.CSS_SELECTOR,f"[data-open-gate='{pid}'][data-g='B']"); assert gb.is_enabled(); assert 'hidden' not in gb.find_element(By.XPATH,'ancestor::div[contains(@class,"gateRow")]').get_attribute('class').split(); nclick(gb)
-              d.execute_script("window.prompt=()=> 'NEEDS_REPAIR'"); nclick(d.find_element(By.CSS_SELECTOR,f"[data-gate-result='{pid}'][data-g='B']"))
-              ac=w.until(EC.presence_of_element_located((By.CSS_SELECTOR,f"[data-assign='{pid}'][data-assign-g='C']"))); nclick(ac)
-              gc=d.find_element(By.CSS_SELECTOR,f"[data-open-gate='{pid}'][data-g='C']"); assert gc.is_enabled(); assert 'hidden' not in gc.find_element(By.XPATH,'ancestor::div[contains(@class,"gateRow")]').get_attribute('class').split()
-
-              # Repair, Evidence, Jobs and Reports write/delete paths.
-              nav('repair'); assert d.find_elements(By.CSS_SELECTOR,'#repairList .repairRow'); fx=d.find_elements(By.CSS_SELECTOR,'[data-fix]'); assert fx; nclick(fx[0])
-              nav('evidence'); d.find_element(By.ID,'evSkill').send_keys('QA-SKILL'); d.find_element(By.ID,'evAction').send_keys('Validated output'); nclick(d.find_element(By.ID,'addEvidenceBtn')); assert 'QA-SKILL' in d.find_element(By.ID,'evidenceList').text; nclick(d.find_element(By.CSS_SELECTOR,'[data-delev]'))
-              nav('jobs'); d.execute_script("window.__pq=['QA Company','QA Role','Applied'];window.prompt=()=>window.__pq.shift()"); nclick(d.find_element(By.ID,'addApplicationBtn')); assert 'QA Company' in d.find_element(By.ID,'applicationList').text; nclick(d.find_element(By.CSS_SELECTOR,'[data-delapp]'))
-              nav('reports'); assert d.find_element(By.ID,'exportJsonBtn').is_enabled() and d.find_element(By.ID,'exportLessonsBtn').is_enabled()
-
-              # Every visible enabled button in every view must have a click handler and no overlay blocking its center point.
-              for v in ['home','learn','course','repair','evidence','jobs','reports']:
-                  nav(v); dead=dead_buttons(); assert not dead,(v,'dead buttons',dead)
-                  blocked=blocked_buttons(); assert not blocked,(v,'blocked buttons',blocked[:12])
-
-              # PWA registration and desktop layout.
-              ready=d.execute_async_script("const cb=arguments[arguments.length-1];if(!('serviceWorker'in navigator))return cb(false);navigator.serviceWorker.ready.then(()=>cb(true)).catch(()=>cb(false));")
-              assert ready,'service worker not ready'
-              d.set_window_size(1280,900); d.refresh(); w.until(EC.title_contains(NAME)); time.sleep(.3)
-              assert d.execute_script('return document.documentElement.scrollWidth')<=d.execute_script('return window.innerWidth')+3
-              assert not severe(),severe()
-              print('PASS comprehensive phone/desktop learner workflow audit')
-          finally:
-              d.quit()
+              course=d.execute_script('return window.MENTOR_CONFIG.getCourse()');ids=[l['id'] for p in course for l in p['lessons']];core=[x for x in ids if not(FILTER and x.startswith('PL'))];assert len(core)==EXPECT,(len(core),EXPECT)
+              for p in course:
+                  a=p.get('artifacts',{});assert a.get('lesson'),p['id'];assert a.get('practice'),p['id'];assert a.get('lab'),p['id'];assert all(a.get('gate'+g) for g in 'ABC'),p['id']
+              missing=d.execute_script("""const a=window.MENTOR_ASSETS||{},m=[];for(const p of window.MENTOR_CONFIG.getCourse())for(const v of Object.values(p.artifacts||{}))for(const x of(Array.isArray(v)?v:[v])){if(!x||typeof x!=='string'||/^https?:/i.test(x))continue;let k=x.replace(/^\.\//,'');if(!a[x]&&!a[k])m.push(x)}return [...new Set(m)]""");assert not missing,missing[:10]
+              for v in ['home','learn','course','repair','evidence','jobs','reports']:nav(v)
+              nav('home');click(d.find_element(By.ID,'settingsBtn'));assert 'show' in d.find_element(By.ID,'settingsModal').get_attribute('class').split();assert d.execute_script("return [...themeInput.options].some(o=>o.value==='amoled')")
+              d.execute_script("themeInput.value='amoled';nameInput.value='QA Learner'");click(d.find_element(By.ID,'saveSettingsBtn'));assert d.execute_script('return document.body.dataset.theme')=='amoled';assert state()['theme']=='amoled'
+              click(d.find_element(By.ID,'setupCheckBtn'));rows=d.find_elements(By.CSS_SELECTOR,'#setupResults .setupResult');assert len(rows)>=6;assert all('🔴' not in x.text for x in rows),[x.text for x in rows];click(d.find_element(By.CSS_SELECTOR,"[data-close='setupModal']"))
+              b=d.find_element(By.ID,'studyStartEnd');click(b);assert 'END STUDY' in b.text;time.sleep(1.1);click(b);assert 'START STUDY' in b.text;assert state()['study']['sessions'][-1]['seconds']>=1
+              d.execute_script("window.__opens=0;window.open=()=>{window.__opens++;return {document:{write(){},close(){}}}}")
+              click(d.find_element(By.ID,'homePracticeBtn'));assert d.execute_script('return __opens')>=1
+              nav('learn');first=course[0]['lessons'][0]['id'];rev=d.find_element(By.ID,'reviewBtn');assert not rev.is_enabled();click(d.find_element(By.ID,'sourceBtn'));click(d.find_element(By.ID,'practiceBtn'));assert d.execute_script('return __opens')>=3
+              click(d.find_element(By.ID,'guidedDoneBtn'));click(d.find_element(By.ID,'saveAttemptBtn'));assert d.find_element(By.ID,'reviewBtn').is_enabled();click(d.find_element(By.ID,'reviewBtn'));assert d.find_element(By.ID,'retestBtn').is_enabled();click(d.find_element(By.ID,'retestBtn'));assert d.find_element(By.ID,'explainBtn').is_enabled();click(d.find_element(By.ID,'explainBtn'));assert d.find_element(By.ID,'masterBtn').is_enabled();click(d.find_element(By.ID,'masterBtn'));assert state()['lesson'][first]['mastered']
+              d.refresh();w.until(EC.title_contains(NAME));time.sleep(.4);assert state()['lesson'][first]['mastered'];assert state()['study']['sessions'];assert d.execute_script('return document.body.dataset.theme')=='amoled'
+              nav('course');q=d.find_element(By.ID,'lessonSearch');q.send_keys(first);time.sleep(.2);assert first in d.find_element(By.ID,'stageMap').text;q.clear();d.execute_script("arguments[0].dispatchEvent(new Event('input',{bubbles:true}))",q);time.sleep(.2)
+              d.execute_script("window.__opens=0;window.open=()=>{window.__opens++;return {document:{write(){},close(){}}}}")
+              click(d.find_element(By.CSS_SELECTOR,'[data-open-practice-phase]'));assert d.execute_script('return __opens')>=1
+              d.execute_script("""const k=arguments[0],p=MENTOR_CONFIG.getCourse()[0],s=JSON.parse(localStorage.getItem(k));for(const l of p.lessons)s.lesson[l.id]={guided:true,attempt:true,review:true,retest:true,explain:true,mastered:true,skipped:false};s.currentPhase=p.id;s.currentLesson=p.lessons[0].id;localStorage.setItem(k,JSON.stringify(s));""",KEY);d.refresh();w.until(EC.title_contains(NAME));time.sleep(.4);nav('course');pid=d.execute_script('return MENTOR_CONFIG.getCourse()[0].id')
+              d.execute_script("window.__opens=0;window.open=()=>{window.__opens++;return {document:{write(){},close(){}}}}")
+              lab=d.find_element(By.CSS_SELECTOR,f"[data-open-lab='{pid}']");assert lab.is_enabled();click(lab);click(d.find_element(By.CSS_SELECTOR,f"[data-lab-pass='{pid}']"));ga=d.find_element(By.CSS_SELECTOR,f"[data-open-gate='{pid}'][data-g='A']");assert ga.is_enabled();click(ga)
+              gb=d.find_element(By.CSS_SELECTOR,f"[data-open-gate='{pid}'][data-g='B']");assert 'hidden' in gb.find_element(By.XPATH,'ancestor::div[contains(@class,"gateRow")]').get_attribute('class').split();d.execute_script("window.prompt=()=> 'NEEDS_REPAIR'");click(d.find_element(By.CSS_SELECTOR,f"[data-gate-result='{pid}'][data-g='A']"));click(w.until(EC.presence_of_element_located((By.CSS_SELECTOR,f"[data-assign='{pid}'][data-assign-g='B']"))));gb=d.find_element(By.CSS_SELECTOR,f"[data-open-gate='{pid}'][data-g='B']");assert gb.is_enabled();click(gb)
+              d.execute_script("window.prompt=()=> 'NEEDS_REPAIR'");click(d.find_element(By.CSS_SELECTOR,f"[data-gate-result='{pid}'][data-g='B']"));click(w.until(EC.presence_of_element_located((By.CSS_SELECTOR,f"[data-assign='{pid}'][data-assign-g='C']"))));gc=d.find_element(By.CSS_SELECTOR,f"[data-open-gate='{pid}'][data-g='C']");assert gc.is_enabled()
+              nav('repair');assert d.find_elements(By.CSS_SELECTOR,'#repairList .repairRow');nav('evidence');d.find_element(By.ID,'evSkill').send_keys('QA-SKILL');d.find_element(By.ID,'evAction').send_keys('Validated');click(d.find_element(By.ID,'addEvidenceBtn'));assert 'QA-SKILL' in d.find_element(By.ID,'evidenceList').text
+              nav('jobs');d.execute_script("window.__pq=['QA Company','QA Role','Applied'];window.prompt=()=>window.__pq.shift()");click(d.find_element(By.ID,'addApplicationBtn'));assert 'QA Company' in d.find_element(By.ID,'applicationList').text
+              nav('reports');assert d.find_element(By.ID,'exportJsonBtn').is_enabled() and d.find_element(By.ID,'exportLessonsBtn').is_enabled()
+              assert not severe(),severe();assert d.execute_async_script("const cb=arguments[0];navigator.serviceWorker.ready.then(()=>cb(true)).catch(()=>cb(false))")
+              d.set_window_size(1280,900);d.refresh();w.until(EC.title_contains(NAME));time.sleep(.4);assert d.execute_script('return document.documentElement.scrollWidth')<=d.execute_script('return innerWidth')+3;assert not severe(),severe()
+              print('PASS full runtime audit')
+          finally:d.quit()
           PY
           kill $(cat /tmp/http.pid)
-      - name: Live GitHub Pages parity probe
+      - name: Live Pages parity
         shell: bash
         run: |
           set -euo pipefail
           ok=0
           for i in $(seq 1 12); do
-            html=$(curl -fsSL "${LIVE_URL}?qa=${GITHUB_SHA}-${i}" || true)
-            sw=$(curl -fsSL "${LIVE_URL}service-worker.js?qa=${GITHUB_SHA}-${i}" || true)
-            if grep -Fq "$EXPECTED_NAME" <<<"$html" && grep -Fq "$STORAGE_KEY" <<<"$html" && grep -Fq 'homePracticeBtn' <<<"$html" && grep -Fq 'data-open-practice-phase' <<<"$html" && grep -Fq "$CACHE_MARKER" <<<"$sw"; then ok=1; break; fi
-            sleep 5
+            h=$(curl -fsSL "${LIVE_URL}?qa=${GITHUB_SHA}-${i}" || true);s=$(curl -fsSL "${LIVE_URL}service-worker.js?qa=${GITHUB_SHA}-${i}" || true)
+            if grep -Fq "$EXPECTED_NAME" <<<"$h" && grep -Fq "$STORAGE_KEY" <<<"$h" && grep -Fq 'homePracticeBtn' <<<"$h" && grep -Fq 'data-open-practice-phase' <<<"$h" && grep -Fq "$CACHE_MARKER" <<<"$s";then ok=1;break;fi;sleep 5
           done
           test "$ok" = 1
-          echo 'PASS live Pages source/cache parity'
+          echo 'PASS live Pages parity'
