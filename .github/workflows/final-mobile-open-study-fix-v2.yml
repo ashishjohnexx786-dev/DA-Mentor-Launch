@@ -29,7 +29,6 @@ jobs:
           if "$('#homePracticeBtn').onclick" not in s:
               assert anchor in s, 'renderHomeLesson anchor missing'
               s=s.replace(anchor,anchor+"$('#homePracticeBtn').onclick=()=>openArtifact('Practice Set',p.artifacts?.practice);",1)
-          # Put a practice-set control beside every lesson in Course view, not only inside Learn.
           if 'data-open-practice-phase' not in s:
               pat=r'(<button class="btn ghost" data-open-lesson="\$\{esc\(l\.id\)\}" data-open-phase="\$\{esc\(p\.id\)\}">Open</button>)'
               repl=r'\1<button class="btn" data-open-practice-phase="${esc(p.id)}">Practice Set</button>'
@@ -68,10 +67,13 @@ jobs:
           print('PASS C1 practice controls + inline syntax')
           PY
           node - <<'NODE'
-          const fs=require('fs'),vm=require('vm');let c={window:{}};vm.createContext(c);vm.runInContext(fs.readFileSync('assets-pack.js','utf8'),c);vm.runInContext(fs.readFileSync('curriculum.js','utf8')+'\nthis.__C=C;',c);
-          const A=c.window.MENTOR_ASSETS,C=c.__C;if(!A||!C)throw Error('asset/curriculum load');
-          for(const p of C){if(!p.practice)throw Error('missing practice path '+p.id);const xs=Array.isArray(p.practice)?p.practice:[p.practice];for(const x of xs)if(!A[x])throw Error('practice not packed '+p.id+' '+x)}
-          console.log('PASS all C1 practice paths are packed and directly openable');
+          const fs=require('fs'),vm=require('vm');
+          const c={window:{}};vm.createContext(c);vm.runInContext(fs.readFileSync('assets-pack.js','utf8'),c);const A=c.window.MENTOR_ASSETS;if(!A)throw Error('asset pack missing');
+          const h=fs.readFileSync('index.html','utf8');const m=h.match(/const C1_DIRECT_ROUTES=(\{[\s\S]*?\});\s*window\.MENTOR_CONFIG/);if(!m)throw Error('C1 direct route map missing');
+          const R=vm.runInNewContext('('+m[1]+')');let n=0;
+          for(const [id,r] of Object.entries(R)){if(!r.practice)throw Error('missing practice route '+id);const xs=Array.isArray(r.practice)?r.practice:[r.practice];for(const x of xs){if(!A[x])throw Error('practice asset not packed '+id+' '+x);n++}}
+          if(n<12)throw Error('too few practice assets '+n);
+          console.log('PASS all '+n+' C1 direct practice assets are packed/openable');
           NODE
 
           git config user.name 'Four-Course Final QA Repair'
