@@ -1,0 +1,676 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M09_INTEGRATED_BUSINESS_ANALYSIS",
+  "generated": "2026-09-11",
+  "status": "PASS",
+  "passed": 130,
+  "total": 130,
+  "pdf_pages_scanned": 69,
+  "learner_external_links": 6,
+  "manual_visual_inspection": {
+    "learner_book": "PASS - 40/40 pages rendered and inspected",
+    "protected_review": "PASS - 12/12 pages rendered and inspected",
+    "repair_cards": "PASS - 5/5 pages rendered and inspected",
+    "gate_pdfs": "PASS - 12/12 pages rendered and inspected",
+    "workbook_renders": "PASS - 19 representative current-workbook renders inspected",
+    "link_fix_visual_diff": "PASS - hyperlink annotation only; 0 rendered pages changed"
+  },
+  "corrected_during_final_qa": [
+    "Added missing clickable link for the third IBA9 optional visual; visible page content unchanged.",
+    "Normalized mixed string/integer PDF TOC destination values in scanner.",
+    "Corrected causality scanner to match actual caution wording."
+  ],
+  "failed": [],
+  "checks": [
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "107099"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "51866"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "28395"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "8847"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_GATE_A_CAREBRIDGE_RC1.xlsx",
+      "passed": true,
+      "evidence": "20401"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "5210"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "4780"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_GATE_B_STREAMFIT_RC1.xlsx",
+      "passed": true,
+      "evidence": "19216"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "5239"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "4678"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_GATE_C_QUICKCART_RC1.xlsx",
+      "passed": true,
+      "evidence": "23820"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "5229"
+    },
+    {
+      "check": "exists:C1_M09_BUSINESS_ANALYSIS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "4753"
+    },
+    {
+      "check": "exists:C1_M09_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "13194"
+    },
+    {
+      "check": "exists:C1_M09_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "2295"
+    },
+    {
+      "check": "exists:C1_M09_RUNTIME_AND_METRIC_QA_CURRENT_RC1.json",
+      "passed": true,
+      "evidence": "8808"
+    },
+    {
+      "check": "exists:C1_M09_WORKBOOK_CURRENT_QA_RC1.json",
+      "passed": true,
+      "evidence": "1594"
+    },
+    {
+      "check": "practice_sheet_order_exact",
+      "passed": true,
+      "evidence": "['README', 'LESSON_ROUTE', 'Business_Definitions', 'Stakeholder_Notes', 'Targets', 'Orders_Raw', 'IBA1_Analysis_Brief', 'IBA2_KPI_Definitions', 'IBA3_Analysis_Plan', 'IBA4_Diagnostic', 'IBA5_Causal_Boundary', 'IBA6_Insight_Chain', 'IBA7_Recommendation', 'IBA8_Executive_Memo', 'IBA9_Story_Plan', 'IBA10_Defense', 'IBA11_Integrated_Case', 'Evidence_Log', 'Mastery_Tracker']"
+    },
+    {
+      "check": "formula_error_scan:practice",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "formula_error_scan:A",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "formula_error_scan:B",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "formula_error_scan:C",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "gate_A_sheet_order",
+      "passed": true,
+      "evidence": "['README', 'Definitions', 'Data_Raw', 'Submission', 'Evidence_Log']"
+    },
+    {
+      "check": "gate_B_sheet_order",
+      "passed": true,
+      "evidence": "['README', 'Definitions', 'Data_Raw', 'Submission', 'Evidence_Log']"
+    },
+    {
+      "check": "gate_C_sheet_order",
+      "passed": true,
+      "evidence": "['README', 'Definitions', 'Data_Raw', 'Submission', 'Evidence_Log']"
+    },
+    {
+      "check": "xlsx_crc:C1_M09_BUSINESS_ANALYSIS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M09_BUSINESS_ANALYSIS_GATE_A_CAREBRIDGE_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M09_BUSINESS_ANALYSIS_GATE_B_STREAMFIT_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M09_BUSINESS_ANALYSIS_GATE_C_QUICKCART_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "metric_all_match",
+      "passed": true,
+      "evidence": "{'practice': [], 'A': [], 'B': [], 'C': []}"
+    },
+    {
+      "check": "metric:practice",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "metric:A",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "metric:B",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "metric:C",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_pages_40",
+      "passed": true,
+      "evidence": "40"
+    },
+    {
+      "check": "book_marker:This book is your teacher",
+      "passed": true,
+      "evidence": "This book is your teacher"
+    },
+    {
+      "check": "book_marker:Contents / Index",
+      "passed": true,
+      "evidence": "Contents / Index"
+    },
+    {
+      "check": "book_marker:Module prerequisite and tool map",
+      "passed": true,
+      "evidence": "Module prerequisite and tool map"
+    },
+    {
+      "check": "book_marker:Exact practice and Gate route",
+      "passed": true,
+      "evidence": "Exact practice and Gate route"
+    },
+    {
+      "check": "book_marker:End-of-module mastery checklist",
+      "passed": true,
+      "evidence": "End-of-module mastery checklist"
+    },
+    {
+      "check": "book_marker:Revision / business-analysis quick reference",
+      "passed": true,
+      "evidence": "Revision / business-analysis quick reference"
+    },
+    {
+      "check": "book_16_stage:IBA1",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA2",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA3",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA4",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA5",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA6",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA7",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA8",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA9",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA10",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "book_16_stage:IBA11",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "toc_count_11",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "toc_destinations",
+      "passed": true,
+      "evidence": "[6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36]"
+    },
+    {
+      "check": "source_clickable:IfKlOC5HSHI",
+      "passed": true,
+      "evidence": "IfKlOC5HSHI"
+    },
+    {
+      "check": "source_clickable:Hfx1X9WSGYQ",
+      "passed": true,
+      "evidence": "Hfx1X9WSGYQ"
+    },
+    {
+      "check": "source_clickable:CfBHKy2sebQ",
+      "passed": true,
+      "evidence": "CfBHKy2sebQ"
+    },
+    {
+      "check": "source_clickable:kfGbI9wovZk",
+      "passed": true,
+      "evidence": "kfGbI9wovZk"
+    },
+    {
+      "check": "all_four_unique_visual_urls_clickable",
+      "passed": true,
+      "evidence": "['https://www.youtube.com/watch?v=IfKlOC5HSHI', 'https://www.youtube.com/watch?v=IfKlOC5HSHI', 'https://www.youtube.com/watch?v=Hfx1X9WSGYQ', 'https://www.youtube.com/watch?v=CfBHKy2sebQ', 'https://www.youtube.com/watch?v=kfGbI9wovZk', 'https://www.youtube.com/watch?v=IfKlOC5HSHI']"
+    },
+    {
+      "check": "causal_boundary",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "weighted_rate_boundary",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "no_timer",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_release_claim",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "pdf_nonblank:C1_M09_BUSINESS_ANALYSIS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M09_BUSINESS_ANALYSIS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M09_BUSINESS_ANALYSIS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M09_BUSINESS_ANALYSIS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M09_BUSINESS_ANALYSIS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M09_BUSINESS_ANALYSIS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M09_BUSINESS_ANALYSIS_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M09_BUSINESS_ANALYSIS_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M09_BUSINESS_ANALYSIS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M09_BUSINESS_ANALYSIS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M09_BUSINESS_ANALYSIS_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M09_BUSINESS_ANALYSIS_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M09_BUSINESS_ANALYSIS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M09_BUSINESS_ANALYSIS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M09_BUSINESS_ANALYSIS_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M09_BUSINESS_ANALYSIS_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M09_BUSINESS_ANALYSIS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M09_BUSINESS_ANALYSIS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "practice_review_12_pages",
+      "passed": true,
+      "evidence": "12"
+    },
+    {
+      "check": "practice_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_review:IBA1",
+      "passed": true,
+      "evidence": "IBA1"
+    },
+    {
+      "check": "practice_review:IBA2",
+      "passed": true,
+      "evidence": "IBA2"
+    },
+    {
+      "check": "practice_review:IBA3",
+      "passed": true,
+      "evidence": "IBA3"
+    },
+    {
+      "check": "practice_review:IBA4",
+      "passed": true,
+      "evidence": "IBA4"
+    },
+    {
+      "check": "practice_review:IBA5",
+      "passed": true,
+      "evidence": "IBA5"
+    },
+    {
+      "check": "practice_review:IBA6",
+      "passed": true,
+      "evidence": "IBA6"
+    },
+    {
+      "check": "practice_review:IBA7",
+      "passed": true,
+      "evidence": "IBA7"
+    },
+    {
+      "check": "practice_review:IBA8",
+      "passed": true,
+      "evidence": "IBA8"
+    },
+    {
+      "check": "practice_review:IBA9",
+      "passed": true,
+      "evidence": "IBA9"
+    },
+    {
+      "check": "practice_review:IBA10",
+      "passed": true,
+      "evidence": "IBA10"
+    },
+    {
+      "check": "practice_review:IBA11",
+      "passed": true,
+      "evidence": "IBA11"
+    },
+    {
+      "check": "practice_review_fresh_retry",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "repair_5_pages",
+      "passed": true,
+      "evidence": "5"
+    },
+    {
+      "check": "repair_gate_state",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "repair_causal_boundary",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "repair_traceability",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_A_inst_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_first_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_critical",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_defense",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_review_controls",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_A_review_fresh",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_B_inst_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_first_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_critical",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_defense",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_review_controls",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_B_review_fresh",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_C_inst_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_first_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_critical",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_defense",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_review_controls",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_C_review_fresh",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "sources_6_rows",
+      "passed": true,
+      "evidence": "6"
+    },
+    {
+      "check": "sources_4_unique",
+      "passed": true,
+      "evidence": "['https://www.youtube.com/watch?v=CfBHKy2sebQ', 'https://www.youtube.com/watch?v=Hfx1X9WSGYQ', 'https://www.youtube.com/watch?v=IfKlOC5HSHI', 'https://www.youtube.com/watch?v=kfGbI9wovZk']"
+    },
+    {
+      "check": "source_fallbacks",
+      "passed": true,
+      "evidence": "all"
+    },
+    {
+      "check": "registry_11",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "registry_16_each",
+      "passed": true,
+      "evidence": "all"
+    },
+    {
+      "check": "registry_page_map",
+      "passed": true,
+      "evidence": "[6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36]"
+    },
+    {
+      "check": "registry_direct_sheets",
+      "passed": true,
+      "evidence": "['IBA1_Analysis_Brief', 'IBA2_KPI_Definitions', 'IBA3_Analysis_Plan', 'IBA4_Diagnostic', 'IBA5_Causal_Boundary', 'IBA6_Insight_Chain', 'IBA7_Recommendation', 'IBA8_Executive_Memo', 'IBA9_Story_Plan', 'IBA10_Defense', 'IBA11_Integrated_Case']"
+    }
+  ]
+}

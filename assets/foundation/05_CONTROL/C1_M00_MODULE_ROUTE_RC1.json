@@ -1,0 +1,32 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M00",
+  "title": "Foundation",
+  "status": "RC1_INTERNAL_QA_CANDIDATE",
+  "learner_route": [
+    "O1",
+    "O2",
+    "O3",
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "CUMULATIVE_PRACTICE",
+    "PRACTICE_REVIEW_IF_NEEDED",
+    "CHANGED_RETRY",
+    "GATE_A",
+    "GATE_A_REVIEW_IF_FAILED",
+    "TARGETED_REPAIR",
+    "GATE_B_IF_ASSIGNED",
+    "GATE_B_REVIEW_IF_FAILED",
+    "SECOND_REPAIR",
+    "GATE_C_IF_ASSIGNED"
+  ],
+  "gate_completion": "A clean Gate A pass ends assessment. B/C are not bonus practice.",
+  "timer": "manual START STUDY / END STUDY only; time never creates mastery",
+  "protected_review_rule": "review opens only after a genuine saved attempt",
+  "attempt_history": "append-only",
+  "next_module": "M01 only after M00 critical competencies pass"
+}

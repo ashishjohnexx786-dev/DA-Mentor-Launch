@@ -1,0 +1,291 @@
+{
+  "generated": "2026-09-10",
+  "notebook_runtime": {
+    "C1_M07_PYTHON_FOR_ANALYSTS_CANONICAL_PRACTICE_NOTEBOOK_RC1.ipynb": {
+      "status": "PASS",
+      "cells": 50,
+      "executed_copy": "C1_M07_PYTHON_FOR_ANALYSTS_CANONICAL_PRACTICE_NOTEBOOK_RC1_EXECUTED_QA.ipynb",
+      "error": null
+    },
+    "C1_M07_PYTHON_GATE_A_RC1.ipynb": {
+      "status": "PASS",
+      "cells": 7,
+      "executed_copy": "C1_M07_PYTHON_GATE_A_RC1_EXECUTED_QA.ipynb",
+      "error": null
+    },
+    "C1_M07_PYTHON_GATE_B_RC1.ipynb": {
+      "status": "PASS",
+      "cells": 7,
+      "executed_copy": "C1_M07_PYTHON_GATE_B_RC1_EXECUTED_QA.ipynb",
+      "error": null
+    },
+    "C1_M07_PYTHON_GATE_C_RC1.ipynb": {
+      "status": "PASS",
+      "cells": 7,
+      "executed_copy": "C1_M07_PYTHON_GATE_C_RC1_EXECUTED_QA.ipynb",
+      "error": null
+    }
+  },
+  "canonical_practice_lesson_mapping": {
+    "PY0": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY1": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY2": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY3": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY4": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY5": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY6": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY7": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY8": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY9": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    },
+    "PY10": {
+      "heading": true,
+      "guided_code_marker": true,
+      "changed_code_marker": true
+    }
+  },
+  "all_11_lessons_directly_mapped": true,
+  "source_data_byte_parity": [
+    {
+      "relative_path": "Practice_Data/customers.csv",
+      "bytes": 529,
+      "sha256": "ddd336e60e398a1ffe944302b860a97e6c18aa9cb40d7d2a8769d7f6c9fa7b35",
+      "baseline_sha256": "ddd336e60e398a1ffe944302b860a97e6c18aa9cb40d7d2a8769d7f6c9fa7b35",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Practice_Data/products.csv",
+      "bytes": 344,
+      "sha256": "bedb4efe6d9d99ab0aca0662dd61b22b382e7ed2527830bc1e8466d3dc5e712b",
+      "baseline_sha256": "bedb4efe6d9d99ab0aca0662dd61b22b382e7ed2527830bc1e8466d3dc5e712b",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Practice_Data/region_targets.json",
+      "bytes": 244,
+      "sha256": "ee4f0593bf62e60a5755c43f52a22544bd92c99e7d4bd75e81669e4a7b7790a1",
+      "baseline_sha256": "ee4f0593bf62e60a5755c43f52a22544bd92c99e7d4bd75e81669e4a7b7790a1",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Practice_Data/returns.csv",
+      "bytes": 490,
+      "sha256": "75ec658deccab6bce495da3f94ac141e2eca377ceef3667d376835863cc9c8e4",
+      "baseline_sha256": "75ec658deccab6bce495da3f94ac141e2eca377ceef3667d376835863cc9c8e4",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Practice_Data/sales.csv",
+      "bytes": 11826,
+      "sha256": "06481a491d54e83a2f61e4f6e936ac64c3768b52c509b238c8ad36da8b0f4ec1",
+      "baseline_sha256": "06481a491d54e83a2f61e4f6e936ac64c3768b52c509b238c8ad36da8b0f4ec1",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Gate_Data/Gate_A/agents.csv",
+      "bytes": 231,
+      "sha256": "4edf69611eda59d2c3df85b772044b9e78512a2758babd7074cd6f5a5e67bd00",
+      "baseline_sha256": "4edf69611eda59d2c3df85b772044b9e78512a2758babd7074cd6f5a5e67bd00",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Gate_Data/Gate_A/tickets.csv",
+      "bytes": 9476,
+      "sha256": "98a988d5812404f8c97d5edd2e35d4276ce6fbbfa7ca0b295ee330f084dd93c9",
+      "baseline_sha256": "98a988d5812404f8c97d5edd2e35d4276ce6fbbfa7ca0b295ee330f084dd93c9",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Gate_Data/Gate_B/deliveries.csv",
+      "bytes": 9522,
+      "sha256": "68e2ac2c856e12010c54606644cc45f68ba157c509b5fb818b18458f08dfa960",
+      "baseline_sha256": "68e2ac2c856e12010c54606644cc45f68ba157c509b5fb818b18458f08dfa960",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Gate_Data/Gate_B/partners.csv",
+      "bytes": 145,
+      "sha256": "33f493c43486595464dd63f258e4a01e33269e3c59697565951521cf2d5e6881",
+      "baseline_sha256": "33f493c43486595464dd63f258e4a01e33269e3c59697565951521cf2d5e6881",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Gate_Data/Gate_C/plans.csv",
+      "bytes": 163,
+      "sha256": "154f3e179bcee5995d0d76566d3bae993ccd55e21aec72665c25e9092b90a334",
+      "baseline_sha256": "154f3e179bcee5995d0d76566d3bae993ccd55e21aec72665c25e9092b90a334",
+      "exact_baseline_byte_match": true
+    },
+    {
+      "relative_path": "Gate_Data/Gate_C/subscriptions.csv",
+      "bytes": 5299,
+      "sha256": "5b252c907b8066eb7b1f2a90bc8ffb1f1695bbca2e6a7f862bdc606ea2d7f7ab",
+      "baseline_sha256": "5b252c907b8066eb7b1f2a90bc8ffb1f1695bbca2e6a7f862bdc606ea2d7f7ab",
+      "exact_baseline_byte_match": true
+    }
+  ],
+  "all_source_data_exact_baseline_byte_match": true,
+  "protected_metric_recomputation": {
+    "practice": {
+      "match": true,
+      "computed": {
+        "raw_sales_rows": 160,
+        "duplicate_order_line_id_rows": 2,
+        "invalid_discount_rows": 1,
+        "strict_analysis_rows": 157,
+        "invalid_actual_date_rows": 1,
+        "messy_region_rows": 1,
+        "unmatched_product_rows": 1,
+        "customer_dimension_duplicate_key_rows_after_strip": 2,
+        "net_sales_total": 1967004.3,
+        "distinct_orders": 80,
+        "top_region": "East",
+        "top_region_sales": 782883.8,
+        "return_orders": 18,
+        "refund_total": 229199.2,
+        "net_after_refunds": 1737805.1
+      },
+      "expected": {
+        "raw_sales_rows": 160,
+        "duplicate_order_line_id_rows": 2,
+        "invalid_discount_rows": 1,
+        "strict_analysis_rows": 157,
+        "invalid_actual_date_rows": 1,
+        "messy_region_rows": 1,
+        "unmatched_product_rows": 1,
+        "customer_dimension_duplicate_key_rows_after_strip": 2,
+        "net_sales_total": 1967004.3,
+        "distinct_orders": 80,
+        "top_region": "East",
+        "top_region_sales": 782883.8,
+        "return_orders": 18,
+        "refund_total": 229199.2,
+        "net_after_refunds": 1737805.1
+      },
+      "diffs": {}
+    },
+    "A": {
+      "match": true,
+      "computed": {
+        "raw_rows": 90,
+        "duplicate_id_rows": 2,
+        "invalid_or_impossible_time_rows": 2,
+        "analysis_rows": 86,
+        "unmatched_agent_rows": 1,
+        "sla_met_rate": 0.5814,
+        "avg_response_hours": 4.7,
+        "avg_resolution_hours": 19.7,
+        "avg_satisfaction": 3.58,
+        "top_slowest_category": "Billing"
+      },
+      "expected": {
+        "raw_rows": 90,
+        "duplicate_id_rows": 2,
+        "invalid_or_impossible_time_rows": 2,
+        "analysis_rows": 86,
+        "unmatched_agent_rows": 1,
+        "sla_met_rate": 0.5814,
+        "avg_response_hours": 4.7,
+        "avg_resolution_hours": 19.7,
+        "avg_satisfaction": 3.58,
+        "top_slowest_category": "Billing"
+      },
+      "diffs": {}
+    },
+    "B": {
+      "match": true,
+      "computed": {
+        "raw_rows": 88,
+        "duplicate_id_rows": 2,
+        "invalid_date_rows": 2,
+        "invalid_cost_rows": 1,
+        "analysis_rows": 83,
+        "unmatched_partner_rows": 1,
+        "on_time_rate": 0.3133,
+        "avg_late_hours": 6.51,
+        "avg_cost_per_km": 10.19,
+        "top_cost_region": "East"
+      },
+      "expected": {
+        "raw_rows": 88,
+        "duplicate_id_rows": 2,
+        "invalid_date_rows": 2,
+        "invalid_cost_rows": 1,
+        "analysis_rows": 83,
+        "unmatched_partner_rows": 1,
+        "on_time_rate": 0.3133,
+        "avg_late_hours": 6.51,
+        "avg_cost_per_km": 10.19,
+        "top_cost_region": "East"
+      },
+      "diffs": {}
+    },
+    "C": {
+      "match": true,
+      "computed": {
+        "raw_rows": 94,
+        "duplicate_id_rows": 2,
+        "invalid_signup_rows": 1,
+        "invalid_support_ticket_rows": 1,
+        "analysis_rows": 90,
+        "unmatched_plan_rows": 1,
+        "cancel_rate": 0.2222,
+        "active_rows": 70,
+        "matched_monthly_revenue": 440111.0,
+        "highest_cancel_rate_region": "East"
+      },
+      "expected": {
+        "raw_rows": 94,
+        "duplicate_id_rows": 2,
+        "invalid_signup_rows": 1,
+        "invalid_support_ticket_rows": 1,
+        "analysis_rows": 90,
+        "unmatched_plan_rows": 1,
+        "cancel_rate": 0.2222,
+        "active_rows": 70,
+        "matched_monthly_revenue": 440111.0,
+        "highest_cancel_rate_region": "East"
+      },
+      "diffs": {}
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "canonical": {
+    "file": "C1_M11_PORTFOLIO_CAPSTONE_HIRING_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "sheets": [
+      "README",
+      "LESSON_ROUTE",
+      "PCH1_Portfolio_Proof",
+      "PCH2_Project_Selection",
+      "PCH3_Repo_Audit",
+      "PCH4_README",
+      "PCH5_Publication_QA",
+      "PCH6_Capstone_Route",
+      "PCH7_Resume_Audit",
+      "PCH8_Profile_Audit",
+      "PCH9_Application_Strategy",
+      "PCH10_Project_Walkthrough",
+      "PCH11_Technical_Interview",
+      "PCH12_Behavioral",
+      "PCH13_Offer_Negotiation",
+      "PCH14_Readiness_Board",
+      "Evidence_Log",
+      "Mastery_Tracker"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "portfolio": {
+    "file": "C1_M11_PORTFOLIO_BUILDER_RC1.xlsx",
+    "sheets": [
+      "README",
+      "Project_Selection",
+      "Evidence_Map",
+      "README_Quality",
+      "Repo_File_Check",
+      "Project_Story",
+      "Publication_QA",
+      "Evidence_Log"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "capstone": {
+    "file": "C1_M11_MARKETPULSE_FINAL_CAPSTONE_RC1.xlsx",
+    "sheets": [
+      "README",
+      "Products",
+      "Targets",
+      "Orders_Raw",
+      "Definitions",
+      "Quality_Log",
+      "Analysis_Plan",
+      "Validation_Log",
+      "Findings_Decision",
+      "Recommendation",
+      "Submission",
+      "Rubric"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "tracker": {
+    "file": "C1_M11_JOB_APPLICATION_TRACKER_RC1.xlsx",
+    "sheets": [
+      "Dashboard",
+      "Applications",
+      "Interview_Prep",
+      "Weekly_Rhythm",
+      "Role_Family_Funnel"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+    "dashboard_formula_inspect": "{\"kind\":\"formula\",\"sheet\":\"Dashboard\",\"address\":\"B4\",\"formula\":\"=COUNTA(Applications!B4:B503)\"}\n{\"kind\":\"formula\",\"sheet\":\"Dashboard\",\"address\":\"B5\",\"formula\":\"=COUNTIF(Applications!J4:J503,\\\"Screening\\\")+COUNTIF(Applications!J4:J503,\\\"Interview\\\")\"}\n{\"kind\":\"formula\",\"sheet\":\"Dashboard\",\"address\":\"B6\",\"formula\":\"=COUNTIF(Applications!J4:J503,\\\"Offer\\\")\"}\n{\"kind\":\"formula\",\"sheet\":\"Dashboard\",\"address\":\"B7\",\"formula\":\"=COUNTIF(Applications!J4:J503,\\\"Rejected\\\")\"}\n{\"kind\":\"formula\",\"sheet\":\"Dashboard\",\"address\":\"B8\",\"formula\":\"=COUNTIF(Applications!L4:L503,\\\"Due\\\")\"}\n{\"kind\":\"formula\",\"sheet\":\"Dashboard\",\"address\":\"B9\",\"formula\":\"=COUNTIFS(Applications!F4:F503,\\\">=4\\\",Applications!J4:J503,\\\"<>Rejected\\\",Applications!J4:J503,\\\"<>Offer\\\")\"}"
+  },
+  "A": {
+    "file": "C1_M11_JOB_READINESS_GATE_A_PARCELFLOW_RC1.xlsx",
+    "sheets": [
+      "README",
+      "Technical_Case",
+      "Case_Questions",
+      "Portfolio_Resume_Audit",
+      "Mock_Interview",
+      "Final_Decision",
+      "Evidence_Log"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "B": {
+    "file": "C1_M11_JOB_READINESS_GATE_B_RENEWNOW_RC1.xlsx",
+    "sheets": [
+      "README",
+      "Technical_Case",
+      "Case_Questions",
+      "Portfolio_Resume_Audit",
+      "Mock_Interview",
+      "Final_Decision",
+      "Evidence_Log"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "C": {
+    "file": "C1_M11_JOB_READINESS_GATE_C_CAREOPS_RC1.xlsx",
+    "sheets": [
+      "README",
+      "Technical_Case",
+      "Case_Questions",
+      "Portfolio_Resume_Audit",
+      "Mock_Interview",
+      "Final_Decision",
+      "Evidence_Log"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  }
+}

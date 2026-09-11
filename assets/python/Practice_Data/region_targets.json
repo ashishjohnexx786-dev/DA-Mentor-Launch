@@ -1,0 +1,18 @@
+[
+  {
+    "region": "East",
+    "monthly_target": 260000
+  },
+  {
+    "region": "West",
+    "monthly_target": 245000
+  },
+  {
+    "region": "North",
+    "monthly_target": 225000
+  },
+  {
+    "region": "South",
+    "monthly_target": 235000
+  }
+]

@@ -1,0 +1,45 @@
+COURSE 1 - M09 INTEGRATED BUSINESS ANALYSIS - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+M00-M08 competency. M09 introduces no new required analysis software; use already taught tools.
+
+START
+1. Open C1_M09_BUSINESS_ANALYSIS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+2. Begin IBA1 on page 6.
+3. Open C1_M09_BUSINESS_ANALYSIS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx.
+4. Use LESSON_ROUTE, then the exact IBA1-IBA11 worksheet named by the learner book.
+5. Preserve Business_Definitions, Stakeholder_Notes, Targets and Orders_Raw as controlled source/reference sheets.
+6. Save each genuine decision artifact before opening protected practice review.
+7. Close review after diagnosis and complete the changed fresh task.
+8. Complete IBA11 integrated RoutePulse case before Gate A.
+
+ROUTE
+IBA1 decision-focused brief
+-> IBA2 KPI definitions
+-> IBA3 prioritized analysis plan
+-> IBA4 diagnostic analysis
+-> IBA5 causal boundary
+-> IBA6 observation-insight-implication
+-> IBA7 executable recommendation
+-> IBA8 executive memo
+-> IBA9 three-slide visual story
+-> IBA10 stakeholder defense
+-> IBA11 integrated evidence chain
+-> Gate A.
+
+DECISION RULES
+Tool complexity is not graded.
+Every material result must trace to definition + source/grain + validation.
+Weighted rates must be recomputed from numerators/denominators, not averaged from subgroup rates.
+Observational association is not causal proof.
+Expected benefit is a hypothesis, not a guaranteed outcome.
+Recommendation requires owner + action + scope/timing + success measure + risk/dependency + stop/continue rule.
+
+GATE STATE MACHINE
+A clean Gate A pass ends M09.
+Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+There is no automatic retest progression and no Gate D.
+
+STATUS
+M09 internal-QA module candidate only. Course 1 remains unreleased.

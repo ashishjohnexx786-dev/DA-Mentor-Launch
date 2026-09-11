@@ -1,0 +1,28 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M08_STATISTICS",
+  "generated": "2026-09-11",
+  "status": "INTERNAL_QA_PASS",
+  "qa": {
+    "static_checks": "146/146 PASS",
+    "manifest_rows": 18,
+    "manifest_errors": [],
+    "visual_notebook": "CLEAN_KERNEL_PASS",
+    "protected_metrics": "PASS PRACTICE + A/B/C",
+    "pdf_render_inspection": "PASS 60/60 learner/review/repair pages",
+    "workbook_visual": "PASS after STAT4/STAT5 recreation"
+  },
+  "corrected_defects": [
+    "STAT4-STAT9 inherited practice drift",
+    "legacy Pearson control numbering drift",
+    "STAT4/STAT5 blank worksheet rendering",
+    "Gate heading contrast",
+    "two QA wording false positives"
+  ],
+  "remaining_release_blockers": [
+    "M09-M11 rebuild/QA",
+    "whole-course Mentor synchronization",
+    "end-to-end learner/device simulation"
+  ],
+  "release_boundary": "M08 internal-QA module pass only; Course 1 unreleased."
+}

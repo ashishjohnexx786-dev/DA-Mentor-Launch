@@ -1,0 +1,500 @@
+{
+  "module": "M01_EXCEL_FUNDAMENTALS",
+  "status": "PASS",
+  "generated": "2026-09-10",
+  "passed": 98,
+  "total": 98,
+  "failed": [],
+  "checks": [
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "90469"
+    },
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "36890"
+    },
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "25294"
+    },
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "9121"
+    },
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_GATE_A_RC1.xlsx",
+      "passed": true,
+      "evidence": "10046"
+    },
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5068"
+    },
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_GATE_B_RC1.xlsx",
+      "passed": true,
+      "evidence": "9902"
+    },
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5070"
+    },
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_GATE_C_RC1.xlsx",
+      "passed": true,
+      "evidence": "10041"
+    },
+    {
+      "check": "artifact_exists:C1_M01_EXCEL_FUNDAMENTALS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5070"
+    },
+    {
+      "check": "artifact_exists:C1_M01_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "14863"
+    },
+    {
+      "check": "artifact_exists:C1_M01_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "3207"
+    },
+    {
+      "check": "artifact_exists:C1_M01_MODULE_QA_REPORT_RC1.pdf",
+      "passed": true,
+      "evidence": "6469"
+    },
+    {
+      "check": "artifact_exists:START_HERE_RC1.txt",
+      "passed": true,
+      "evidence": "914"
+    },
+    {
+      "check": "pdf_open_nonblank:C1_M01_EXCEL_FUNDAMENTALS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=34; blanks=[]"
+    },
+    {
+      "check": "pdf_text_in_bounds:C1_M01_EXCEL_FUNDAMENTALS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_open_nonblank:C1_M01_EXCEL_FUNDAMENTALS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_in_bounds:C1_M01_EXCEL_FUNDAMENTALS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_open_nonblank:C1_M01_EXCEL_FUNDAMENTALS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_in_bounds:C1_M01_EXCEL_FUNDAMENTALS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_open_nonblank:C1_M01_EXCEL_FUNDAMENTALS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_in_bounds:C1_M01_EXCEL_FUNDAMENTALS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_open_nonblank:C1_M01_EXCEL_FUNDAMENTALS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=11; blanks=[]"
+    },
+    {
+      "check": "pdf_text_in_bounds:C1_M01_EXCEL_FUNDAMENTALS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_open_nonblank:C1_M01_EXCEL_FUNDAMENTALS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=5; blanks=[]"
+    },
+    {
+      "check": "pdf_text_in_bounds:C1_M01_EXCEL_FUNDAMENTALS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_open_nonblank:C1_M01_MODULE_QA_REPORT_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_in_bounds:C1_M01_MODULE_QA_REPORT_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "learner_book_page_count",
+      "passed": true,
+      "evidence": "34"
+    },
+    {
+      "check": "teaching_stage_9x:1. Why this lesson matters",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:2. What you are learning",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:3. What you already need / prerequisite",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:4. Picture it in your head",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:5. New words before we use them",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:6. Watch / visual source",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:7. Follow with me once - fully worked teacher demonstration",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:8. What you should see / be able to say",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:9. Why it worked",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:10. Common beginner mistakes",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:11. If you get stuck - recovery ladder",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:12. Now you do a small version alone",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:13. Validate your result",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:14. Teach it back in your own words",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:15. Protected review + changed fresh retry",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teaching_stage_9x:16. Evidence / mastery + exact next route",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "teacher_page_present",
+      "passed": true,
+      "evidence": "page 2 text found"
+    },
+    {
+      "check": "mastery_page_present",
+      "passed": true,
+      "evidence": "mastery heading found"
+    },
+    {
+      "check": "revision_page_present",
+      "passed": true,
+      "evidence": "revision heading found"
+    },
+    {
+      "check": "no_forced_timer_language",
+      "passed": true,
+      "evidence": "no 25:00/Pomodoro token"
+    },
+    {
+      "check": "no_prohibited_release_claim",
+      "passed": true,
+      "evidence": "no prohibited release wording"
+    },
+    {
+      "check": "learner_external_links_7",
+      "passed": true,
+      "evidence": "7"
+    },
+    {
+      "check": "learner_toc_internal_links_9",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27', '30']"
+    },
+    {
+      "check": "ef7_current_primary_clickable",
+      "passed": true,
+      "evidence": "VT479YDPB0I&t=755s"
+    },
+    {
+      "check": "ef8_current_primary_clickable",
+      "passed": true,
+      "evidence": "VT479YDPB0I&t=142s"
+    },
+    {
+      "check": "practice_xlsx_crc",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "practice_real_table_DemoOrders",
+      "passed": true,
+      "evidence": "['DemoOrders']"
+    },
+    {
+      "check": "practice_no_formula_error_tokens",
+      "passed": true,
+      "evidence": "no error tokens"
+    },
+    {
+      "check": "practice_ef9_no_phantom_chart_claim",
+      "passed": true,
+      "evidence": "guided chart text persisted"
+    },
+    {
+      "check": "practice_no_embedded_chart_dependency",
+      "passed": true,
+      "evidence": "learner builds charts directly in Excel"
+    },
+    {
+      "check": "gate_A_xlsx_crc",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "gate_A_scenario_text",
+      "passed": true,
+      "evidence": "Retail Orders"
+    },
+    {
+      "check": "gate_A_assigned_table_name",
+      "passed": true,
+      "evidence": "GateARetail"
+    },
+    {
+      "check": "gate_A_filter_context",
+      "passed": true,
+      "evidence": "Cash"
+    },
+    {
+      "check": "gate_A_no_formula_error_tokens",
+      "passed": true,
+      "evidence": "no error tokens"
+    },
+    {
+      "check": "gate_A_no_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "gate_B_xlsx_crc",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "gate_B_scenario_text",
+      "passed": true,
+      "evidence": "Hotel Bookings"
+    },
+    {
+      "check": "gate_B_assigned_table_name",
+      "passed": true,
+      "evidence": "GateBBookings"
+    },
+    {
+      "check": "gate_B_filter_context",
+      "passed": true,
+      "evidence": "Direct"
+    },
+    {
+      "check": "gate_B_no_formula_error_tokens",
+      "passed": true,
+      "evidence": "no error tokens"
+    },
+    {
+      "check": "gate_B_no_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "gate_C_xlsx_crc",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "gate_C_scenario_text",
+      "passed": true,
+      "evidence": "Clinic Supplies"
+    },
+    {
+      "check": "gate_C_assigned_table_name",
+      "passed": true,
+      "evidence": "GateCClinic"
+    },
+    {
+      "check": "gate_C_filter_context",
+      "passed": true,
+      "evidence": "Diagnostic"
+    },
+    {
+      "check": "gate_C_no_formula_error_tokens",
+      "passed": true,
+      "evidence": "no error tokens"
+    },
+    {
+      "check": "gate_C_no_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "gate_scenarios_distinct",
+      "passed": true,
+      "evidence": "['c81e72ee1e84', 'b5c111e94c62', '46aa939f4b0a']"
+    },
+    {
+      "check": "practice_review_post_attempt_only",
+      "passed": true,
+      "evidence": "post-attempt language found"
+    },
+    {
+      "check": "practice_review_fresh_retry",
+      "passed": true,
+      "evidence": "fresh retry language found"
+    },
+    {
+      "check": "gate_A_review_protected",
+      "passed": true,
+      "evidence": "saved-attempt gate"
+    },
+    {
+      "check": "gate_A_review_explicit_retest_route",
+      "passed": true,
+      "evidence": "B/C explicit assignment wording"
+    },
+    {
+      "check": "gate_B_review_protected",
+      "passed": true,
+      "evidence": "saved-attempt gate"
+    },
+    {
+      "check": "gate_B_review_explicit_retest_route",
+      "passed": true,
+      "evidence": "B/C explicit assignment wording"
+    },
+    {
+      "check": "gate_C_review_protected",
+      "passed": true,
+      "evidence": "saved-attempt gate"
+    },
+    {
+      "check": "gate_C_review_explicit_retest_route",
+      "passed": true,
+      "evidence": "B/C explicit assignment wording"
+    },
+    {
+      "check": "source_registry_10_rows",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "source_registry_9_lesson_dispositions",
+      "passed": true,
+      "evidence": "['EF1', 'EF2', 'EF3', 'EF4', 'EF5', 'EF6', 'EF7', 'EF8', 'EF9']"
+    },
+    {
+      "check": "source_registry_7_current_primary_placements",
+      "passed": true,
+      "evidence": "7"
+    },
+    {
+      "check": "source_registry_ef3_ef4_book_led",
+      "passed": true,
+      "evidence": "EF3/EF4"
+    },
+    {
+      "check": "source_registry_legacy_ef7_retained",
+      "passed": true,
+      "evidence": "legacy EF7 row retained"
+    },
+    {
+      "check": "lesson_registry_9_lessons",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "lesson_registry_page_map",
+      "passed": true,
+      "evidence": "exact EF1-EF9 starts"
+    },
+    {
+      "check": "lesson_registry_16_stage_contract",
+      "passed": true,
+      "evidence": "all lessons=16 stages"
+    },
+    {
+      "check": "start_here_gate_A_terminal_pass",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "start_here_B_explicit",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "start_here_C_explicit",
+      "passed": true,
+      "evidence": "found"
+    }
+  ]
+}

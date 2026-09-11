@@ -1,0 +1,34 @@
+COURSE 1 - M10 AI-ASSISTED ANALYTICS - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+M00-M09 competency. No specific AI product or paid plan is required.
+
+START
+1. Open C1_M10_AI_ASSISTED_ANALYTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+2. Start AIA0 on page 6.
+3. Open C1_M10_AI_ASSISTED_ANALYTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx.
+4. Use the exact AIA0-AIA9 sheet named by the learner book.
+5. Use current official references only as awareness/support; product features and availability can change.
+6. Save the genuine attempt before protected review.
+7. Close review after diagnosis and complete a changed fresh retry.
+8. Complete AIA9 before Gate A.
+
+CORE WORKFLOW
+PROPOSE -> VERIFY -> JUDGE.
+AI may assist with plans, explanations, draft mechanics, code or communication.
+The analyst remains responsible for approved input, business definitions, privacy/source controls,
+independent verification, interpretation and the final decision.
+
+PRIVACY / GOVERNANCE
+Use synthetic course data for practice.
+For real work, follow employer/client governance, minimize/redact data and do not paste credentials,
+secrets or non-approved confidential/personal data merely because a product setting appears permissive.
+
+GATE STATE
+A clean Gate A pass ends M10.
+Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+There is no Gate D.
+
+STATUS
+M10 internal-QA module candidate only. Course 1 remains unreleased.

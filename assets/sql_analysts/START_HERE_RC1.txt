@@ -1,0 +1,31 @@
+COURSE 1 - M04 SQL FOR ANALYSTS - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+M03 SQL Foundations competency pass: SELECT/DISTINCT/WHERE/ORDER BY/LIMIT, aggregates, GROUP BY, HAVING, CASE, NULL and result-grain reasoning.
+
+START
+1. Run C1_M04_SQL_FOR_ANALYSTS_LAB_SETUP_RC1.sql once to build/reset the controlled multi-table lab.
+2. Verify customers=8, products=6, orders=30, order_items=60, return_events=8.
+3. Open C1_M04_SQL_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+4. Start SA1 at page 6 and use the SA1 block in C1_M04_SQL_FOR_ANALYSTS_PRACTICE_TASKS_RC1.sql.
+5. Save source/result grain, key/cardinality checks and reconciliation evidence in C1_M04_SQL_FOR_ANALYSTS_EVIDENCE_LOG_RC1.xlsx.
+6. Open protected practice review only after a genuine saved attempt.
+7. Close review after diagnosis and solve a changed query from a blank tab.
+8. Complete M-SQLA after SA1-SA9 and defend it before Gate A.
+
+CORE SAFETY RULE
+SA1 teaches JOIN behavior. SA2 teaches cardinality/row multiplication and proves why order-level freight can double after joining to order lines.
+Do not trust money after a multi-table join until row counts, one-side key assumptions and measure grain have been checked.
+
+GATE STATE MACHINE
+A clean Gate A pass ends M04.
+Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+There is no Gate D.
+
+LIVE TOOL BOUNDARY
+Static SQL, deterministic fixture controls, PDF/source/route/workbook/package QA can be completed here.
+MySQL Server/Workbench is not installed in this build environment, so live query execution and result-grid behavior remain a learner-device/release-level simulation gate.
+
+STATUS
+M04 internal-QA module candidate only. Course 1 remains unreleased.

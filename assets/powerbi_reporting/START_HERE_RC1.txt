@@ -1,0 +1,46 @@
+COURSE 1 - M06 POWER BI DAX & REPORTING - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+M05 Power BI Modeling competency pass: trusted star model, valid 1:* relationships, Date dimension, filter propagation, model checks and refresh hygiene.
+
+START
+1. Open C1_M06_POWERBI_DAX_REPORTING_PRACTICE_DATA_RC1.xlsx as the RetailPulse source.
+2. Open C1_M06_POWERBI_DAX_REPORTING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+3. Begin PBD1 at learner-book page 6 and use C1_M06_POWERBI_DAX_REPORTING_PRACTICE_GUIDE_RC1.pdf.
+4. Use C1_M06_DAX_MEASURE_PATTERNS_RC1.txt only as the matching lesson teaching reference; it contains no Gate answers.
+5. Save PBIX/version + validation evidence before opening protected practice review.
+6. Close review after diagnosis and complete a changed fresh retry.
+7. Complete M-PBIR after PBD1-PBD10 and defend it before Gate A.
+
+MODULE ROUTE
+PBD1 explicit measures
+-> PBD2 filter/evaluation context
+-> PBD3 CALCULATE/context modification
+-> PBD4 KPI targets at supported target grain
+-> PBD5 time intelligence
+-> PBD6 visual selection/page hierarchy
+-> PBD7 interactions/drillthrough/tooltips
+-> PBD8 report QA/reconciliation
+-> PBD9 publish/workspaces/refresh concepts and evidence
+-> PBD10 RLS basics/handoff/defense
+-> M-PBIR integrated report
+-> Gate A.
+
+GATE STATE MACHINE
+A clean Gate A pass ends M06.
+Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+There is no automatic retest progression and no Gate D.
+
+RUNTIME BOUNDARY
+Before Course 1 learner release, a supported Power BI environment must still execute:
+- DAX measures/context changes,
+- target/time calculations including January boundaries,
+- slicer/Edit interactions/drillthrough/tooltips,
+- Desktop refresh,
+- publish/scheduled refresh only where service/workspace/license access permits,
+- RLS View As and service membership behavior where access permits.
+No service capability is assumed without evidence.
+
+STATUS
+M06 static internal-QA module candidate only. Course 1 remains unreleased.

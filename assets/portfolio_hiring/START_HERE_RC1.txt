@@ -1,0 +1,45 @@
+COURSE 1 - M11 PORTFOLIO, CAPSTONE & HIRING - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+M00-M10 competency.
+
+START
+1. Open C1_M11_PORTFOLIO_CAPSTONE_HIRING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+2. Start PCH1 on page 6.
+3. Open C1_M11_PORTFOLIO_CAPSTONE_HIRING_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx.
+4. Use the exact PCH1-PCH14 worksheet named by the learner book.
+5. Open only the named companion artifact for that lesson.
+6. Save the genuine attempt before protected review.
+7. Close review after diagnosis and complete a changed fresh retry.
+8. Complete MarketPulse independently before job-readiness work.
+9. Attempt Job Readiness Gate A only after PCH14 is current.
+
+MAJOR ARTIFACTS
+- C1_M11_PORTFOLIO_BUILDER_RC1.xlsx
+- C1_M11_MARKETPULSE_FINAL_CAPSTONE_RC1.xlsx
+- C1_M11_JUNIOR_DATA_ANALYST_RESUME_TEMPLATE_RC1.docx
+- C1_M11_JOB_APPLICATION_TRACKER_RC1.xlsx
+- C1_M11_DATA_ANALYST_INTERVIEW_HIRING_HANDBOOK_RC1.pdf
+- GITHUB_TEMPLATES/
+
+TRUTH / PUBLIC-SAFETY
+Course projects are projects, not employment.
+Do not invent employment, clients, certifications, competing offers, salary facts or project metrics.
+Do not publish credentials, secrets, personal/confidential data or unapproved proprietary data.
+Every quantified/technical claim must have a reproducible evidence path.
+
+CAPSTONE
+Preserve raw data. Detect and document injected quality issues.
+State metric definitions/grain before analysis.
+Validate at least two material results independently.
+Do not turn observational association into causal proof.
+
+JOB READINESS GATE
+A clean Gate A pass ends M11 content competency.
+Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+There is no Gate D.
+
+STATUS
+M11 internal-QA module candidate only.
+Whole Course 1 still requires Mentor synchronization and end-to-end release QA before COURSE_1_HANDOFF.json.

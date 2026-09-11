@@ -1,0 +1,36 @@
+COURSE 1 - M05 POWER BI MODELING - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+M00-M04 competency, especially grain, data quality, Power Query exposure, key uniqueness, cardinality and reconciliation thinking.
+
+START
+1. Install current Power BI Desktop from the Microsoft installer linked in PBM0.
+2. Open C1_M05_POWERBI_MODELING_PRACTICE_DATA_RC1.xlsx as source data.
+3. Open C1_M05_POWERBI_MODELING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+4. Begin PBM0 at page 6 and use C1_M05_POWERBI_MODELING_PRACTICE_GUIDE_RC1.pdf.
+5. Import via Transform Data. Preserve the Excel source; perform transformations in Power Query.
+6. Save PBIX/version plus evidence before any protected review.
+7. Close review after diagnosis and complete a changed model task.
+8. After PBM0-PBM7 mastery, attempt Gate A on a fresh PBIX.
+
+MODULE BOUNDARY
+M05 is modeling-first:
+Power BI Desktop orientation -> profiling -> transformations/types -> fact/dimension/star schema -> relationships/filter direction -> Date dimension -> trust checks -> refresh/hygiene.
+Advanced DAX/report design belongs to M06.
+
+GATE STATE MACHINE
+A clean Gate A pass ends M05.
+Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+There is no Gate D.
+
+LIVE TOOL BOUNDARY
+Static curriculum, source workbook, protected-metric, PDF, link, route, container and package QA pass here.
+Before Course 1 learner release, Power BI Desktop must still execute:
+- relationship creation and filter propagation,
+- Date-table/date relationship behavior,
+- Power Query transformations and controlled refresh,
+- PBIX save/reopen behavior on the learner device.
+
+STATUS
+M05 internal-QA module candidate only. Course 1 remains unreleased.

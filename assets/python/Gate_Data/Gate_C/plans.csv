@@ -1,0 +1,6 @@
+plan_id,plan_name,monthly_fee,plan_group
+PL01,Starter,799,SMB
+PL02,Growth,1499,SMB
+PL03,Pro,2999,Mid
+PL04,Business,5999,Mid
+PL05,Enterprise,11999,Enterprise

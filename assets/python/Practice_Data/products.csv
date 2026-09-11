@@ -1,0 +1,9 @@
+product_id,product,category,list_price,standard_cost
+P101,Air Fryer,Appliances,8999,5200
+P102,Mixer Grinder,Appliances,6499,3700
+P103,Storage Box,Home,1299,650
+P104,Desk Fan,Home,2999,1650
+P105,Headphones,Electronics,4499,2500
+P106,Power Bank,Electronics,2799,1450
+P107,Notebook Pack,Office,499,210
+P108,Desk Chair,Furniture,7499,4300

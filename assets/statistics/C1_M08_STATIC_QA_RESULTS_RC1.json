@@ -1,0 +1,755 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M08_STATISTICS",
+  "generated": "2026-09-11",
+  "status": "PASS",
+  "passed": 146,
+  "total": 146,
+  "pdf_pages_scanned": 60,
+  "learner_external_links": 11,
+  "manual_visual_inspection": {
+    "learner_book": "PASS - 38/38 pages rendered and inspected",
+    "protected_practice_review": "PASS - 11/11 pages rendered and inspected",
+    "repair_cards": "PASS - 5/5 pages rendered and inspected",
+    "gate_reviews": "PASS - 6/6 pages rendered and inspected",
+    "workbooks": "PASS - representative sheets rendered; STAT4/STAT5 worksheet objects recreated after blank-render defect",
+    "gate_readme_contrast": "PASS - protected heading readable on teal"
+  },
+  "failed": [],
+  "checks": [
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "103448"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "59229"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_VISUAL_SIMULATION_NOTEBOOK_RC1.ipynb",
+      "passed": true,
+      "evidence": "9350"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "26947"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "8908"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_GATE_A_CHECKOUT_RC1.xlsx",
+      "passed": true,
+      "evidence": "52655"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5062"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_GATE_B_EMAIL_RC1.xlsx",
+      "passed": true,
+      "evidence": "50880"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5087"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_GATE_C_ONBOARDING_RC1.xlsx",
+      "passed": true,
+      "evidence": "59384"
+    },
+    {
+      "check": "artifact_exists:C1_M08_STATISTICS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5056"
+    },
+    {
+      "check": "artifact_exists:C1_M08_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "15909"
+    },
+    {
+      "check": "artifact_exists:C1_M08_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "4011"
+    },
+    {
+      "check": "artifact_exists:C1_M08_RUNTIME_AND_METRIC_QA_RC1.json",
+      "passed": true,
+      "evidence": "7187"
+    },
+    {
+      "check": "artifact_exists:C1_M08_WORKBOOK_FINAL_QA_RC1.json",
+      "passed": true,
+      "evidence": "27092"
+    },
+    {
+      "check": "practice_sheet_order_exact",
+      "passed": true,
+      "evidence": "['README', 'STAT1_Descriptive', 'STAT2_Distributions', 'STAT3_Sampling_Bias', 'STAT4_CLT_SE', 'STAT5_Confidence_Intervals', 'STAT6_Hypothesis_PValue', 'STAT7_Effect_Business', 'STAT8_Correlation_Causality', 'STAT9_AB_Design', 'M_STAT_Project', 'Experiment_Data', 'Visual_Explorer', 'Evidence_Log', 'Mastery_Tracker']"
+    },
+    {
+      "check": "workbook_formula_error_scan:practice",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:A",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:B",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:C",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "STAT4_recreated_visible_values",
+      "passed": true,
+      "evidence": "visible"
+    },
+    {
+      "check": "STAT5_recreated_visible_values",
+      "passed": true,
+      "evidence": "visible"
+    },
+    {
+      "check": "practice_route_states",
+      "passed": true,
+      "evidence": "protected state"
+    },
+    {
+      "check": "gate_A_protected_first_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_append_only",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_analysis_contract",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_protected_first_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_append_only",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_analysis_contract",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_protected_first_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_append_only",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_analysis_contract",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "xlsx_crc:C1_M08_STATISTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M08_STATISTICS_GATE_A_CHECKOUT_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M08_STATISTICS_GATE_B_EMAIL_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M08_STATISTICS_GATE_C_ONBOARDING_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "visual_notebook_clean_kernel",
+      "passed": true,
+      "evidence": "{'status': 'PASS', 'error': None, 'cells': 21, 'executed_copy': 'C1_M08_STATISTICS_VISUAL_SIMULATION_NOTEBOOK_EXECUTED_QA.ipynb'}"
+    },
+    {
+      "check": "practice_protected_metrics_match",
+      "passed": true,
+      "evidence": "{'STAT1': {'count': True, 'mean': True, 'median': True, 'min': True, 'max': True, 'q1': True, 'q3': True, 'iqr': True, 'sample_sd': True, 'outlier_upper': True}, 'STAT2': {'service_mean': True, 'service_sd': True, 'purchase_mean': True, 'purchase_median': True}, 'STAT8_repaired_mapping': {'pearson_r': True}, 'M-STAT': {'n_control': True, 'n_treatment': True, 'control_rate': True, 'treatment_rate': True, 'absolute_lift_pp': True, 'relative_lift_pct': True, 'z': True, 'p_value': True, 'ci95_low_pp': True, 'ci95_high_pp': True, 'support_control_pct': True, 'support_treatment_pct': True}}"
+    },
+    {
+      "check": "all_gate_metrics_match",
+      "passed": true,
+      "evidence": "{'A': {}, 'B': {}, 'C': {}}"
+    },
+    {
+      "check": "legacy_correlation_mapping_documented",
+      "passed": true,
+      "evidence": "The inherited protected registry labels Pearson r under STAT6 because its old workbook sheet numbering drifted. RC1 correctly maps this same protected correlation fixture/control to canonical STAT8."
+    },
+    {
+      "check": "visual_notebook_21_cells",
+      "passed": true,
+      "evidence": "21"
+    },
+    {
+      "check": "visual_notebook_STAT1",
+      "passed": true,
+      "evidence": "STAT1"
+    },
+    {
+      "check": "visual_notebook_STAT2",
+      "passed": true,
+      "evidence": "STAT2"
+    },
+    {
+      "check": "visual_notebook_STAT3",
+      "passed": true,
+      "evidence": "STAT3"
+    },
+    {
+      "check": "visual_notebook_STAT4",
+      "passed": true,
+      "evidence": "STAT4"
+    },
+    {
+      "check": "visual_notebook_STAT5",
+      "passed": true,
+      "evidence": "STAT5"
+    },
+    {
+      "check": "visual_notebook_STAT6",
+      "passed": true,
+      "evidence": "STAT6"
+    },
+    {
+      "check": "visual_notebook_STAT7",
+      "passed": true,
+      "evidence": "STAT7"
+    },
+    {
+      "check": "visual_notebook_STAT8",
+      "passed": true,
+      "evidence": "STAT8"
+    },
+    {
+      "check": "visual_notebook_STAT9",
+      "passed": true,
+      "evidence": "STAT9"
+    },
+    {
+      "check": "visual_notebook_restart",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "visual_notebook_no_gate_answers",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "learner_book_38_pages",
+      "passed": true,
+      "evidence": "38"
+    },
+    {
+      "check": "learner_marker:This book is your teacher",
+      "passed": true,
+      "evidence": "This book is your teacher"
+    },
+    {
+      "check": "learner_marker:Contents / Index",
+      "passed": true,
+      "evidence": "Contents / Index"
+    },
+    {
+      "check": "learner_marker:Module prerequisite and tool map",
+      "passed": true,
+      "evidence": "Module prerequisite and tool map"
+    },
+    {
+      "check": "learner_marker:Exact practice, project and Gate route",
+      "passed": true,
+      "evidence": "Exact practice, project and Gate route"
+    },
+    {
+      "check": "learner_marker:End-of-module mastery checklist",
+      "passed": true,
+      "evidence": "End-of-module mastery checklist"
+    },
+    {
+      "check": "learner_marker:Revision / statistics quick reference",
+      "passed": true,
+      "evidence": "Revision / statistics quick reference"
+    },
+    {
+      "check": "learner_marker:M-STAT - Integrated experiment decision project",
+      "passed": true,
+      "evidence": "M-STAT - Integrated experiment decision project"
+    },
+    {
+      "check": "lesson_16_stage:STAT1",
+      "passed": true,
+      "evidence": "pages=6-8; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:STAT2",
+      "passed": true,
+      "evidence": "pages=9-11; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:STAT3",
+      "passed": true,
+      "evidence": "pages=12-14; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:STAT4",
+      "passed": true,
+      "evidence": "pages=15-17; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:STAT5",
+      "passed": true,
+      "evidence": "pages=18-20; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:STAT6",
+      "passed": true,
+      "evidence": "pages=21-23; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:STAT7",
+      "passed": true,
+      "evidence": "pages=24-26; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:STAT8",
+      "passed": true,
+      "evidence": "pages=27-29; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:STAT9",
+      "passed": true,
+      "evidence": "pages=30-32; missing=[]"
+    },
+    {
+      "check": "learner_internal_toc_links_10",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27', '30', '33']"
+    },
+    {
+      "check": "learner_external_links_min_9",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "learner_link:STAT1",
+      "passed": true,
+      "evidence": "SzZ6GpcfoQY"
+    },
+    {
+      "check": "learner_link:STAT2",
+      "passed": true,
+      "evidence": "rzFX5NWojp0"
+    },
+    {
+      "check": "learner_link:STAT3",
+      "passed": true,
+      "evidence": "XLCWeSVzHUU"
+    },
+    {
+      "check": "learner_link:STAT4",
+      "passed": true,
+      "evidence": "YAlJCEDH2uY"
+    },
+    {
+      "check": "learner_link:STAT5",
+      "passed": true,
+      "evidence": "TqOeMYtOc1w"
+    },
+    {
+      "check": "learner_link:STAT6",
+      "passed": true,
+      "evidence": "0oc49DyA3hU"
+    },
+    {
+      "check": "learner_link:pvalue",
+      "passed": true,
+      "evidence": "vemZtEM63GY"
+    },
+    {
+      "check": "learner_link:STAT8",
+      "passed": true,
+      "evidence": "xZ_z8KWkhXE"
+    },
+    {
+      "check": "learner_link:causality",
+      "passed": true,
+      "evidence": "ROpbdO-gRUo"
+    },
+    {
+      "check": "pvalue_interpretation_safety",
+      "passed": true,
+      "evidence": "Safe interpretation present twice; the phrase 'probability H0 is true' occurs only as a prohibited critical-failure example."
+    },
+    {
+      "check": "significance_not_business_value",
+      "passed": true,
+      "evidence": "Normalized PDF text contains both 'does not guarantee practical importance' and 'answer different questions'."
+    },
+    {
+      "check": "correlation_not_causation",
+      "passed": true,
+      "evidence": "explicit boundary"
+    },
+    {
+      "check": "no_forced_timer",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_release_claim",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "pdf_nonblank:C1_M08_STATISTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=38; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M08_STATISTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M08_STATISTICS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M08_STATISTICS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M08_STATISTICS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M08_STATISTICS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M08_STATISTICS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M08_STATISTICS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M08_STATISTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=11; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M08_STATISTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M08_STATISTICS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=5; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M08_STATISTICS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "practice_review_11_pages",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "practice_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_review_STAT1",
+      "passed": true,
+      "evidence": "STAT1"
+    },
+    {
+      "check": "practice_review_STAT2",
+      "passed": true,
+      "evidence": "STAT2"
+    },
+    {
+      "check": "practice_review_STAT3",
+      "passed": true,
+      "evidence": "STAT3"
+    },
+    {
+      "check": "practice_review_STAT4",
+      "passed": true,
+      "evidence": "STAT4"
+    },
+    {
+      "check": "practice_review_STAT5",
+      "passed": true,
+      "evidence": "STAT5"
+    },
+    {
+      "check": "practice_review_STAT6",
+      "passed": true,
+      "evidence": "STAT6"
+    },
+    {
+      "check": "practice_review_STAT7",
+      "passed": true,
+      "evidence": "STAT7"
+    },
+    {
+      "check": "practice_review_STAT8",
+      "passed": true,
+      "evidence": "STAT8"
+    },
+    {
+      "check": "practice_review_STAT9",
+      "passed": true,
+      "evidence": "STAT9"
+    },
+    {
+      "check": "practice_review_project",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_review_fresh_retry",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "repair_cards_5_pages",
+      "passed": true,
+      "evidence": "5"
+    },
+    {
+      "check": "repair_gate_state",
+      "passed": true,
+      "evidence": "conditional route"
+    },
+    {
+      "check": "repair_pvalue_boundary",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "repair_causal_boundary",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_A_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_expected_controls",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_business_threshold",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_expected_controls",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_business_threshold",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_expected_controls",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_business_threshold",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "source_registry_11_rows",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "source_registry_all_9_lessons",
+      "passed": true,
+      "evidence": "['STAT1', 'STAT2', 'STAT3', 'STAT4', 'STAT5', 'STAT6', 'STAT7', 'STAT8', 'STAT9']"
+    },
+    {
+      "check": "source_registry:STAT1:SzZ6GpcfoQY",
+      "passed": true,
+      "evidence": "SzZ6GpcfoQY"
+    },
+    {
+      "check": "source_registry:STAT4:YAlJCEDH2uY",
+      "passed": true,
+      "evidence": "YAlJCEDH2uY"
+    },
+    {
+      "check": "source_registry:STAT6:0oc49DyA3hU",
+      "passed": true,
+      "evidence": "0oc49DyA3hU"
+    },
+    {
+      "check": "source_registry:STAT8:xZ_z8KWkhXE",
+      "passed": true,
+      "evidence": "xZ_z8KWkhXE"
+    },
+    {
+      "check": "source_registry:STAT9:ROpbdO-gRUo",
+      "passed": true,
+      "evidence": "ROpbdO-gRUo"
+    },
+    {
+      "check": "source_registry_internal_fallback",
+      "passed": true,
+      "evidence": "all placements"
+    },
+    {
+      "check": "registry_9_lessons",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "registry_16_stage_each",
+      "passed": true,
+      "evidence": "all 9"
+    },
+    {
+      "check": "registry_page_map",
+      "passed": true,
+      "evidence": "[6, 9, 12, 15, 18, 21, 24, 27, 30]"
+    },
+    {
+      "check": "registry_direct_practice_sheets",
+      "passed": true,
+      "evidence": "['STAT1_Descriptive', 'STAT2_Distributions', 'STAT3_Sampling_Bias', 'STAT4_CLT_SE', 'STAT5_Confidence_Intervals', 'STAT6_Hypothesis_PValue', 'STAT7_Effect_Business', 'STAT8_Correlation_Causality', 'STAT9_AB_Design']"
+    },
+    {
+      "check": "registry_project_page",
+      "passed": true,
+      "evidence": "{'lesson_id': 'M-STAT', 'learner_book_start_page': 33, 'workbook_sheet': 'M_STAT_Project'}"
+    }
+  ],
+  "scanner_corrections": [
+    "P-value QA now distinguishes a prohibited-example sentence from an endorsed interpretation.",
+    "Significance/business-value QA normalizes PDF whitespace before phrase matching."
+  ]
+}

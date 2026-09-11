@@ -1,0 +1,43 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M06_POWERBI_DAX_REPORTING",
+  "generated": "2026-09-10",
+  "status": "INTERNAL_QA_PASS",
+  "scope": {
+    "canonical_lessons": 10,
+    "project": "M-PBIR",
+    "learner_book_pages": 41,
+    "practice_scenario": "RetailPulse",
+    "gate_scenarios": [
+      "A FitLife Memberships",
+      "B QuickServe Delivery",
+      "C CarePoint Clinics"
+    ],
+    "source_registry_rows": 18,
+    "learner_external_links": 13
+  },
+  "qa": {
+    "static_checks_passed": 185,
+    "static_checks_total": 185,
+    "manifest_rows": 23,
+    "manifest_errors": [],
+    "protected_metric_recomputation": "PASS practice + A/B/C",
+    "xlsx_crc": "PASS practice + A/B/C + mastery",
+    "pdf_preflight": "PASS",
+    "representative_workbook_render": "PASS",
+    "live_power_bi_runtime": "PENDING_BY_ENVIRONMENT"
+  },
+  "corrected_defects": [
+    "Exposed high-value current official time-intelligence/refresh/RLS references in learner-facing PDF.",
+    "Added explicit protected Gate state rule to targeted repair cards.",
+    "Normalized Gate B PDF whitespace in QA to avoid line-wrap false negative.",
+    "Kept service/license/tenant capabilities evidence-based rather than assumed."
+  ],
+  "remaining_release_blockers": [
+    "Live Power BI Desktop DAX/context/interaction/time/refresh/PBIX simulation.",
+    "Power BI service publish/scheduled refresh/RLS membership tests where access permits.",
+    "M07-M11 clean regeneration and QA.",
+    "Whole-course Mentor synchronization and end-to-end learner/device QA."
+  ],
+  "release_boundary": "M06 static internal-QA module pass only; not Course 1 learner release."
+}

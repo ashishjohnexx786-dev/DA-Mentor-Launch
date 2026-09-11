@@ -1,0 +1,41 @@
+{
+  "module": "M11_PORTFOLIO_CAPSTONE_HIRING",
+  "generated": "2026-09-11",
+  "defects": [
+    {
+      "id": "M11-D01",
+      "severity": "BLOCKER",
+      "artifact": "GATE_EXPECTED_METRICS_PROTECTED.json / Gate B review",
+      "issue": "Avg support tickets protected value 2.91 averages all 44 members although the Gate renewal case requires the eligible cohort.",
+      "resolution": "Rebuilt Gate B explicitly defines eligible cohort; protected control corrected to 2.81."
+    },
+    {
+      "id": "M11-D02",
+      "severity": "MAJOR",
+      "artifact": "Canonical lesson book",
+      "issue": "16-page compact book does not use the Course 1 house 16-stage beginner-first lesson grammar.",
+      "resolution": "Regenerate 49-page learner book with 3 pages per PCH lesson plus teacher/index/tool/route/mastery/reference pages."
+    },
+    {
+      "id": "M11-D03",
+      "severity": "MAJOR",
+      "artifact": "Practice ecosystem",
+      "issue": "Lessons are distributed across portfolio/capstone/job artifacts without one direct PCH1-PCH14 routing workbook.",
+      "resolution": "Added canonical practice workbook with one direct PCH1-PCH14 sheet and exact companion-artifact routes."
+    },
+    {
+      "id": "M11-D04",
+      "severity": "MAJOR",
+      "artifact": "Job readiness Gates",
+      "issue": "Gate reviews say 'attempt next fresh Gate' but do not enforce A terminal pass and conditional B/C assignment state strongly enough.",
+      "resolution": "Rebuilt A/B/C with competency pass-all state machine; A clean pass ends Gate, B/C remediation-only."
+    },
+    {
+      "id": "M11-D05",
+      "severity": "MAJOR",
+      "artifact": "Job application tracker",
+      "issue": "Baseline dashboard values are hard-coded zeros rather than formula-driven from the Applications sheet.",
+      "resolution": "Rebuilt formula-driven dashboard after dependency sheets exist; formulas/CRC verified later in QA."
+    }
+  ]
+}

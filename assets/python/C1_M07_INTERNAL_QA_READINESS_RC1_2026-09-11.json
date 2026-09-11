@@ -1,0 +1,42 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M07_PYTHON_FOR_DATA_ANALYSTS",
+  "generated": "2026-09-11",
+  "status": "INTERNAL_QA_PASS",
+  "scope": {
+    "canonical_lessons": 11,
+    "project": "M-PY",
+    "learner_book_pages": 44,
+    "practice_notebook_cells": 50,
+    "gate_scenarios": [
+      "A HelpDesk Performance",
+      "B Delivery Performance",
+      "C Subscription Retention"
+    ],
+    "source_registry_rows": 16,
+    "learner_external_links": 14
+  },
+  "qa": {
+    "static_runtime_checks_passed": 171,
+    "static_runtime_checks_total": 171,
+    "manifest_rows": 27,
+    "manifest_errors": [],
+    "practice_and_gate_notebook_clean_kernel": "PASS",
+    "source_data_byte_parity": "PASS",
+    "protected_metric_recomputation": "PASS practice + A/B/C",
+    "pdf_render_preflight": "PASS",
+    "learner_device_jupyter": "PENDING_END_TO_END_RELEASE_QA"
+  },
+  "corrected_defects": [
+    "Replaced inherited post-PY2 shifted practice routes with one-to-one PY0-PY10 notebook mapping.",
+    "Stopped and corrected a recomputation schema assumption instead of forcing guessed column names.",
+    "Added explicit safe-grain returns project micro-example and merge validation controls.",
+    "Kept all useful prior PY0-PY8 visual sources and added current official Jupyter/pandas/Matplotlib references."
+  ],
+  "remaining_release_blockers": [
+    "M08-M11 clean regeneration and QA.",
+    "Whole-course Mentor synchronization.",
+    "End-to-end learner Windows/Jupyter file/save/reopen/device route QA."
+  ],
+  "release_boundary": "M07 internal-QA module pass only; not Course 1 learner release."
+}

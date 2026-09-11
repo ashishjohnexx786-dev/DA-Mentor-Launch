@@ -1,0 +1,76 @@
+{
+  "before_lab": {
+    "lab_disabled": false,
+    "gateA_disabled": true,
+    "visible_gate_rows": 1,
+    "assignB_count": 0
+  },
+  "after_lab": {
+    "gateA_disabled": false
+  },
+  "after_A_fail": {
+    "A": {
+      "assigned": true,
+      "attempt": true,
+      "result": "NEEDS_REPAIR",
+      "review": false,
+      "repairDone": false
+    },
+    "B_assigned": false,
+    "errors": 1,
+    "assignB_count": 1,
+    "A_review_count": 1,
+    "visible_gate_text": "Protected Gate A \u2014 Gate A\nNEEDS_REPAIR \u2022 targeted repair; next full retest stays sealed\nOpen Gate A\nOpen Review\nRecord result"
+  },
+  "after_assign_B": {
+    "B_assigned": true,
+    "B_open_disabled": false
+  },
+  "after_B_fail": {
+    "B": {
+      "assigned": true,
+      "attempt": true,
+      "result": "NEEDS_REPAIR",
+      "review": false,
+      "repairDone": false
+    },
+    "C_assigned": false,
+    "errors": 2,
+    "assignC_count": 1,
+    "B_review_count": 1
+  },
+  "after_C_pass": {
+    "C": {
+      "assigned": true,
+      "attempt": true,
+      "result": "PASS",
+      "review": false,
+      "repairDone": false
+    },
+    "foundation_pill": "PASS",
+    "next_phase_pill": "ACTIVE"
+  },
+  "clean_A_pass": {
+    "A_result": "PASS",
+    "B_assigned": false,
+    "C_assigned": false,
+    "assignB_count": 0,
+    "next_phase_pill": "ACTIVE",
+    "foundation_pill": "PASS"
+  },
+  "checks": {
+    "gateA_locked_before_lab": true,
+    "gateA_unlocked_after_lab": true,
+    "B_not_auto_after_A_fail": true,
+    "A_review_after_attempt": true,
+    "B_explicit_assign_control": true,
+    "B_unlock_only_after_assign": true,
+    "C_not_auto_after_B_fail": true,
+    "B_review_after_attempt": true,
+    "C_explicit_assign_control": true,
+    "C_pass_completes_phase": true,
+    "clean_A_terminal": true,
+    "repair_errors_append": true
+  },
+  "status": "PASS"
+}

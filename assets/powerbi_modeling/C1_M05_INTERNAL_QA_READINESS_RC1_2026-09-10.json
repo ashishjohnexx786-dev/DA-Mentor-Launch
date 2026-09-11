@@ -1,0 +1,43 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M05_POWERBI_MODELING",
+  "generated": "2026-09-10",
+  "status": "INTERNAL_QA_PASS",
+  "scope": {
+    "canonical_lessons": 8,
+    "learner_book_pages": 31,
+    "practice_source_workbook": "C1_M05_POWERBI_MODELING_PRACTICE_DATA_RC1.xlsx",
+    "gate_scenarios": [
+      "A - RepairHub Jobs",
+      "B - LearnNow Subscriptions",
+      "C - FreshCart Deliveries"
+    ],
+    "source_registry_rows": 18,
+    "learner_external_links": 12
+  },
+  "qa": {
+    "static_checks_passed": 138,
+    "static_checks_total": 138,
+    "manifest_rows": 20,
+    "manifest_errors": [],
+    "protected_metric_recomputation": "PASS practice + A/B/C",
+    "xlsx_crc": "PASS practice + A/B/C",
+    "pdf_render_preflight": "PASS",
+    "workbook_visual_render": "PASS representative ranges",
+    "live_power_bi_desktop": "PENDING_BY_ENVIRONMENT"
+  },
+  "corrected_defects": [
+    "Added missing learner-facing PBM0 official Power BI Desktop installer link.",
+    "Promoted dedicated Microsoft Date-table guidance for PBM5 while preserving prior relationship source history.",
+    "Corrected audit-only Customers/Products protected-label order; source workbook data was unchanged.",
+    "Kept deliberate invalid/duplicate/unmatched source traps rather than sanitizing them in Excel."
+  ],
+  "remaining_release_blockers": [
+    "Live Power BI Desktop relationship/filter propagation test.",
+    "Live Date-table/date relationship behavior test.",
+    "Live Power Query controlled refresh test.",
+    "M06-M11 clean regeneration and QA.",
+    "Whole-course Mentor sync and end-to-end learner/device simulation."
+  ],
+  "release_boundary": "M05 static internal-QA module pass only; not Course 1 learner release."
+}

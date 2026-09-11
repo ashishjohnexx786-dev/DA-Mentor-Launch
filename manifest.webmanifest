@@ -1,13 +1,13 @@
 {
-  "name": "DA Mentor Launch",
-  "short_name": "Mentor Launch",
-  "description": "Course 1 Data Analyst learning companion using the unified DE Mentor 2026 study workflow, protected review, mastery evidence, repair, and an exact-timestamp study tracker.",
+  "name": "DA Mentor 2026 — Course 1",
+  "short_name": "DA Mentor",
+  "description": "Course 1 Zero-to-Job-Ready Data Analyst 2026 mentor with page-aware learning routes, protected assessment flow, evidence tracking and manual study sessions.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#080a10",
-  "orientation": "portrait-primary",
+  "theme_color": "#111827",
+  "orientation": "any",
   "icons": [
     {"src":"icon-192.svg","sizes":"192x192","type":"image/svg+xml","purpose":"any maskable"},
     {"src":"icon-512.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}

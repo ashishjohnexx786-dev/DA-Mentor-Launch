@@ -1,0 +1,803 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M10_AI_ASSISTED_ANALYTICS",
+  "generated": "2026-09-11",
+  "status": "PASS",
+  "passed": 156,
+  "total": 156,
+  "pdf_pages_scanned": 65,
+  "learner_external_links": 12,
+  "manual_visual_inspection": {
+    "learner_book": "PASS - 37/37 pages rendered and inspected",
+    "protected_practice_review": "PASS - 11/11 pages rendered and inspected",
+    "repair_cards": "PASS - 5/5 pages rendered and inspected",
+    "gate_instructions_reviews": "PASS - 12/12 pages rendered and inspected",
+    "workbooks": "PASS - 27 representative renders; initial AIA0-AIA9 blank-render worksheet-object defect repaired and all 10 rerendered visibly"
+  },
+  "failed": [],
+  "checks": [
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_ANALYTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "98015"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_ANALYTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "28710"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_ANALYTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "27718"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_ANALYTICS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "8755"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_GATE_A_RETAIL_MARGIN_RC1.xlsx",
+      "passed": true,
+      "evidence": "12221"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "5395"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5106"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_GATE_B_SUPPORT_OPS_RC1.xlsx",
+      "passed": true,
+      "evidence": "12383"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "5427"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5125"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_GATE_C_SUBSCRIPTION_GROWTH_RC1.xlsx",
+      "passed": true,
+      "evidence": "12215"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "5429"
+    },
+    {
+      "check": "artifact_exists:C1_M10_AI_ASSISTED_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5114"
+    },
+    {
+      "check": "artifact_exists:C1_M10_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "19672"
+    },
+    {
+      "check": "artifact_exists:C1_M10_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "4337"
+    },
+    {
+      "check": "artifact_exists:C1_M10_RUNTIME_AND_METRIC_QA_RC1.json",
+      "passed": true,
+      "evidence": "3111"
+    },
+    {
+      "check": "artifact_exists:C1_M10_WORKBOOK_FINAL_QA_RC1.json",
+      "passed": true,
+      "evidence": "33793"
+    },
+    {
+      "check": "practice_sheet_order_exact",
+      "passed": true,
+      "evidence": "['README', 'LESSON_ROUTE', 'AIA0_Tool_Risk_Matrix', 'AIA1_Prompt_Lab', 'AIA2_Output_Audit', 'AIA3_Code_Audit', 'AIA4_Analysis_Plan', 'AIA5_Source_Hierarchy', 'AIA6_Privacy_Minimization', 'AIA7_Communication_Log', 'AIA8_Modern_Surfaces', 'AIA9_Integrated_Workflow', 'CURRENT_REFERENCES', 'Evidence_Log', 'Mastery_Tracker']"
+    },
+    {
+      "check": "workbook_formula_error_scan:practice",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:A",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:B",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:C",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "AIA0_direct_sheet_visible",
+      "passed": true,
+      "evidence": "AIA0 visible"
+    },
+    {
+      "check": "AIA9_direct_sheet_visible",
+      "passed": true,
+      "evidence": "AIA9 visible"
+    },
+    {
+      "check": "current_reference_sheet",
+      "passed": true,
+      "evidence": "current refs present"
+    },
+    {
+      "check": "gate_metric_contract_A",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_metric_contract_B",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_metric_contract_C",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "xlsx_crc:C1_M10_AI_ASSISTED_ANALYTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M10_AI_ASSISTED_GATE_A_RETAIL_MARGIN_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M10_AI_ASSISTED_GATE_B_SUPPORT_OPS_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M10_AI_ASSISTED_GATE_C_SUBSCRIPTION_GROWTH_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "all_gate_metrics_match",
+      "passed": true,
+      "evidence": "{'A': {}, 'B': {}, 'C': {}}"
+    },
+    {
+      "check": "gate_A_metrics_exact",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "gate_A_privacy_flags",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "gate_A_duplicate_control",
+      "passed": true,
+      "evidence": "1"
+    },
+    {
+      "check": "gate_A_negative_revenue_control",
+      "passed": true,
+      "evidence": "1"
+    },
+    {
+      "check": "gate_B_metrics_exact",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "gate_B_privacy_flags",
+      "passed": true,
+      "evidence": "13"
+    },
+    {
+      "check": "gate_B_duplicate_control",
+      "passed": true,
+      "evidence": "1"
+    },
+    {
+      "check": "gate_B_negative_revenue_control",
+      "passed": true,
+      "evidence": "1"
+    },
+    {
+      "check": "gate_C_metrics_exact",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "gate_C_privacy_flags",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "gate_C_duplicate_control",
+      "passed": true,
+      "evidence": "1"
+    },
+    {
+      "check": "gate_C_negative_revenue_control",
+      "passed": true,
+      "evidence": "1"
+    },
+    {
+      "check": "learner_book_37_pages",
+      "passed": true,
+      "evidence": "37"
+    },
+    {
+      "check": "learner_marker:This book is your teacher",
+      "passed": true,
+      "evidence": "This book is your teacher"
+    },
+    {
+      "check": "learner_marker:Contents / Index",
+      "passed": true,
+      "evidence": "Contents / Index"
+    },
+    {
+      "check": "learner_marker:Module prerequisite and tool map",
+      "passed": true,
+      "evidence": "Module prerequisite and tool map"
+    },
+    {
+      "check": "learner_marker:Exact practice and Gate route",
+      "passed": true,
+      "evidence": "Exact practice and Gate route"
+    },
+    {
+      "check": "learner_marker:End-of-module mastery checklist",
+      "passed": true,
+      "evidence": "End-of-module mastery checklist"
+    },
+    {
+      "check": "learner_marker:Revision / AI verification quick reference",
+      "passed": true,
+      "evidence": "Revision / AI verification quick reference"
+    },
+    {
+      "check": "lesson_16_stage:AIA0",
+      "passed": true,
+      "evidence": "pages=6-8; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:AIA1",
+      "passed": true,
+      "evidence": "pages=9-11; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:AIA2",
+      "passed": true,
+      "evidence": "pages=12-14; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:AIA3",
+      "passed": true,
+      "evidence": "pages=15-17; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:AIA4",
+      "passed": true,
+      "evidence": "pages=18-20; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:AIA5",
+      "passed": true,
+      "evidence": "pages=21-23; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:AIA6",
+      "passed": true,
+      "evidence": "pages=24-26; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:AIA7",
+      "passed": true,
+      "evidence": "pages=27-29; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:AIA8",
+      "passed": true,
+      "evidence": "pages=30-32; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:AIA9",
+      "passed": true,
+      "evidence": "pages=33-35; missing=[]"
+    },
+    {
+      "check": "learner_internal_toc_links_10",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27', '30', '33']"
+    },
+    {
+      "check": "learner_external_links_12",
+      "passed": true,
+      "evidence": "12"
+    },
+    {
+      "check": "learner_link:openai.com/academy/data-analysis",
+      "passed": true,
+      "evidence": "openai.com/academy/data-analysis"
+    },
+    {
+      "check": "learner_link:help.openai.com/en/articles/8437071",
+      "passed": true,
+      "evidence": "help.openai.com/en/articles/8437071"
+    },
+    {
+      "check": "learner_link:help.openai.com/en/articles/8555545",
+      "passed": true,
+      "evidence": "help.openai.com/en/articles/8555545"
+    },
+    {
+      "check": "learner_link:OT1RErkfLNQ",
+      "passed": true,
+      "evidence": "OT1RErkfLNQ"
+    },
+    {
+      "check": "learner_link:help.openai.com/en/articles/7730893",
+      "passed": true,
+      "evidence": "help.openai.com/en/articles/7730893"
+    },
+    {
+      "check": "learner_link:help.openai.com/en/articles/5722486",
+      "passed": true,
+      "evidence": "help.openai.com/en/articles/5722486"
+    },
+    {
+      "check": "learner_link:sfkyiXvlYL0",
+      "passed": true,
+      "evidence": "sfkyiXvlYL0"
+    },
+    {
+      "check": "learner_link:openai.com/index/chatgpt-for-excel",
+      "passed": true,
+      "evidence": "openai.com/index/chatgpt-for-excel"
+    },
+    {
+      "check": "learner_link:support.microsoft.com/en-us/excel/copilot",
+      "passed": true,
+      "evidence": "support.microsoft.com/en-us/excel/copilot"
+    },
+    {
+      "check": "learner_link:learn.microsoft.com/en-us/power-bi/create-reports/copilot-reports-overview",
+      "passed": true,
+      "evidence": "learn.microsoft.com/en-us/power-bi/create-reports/copilot-reports-overview"
+    },
+    {
+      "check": "propose_verify_judge",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "no_AI_required_for_gate",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "privacy_governance",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "settings_not_approval",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "transcript_not_evidence",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "AI_said_so_not_evidence",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "no_forced_timer",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_release_claim",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "pdf_nonblank:C1_M10_AI_ASSISTED_ANALYTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=37; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M10_AI_ASSISTED_ANALYTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M10_AI_ASSISTED_ANALYTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=11; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M10_AI_ASSISTED_ANALYTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M10_AI_ASSISTED_ANALYTICS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=5; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M10_AI_ASSISTED_ANALYTICS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M10_AI_ASSISTED_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M10_AI_ASSISTED_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M10_AI_ASSISTED_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M10_AI_ASSISTED_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M10_AI_ASSISTED_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M10_AI_ASSISTED_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M10_AI_ASSISTED_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M10_AI_ASSISTED_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M10_AI_ASSISTED_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M10_AI_ASSISTED_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M10_AI_ASSISTED_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M10_AI_ASSISTED_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "practice_review_11_pages",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "practice_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_review_AIA0",
+      "passed": true,
+      "evidence": "AIA0"
+    },
+    {
+      "check": "practice_review_AIA1",
+      "passed": true,
+      "evidence": "AIA1"
+    },
+    {
+      "check": "practice_review_AIA2",
+      "passed": true,
+      "evidence": "AIA2"
+    },
+    {
+      "check": "practice_review_AIA3",
+      "passed": true,
+      "evidence": "AIA3"
+    },
+    {
+      "check": "practice_review_AIA4",
+      "passed": true,
+      "evidence": "AIA4"
+    },
+    {
+      "check": "practice_review_AIA5",
+      "passed": true,
+      "evidence": "AIA5"
+    },
+    {
+      "check": "practice_review_AIA6",
+      "passed": true,
+      "evidence": "AIA6"
+    },
+    {
+      "check": "practice_review_AIA7",
+      "passed": true,
+      "evidence": "AIA7"
+    },
+    {
+      "check": "practice_review_AIA8",
+      "passed": true,
+      "evidence": "AIA8"
+    },
+    {
+      "check": "practice_review_AIA9",
+      "passed": true,
+      "evidence": "AIA9"
+    },
+    {
+      "check": "practice_review_fresh_retry",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "repair_cards_5_pages",
+      "passed": true,
+      "evidence": "5"
+    },
+    {
+      "check": "repair_gate_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "repair_privacy",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "repair_generated_code",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "repair_transcript",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_instructions_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_no_account_required",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_critical_failures",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_locked",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_review_controls",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_privacy",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_instructions_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_no_account_required",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_critical_failures",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_locked",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_review_controls",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_privacy",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_instructions_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_no_account_required",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_critical_failures",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_locked",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_review_controls",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_privacy",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_state",
+      "passed": true,
+      "evidence": "Whitespace-normalized Gate C text contains remediation-only, explicit-assignment, and no-Gate-D rules."
+    },
+    {
+      "check": "source_registry_12_rows",
+      "passed": true,
+      "evidence": "12"
+    },
+    {
+      "check": "source_registry_current_or_preserved",
+      "passed": true,
+      "evidence": "all rows status"
+    },
+    {
+      "check": "source_registry_internal_fallback",
+      "passed": true,
+      "evidence": "all rows"
+    },
+    {
+      "check": "source_registry_AIA8_multi_surface",
+      "passed": true,
+      "evidence": "5"
+    },
+    {
+      "check": "source_registry_openai_and_microsoft",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "registry_10_lessons",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "registry_16_stage_each",
+      "passed": true,
+      "evidence": "all 10"
+    },
+    {
+      "check": "registry_page_map",
+      "passed": true,
+      "evidence": "[6, 9, 12, 15, 18, 21, 24, 27, 30, 33]"
+    },
+    {
+      "check": "registry_direct_practice_sheets",
+      "passed": true,
+      "evidence": "['AIA0_Tool_Risk_Matrix', 'AIA1_Prompt_Lab', 'AIA2_Output_Audit', 'AIA3_Code_Audit', 'AIA4_Analysis_Plan', 'AIA5_Source_Hierarchy', 'AIA6_Privacy_Minimization', 'AIA7_Communication_Log', 'AIA8_Modern_Surfaces', 'AIA9_Integrated_Workflow']"
+    },
+    {
+      "check": "registry_product_independence",
+      "passed": true,
+      "evidence": "all 10"
+    }
+  ],
+  "scanner_corrections": [
+    "Gate C state scan now normalizes PDF line breaks before matching 'There is no Gate D'."
+  ]
+}

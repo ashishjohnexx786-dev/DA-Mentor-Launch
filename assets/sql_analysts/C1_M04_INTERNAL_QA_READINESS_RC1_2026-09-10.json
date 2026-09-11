@@ -1,0 +1,42 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M04_SQL_FOR_ANALYSTS",
+  "generated": "2026-09-10",
+  "status": "INTERNAL_QA_PASS",
+  "scope": {
+    "canonical_lessons": 9,
+    "project": "M-SQLA",
+    "learner_book_pages": 38,
+    "practice_blocks": "9 guided + 9 fresh",
+    "gate_scenarios": [
+      "A Marketplace Orders",
+      "B Hotel Reservations",
+      "C Subscription Invoices"
+    ],
+    "source_registry_rows": 11,
+    "external_lesson_links": 10
+  },
+  "qa": {
+    "static_checks_passed": 168,
+    "static_checks_total": 168,
+    "manifest_rows": 19,
+    "manifest_errors": [],
+    "protected_gate_fixture_recomputation": "PASS - all controlled fields exact",
+    "pdf_render_preflight": "PASS",
+    "evidence_workbook_artifact_tool": "PASS",
+    "live_mysql_runtime": "PENDING - MySQL not installed"
+  },
+  "corrected_defects": [
+    "Normalized missing SA2/SA7/SA8 source segments.",
+    "Added current SA4 official reference + current Hindi/Urdu companion while preserving prior source history.",
+    "Tightened Gate LEFT JOIN unmatched wording and exact date-field guidance.",
+    "Built explicit cardinality-inflation proof and critical-failure rubric into every Gate."
+  ],
+  "remaining_release_blockers": [
+    "Live MySQL Server/Workbench learner simulation.",
+    "M05-M11 clean regeneration and QA.",
+    "Whole-course Mentor synchronization to stable regenerated routes.",
+    "End-to-end responsive/device and release-level package QA."
+  ],
+  "release_boundary": "M04 static internal-QA module pass only; not Course 1 learner release."
+}

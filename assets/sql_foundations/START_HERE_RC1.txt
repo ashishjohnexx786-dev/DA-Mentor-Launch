@@ -1,0 +1,31 @@
+COURSE 1 - M03 SQL FOUNDATIONS - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+No prior SQL syntax is assumed. Foundation concepts such as row grain, validation and evidence are reused.
+
+START
+1. Install/connect to MySQL Community Server + MySQL Workbench.
+2. Run C1_M03_SQL_FOUNDATIONS_LAB_SETUP_RC1.sql as one complete controlled setup/reset.
+3. Verify customers = 12 rows and orders = 48 rows.
+4. Open C1_M03_SQL_FOUNDATIONS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+5. Begin SF0 at page 6 and use the SF0 block in C1_M03_SQL_FOUNDATIONS_PRACTICE_TASKS_RC1.sql.
+6. Type practice SQL yourself. Save a genuine attempt in the evidence workbook before protected review.
+7. Close review after repair and solve a changed query from a blank tab.
+
+MODULE BOUNDARY
+M03 is single-table SQL foundations:
+SELECT / DISTINCT / WHERE / ORDER BY / LIMIT / aggregates / GROUP BY / HAVING / CASE.
+JOIN, CTE, subquery and window-function tasks are intentionally deferred to M04 SQL for Analysts.
+
+GATE STATE MACHINE
+A clean Gate A pass ends M03.
+Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+There is no Gate D.
+
+LIVE TOOL BOUNDARY
+Static SQL, fixture-metric, PDF, source-map, workbook, route, package and hash QA can be completed here.
+MySQL Server/Workbench is not installed in this build environment, so connection execution and live query/result-grid behavior remain a learner-device/release-level simulation gate.
+
+STATUS
+M03 internal-QA module candidate only. Course 1 remains unreleased.

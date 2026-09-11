@@ -1,0 +1,344 @@
+{
+  "foundation": {
+    "start": "assets/foundation/00_START_HERE/C1_M00_FOUNDATION_START_HERE_RC1.pdf",
+    "lesson": "assets/foundation/01_LEARN/C1_M00_FOUNDATION_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": [
+      "assets/foundation/02_PRACTICE/C1_M00_FOUNDATION_BEGINNER_FIRST_PRACTICE_BOOK_RC1.pdf",
+      "assets/foundation/02_PRACTICE/C1_M00_FOUNDATION_EVIDENCE_LOG_RC1.xlsx"
+    ],
+    "review": "assets/foundation/03_REVIEW_PROTECTED/C1_M00_FOUNDATION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+    "repair": "assets/foundation/03_REVIEW_PROTECTED/C1_M00_FOUNDATION_TARGETED_REPAIR_CARDS_PROTECTED_RC1.pdf",
+    "lab": [
+      "assets/foundation/02_PRACTICE/C1_M00_FOUNDATION_BEGINNER_FIRST_PRACTICE_BOOK_RC1.pdf",
+      "assets/foundation/02_PRACTICE/C1_M00_FOUNDATION_EVIDENCE_LOG_RC1.xlsx"
+    ],
+    "gateA": "assets/foundation/04_GATE_PROTECTED/C1_M00_FOUNDATION_GATE_A_RC1.pdf",
+    "gateReviewA": "assets/foundation/04_GATE_PROTECTED/C1_M00_FOUNDATION_GATE_A_REVIEW_PROTECTED_RC1.pdf",
+    "gateB": "assets/foundation/04_GATE_PROTECTED/C1_M00_FOUNDATION_GATE_B_RC1.pdf",
+    "gateReviewB": "assets/foundation/04_GATE_PROTECTED/C1_M00_FOUNDATION_GATE_B_REVIEW_PROTECTED_RC1.pdf",
+    "gateC": "assets/foundation/04_GATE_PROTECTED/C1_M00_FOUNDATION_GATE_C_RC1.pdf",
+    "gateReviewC": "assets/foundation/04_GATE_PROTECTED/C1_M00_FOUNDATION_GATE_C_REVIEW_PROTECTED_RC1.pdf",
+    "assessmentNames": {
+      "lab": "Foundation cumulative practice",
+      "A": "Gate A",
+      "B": "Fresh full retest",
+      "C": "Fresh full retest"
+    }
+  },
+  "excel_fundamentals": {
+    "start": "assets/excel_fundamentals/START_HERE_RC1.txt",
+    "lesson": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "review": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "gateA": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_GATE_A_RC1.xlsx",
+    "gateReviewA": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_GATE_B_RC1.xlsx",
+    "gateReviewB": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_GATE_C_RC1.xlsx",
+    "gateReviewC": "assets/excel_fundamentals/C1_M01_EXCEL_FUNDAMENTALS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "Excel Fundamentals integration practice",
+      "A": "Gate A",
+      "B": "Fresh full retest",
+      "C": "Fresh full retest"
+    },
+    "sourceRegistry": "assets/excel_fundamentals/C1_M01_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "excel_analysts": {
+    "start": "assets/excel_analysts/START_HERE_RC1.txt",
+    "lesson": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "review": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "gateA": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_GATE_A_RC1.xlsx",
+    "gateReviewA": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_GATE_B_RC1.xlsx",
+    "gateReviewB": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_GATE_C_RC1.xlsx",
+    "gateReviewC": "assets/excel_analysts/C1_M02_EXCEL_FOR_ANALYSTS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "M-XLA integrated Excel analysis",
+      "A": "Gate A",
+      "B": "Fresh full retest",
+      "C": "Fresh full retest"
+    },
+    "sourceRegistry": "assets/excel_analysts/C1_M02_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "sql_foundations": {
+    "start": "assets/sql_foundations/START_HERE_RC1.txt",
+    "lesson": "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": [
+      "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_LAB_SETUP_RC1.sql",
+      "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_PRACTICE_TASKS_RC1.sql",
+      "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_EVIDENCE_LOG_RC1.xlsx"
+    ],
+    "review": "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": [
+      "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_PRACTICE_TASKS_RC1.sql",
+      "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_EVIDENCE_LOG_RC1.xlsx"
+    ],
+    "gateA": "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_GATE_A_RC1.sql",
+    "gateReviewA": "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_GATE_B_RC1.sql",
+    "gateReviewB": "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_GATE_C_RC1.sql",
+    "gateReviewC": "assets/sql_foundations/C1_M03_SQL_FOUNDATIONS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "SQL Foundations evidence set",
+      "A": "Gate A",
+      "B": "Fresh full retest",
+      "C": "Fresh full retest"
+    },
+    "sourceRegistry": "assets/sql_foundations/C1_M03_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "sql_analysts": {
+    "start": "assets/sql_analysts/START_HERE_RC1.txt",
+    "lesson": "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": [
+      "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_LAB_SETUP_RC1.sql",
+      "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_PRACTICE_TASKS_RC1.sql",
+      "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_EVIDENCE_LOG_RC1.xlsx"
+    ],
+    "review": "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": [
+      "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_M_SQLA_PROJECT_RC1.sql",
+      "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_EVIDENCE_LOG_RC1.xlsx"
+    ],
+    "gateA": "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_GATE_A_RC1.sql",
+    "gateReviewA": "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_GATE_B_RC1.sql",
+    "gateReviewB": "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_GATE_C_RC1.sql",
+    "gateReviewC": "assets/sql_analysts/C1_M04_SQL_FOR_ANALYSTS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "M-SQLA integrated project",
+      "A": "Gate A",
+      "B": "Fresh full retest",
+      "C": "Fresh full retest"
+    },
+    "sourceRegistry": "assets/sql_analysts/C1_M04_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "powerbi_modeling": {
+    "start": "assets/powerbi_modeling/START_HERE_RC1.txt",
+    "lesson": "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": [
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_PRACTICE_GUIDE_RC1.pdf",
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_PRACTICE_DATA_RC1.xlsx"
+    ],
+    "review": "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": [
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_PRACTICE_GUIDE_RC1.pdf",
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_PRACTICE_DATA_RC1.xlsx"
+    ],
+    "gateA": [
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_GATE_A_GUIDE_RC1.pdf",
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_GATE_A_DATA_RC1.xlsx"
+    ],
+    "gateReviewA": "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": [
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_GATE_B_GUIDE_RC1.pdf",
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_GATE_B_DATA_RC1.xlsx"
+    ],
+    "gateReviewB": "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": [
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_GATE_C_GUIDE_RC1.pdf",
+      "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_GATE_C_DATA_RC1.xlsx"
+    ],
+    "gateReviewC": "assets/powerbi_modeling/C1_M05_POWERBI_MODELING_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "Validated star-schema model",
+      "A": "Gate A",
+      "B": "Fresh full retest",
+      "C": "Fresh full retest"
+    },
+    "sourceRegistry": "assets/powerbi_modeling/C1_M05_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "powerbi_reporting": {
+    "start": "assets/powerbi_reporting/START_HERE_RC1.txt",
+    "lesson": "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": [
+      "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_PRACTICE_GUIDE_RC1.pdf",
+      "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_PRACTICE_DATA_RC1.xlsx"
+    ],
+    "review": "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": [
+      "assets/powerbi_reporting/C1_M06_M_PBIR_INTEGRATED_REPORT_PROJECT_RC1.pdf",
+      "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_PRACTICE_DATA_RC1.xlsx"
+    ],
+    "gateA": [
+      "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_GATE_A_GUIDE_RC1.pdf",
+      "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_GATE_A_DATA_RC1.xlsx"
+    ],
+    "gateReviewA": "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": [
+      "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_GATE_B_GUIDE_RC1.pdf",
+      "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_GATE_B_DATA_RC1.xlsx"
+    ],
+    "gateReviewB": "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": [
+      "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_GATE_C_GUIDE_RC1.pdf",
+      "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_GATE_C_DATA_RC1.xlsx"
+    ],
+    "gateReviewC": "assets/powerbi_reporting/C1_M06_POWERBI_DAX_REPORTING_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "M-PBIR integrated report project",
+      "A": "Gate A",
+      "B": "Fresh full retest",
+      "C": "Fresh full retest"
+    },
+    "sourceRegistry": "assets/powerbi_reporting/C1_M06_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "python": {
+    "start": "assets/python/START_HERE_RC1.txt",
+    "lesson": "assets/python/C1_M07_PYTHON_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": "assets/python/C1_M07_PYTHON_FOR_ANALYSTS_CANONICAL_PRACTICE_NOTEBOOK_RC1.ipynb",
+    "review": "assets/python/C1_M07_PYTHON_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/python/C1_M07_PYTHON_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": "assets/python/C1_M07_PYTHON_FOR_ANALYSTS_CANONICAL_PRACTICE_NOTEBOOK_RC1.ipynb",
+    "gateA": "assets/python/C1_M07_PYTHON_GATE_A_RC1.ipynb",
+    "gateReviewA": "assets/python/C1_M07_PYTHON_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": "assets/python/C1_M07_PYTHON_GATE_B_RC1.ipynb",
+    "gateReviewB": "assets/python/C1_M07_PYTHON_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": "assets/python/C1_M07_PYTHON_GATE_C_RC1.ipynb",
+    "gateReviewC": "assets/python/C1_M07_PYTHON_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "Reproducible Python analyst notebook",
+      "A": "Gate A",
+      "B": "Fresh full retest",
+      "C": "Fresh full retest"
+    },
+    "sourceRegistry": "assets/python/C1_M07_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "statistics": {
+    "start": "assets/statistics/START_HERE_RC1.txt",
+    "lesson": "assets/statistics/C1_M08_STATISTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": [
+      "assets/statistics/C1_M08_STATISTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "assets/statistics/C1_M08_STATISTICS_VISUAL_SIMULATION_NOTEBOOK_RC1.ipynb"
+    ],
+    "review": "assets/statistics/C1_M08_STATISTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/statistics/C1_M08_STATISTICS_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": [
+      "assets/statistics/C1_M08_STATISTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "assets/statistics/C1_M08_STATISTICS_VISUAL_SIMULATION_NOTEBOOK_RC1.ipynb"
+    ],
+    "gateA": "assets/statistics/C1_M08_STATISTICS_GATE_A_CHECKOUT_RC1.xlsx",
+    "gateReviewA": "assets/statistics/C1_M08_STATISTICS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": "assets/statistics/C1_M08_STATISTICS_GATE_B_EMAIL_RC1.xlsx",
+    "gateReviewB": "assets/statistics/C1_M08_STATISTICS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": "assets/statistics/C1_M08_STATISTICS_GATE_C_ONBOARDING_RC1.xlsx",
+    "gateReviewC": "assets/statistics/C1_M08_STATISTICS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "M-STAT experiment decision project",
+      "A": "Gate A",
+      "B": "Fresh full retest",
+      "C": "Fresh full retest"
+    },
+    "sourceRegistry": "assets/statistics/C1_M08_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "business_analysis": {
+    "start": "assets/business_analysis/START_HERE_RC1.txt",
+    "lesson": "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "review": "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "gateA": [
+      "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_GATE_A_CAREBRIDGE_RC1.xlsx"
+    ],
+    "gateReviewA": "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": [
+      "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_GATE_B_STREAMFIT_RC1.xlsx"
+    ],
+    "gateReviewB": "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": [
+      "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_GATE_C_QUICKCART_RC1.xlsx"
+    ],
+    "gateReviewC": "assets/business_analysis/C1_M09_BUSINESS_ANALYSIS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "IBA11 integrated RoutePulse case",
+      "A": "CareBridge Gate A",
+      "B": "StreamFit fresh retest",
+      "C": "QuickCart fresh retest"
+    },
+    "sourceRegistry": "assets/business_analysis/C1_M09_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "ai_assisted": {
+    "start": "assets/ai_assisted/START_HERE_RC1.txt",
+    "lesson": "assets/ai_assisted/C1_M10_AI_ASSISTED_ANALYTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": "assets/ai_assisted/C1_M10_AI_ASSISTED_ANALYTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "review": "assets/ai_assisted/C1_M10_AI_ASSISTED_ANALYTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/ai_assisted/C1_M10_AI_ASSISTED_ANALYTICS_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": "assets/ai_assisted/C1_M10_AI_ASSISTED_ANALYTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "gateA": [
+      "assets/ai_assisted/C1_M10_AI_ASSISTED_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "assets/ai_assisted/C1_M10_AI_ASSISTED_GATE_A_RETAIL_MARGIN_RC1.xlsx"
+    ],
+    "gateReviewA": "assets/ai_assisted/C1_M10_AI_ASSISTED_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": [
+      "assets/ai_assisted/C1_M10_AI_ASSISTED_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "assets/ai_assisted/C1_M10_AI_ASSISTED_GATE_B_SUPPORT_OPS_RC1.xlsx"
+    ],
+    "gateReviewB": "assets/ai_assisted/C1_M10_AI_ASSISTED_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": [
+      "assets/ai_assisted/C1_M10_AI_ASSISTED_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "assets/ai_assisted/C1_M10_AI_ASSISTED_GATE_C_SUBSCRIPTION_GROWTH_RC1.xlsx"
+    ],
+    "gateReviewC": "assets/ai_assisted/C1_M10_AI_ASSISTED_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "AIA9 integrated AI-assisted workflow",
+      "A": "Retail Margin Gate A",
+      "B": "Support Ops fresh retest",
+      "C": "Subscription Growth fresh retest"
+    },
+    "sourceRegistry": "assets/ai_assisted/C1_M10_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  },
+  "portfolio_hiring": {
+    "start": "assets/portfolio_hiring/START_HERE_RC1.txt",
+    "lesson": "assets/portfolio_hiring/C1_M11_PORTFOLIO_CAPSTONE_HIRING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+    "practice": [
+      "assets/portfolio_hiring/C1_M11_PORTFOLIO_CAPSTONE_HIRING_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "assets/portfolio_hiring/C1_M11_PORTFOLIO_BUILDER_RC1.xlsx",
+      "assets/portfolio_hiring/C1_M11_JOB_APPLICATION_TRACKER_RC1.xlsx",
+      "assets/portfolio_hiring/C1_M11_DATA_ANALYST_INTERVIEW_HIRING_HANDBOOK_RC1.pdf"
+    ],
+    "review": "assets/portfolio_hiring/C1_M11_PORTFOLIO_CAPSTONE_HIRING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+    "repair": "assets/portfolio_hiring/C1_M11_PORTFOLIO_CAPSTONE_HIRING_TARGETED_REPAIR_CARDS_RC1.pdf",
+    "lab": [
+      "assets/portfolio_hiring/C1_M11_MARKETPULSE_FINAL_CAPSTONE_INSTRUCTIONS_RUBRIC_RC1.pdf",
+      "assets/portfolio_hiring/C1_M11_MARKETPULSE_FINAL_CAPSTONE_RC1.xlsx"
+    ],
+    "gateA": [
+      "assets/portfolio_hiring/C1_M11_JOB_READINESS_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "assets/portfolio_hiring/C1_M11_JOB_READINESS_GATE_A_PARCELFLOW_RC1.xlsx"
+    ],
+    "gateReviewA": "assets/portfolio_hiring/C1_M11_JOB_READINESS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+    "gateB": [
+      "assets/portfolio_hiring/C1_M11_JOB_READINESS_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "assets/portfolio_hiring/C1_M11_JOB_READINESS_GATE_B_RENEWNOW_RC1.xlsx"
+    ],
+    "gateReviewB": "assets/portfolio_hiring/C1_M11_JOB_READINESS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+    "gateC": [
+      "assets/portfolio_hiring/C1_M11_JOB_READINESS_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "assets/portfolio_hiring/C1_M11_JOB_READINESS_GATE_C_CAREOPS_RC1.xlsx"
+    ],
+    "gateReviewC": "assets/portfolio_hiring/C1_M11_JOB_READINESS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+    "assessmentNames": {
+      "lab": "MarketPulse final capstone",
+      "A": "ParcelFlow Job Readiness Gate A",
+      "B": "RenewNow fresh retest",
+      "C": "CareOps fresh retest"
+    },
+    "sourceRegistry": "assets/portfolio_hiring/C1_M11_SOURCE_VIDEO_REGISTRY_RC1.csv"
+  }
+}

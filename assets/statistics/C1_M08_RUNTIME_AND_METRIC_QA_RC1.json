@@ -1,0 +1,219 @@
+{
+  "generated": "2026-09-11",
+  "visual_notebook": {
+    "status": "PASS",
+    "error": null,
+    "cells": 21,
+    "executed_copy": "C1_M08_STATISTICS_VISUAL_SIMULATION_NOTEBOOK_EXECUTED_QA.ipynb"
+  },
+  "practice_recomputation": {
+    "STAT1": {
+      "count": 22,
+      "mean": 37.77272727272727,
+      "median": 32.5,
+      "min": 18.0,
+      "max": 145.0,
+      "q1": 28.25,
+      "q3": 37.75,
+      "iqr": 9.5,
+      "sample_sd": 25.133797807092186,
+      "outlier_upper": 52.0
+    },
+    "STAT2": {
+      "service_mean": 13.8,
+      "service_sd": 3.833371471968933,
+      "purchase_mean": 752.5,
+      "purchase_median": 287.5
+    },
+    "STAT8_pearson_r": 0.9599665703041594,
+    "M-STAT": {
+      "n_control": 700,
+      "n_treatment": 700,
+      "control_rate": 0.1,
+      "treatment_rate": 0.11714285714285715,
+      "absolute_lift_pp": 1.714285714285714,
+      "relative_lift_pct": 17.14285714285714,
+      "z": 1.0308991397984804,
+      "p_value": 0.30258812004800395,
+      "ci95_low_pp": -1.5437676922747126,
+      "ci95_high_pp": 4.972339120846141,
+      "support_control_pct": 6.0,
+      "support_treatment_pct": 6.428571428571428,
+      "support_change_pp": 0.42857142857142816
+    },
+    "legacy_protected_mapping_note": "The inherited protected registry labels Pearson r under STAT6 because its old workbook sheet numbering drifted. RC1 correctly maps this same protected correlation fixture/control to canonical STAT8.",
+    "checks": {
+      "STAT1": {
+        "count": true,
+        "mean": true,
+        "median": true,
+        "min": true,
+        "max": true,
+        "q1": true,
+        "q3": true,
+        "iqr": true,
+        "sample_sd": true,
+        "outlier_upper": true
+      },
+      "STAT2": {
+        "service_mean": true,
+        "service_sd": true,
+        "purchase_mean": true,
+        "purchase_median": true
+      },
+      "STAT8_repaired_mapping": {
+        "pearson_r": true
+      },
+      "M-STAT": {
+        "n_control": true,
+        "n_treatment": true,
+        "control_rate": true,
+        "treatment_rate": true,
+        "absolute_lift_pp": true,
+        "relative_lift_pct": true,
+        "z": true,
+        "p_value": true,
+        "ci95_low_pp": true,
+        "ci95_high_pp": true,
+        "support_control_pct": true,
+        "support_treatment_pct": true
+      }
+    },
+    "all_match": true
+  },
+  "gate_recomputation": {
+    "A": {
+      "match": true,
+      "computed": {
+        "n_control": 1000,
+        "n_treatment": 1000,
+        "control_rate": 0.12,
+        "treatment_rate": 0.15,
+        "absolute_lift_pp": 3.0,
+        "relative_lift_pct": 25.0,
+        "z": 1.963049807622355,
+        "p_value": 0.04964038686536881,
+        "ci95_low_pp": 0.007547895120123618,
+        "ci95_high_pp": 5.9924521048798765,
+        "support_control_pct": 7.000000000000001,
+        "support_treatment_pct": 7.199999999999999,
+        "support_change_pp": 0.1999999999999988,
+        "minimum_worthwhile_effect_pp": 1.0,
+        "guardrail_max_increase_pp": 1.0,
+        "business_threshold_met": true,
+        "guardrail_breached": false,
+        "decision": "LAUNCH / progress, subject to implementation checks."
+      },
+      "expected": {
+        "n_control": 1000,
+        "n_treatment": 1000,
+        "control_rate": 0.12,
+        "treatment_rate": 0.15,
+        "absolute_lift_pp": 3.0,
+        "relative_lift_pct": 25.0,
+        "z": 1.963049807622355,
+        "p_value": 0.04964038686536881,
+        "ci95_low_pp": 0.007547895120123618,
+        "ci95_high_pp": 5.9924521048798765,
+        "support_control_pct": 7.000000000000001,
+        "support_treatment_pct": 7.199999999999999,
+        "support_change_pp": 0.1999999999999988,
+        "minimum_worthwhile_effect_pp": 1.0,
+        "guardrail_max_increase_pp": 1.0,
+        "business_threshold_met": true,
+        "guardrail_breached": false,
+        "decision": "LAUNCH / progress, subject to implementation checks."
+      },
+      "diffs": {}
+    },
+    "B": {
+      "match": true,
+      "computed": {
+        "n_control": 1000,
+        "n_treatment": 1000,
+        "control_rate": 0.1,
+        "treatment_rate": 0.105,
+        "absolute_lift_pp": 0.49999999999999906,
+        "relative_lift_pct": 4.99999999999999,
+        "z": 0.3686174115717622,
+        "p_value": 0.7124129155997545,
+        "ci95_low_pp": -2.158492730853332,
+        "ci95_high_pp": 3.1584927308533297,
+        "support_control_pct": 5.5,
+        "support_treatment_pct": 5.4,
+        "support_change_pp": -0.10000000000000009,
+        "minimum_worthwhile_effect_pp": 1.0,
+        "guardrail_max_increase_pp": 0.8,
+        "business_threshold_met": false,
+        "guardrail_breached": false,
+        "decision": "DO NOT CLAIM A WIN: evidence/business threshold is insufficient."
+      },
+      "expected": {
+        "n_control": 1000,
+        "n_treatment": 1000,
+        "control_rate": 0.1,
+        "treatment_rate": 0.105,
+        "absolute_lift_pp": 0.49999999999999906,
+        "relative_lift_pct": 4.99999999999999,
+        "z": 0.3686174115717622,
+        "p_value": 0.7124129155997545,
+        "ci95_low_pp": -2.158492730853332,
+        "ci95_high_pp": 3.1584927308533297,
+        "support_control_pct": 5.5,
+        "support_treatment_pct": 5.4,
+        "support_change_pp": -0.10000000000000009,
+        "minimum_worthwhile_effect_pp": 1.0,
+        "guardrail_max_increase_pp": 0.8,
+        "business_threshold_met": false,
+        "guardrail_breached": false,
+        "decision": "DO NOT CLAIM A WIN: evidence/business threshold is insufficient."
+      },
+      "diffs": {}
+    },
+    "C": {
+      "match": true,
+      "computed": {
+        "n_control": 1200,
+        "n_treatment": 1200,
+        "control_rate": 0.08,
+        "treatment_rate": 0.11,
+        "absolute_lift_pp": 3.0,
+        "relative_lift_pct": 37.5,
+        "z": 2.506171504344568,
+        "p_value": 0.012204640514565336,
+        "ci95_low_pp": 0.6568639248505717,
+        "ci95_high_pp": 5.343136075149428,
+        "support_control_pct": 5.0,
+        "support_treatment_pct": 8.75,
+        "support_change_pp": 3.749999999999999,
+        "minimum_worthwhile_effect_pp": 1.5,
+        "guardrail_max_increase_pp": 1.0,
+        "business_threshold_met": true,
+        "guardrail_breached": true,
+        "decision": "DO NOT LAUNCH AS-IS: primary metric improved but guardrail is breached."
+      },
+      "expected": {
+        "n_control": 1200,
+        "n_treatment": 1200,
+        "control_rate": 0.08,
+        "treatment_rate": 0.11,
+        "absolute_lift_pp": 3.0,
+        "relative_lift_pct": 37.5,
+        "z": 2.506171504344568,
+        "p_value": 0.012204640514565336,
+        "ci95_low_pp": 0.6568639248505717,
+        "ci95_high_pp": 5.343136075149428,
+        "support_control_pct": 5.0,
+        "support_treatment_pct": 8.75,
+        "support_change_pp": 3.749999999999999,
+        "minimum_worthwhile_effect_pp": 1.5,
+        "guardrail_max_increase_pp": 1.0,
+        "business_threshold_met": true,
+        "guardrail_breached": true,
+        "decision": "DO NOT LAUNCH AS-IS: primary metric improved but guardrail is breached."
+      },
+      "diffs": {}
+    }
+  },
+  "all_gate_metrics_match": true
+}

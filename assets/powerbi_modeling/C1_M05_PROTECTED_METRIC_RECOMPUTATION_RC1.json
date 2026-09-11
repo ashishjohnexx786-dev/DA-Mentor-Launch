@@ -1,0 +1,131 @@
+{
+  "generated": "2026-09-10",
+  "method": "Artifact Tool read of regenerated XLSX bytes; independent exact-dedup/key/date/discount/gross controls.",
+  "results": {
+    "practice": {
+      "computed": {
+        "source_fact_rows": 81,
+        "prepared_fact_rows_after_exact_dedup": 80,
+        "exact_duplicate_rows_removed": 1,
+        "dimension1_unique_after_trim": 10,
+        "dimension2_unique_after_trim": 8,
+        "third_dimension_unique": 4,
+        "unmatched_dim1_keys": 1,
+        "unmatched_dim2_keys": 1,
+        "unmatched_third_keys": 1,
+        "invalid_discount_rows": 1,
+        "invalid_date_rows": 1,
+        "gross_quantity_x_rate_total": 1422270.0
+      },
+      "expected": {
+        "source_fact_rows": 81,
+        "prepared_fact_rows_after_exact_dedup": 80,
+        "exact_duplicate_rows_removed": 1,
+        "dimension1_unique_after_trim": 10,
+        "dimension2_unique_after_trim": 8,
+        "third_dimension_unique": 4,
+        "unmatched_dim1_keys": 1,
+        "unmatched_dim2_keys": 1,
+        "unmatched_third_keys": 1,
+        "invalid_discount_rows": 1,
+        "invalid_date_rows": 1,
+        "gross_quantity_x_rate_total": 1422270.0
+      },
+      "match": true,
+      "audit_note": "Protected registry dimension1=Customers_Raw and dimension2=Products_Raw; initial comparison had these two labels reversed."
+    },
+    "A": {
+      "computed": {
+        "source_fact_rows": 73,
+        "prepared_fact_rows_after_exact_dedup": 72,
+        "exact_duplicate_rows_removed": 1,
+        "dimension1_unique_after_trim": 5,
+        "dimension2_unique_after_trim": 8,
+        "third_dimension_unique": 4,
+        "unmatched_dim1_keys": 1,
+        "unmatched_dim2_keys": 1,
+        "unmatched_third_keys": 1,
+        "invalid_discount_rows": 1,
+        "invalid_date_rows": 1,
+        "gross_quantity_x_rate_total": 484750.0
+      },
+      "expected": {
+        "source_fact_rows": 73,
+        "prepared_fact_rows_after_exact_dedup": 72,
+        "exact_duplicate_rows_removed": 1,
+        "dimension1_unique_after_trim": 5,
+        "dimension2_unique_after_trim": 8,
+        "third_dimension_unique": 4,
+        "unmatched_dim1_keys": 1,
+        "unmatched_dim2_keys": 1,
+        "unmatched_third_keys": 1,
+        "invalid_discount_rows": 1,
+        "invalid_date_rows": 1,
+        "gross_quantity_x_rate_total": 484750.0
+      },
+      "match": true
+    },
+    "B": {
+      "computed": {
+        "source_fact_rows": 69,
+        "prepared_fact_rows_after_exact_dedup": 68,
+        "exact_duplicate_rows_removed": 1,
+        "dimension1_unique_after_trim": 5,
+        "dimension2_unique_after_trim": 8,
+        "third_dimension_unique": 4,
+        "unmatched_dim1_keys": 1,
+        "unmatched_dim2_keys": 1,
+        "unmatched_third_keys": 1,
+        "invalid_discount_rows": 1,
+        "invalid_date_rows": 1,
+        "gross_quantity_x_rate_total": 343600.0
+      },
+      "expected": {
+        "source_fact_rows": 69,
+        "prepared_fact_rows_after_exact_dedup": 68,
+        "exact_duplicate_rows_removed": 1,
+        "dimension1_unique_after_trim": 5,
+        "dimension2_unique_after_trim": 8,
+        "third_dimension_unique": 4,
+        "unmatched_dim1_keys": 1,
+        "unmatched_dim2_keys": 1,
+        "unmatched_third_keys": 1,
+        "invalid_discount_rows": 1,
+        "invalid_date_rows": 1,
+        "gross_quantity_x_rate_total": 343600.0
+      },
+      "match": true
+    },
+    "C": {
+      "computed": {
+        "source_fact_rows": 75,
+        "prepared_fact_rows_after_exact_dedup": 74,
+        "exact_duplicate_rows_removed": 1,
+        "dimension1_unique_after_trim": 5,
+        "dimension2_unique_after_trim": 8,
+        "third_dimension_unique": 4,
+        "unmatched_dim1_keys": 1,
+        "unmatched_dim2_keys": 1,
+        "unmatched_third_keys": 1,
+        "invalid_discount_rows": 1,
+        "invalid_date_rows": 1,
+        "gross_quantity_x_rate_total": 412350.0
+      },
+      "expected": {
+        "source_fact_rows": 75,
+        "prepared_fact_rows_after_exact_dedup": 74,
+        "exact_duplicate_rows_removed": 1,
+        "dimension1_unique_after_trim": 5,
+        "dimension2_unique_after_trim": 8,
+        "third_dimension_unique": 4,
+        "unmatched_dim1_keys": 1,
+        "unmatched_dim2_keys": 1,
+        "unmatched_third_keys": 1,
+        "invalid_discount_rows": 1,
+        "invalid_date_rows": 1,
+        "gross_quantity_x_rate_total": 412350.0
+      },
+      "match": true
+    }
+  }
+}

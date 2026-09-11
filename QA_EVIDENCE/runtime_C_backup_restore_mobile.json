@@ -1,0 +1,1539 @@
+{
+  "export": {
+    "downloads": [
+      {
+        "download": "DA_Mentor_Launch_Backup_2026-09-10.json",
+        "href": "blob:mentor-qa"
+      }
+    ],
+    "has_blob": true,
+    "backup": {
+      "product": "DA Mentor 2026",
+      "unifiedVersion": 1,
+      "storageKey": "daMentorOSv4",
+      "exportedAt": "2026-09-10T21:23:06.404Z",
+      "data": {
+        "__unifiedVersion": 1,
+        "name": "Backup QA Learner",
+        "theme": "amoled",
+        "dailyTarget": 4,
+        "currentPhase": "foundation",
+        "currentLesson": "O1",
+        "lesson": {
+          "O1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "O2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "O3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "F1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "F2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "F3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "F4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "F5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "F6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EF1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EF2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EF3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EF4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EF5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EF6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EF7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EF8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EF9": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA9": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA10": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "EFA11": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SF0": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SF1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SF2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SF3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SF4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SF5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SF6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SF7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SF8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SA1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SA2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SA3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SA4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SA5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SA6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SA7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SA8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "SA9": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBM0": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBM1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBM2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBM3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBM4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBM5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBM6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBM7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD9": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PBD10": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY0": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY9": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PY10": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "STAT1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "STAT2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "STAT3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "STAT4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "STAT5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "STAT6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "STAT7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "STAT8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "STAT9": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA9": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA10": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "IBA11": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA0": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "AIA9": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH1": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH2": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH3": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH4": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH5": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH6": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH7": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH8": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH9": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH10": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH11": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH12": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH13": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          },
+          "PCH14": {
+            "guided": false,
+            "attempt": false,
+            "review": false,
+            "retest": false,
+            "explain": false,
+            "mastered": false,
+            "skipped": false
+          }
+        },
+        "phase": {
+          "foundation": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "excel_fundamentals": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "excel_analysts": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "sql_foundations": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "sql_analysts": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "powerbi_modeling": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "powerbi_reporting": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "python": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "statistics": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "business_analysis": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "ai_assisted": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          },
+          "portfolio_hiring": {
+            "lab": false,
+            "gates": {
+              "A": {
+                "assigned": true,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "B": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              },
+              "C": {
+                "assigned": false,
+                "attempt": false,
+                "result": "",
+                "review": false,
+                "repairDone": false
+              }
+            }
+          }
+        },
+        "study": {
+          "activeStart": null,
+          "sessions": []
+        },
+        "tasks": [],
+        "notes": {},
+        "errors": [],
+        "evidence": [
+          {
+            "skill": "O1",
+            "action": "QA evidence path saved",
+            "date": "2026-09-10"
+          }
+        ],
+        "revisions": {},
+        "applications": [],
+        "extras": {},
+        "legacyRaw": null
+      }
+    }
+  },
+  "restore": {
+    "changed": {
+      "name": "Changed Name",
+      "theme": "light",
+      "dailyTarget": 1
+    },
+    "restored": {
+      "name": "Backup QA Learner",
+      "theme": "amoled",
+      "dailyTarget": 4,
+      "evidence": [
+        {
+          "skill": "O1",
+          "action": "QA evidence path saved",
+          "date": "2026-09-10"
+        }
+      ]
+    },
+    "body_theme": "amoled"
+  },
+  "exports_after_csv": [
+    {
+      "download": "DA_Mentor_Launch_Backup_2026-09-10.json",
+      "href": "blob:mentor-qa"
+    },
+    {
+      "download": "DA_Mentor_Launch_Lessons_2026-09-10.csv",
+      "href": "blob:mentor-qa"
+    }
+  ],
+  "mobile": {
+    "home": {
+      "innerWidth": 360,
+      "docScroll": 360,
+      "bodyScroll": 360,
+      "activeViews": 1,
+      "offenders": []
+    },
+    "learn": {
+      "innerWidth": 360,
+      "docScroll": 360,
+      "bodyScroll": 360,
+      "activeViews": 1,
+      "offenders": []
+    },
+    "course": {
+      "innerWidth": 360,
+      "docScroll": 360,
+      "bodyScroll": 360,
+      "activeViews": 1,
+      "offenders": []
+    },
+    "repair": {
+      "innerWidth": 360,
+      "docScroll": 360,
+      "bodyScroll": 360,
+      "activeViews": 1,
+      "offenders": []
+    },
+    "evidence": {
+      "innerWidth": 360,
+      "docScroll": 360,
+      "bodyScroll": 360,
+      "activeViews": 1,
+      "offenders": []
+    },
+    "jobs": {
+      "innerWidth": 360,
+      "docScroll": 360,
+      "bodyScroll": 360,
+      "activeViews": 1,
+      "offenders": []
+    },
+    "reports": {
+      "innerWidth": 360,
+      "docScroll": 360,
+      "bodyScroll": 360,
+      "activeViews": 1,
+      "offenders": []
+    },
+    "settings": {
+      "innerWidth": 360,
+      "docScroll": 360,
+      "bodyScroll": 360,
+      "activeViews": 1,
+      "offenders": []
+    }
+  },
+  "checks": {
+    "json_backup_triggered": true,
+    "backup_schema_compatible": true,
+    "backup_contains_state": true,
+    "restore_actual_handler": true,
+    "restore_rerenders_theme": true,
+    "lesson_csv_triggered": true,
+    "mobile_all_views_one_active": true,
+    "mobile_no_document_overflow": true,
+    "mobile_no_card_control_overflow": true
+  },
+  "status": "PASS"
+}

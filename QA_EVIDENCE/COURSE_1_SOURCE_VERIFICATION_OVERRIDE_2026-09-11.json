@@ -1,0 +1,16 @@
+{
+  "generated": "2026-09-11",
+  "scope": "Course 1 final Mentor/release source verification override",
+  "overrides": [
+    {
+      "module": "M01_EXCEL_FUNDAMENTALS",
+      "lesson_id": "EF7",
+      "url": "https://www.youtube.com/watch?v=4MVNjzsGokc",
+      "old_module_registry_status": "RETAINED_PENDING_EXACT_ID_RECONFIRMATION",
+      "final_course_status": "VERIFIED_CURRENT_YOUTUBE_2026-09-11",
+      "verified_identity": "Chandoo - How to use Excel formula references - A1 vs. $A$1 vs $A1 vs A$1 explained",
+      "verification_note": "Current YouTube result confirms the exact video ID/title and chapters covering relative, absolute and mixed references. Module package bytes are not rewritten; this course-level audit supersedes only the stale verification-status metadata."
+    }
+  ],
+  "unresolved_source_blockers": 0
+}

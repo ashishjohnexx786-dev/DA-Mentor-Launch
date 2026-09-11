@@ -1,0 +1,1014 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M11_PORTFOLIO_CAPSTONE_HIRING",
+  "generated": "2026-09-11",
+  "status": "PASS",
+  "passed": 198,
+  "total": 198,
+  "pdf_pages_scanned": 95,
+  "learner_external_links": 7,
+  "manual_visual_inspection": {
+    "learner_book": "PASS - 49/49 pages rendered and inspected",
+    "other_pdfs": "PASS - all protected reviews, repair cards, capstone, Gate, credibility and handbook pages rendered and inspected",
+    "resume_docx": "PASS - 1/1 rendered page inspected",
+    "workbooks": "PASS - 52 representative pre-fix renders exposed clipping; 16 post-fix high-value rerenders inspected clean",
+    "capstone_corrected_review": "PASS - 3/3 pages rerendered and inspected after blank-Region policy correction"
+  },
+  "failed": [],
+  "checks": [
+    {
+      "check": "artifact_exists:C1_M11_PORTFOLIO_CAPSTONE_HIRING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "130002"
+    },
+    {
+      "check": "artifact_exists:C1_M11_PORTFOLIO_CAPSTONE_HIRING_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "30197"
+    },
+    {
+      "check": "artifact_exists:C1_M11_PORTFOLIO_CAPSTONE_HIRING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "36120"
+    },
+    {
+      "check": "artifact_exists:C1_M11_PORTFOLIO_CAPSTONE_HIRING_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "10384"
+    },
+    {
+      "check": "artifact_exists:C1_M11_PORTFOLIO_BUILDER_RC1.xlsx",
+      "passed": true,
+      "evidence": "11752"
+    },
+    {
+      "check": "artifact_exists:C1_M11_MARKETPULSE_FINAL_CAPSTONE_RC1.xlsx",
+      "passed": true,
+      "evidence": "27895"
+    },
+    {
+      "check": "artifact_exists:C1_M11_MARKETPULSE_FINAL_CAPSTONE_INSTRUCTIONS_RUBRIC_RC1.pdf",
+      "passed": true,
+      "evidence": "6675"
+    },
+    {
+      "check": "artifact_exists:C1_M11_MARKETPULSE_FINAL_CAPSTONE_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "6821"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JUNIOR_DATA_ANALYST_RESUME_TEMPLATE_RC1.docx",
+      "passed": true,
+      "evidence": "37609"
+    },
+    {
+      "check": "artifact_exists:C1_M11_RESUME_LINKEDIN_CREDIBILITY_CHECKLIST_RC1.pdf",
+      "passed": true,
+      "evidence": "4208"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_APPLICATION_TRACKER_RC1.xlsx",
+      "passed": true,
+      "evidence": "28674"
+    },
+    {
+      "check": "artifact_exists:C1_M11_DATA_ANALYST_INTERVIEW_HIRING_HANDBOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "9636"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_GATE_A_PARCELFLOW_RC1.xlsx",
+      "passed": true,
+      "evidence": "12638"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "5069"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "4799"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_GATE_B_RENEWNOW_RC1.xlsx",
+      "passed": true,
+      "evidence": "12609"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "5103"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "4863"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_GATE_C_CAREOPS_RC1.xlsx",
+      "passed": true,
+      "evidence": "12715"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "5064"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "4802"
+    },
+    {
+      "check": "artifact_exists:C1_M11_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "21213"
+    },
+    {
+      "check": "artifact_exists:C1_M11_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "2592"
+    },
+    {
+      "check": "artifact_exists:C1_M11_MARKETPULSE_PROTECTED_QA_CONTROLS_RC1.json",
+      "passed": true,
+      "evidence": "1120"
+    },
+    {
+      "check": "artifact_exists:C1_M11_JOB_READINESS_PROTECTED_CONTROLS_RC1.json",
+      "passed": true,
+      "evidence": "515"
+    },
+    {
+      "check": "artifact_exists:C1_M11_BASELINE_DEFECTS_RC1.json",
+      "passed": true,
+      "evidence": "1927"
+    },
+    {
+      "check": "artifact_exists:C1_M11_RUNTIME_AND_METRIC_QA_RC1.json",
+      "passed": true,
+      "evidence": "3741"
+    },
+    {
+      "check": "artifact_exists:C1_M11_WORKBOOK_FINAL_QA_RC1.json",
+      "passed": true,
+      "evidence": "3855"
+    },
+    {
+      "check": "template_exists:GITHUB_TEMPLATES/PROJECT_README_TEMPLATE.md",
+      "passed": true,
+      "evidence": "1211"
+    },
+    {
+      "check": "template_no_fake_employment:GITHUB_TEMPLATES/PROJECT_README_TEMPLATE.md",
+      "passed": true,
+      "evidence": "truth/evidence language present"
+    },
+    {
+      "check": "template_public_or_validation:GITHUB_TEMPLATES/PROJECT_README_TEMPLATE.md",
+      "passed": true,
+      "evidence": "QA language present"
+    },
+    {
+      "check": "template_exists:GITHUB_TEMPLATES/DATA_README_TEMPLATE.md",
+      "passed": true,
+      "evidence": "580"
+    },
+    {
+      "check": "data_readme_public_safety_scope",
+      "passed": true,
+      "evidence": "DATA README is a data-governance template; employment wording is irrelevant. It explicitly covers public-safety, credentials, grain and transformations."
+    },
+    {
+      "check": "template_public_or_validation:GITHUB_TEMPLATES/DATA_README_TEMPLATE.md",
+      "passed": true,
+      "evidence": "QA language present"
+    },
+    {
+      "check": "template_exists:GITHUB_TEMPLATES/PROFILE_README_TEMPLATE.md",
+      "passed": true,
+      "evidence": "734"
+    },
+    {
+      "check": "template_no_fake_employment:GITHUB_TEMPLATES/PROFILE_README_TEMPLATE.md",
+      "passed": true,
+      "evidence": "truth/evidence language present"
+    },
+    {
+      "check": "template_public_or_validation:GITHUB_TEMPLATES/PROFILE_README_TEMPLATE.md",
+      "passed": true,
+      "evidence": "QA language present"
+    },
+    {
+      "check": "template_exists:GITHUB_TEMPLATES/PROJECT_WALKTHROUGH_TEMPLATE.md",
+      "passed": true,
+      "evidence": "828"
+    },
+    {
+      "check": "template_no_fake_employment:GITHUB_TEMPLATES/PROJECT_WALKTHROUGH_TEMPLATE.md",
+      "passed": true,
+      "evidence": "truth/evidence language present"
+    },
+    {
+      "check": "template_public_or_validation:GITHUB_TEMPLATES/PROJECT_WALKTHROUGH_TEMPLATE.md",
+      "passed": true,
+      "evidence": "QA language present"
+    },
+    {
+      "check": "workbook_formula_error_scan:canonical",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:portfolio",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:capstone",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:tracker",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:A",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:B",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_formula_error_scan:C",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "portfolio_sheet_set",
+      "passed": true,
+      "evidence": "['README', 'Project_Selection', 'Evidence_Map', 'README_Quality', 'Repo_File_Check', 'Project_Story', 'Publication_QA', 'Evidence_Log']"
+    },
+    {
+      "check": "capstone_sheet_set",
+      "passed": true,
+      "evidence": "['README', 'Products', 'Targets', 'Orders_Raw', 'Definitions', 'Quality_Log', 'Analysis_Plan', 'Validation_Log', 'Findings_Decision', 'Recommendation', 'Submission', 'Rubric']"
+    },
+    {
+      "check": "tracker_sheet_set",
+      "passed": true,
+      "evidence": "Intentional learner-first order: ['Dashboard', 'Applications', 'Interview_Prep', 'Weekly_Rhythm', 'Role_Family_Funnel']"
+    },
+    {
+      "check": "canonical_sheet_order_exact",
+      "passed": true,
+      "evidence": "['README', 'LESSON_ROUTE', 'PCH1_Portfolio_Proof', 'PCH2_Project_Selection', 'PCH3_Repo_Audit', 'PCH4_README', 'PCH5_Publication_QA', 'PCH6_Capstone_Route', 'PCH7_Resume_Audit', 'PCH8_Profile_Audit', 'PCH9_Application_Strategy', 'PCH10_Project_Walkthrough', 'PCH11_Technical_Interview', 'PCH12_Behavioral', 'PCH13_Offer_Negotiation', 'PCH14_Readiness_Board', 'Evidence_Log', 'Mastery_Tracker']"
+    },
+    {
+      "check": "gate_A_sheet_order",
+      "passed": true,
+      "evidence": "['README', 'Technical_Case', 'Case_Questions', 'Portfolio_Resume_Audit', 'Mock_Interview', 'Final_Decision', 'Evidence_Log']"
+    },
+    {
+      "check": "gate_B_sheet_order",
+      "passed": true,
+      "evidence": "['README', 'Technical_Case', 'Case_Questions', 'Portfolio_Resume_Audit', 'Mock_Interview', 'Final_Decision', 'Evidence_Log']"
+    },
+    {
+      "check": "gate_C_sheet_order",
+      "passed": true,
+      "evidence": "['README', 'Technical_Case', 'Case_Questions', 'Portfolio_Resume_Audit', 'Mock_Interview', 'Final_Decision', 'Evidence_Log']"
+    },
+    {
+      "check": "tracker_formula:B4",
+      "passed": true,
+      "evidence": "B4"
+    },
+    {
+      "check": "tracker_formula:B5",
+      "passed": true,
+      "evidence": "B5"
+    },
+    {
+      "check": "tracker_formula:B6",
+      "passed": true,
+      "evidence": "B6"
+    },
+    {
+      "check": "tracker_formula:B7",
+      "passed": true,
+      "evidence": "B7"
+    },
+    {
+      "check": "tracker_formula:B8",
+      "passed": true,
+      "evidence": "B8"
+    },
+    {
+      "check": "tracker_formula:B9",
+      "passed": true,
+      "evidence": "B9"
+    },
+    {
+      "check": "xlsx_crc:C1_M11_PORTFOLIO_CAPSTONE_HIRING_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M11_PORTFOLIO_BUILDER_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M11_MARKETPULSE_FINAL_CAPSTONE_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M11_JOB_APPLICATION_TRACKER_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M11_JOB_READINESS_GATE_A_PARCELFLOW_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M11_JOB_READINESS_GATE_B_RENEWNOW_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_crc:C1_M11_JOB_READINESS_GATE_C_CAREOPS_RC1.xlsx",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "docx_crc_resume",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "marketpulse_current_bytes_match",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "job_readiness_current_bytes_match",
+      "passed": true,
+      "evidence": "{'A': {}, 'B': {}, 'C': {}}"
+    },
+    {
+      "check": "gate_B_corrected_2_81",
+      "passed": true,
+      "evidence": "{'eligible_rows': 32, 'renewal_rate': 0.6562, 'avg_support_tickets_eligible': 2.81, 'avg_support_tickets_all_members_for_baseline_bug': 2.91}"
+    },
+    {
+      "check": "blank_region_policy_corrected",
+      "passed": true,
+      "evidence": "Drop only the extra exact duplicate. Exclude the invalid-discount row from revenue/margin calculations that require a valid 0-1 discount. Flag the blank-Region row but KEEP it in overall revenue/return/on-time metrics; exclude it only from comparisons that require a known Region. Keep the unmatched Product_ID visible and exclude it only from margin until its cost is resolved. Exclude the malformed Actual_Date only from calculations requiring a valid Actual_Date."
+    },
+    {
+      "check": "learner_book_49_pages",
+      "passed": true,
+      "evidence": "49"
+    },
+    {
+      "check": "learner_marker:This book is your teacher",
+      "passed": true,
+      "evidence": "This book is your teacher"
+    },
+    {
+      "check": "learner_marker:Contents / Index",
+      "passed": true,
+      "evidence": "Contents / Index"
+    },
+    {
+      "check": "learner_marker:Module prerequisite and artifact map",
+      "passed": true,
+      "evidence": "Module prerequisite and artifact map"
+    },
+    {
+      "check": "learner_marker:Exact practice, capstone and Gate route",
+      "passed": true,
+      "evidence": "Exact practice, capstone and Gate route"
+    },
+    {
+      "check": "learner_marker:End-of-module readiness checklist",
+      "passed": true,
+      "evidence": "End-of-module readiness checklist"
+    },
+    {
+      "check": "learner_marker:Revision / hiring evidence quick reference",
+      "passed": true,
+      "evidence": "Revision / hiring evidence quick reference"
+    },
+    {
+      "check": "lesson_16_stage:PCH1",
+      "passed": true,
+      "evidence": "pages=6-8; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH2",
+      "passed": true,
+      "evidence": "pages=9-11; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH3",
+      "passed": true,
+      "evidence": "pages=12-14; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH4",
+      "passed": true,
+      "evidence": "pages=15-17; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH5",
+      "passed": true,
+      "evidence": "pages=18-20; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH6",
+      "passed": true,
+      "evidence": "pages=21-23; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH7",
+      "passed": true,
+      "evidence": "pages=24-26; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH8",
+      "passed": true,
+      "evidence": "pages=27-29; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH9",
+      "passed": true,
+      "evidence": "pages=30-32; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH10",
+      "passed": true,
+      "evidence": "pages=33-35; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH11",
+      "passed": true,
+      "evidence": "pages=36-38; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH12",
+      "passed": true,
+      "evidence": "pages=39-41; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH13",
+      "passed": true,
+      "evidence": "pages=42-44; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PCH14",
+      "passed": true,
+      "evidence": "pages=45-47; missing=[]"
+    },
+    {
+      "check": "learner_toc_links_14",
+      "passed": true,
+      "evidence": "14"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27', '30', '33', '36', '39', '42', '45']"
+    },
+    {
+      "check": "learner_external_links_7",
+      "passed": true,
+      "evidence": "7"
+    },
+    {
+      "check": "learner_source_link:docs.github.com",
+      "passed": true,
+      "evidence": "docs.github.com"
+    },
+    {
+      "check": "learner_source_link:qfyynHBFOsM",
+      "passed": true,
+      "evidence": "qfyynHBFOsM"
+    },
+    {
+      "check": "learner_source_link:WizLaDdsHUs",
+      "passed": true,
+      "evidence": "WizLaDdsHUs"
+    },
+    {
+      "check": "learner_source_link:fweZQqB0nwQ",
+      "passed": true,
+      "evidence": "fweZQqB0nwQ"
+    },
+    {
+      "check": "learner_source_link:rLKC--8UYSw",
+      "passed": true,
+      "evidence": "rLKC--8UYSw"
+    },
+    {
+      "check": "learner_source_link:ziurEoqEcO4",
+      "passed": true,
+      "evidence": "ziurEoqEcO4"
+    },
+    {
+      "check": "truthful_project_status",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "no_fake_offer",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "capstone_causal_boundary",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_A_terminal",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "no_forced_timer",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_final_release_claim",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "registry_14_lessons",
+      "passed": true,
+      "evidence": "14"
+    },
+    {
+      "check": "registry_16_stage_each",
+      "passed": true,
+      "evidence": "all 14"
+    },
+    {
+      "check": "registry_page_map",
+      "passed": true,
+      "evidence": "[6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]"
+    },
+    {
+      "check": "registry_direct_sheets",
+      "passed": true,
+      "evidence": "['PCH1_Portfolio_Proof', 'PCH2_Project_Selection', 'PCH3_Repo_Audit', 'PCH4_README', 'PCH5_Publication_QA', 'PCH6_Capstone_Route', 'PCH7_Resume_Audit', 'PCH8_Profile_Audit', 'PCH9_Application_Strategy', 'PCH10_Project_Walkthrough', 'PCH11_Technical_Interview', 'PCH12_Behavioral', 'PCH13_Offer_Negotiation', 'PCH14_Readiness_Board']"
+    },
+    {
+      "check": "registry_handoff_boundary",
+      "passed": true,
+      "evidence": "COURSE_1_HANDOFF.json only after Mentor synchronization and whole-course QA"
+    },
+    {
+      "check": "source_registry_7_rows",
+      "passed": true,
+      "evidence": "7"
+    },
+    {
+      "check": "source_registry_all_have_status",
+      "passed": true,
+      "evidence": "all status"
+    },
+    {
+      "check": "source_registry_all_have_fallback",
+      "passed": true,
+      "evidence": "all fallback"
+    },
+    {
+      "check": "source_registry_preserved_lessons",
+      "passed": true,
+      "evidence": "['PCH11', 'PCH12', 'PCH13', 'PCH3', 'PCH4', 'PCH7']"
+    },
+    {
+      "check": "practice_review_15_pages",
+      "passed": true,
+      "evidence": "15"
+    },
+    {
+      "check": "practice_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_review_PCH1",
+      "passed": true,
+      "evidence": "PCH1"
+    },
+    {
+      "check": "practice_review_PCH2",
+      "passed": true,
+      "evidence": "PCH2"
+    },
+    {
+      "check": "practice_review_PCH3",
+      "passed": true,
+      "evidence": "PCH3"
+    },
+    {
+      "check": "practice_review_PCH4",
+      "passed": true,
+      "evidence": "PCH4"
+    },
+    {
+      "check": "practice_review_PCH5",
+      "passed": true,
+      "evidence": "PCH5"
+    },
+    {
+      "check": "practice_review_PCH6",
+      "passed": true,
+      "evidence": "PCH6"
+    },
+    {
+      "check": "practice_review_PCH7",
+      "passed": true,
+      "evidence": "PCH7"
+    },
+    {
+      "check": "practice_review_PCH8",
+      "passed": true,
+      "evidence": "PCH8"
+    },
+    {
+      "check": "practice_review_PCH9",
+      "passed": true,
+      "evidence": "PCH9"
+    },
+    {
+      "check": "practice_review_PCH10",
+      "passed": true,
+      "evidence": "PCH10"
+    },
+    {
+      "check": "practice_review_PCH11",
+      "passed": true,
+      "evidence": "PCH11"
+    },
+    {
+      "check": "practice_review_PCH12",
+      "passed": true,
+      "evidence": "PCH12"
+    },
+    {
+      "check": "practice_review_PCH13",
+      "passed": true,
+      "evidence": "PCH13"
+    },
+    {
+      "check": "practice_review_PCH14",
+      "passed": true,
+      "evidence": "PCH14"
+    },
+    {
+      "check": "practice_review_fresh_retry",
+      "passed": true,
+      "evidence": "14"
+    },
+    {
+      "check": "repair_cards_6_pages",
+      "passed": true,
+      "evidence": "6"
+    },
+    {
+      "check": "repair_gate_state",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "repair_truth",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "repair_capstone_controls",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "capstone_instructions_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "capstone_12_competencies",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "capstone_no_average",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "capstone_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "capstone_review_correct_blank_region_rule",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "capstone_review_no_single_winner",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "credibility_checklist_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "credibility_no_fake_employment",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "interview_handbook_5_pages",
+      "passed": true,
+      "evidence": "5"
+    },
+    {
+      "check": "handbook_validation_reasoning",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "handbook_no_fake_offer",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_A_instructions_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_all_competencies",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_A_truthfulness",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_A_fresh_retry",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_A_state",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_B_instructions_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_all_competencies",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_B_truthfulness",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_B_fresh_retry",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_B_state",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_B_review_corrected_2_81",
+      "passed": true,
+      "evidence": "corrected defect explained"
+    },
+    {
+      "check": "gate_C_instructions_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_all_competencies",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_C_truthfulness",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_C_fresh_retry",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "gate_C_state",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_DATA_ANALYST_INTERVIEW_HIRING_HANDBOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=5; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_DATA_ANALYST_INTERVIEW_HIRING_HANDBOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_JOB_READINESS_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_JOB_READINESS_GATE_A_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_JOB_READINESS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_JOB_READINESS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_JOB_READINESS_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_JOB_READINESS_GATE_B_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_JOB_READINESS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_JOB_READINESS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_JOB_READINESS_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_JOB_READINESS_GATE_C_INSTRUCTIONS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_JOB_READINESS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_JOB_READINESS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_MARKETPULSE_FINAL_CAPSTONE_INSTRUCTIONS_RUBRIC_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_MARKETPULSE_FINAL_CAPSTONE_INSTRUCTIONS_RUBRIC_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_MARKETPULSE_FINAL_CAPSTONE_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_MARKETPULSE_FINAL_CAPSTONE_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_PORTFOLIO_CAPSTONE_HIRING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=49; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_PORTFOLIO_CAPSTONE_HIRING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_PORTFOLIO_CAPSTONE_HIRING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=15; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_PORTFOLIO_CAPSTONE_HIRING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_PORTFOLIO_CAPSTONE_HIRING_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=6; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_PORTFOLIO_CAPSTONE_HIRING_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M11_RESUME_LINKEDIN_CREDIBILITY_CHECKLIST_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_bounds:C1_M11_RESUME_LINKEDIN_CREDIBILITY_CHECKLIST_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "resume_render_one_page",
+      "passed": true,
+      "evidence": "/mnt/data/course1_m11/resume_render/page-1.png"
+    },
+    {
+      "check": "resume_render_visual_manual",
+      "passed": true,
+      "evidence": "1/1 page inspected; no clipping/overlap"
+    },
+    {
+      "check": "stale_typo_identified",
+      "passed": true,
+      "evidence": "C1_M11_JOB_READINESS_GATE_B_RENEWWNOW_RC1.xlsx"
+    },
+    {
+      "check": "correct_gateB_exists",
+      "passed": true,
+      "evidence": "correct filename"
+    }
+  ],
+  "scanner_corrections": [
+    "DATA_README template is checked for data/public-safety controls rather than irrelevant employment wording.",
+    "Job tracker expected order now recognizes Dashboard-first as intentional learner routing."
+  ]
+}

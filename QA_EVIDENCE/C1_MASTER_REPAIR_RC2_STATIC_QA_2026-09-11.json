@@ -1,0 +1,31 @@
+{
+  "course": "Course 1 Zero-to-Job-Ready Data Analyst 2026",
+  "candidate": "MASTER_REPAIR_RC2",
+  "status": "STATIC_REPAIR_PASS_RUNTIME_PENDING",
+  "checks": {
+    "inline_js_syntax": true,
+    "global_repair_cards_button_removed": true,
+    "lesson_repair_still_review_locked": true,
+    "gate_prereq_requires_review_repair_evidence": true,
+    "assign_handler_rechecks_prereq": true,
+    "gate_review_persists_state": true,
+    "repair_evidence_required": true,
+    "option_b_palette": true,
+    "new_icon_embedded": true,
+    "service_worker_cache_bumped": true,
+    "19_source_dispositions_closed": true,
+    "learner_internal_qa_labels_removed": true
+  },
+  "known_runtime_boundary": [
+    "Managed Chromium in this environment blocks local/private navigation, so physical Android/PWA behavior is not certified here.",
+    "Learner-PC tool runtime remains a final certification step."
+  ],
+  "repairs_applied": [
+    "Gate B/C assignment now requires failed prior Gate + opened protected review + recorded targeted repair + changed micro-proof + explicit assignment.",
+    "Global Course-view Repair cards button removed; lesson targeted repair remains review-locked.",
+    "19 previously uncovered source rows now have explicit internal/book-only dispositions rather than filler links.",
+    "Learner-facing Internal QA/not-learner-release labels normalized to learner-edition wording.",
+    "Option B book + analytics-grid icon applied.",
+    "Service-worker cache version bumped."
+  ]
+}

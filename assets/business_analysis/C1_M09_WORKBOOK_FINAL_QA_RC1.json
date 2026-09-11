@@ -1,0 +1,60 @@
+{
+  "practice": {
+    "file": "C1_M09_BUSINESS_ANALYSIS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+    "sheets": [
+      "README",
+      "LESSON_ROUTE",
+      "Business_Definitions",
+      "Stakeholder_Notes",
+      "Targets",
+      "Orders_Raw",
+      "IBA1_Analysis_Brief",
+      "IBA2_KPI_Definitions",
+      "IBA3_Analysis_Plan",
+      "IBA4_Diagnostic",
+      "IBA5_Causal_Boundary",
+      "IBA6_Insight_Chain",
+      "IBA7_Recommendation",
+      "IBA8_Executive_Memo",
+      "IBA9_Story_Plan",
+      "IBA10_Defense",
+      "IBA11_Integrated_Case",
+      "Evidence_Log",
+      "Mastery_Tracker"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "A": {
+    "file": "C1_M09_BUSINESS_ANALYSIS_GATE_A_CAREBRIDGE_RC1.xlsx",
+    "sheets": [
+      "README",
+      "Definitions",
+      "Data_Raw",
+      "Submission",
+      "Evidence_Log"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "B": {
+    "file": "C1_M09_BUSINESS_ANALYSIS_GATE_B_STREAMFIT_RC1.xlsx",
+    "sheets": [
+      "README",
+      "Definitions",
+      "Data_Raw",
+      "Submission",
+      "Evidence_Log"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "C": {
+    "file": "C1_M09_BUSINESS_ANALYSIS_GATE_C_QUICKCART_RC1.xlsx",
+    "sheets": [
+      "README",
+      "Definitions",
+      "Data_Raw",
+      "Submission",
+      "Evidence_Log"
+    ],
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  }
+}

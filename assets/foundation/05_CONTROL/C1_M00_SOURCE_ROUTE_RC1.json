@@ -1,0 +1,10 @@
+{
+  "F1": {
+    "priority": "OPTIONAL VISUAL COMPANION",
+    "title": "Alex The Analyst - What Does a Data Analyst Do: Meetings, Data, Excel, SQL",
+    "url": "https://www.youtube.com/watch?v=mCSbYbXWmH0",
+    "verification_state": "verified/corroborated in Course 1 source audit RC1",
+    "internal_fallback": "Learner book F1 teaches the complete lesson without external dependency"
+  },
+  "other_lessons": "BOOK_LED; no filler videos added"
+}

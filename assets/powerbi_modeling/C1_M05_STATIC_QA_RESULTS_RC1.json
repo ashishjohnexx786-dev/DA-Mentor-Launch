@@ -1,0 +1,703 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M05_POWERBI_MODELING",
+  "generated": "2026-09-10",
+  "status": "PASS",
+  "passed": 138,
+  "total": 138,
+  "total_pdf_pages": 65,
+  "failed": [],
+  "checks": [
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "87480"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_PRACTICE_DATA_RC1.xlsx",
+      "passed": true,
+      "evidence": "19684"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_PRACTICE_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "20208"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "23025"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "7457"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_GATE_A_DATA_RC1.xlsx",
+      "passed": true,
+      "evidence": "19028"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_GATE_A_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "5511"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "4742"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_GATE_B_DATA_RC1.xlsx",
+      "passed": true,
+      "evidence": "18790"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_GATE_B_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "5522"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "4744"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_GATE_C_DATA_RC1.xlsx",
+      "passed": true,
+      "evidence": "19141"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_GATE_C_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "5493"
+    },
+    {
+      "check": "artifact_exists:C1_M05_POWERBI_MODELING_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "4744"
+    },
+    {
+      "check": "artifact_exists:C1_M05_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "14274"
+    },
+    {
+      "check": "artifact_exists:C1_M05_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "6353"
+    },
+    {
+      "check": "artifact_exists:C1_M05_PROTECTED_METRIC_RECOMPUTATION_RC1.json",
+      "passed": true,
+      "evidence": "4462"
+    },
+    {
+      "check": "learner_book_31_pages",
+      "passed": true,
+      "evidence": "31"
+    },
+    {
+      "check": "learner_marker:This book is your teacher",
+      "passed": true,
+      "evidence": "This book is your teacher"
+    },
+    {
+      "check": "learner_marker:Contents / Index",
+      "passed": true,
+      "evidence": "Contents / Index"
+    },
+    {
+      "check": "learner_marker:End-of-module mastery checklist",
+      "passed": true,
+      "evidence": "End-of-module mastery checklist"
+    },
+    {
+      "check": "learner_marker:Revision / modeling quick reference",
+      "passed": true,
+      "evidence": "Revision / modeling quick reference"
+    },
+    {
+      "check": "learner_marker:Module prerequisite and tool map",
+      "passed": true,
+      "evidence": "Module prerequisite and tool map"
+    },
+    {
+      "check": "learner_marker:Exact practice, review and Gate route",
+      "passed": true,
+      "evidence": "Exact practice, review and Gate route"
+    },
+    {
+      "check": "lesson_16_stage:PBM0",
+      "passed": true,
+      "evidence": "pages=6-8; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBM1",
+      "passed": true,
+      "evidence": "pages=9-11; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBM2",
+      "passed": true,
+      "evidence": "pages=12-14; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBM3",
+      "passed": true,
+      "evidence": "pages=15-17; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBM4",
+      "passed": true,
+      "evidence": "pages=18-20; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBM5",
+      "passed": true,
+      "evidence": "pages=21-23; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBM6",
+      "passed": true,
+      "evidence": "pages=24-26; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBM7",
+      "passed": true,
+      "evidence": "pages=27-29; missing=[]"
+    },
+    {
+      "check": "learner_external_links_12",
+      "passed": true,
+      "evidence": "12"
+    },
+    {
+      "check": "learner_internal_toc_links_8",
+      "passed": true,
+      "evidence": "8"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27']"
+    },
+    {
+      "check": "PBM0_official_download_link",
+      "passed": true,
+      "evidence": "official installer link present on PBM0 page 6"
+    },
+    {
+      "check": "PBM5_date_table_link",
+      "passed": true,
+      "evidence": "date-table official reference"
+    },
+    {
+      "check": "PBM7_refresh_link",
+      "passed": true,
+      "evidence": "refresh official reference"
+    },
+    {
+      "check": "no_forced_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_prohibited_release_claims",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=31; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "edited page 6 oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_GATE_A_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_GATE_A_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_GATE_B_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_GATE_B_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_GATE_C_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_GATE_C_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_PRACTICE_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=9; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_PRACTICE_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=9; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M05_POWERBI_MODELING_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=4; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M05_POWERBI_MODELING_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "practice_guide_9_pages",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "practice_guide_block:PBM0",
+      "passed": true,
+      "evidence": "PBM0"
+    },
+    {
+      "check": "practice_guide_block:PBM1",
+      "passed": true,
+      "evidence": "PBM1"
+    },
+    {
+      "check": "practice_guide_block:PBM2",
+      "passed": true,
+      "evidence": "PBM2"
+    },
+    {
+      "check": "practice_guide_block:PBM3",
+      "passed": true,
+      "evidence": "PBM3"
+    },
+    {
+      "check": "practice_guide_block:PBM4",
+      "passed": true,
+      "evidence": "PBM4"
+    },
+    {
+      "check": "practice_guide_block:PBM5",
+      "passed": true,
+      "evidence": "PBM5"
+    },
+    {
+      "check": "practice_guide_block:PBM6",
+      "passed": true,
+      "evidence": "PBM6"
+    },
+    {
+      "check": "practice_guide_block:PBM7",
+      "passed": true,
+      "evidence": "PBM7"
+    },
+    {
+      "check": "practice_guide_changed_try",
+      "passed": true,
+      "evidence": "8"
+    },
+    {
+      "check": "protected_practice_review_9_pages",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "protected_practice_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "protected_practice_review_fresh_retry",
+      "passed": true,
+      "evidence": "8"
+    },
+    {
+      "check": "repair_cards_4_pages",
+      "passed": true,
+      "evidence": "4"
+    },
+    {
+      "check": "repair_cards_gate_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_guide_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_guide_protected",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_guide_no_expected_metrics",
+      "passed": true,
+      "evidence": "protected controls not leaked"
+    },
+    {
+      "check": "gate_A_terminal_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_review_expected_control",
+      "passed": true,
+      "evidence": "protected control present"
+    },
+    {
+      "check": "gate_A_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_guide_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_guide_protected",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_guide_no_expected_metrics",
+      "passed": true,
+      "evidence": "protected controls not leaked"
+    },
+    {
+      "check": "gate_B_conditional_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_review_expected_control",
+      "passed": true,
+      "evidence": "protected control present"
+    },
+    {
+      "check": "gate_B_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_guide_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_guide_protected",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_guide_no_expected_metrics",
+      "passed": true,
+      "evidence": "protected controls not leaked"
+    },
+    {
+      "check": "gate_C_conditional_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_review_expected_control",
+      "passed": true,
+      "evidence": "protected control present"
+    },
+    {
+      "check": "gate_C_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "xlsx_crc:practice",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_no_timer:practice",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "xlsx_sheet_names:practice",
+      "passed": true,
+      "evidence": "['README', 'Products_Raw', 'Customers_Raw', 'Regions', 'Sales_Raw', 'Date', 'Evidence_Log']"
+    },
+    {
+      "check": "xlsx_no_formula_errors:practice",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "xlsx_modeling_rule:practice",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_date_rule:practice",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_append_only_evidence:practice",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_crc:A",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_no_timer:A",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "xlsx_sheet_names:A",
+      "passed": true,
+      "evidence": "['README', 'Service_Types', 'Technicians_Raw', 'Regions', 'Jobs_Raw', 'Date', 'Evidence_Log']"
+    },
+    {
+      "check": "xlsx_no_formula_errors:A",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "xlsx_modeling_rule:A",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_date_rule:A",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_append_only_evidence:A",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_crc:B",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_no_timer:B",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "xlsx_sheet_names:B",
+      "passed": true,
+      "evidence": "['README', 'Plans', 'Members_Raw', 'Channels', 'Events_Raw', 'Date', 'Evidence_Log']"
+    },
+    {
+      "check": "xlsx_no_formula_errors:B",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "xlsx_modeling_rule:B",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_date_rule:B",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_append_only_evidence:B",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_crc:C",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_no_timer:C",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "xlsx_sheet_names:C",
+      "passed": true,
+      "evidence": "['README', 'Products', 'Drivers_Raw', 'Hubs', 'Deliveries_Raw', 'Date', 'Evidence_Log']"
+    },
+    {
+      "check": "xlsx_no_formula_errors:C",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "xlsx_modeling_rule:C",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_date_rule:C",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_append_only_evidence:C",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "protected_metric_practice_match",
+      "passed": true,
+      "evidence": "{'computed': {'source_fact_rows': 81, 'prepared_fact_rows_after_exact_dedup': 80, 'exact_duplicate_rows_removed': 1, 'dimension1_unique_after_trim': 10, 'dimension2_unique_after_trim': 8, 'third_dimension_unique': 4, 'unmatched_dim1_keys': 1, 'unmatched_dim2_keys': 1, 'unmatched_third_keys': 1, 'invalid_discount_rows': 1, 'invalid_date_rows': 1, 'gross_quantity_x_rate_total': 1422270.0}, 'expected': {'source_fact_rows': 81, 'prepared_fact_rows_after_exact_dedup': 80, 'exact_duplicate_rows_removed': 1, 'dimension1_unique_after_trim': 10, 'dimension2_unique_after_trim': 8, 'third_dimension_unique': 4, 'unmatched_dim1_keys': 1, 'unmatched_dim2_keys': 1, 'unmatched_third_keys': 1, 'invalid_discount_rows': 1, 'invalid_date_rows': 1, 'gross_quantity_x_rate_total': 1422270.0}, 'match': True, 'audit_note': 'Protected registry dimension1=Customers_Raw and dimension2=Products_Raw; initial comparison had these two labels reversed.'}"
+    },
+    {
+      "check": "protected_metric_gate_A_match",
+      "passed": true,
+      "evidence": "{'computed': {'source_fact_rows': 73, 'prepared_fact_rows_after_exact_dedup': 72, 'exact_duplicate_rows_removed': 1, 'dimension1_unique_after_trim': 5, 'dimension2_unique_after_trim': 8, 'third_dimension_unique': 4, 'unmatched_dim1_keys': 1, 'unmatched_dim2_keys': 1, 'unmatched_third_keys': 1, 'invalid_discount_rows': 1, 'invalid_date_rows': 1, 'gross_quantity_x_rate_total': 484750.0}, 'expected': {'source_fact_rows': 73, 'prepared_fact_rows_after_exact_dedup': 72, 'exact_duplicate_rows_removed': 1, 'dimension1_unique_after_trim': 5, 'dimension2_unique_after_trim': 8, 'third_dimension_unique': 4, 'unmatched_dim1_keys': 1, 'unmatched_dim2_keys': 1, 'unmatched_third_keys': 1, 'invalid_discount_rows': 1, 'invalid_date_rows': 1, 'gross_quantity_x_rate_total': 484750.0}, 'match': True}"
+    },
+    {
+      "check": "protected_metric_gate_B_match",
+      "passed": true,
+      "evidence": "{'computed': {'source_fact_rows': 69, 'prepared_fact_rows_after_exact_dedup': 68, 'exact_duplicate_rows_removed': 1, 'dimension1_unique_after_trim': 5, 'dimension2_unique_after_trim': 8, 'third_dimension_unique': 4, 'unmatched_dim1_keys': 1, 'unmatched_dim2_keys': 1, 'unmatched_third_keys': 1, 'invalid_discount_rows': 1, 'invalid_date_rows': 1, 'gross_quantity_x_rate_total': 343600.0}, 'expected': {'source_fact_rows': 69, 'prepared_fact_rows_after_exact_dedup': 68, 'exact_duplicate_rows_removed': 1, 'dimension1_unique_after_trim': 5, 'dimension2_unique_after_trim': 8, 'third_dimension_unique': 4, 'unmatched_dim1_keys': 1, 'unmatched_dim2_keys': 1, 'unmatched_third_keys': 1, 'invalid_discount_rows': 1, 'invalid_date_rows': 1, 'gross_quantity_x_rate_total': 343600.0}, 'match': True}"
+    },
+    {
+      "check": "protected_metric_gate_C_match",
+      "passed": true,
+      "evidence": "{'computed': {'source_fact_rows': 75, 'prepared_fact_rows_after_exact_dedup': 74, 'exact_duplicate_rows_removed': 1, 'dimension1_unique_after_trim': 5, 'dimension2_unique_after_trim': 8, 'third_dimension_unique': 4, 'unmatched_dim1_keys': 1, 'unmatched_dim2_keys': 1, 'unmatched_third_keys': 1, 'invalid_discount_rows': 1, 'invalid_date_rows': 1, 'gross_quantity_x_rate_total': 412350.0}, 'expected': {'source_fact_rows': 75, 'prepared_fact_rows_after_exact_dedup': 74, 'exact_duplicate_rows_removed': 1, 'dimension1_unique_after_trim': 5, 'dimension2_unique_after_trim': 8, 'third_dimension_unique': 4, 'unmatched_dim1_keys': 1, 'unmatched_dim2_keys': 1, 'unmatched_third_keys': 1, 'invalid_discount_rows': 1, 'invalid_date_rows': 1, 'gross_quantity_x_rate_total': 412350.0}, 'match': True}"
+    },
+    {
+      "check": "source_registry_18_rows",
+      "passed": true,
+      "evidence": "18"
+    },
+    {
+      "check": "source_registry_all_8_lessons",
+      "passed": true,
+      "evidence": "['PBM0', 'PBM1', 'PBM2', 'PBM3', 'PBM4', 'PBM5', 'PBM6', 'PBM7']"
+    },
+    {
+      "check": "source_registry_PBM5_exact_date_reference",
+      "passed": true,
+      "evidence": "PBM5 dedicated Date reference"
+    },
+    {
+      "check": "source_registry_PBM5_old_relationship_preserved",
+      "passed": true,
+      "evidence": "old relationship source retained"
+    },
+    {
+      "check": "source_registry_PBM7_refresh",
+      "passed": true,
+      "evidence": "refresh source"
+    },
+    {
+      "check": "source_registry_PBM0_installer",
+      "passed": true,
+      "evidence": "official installer reference"
+    },
+    {
+      "check": "registry_8_lessons",
+      "passed": true,
+      "evidence": "8"
+    },
+    {
+      "check": "registry_16_stage_each",
+      "passed": true,
+      "evidence": "all 8"
+    },
+    {
+      "check": "registry_page_map_exact",
+      "passed": true,
+      "evidence": "[6, 9, 12, 15, 18, 21, 24, 27]"
+    },
+    {
+      "check": "registry_live_runtime_boundary",
+      "passed": true,
+      "evidence": "all 8"
+    }
+  ],
+  "post_patch_note": "PBM0 learner-facing official installer link added and page 6 re-rendered/visually inspected after the initial 137/138 scan."
+}

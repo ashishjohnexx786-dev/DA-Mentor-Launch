@@ -1,0 +1,401 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "component": "C1_MENTOR_COURSE1_2026_RC1_SYNC",
+  "generated": "2026-09-11",
+  "status": "PASS",
+  "passed": 74,
+  "total": 74,
+  "curriculum": {
+    "phases": 12,
+    "lessons": 120,
+    "lesson_order_preserved": true
+  },
+  "routes": {
+    "artifact_rows": 188,
+    "lesson_rows": 120,
+    "lessons_with_sources": 87,
+    "source_placements": 133
+  },
+  "runtime_evidence": {
+    "A": "runtime_qa_chunks/runtime_A_settings_timer_lesson.json",
+    "B": "runtime_qa_chunks/runtime_B_gate_state_machine.json",
+    "C": "runtime_qa_chunks/runtime_C_backup_restore_mobile.json"
+  },
+  "environment_limitations": [
+    "Localhost HTTP/PWA live-browser run was blocked by the execution sandbox administrator policy.",
+    "Direct-open file:// runtime was used for navigation/state/timer/backup/mobile behavior; service-worker behavior is statically verified but not live-installed in this sandbox."
+  ],
+  "failed": [],
+  "checks": [
+    {
+      "check": "phase_count_12",
+      "passed": true,
+      "evidence": "12"
+    },
+    {
+      "check": "phase_order_unchanged",
+      "passed": true,
+      "evidence": "['foundation', 'excel_fundamentals', 'excel_analysts', 'sql_foundations', 'sql_analysts', 'powerbi_modeling', 'powerbi_reporting', 'python', 'statistics', 'business_analysis', 'ai_assisted', 'portfolio_hiring']"
+    },
+    {
+      "check": "lesson_count_120",
+      "passed": true,
+      "evidence": "120"
+    },
+    {
+      "check": "lesson_ids_unique",
+      "passed": true,
+      "evidence": "120"
+    },
+    {
+      "check": "curriculum_lesson_order_unchanged",
+      "passed": true,
+      "evidence": "exact lesson ID order match"
+    },
+    {
+      "check": "lesson_titles_unchanged",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "lesson_loads_unchanged",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "inline_routes_parseable",
+      "passed": true,
+      "evidence": "regex"
+    },
+    {
+      "check": "inline_routes_equal_json",
+      "passed": true,
+      "evidence": "exact JSON equality"
+    },
+    {
+      "check": "routes_cover_12_phases",
+      "passed": true,
+      "evidence": "['ai_assisted', 'business_analysis', 'excel_analysts', 'excel_fundamentals', 'foundation', 'portfolio_hiring', 'powerbi_modeling', 'powerbi_reporting', 'python', 'sql_analysts', 'sql_foundations', 'statistics']"
+    },
+    {
+      "check": "artifact_route_rows_188",
+      "passed": true,
+      "evidence": "188"
+    },
+    {
+      "check": "artifact_routes_all_exist",
+      "passed": true,
+      "evidence": "0"
+    },
+    {
+      "check": "direct_open_rows_120",
+      "passed": true,
+      "evidence": "120"
+    },
+    {
+      "check": "direct_open_book_exists",
+      "passed": true,
+      "evidence": "0"
+    },
+    {
+      "check": "direct_open_page_valid",
+      "passed": true,
+      "evidence": "0"
+    },
+    {
+      "check": "direct_open_practice_all_exist",
+      "passed": true,
+      "evidence": "0"
+    },
+    {
+      "check": "direct_open_review_exists",
+      "passed": true,
+      "evidence": "0"
+    },
+    {
+      "check": "direct_open_repair_exists",
+      "passed": true,
+      "evidence": "0"
+    },
+    {
+      "check": "direct_open_source_urls_complete",
+      "passed": true,
+      "evidence": "0"
+    },
+    {
+      "check": "source_lesson_count_87",
+      "passed": true,
+      "evidence": "87"
+    },
+    {
+      "check": "source_placements_133",
+      "passed": true,
+      "evidence": "133"
+    },
+    {
+      "check": "lesson_pages_within_pdf_bounds",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "registry_lesson_page_practice_parity",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "foundation_route_control_present",
+      "passed": true,
+      "evidence": "['course', 'module', 'title', 'status', 'learner_route', 'gate_completion', 'timer', 'protected_review_rule', 'attempt_history', 'next_module']"
+    },
+    {
+      "check": "module_package_provenance_sha_exact",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "mentor_assets_exactly_match_module_packages",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "runtime_chunk_A_pass",
+      "passed": true,
+      "evidence": "{'exact_8_tabs': True, 'settings_primary': True, 'storage_key_compatible': True, 'settings_persist': True, 'amoled_true_black': True, 'timer_manual_session': True, 'review_locked_before_attempt': True, 'review_unlock_after_attempt': True, 'repair_unlock_after_review': True, 'mastery_sequence_pass': True, 'revision_scheduled': True}"
+    },
+    {
+      "check": "runtime_chunk_A_all_checks_true",
+      "passed": true,
+      "evidence": "{'exact_8_tabs': True, 'settings_primary': True, 'storage_key_compatible': True, 'settings_persist': True, 'amoled_true_black': True, 'timer_manual_session': True, 'review_locked_before_attempt': True, 'review_unlock_after_attempt': True, 'repair_unlock_after_review': True, 'mastery_sequence_pass': True, 'revision_scheduled': True}"
+    },
+    {
+      "check": "runtime_chunk_B_pass",
+      "passed": true,
+      "evidence": "{'gateA_locked_before_lab': True, 'gateA_unlocked_after_lab': True, 'B_not_auto_after_A_fail': True, 'A_review_after_attempt': True, 'B_explicit_assign_control': True, 'B_unlock_only_after_assign': True, 'C_not_auto_after_B_fail': True, 'B_review_after_attempt': True, 'C_explicit_assign_control': True, 'C_pass_completes_phase': True, 'clean_A_terminal': True, 'repair_errors_append': True}"
+    },
+    {
+      "check": "runtime_chunk_B_all_checks_true",
+      "passed": true,
+      "evidence": "{'gateA_locked_before_lab': True, 'gateA_unlocked_after_lab': True, 'B_not_auto_after_A_fail': True, 'A_review_after_attempt': True, 'B_explicit_assign_control': True, 'B_unlock_only_after_assign': True, 'C_not_auto_after_B_fail': True, 'B_review_after_attempt': True, 'C_explicit_assign_control': True, 'C_pass_completes_phase': True, 'clean_A_terminal': True, 'repair_errors_append': True}"
+    },
+    {
+      "check": "runtime_chunk_C_pass",
+      "passed": true,
+      "evidence": "{'json_backup_triggered': True, 'backup_schema_compatible': True, 'backup_contains_state': True, 'restore_actual_handler': True, 'restore_rerenders_theme': True, 'lesson_csv_triggered': True, 'mobile_all_views_one_active': True, 'mobile_no_document_overflow': True, 'mobile_no_card_control_overflow': True}"
+    },
+    {
+      "check": "runtime_chunk_C_all_checks_true",
+      "passed": true,
+      "evidence": "{'json_backup_triggered': True, 'backup_schema_compatible': True, 'backup_contains_state': True, 'restore_actual_handler': True, 'restore_rerenders_theme': True, 'lesson_csv_triggered': True, 'mobile_all_views_one_active': True, 'mobile_no_document_overflow': True, 'mobile_no_card_control_overflow': True}"
+    },
+    {
+      "check": "runtime_exact_8_tabs",
+      "passed": true,
+      "evidence": "['\ud83c\udfe0 Today', '\ud83d\udcd8 Learn', '\ud83d\uddfa Course', '\ud83e\udde9 Repair', '\ud83d\udcc1 Evidence', '\ud83d\ude80 Jobs', '\ud83d\udcca Reports', '\u2699 Settings']"
+    },
+    {
+      "check": "runtime_settings_primary",
+      "passed": true,
+      "evidence": "{'name': 'QA Learner', 'theme': 'amoled', 'dailyTarget': 3.5, 'body_theme': 'amoled', 'bg': '#000', 'storage_key_created': True}"
+    },
+    {
+      "check": "runtime_amoled_true_black",
+      "passed": true,
+      "evidence": "{'name': 'QA Learner', 'theme': 'amoled', 'dailyTarget': 3.5, 'body_theme': 'amoled', 'bg': '#000', 'storage_key_created': True}"
+    },
+    {
+      "check": "runtime_storage_key_compatible",
+      "passed": true,
+      "evidence": "daMentorOSv4"
+    },
+    {
+      "check": "runtime_manual_timer_records_session",
+      "passed": true,
+      "evidence": "{'active_started': True, 'active_after_end': None, 'sessions': 1, 'last_seconds': 1, 'button_text': 'START STUDY'}"
+    },
+    {
+      "check": "runtime_lesson_mastery_sequence",
+      "passed": true,
+      "evidence": "{'first_lesson_state': {'guided': True, 'attempt': True, 'review': True, 'retest': True, 'explain': True, 'mastered': True, 'skipped': False}, 'currentLesson': 'O2', 'revision_dates': ['2026-09-11', '2026-09-14', '2026-09-20', '2026-10-10'], 'course_mastery_text': '1/120'}"
+    },
+    {
+      "check": "runtime_review_locked_then_unlocked",
+      "passed": true,
+      "evidence": "{'review_disabled': False, 'review_text': 'Open / record protected review'}"
+    },
+    {
+      "check": "runtime_gate_state_machine",
+      "passed": true,
+      "evidence": "{'gateA_locked_before_lab': True, 'gateA_unlocked_after_lab': True, 'B_not_auto_after_A_fail': True, 'A_review_after_attempt': True, 'B_explicit_assign_control': True, 'B_unlock_only_after_assign': True, 'C_not_auto_after_B_fail': True, 'B_review_after_attempt': True, 'C_explicit_assign_control': True, 'C_pass_completes_phase': True, 'clean_A_terminal': True, 'repair_errors_append': True}"
+    },
+    {
+      "check": "runtime_backup_restore_mobile",
+      "passed": true,
+      "evidence": "{'json_backup_triggered': True, 'backup_schema_compatible': True, 'backup_contains_state': True, 'restore_actual_handler': True, 'restore_rerenders_theme': True, 'lesson_csv_triggered': True, 'mobile_all_views_one_active': True, 'mobile_no_document_overflow': True, 'mobile_no_card_control_overflow': True}"
+    },
+    {
+      "check": "static_8_tab_order",
+      "passed": true,
+      "evidence": "['home', 'learn', 'course', 'repair', 'evidence', 'jobs', 'reports', 'settings']"
+    },
+    {
+      "check": "static_8_view_set",
+      "passed": true,
+      "evidence": "['home', 'learn', 'course', 'repair', 'evidence', 'jobs', 'reports', 'settings']"
+    },
+    {
+      "check": "settings_not_topbar_action",
+      "passed": true,
+      "evidence": "8th primary tab"
+    },
+    {
+      "check": "optionB_charcoal",
+      "passed": true,
+      "evidence": "charcoal present"
+    },
+    {
+      "check": "optionB_teal",
+      "passed": true,
+      "evidence": "teal present"
+    },
+    {
+      "check": "optionB_softblue",
+      "passed": true,
+      "evidence": "soft blue present"
+    },
+    {
+      "check": "amoled_exact_black",
+      "passed": true,
+      "evidence": "true black rules"
+    },
+    {
+      "check": "no_forced_25min",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "manual_start_end_copy",
+      "passed": true,
+      "evidence": "manual tracker"
+    },
+    {
+      "check": "phone_lock_copy",
+      "passed": true,
+      "evidence": "timestamp persistence guidance"
+    },
+    {
+      "check": "storage_key_preserved",
+      "passed": true,
+      "evidence": "compatible"
+    },
+    {
+      "check": "markStep_rerenders",
+      "passed": true,
+      "evidence": "rerender after state update"
+    },
+    {
+      "check": "review_requires_attempt",
+      "passed": true,
+      "evidence": "protected"
+    },
+    {
+      "check": "master_requires_full_sequence",
+      "passed": true,
+      "evidence": "protected"
+    },
+    {
+      "check": "gate_B_C_not_auto",
+      "passed": true,
+      "evidence": "explicit assignment model"
+    },
+    {
+      "check": "backup_json_handler",
+      "passed": true,
+      "evidence": "backup"
+    },
+    {
+      "check": "restore_handler",
+      "passed": true,
+      "evidence": "restore"
+    },
+    {
+      "check": "lesson_csv_export",
+      "passed": true,
+      "evidence": "csv"
+    },
+    {
+      "check": "manifest_name_course1",
+      "passed": true,
+      "evidence": "DA Mentor 2026 \u2014 Course 1"
+    },
+    {
+      "check": "manifest_standalone",
+      "passed": true,
+      "evidence": "standalone"
+    },
+    {
+      "check": "manifest_amoled_background",
+      "passed": true,
+      "evidence": "#000000"
+    },
+    {
+      "check": "manifest_icons_exist",
+      "passed": true,
+      "evidence": "['icon-192.svg', 'icon-512.svg']"
+    },
+    {
+      "check": "service_worker_cache_versioned",
+      "passed": true,
+      "evidence": "cache v2"
+    },
+    {
+      "check": "service_worker_core_files",
+      "passed": true,
+      "evidence": "core list"
+    },
+    {
+      "check": "service_worker_deletes_stale",
+      "passed": true,
+      "evidence": "stale cache cleanup"
+    },
+    {
+      "check": "service_worker_network_then_cache",
+      "passed": true,
+      "evidence": "network-first asset behavior"
+    },
+    {
+      "check": "source_override_EF7_closed",
+      "passed": true,
+      "evidence": "{'generated': '2026-09-11', 'scope': 'Course 1 final Mentor/release source verification override', 'overrides': [{'module': 'M01_EXCEL_FUNDAMENTALS', 'lesson_id': 'EF7', 'url': 'https://www.youtube.com/watch?v=4MVNjzsGokc', 'old_module_registry_status': 'RETAINED_PENDING_EXACT_ID_RECONFIRMATION', 'final_course_status': 'VERIFIED_CURRENT_YOUTUBE_2026-09-11', 'verified_identity': 'Chandoo - How to use Excel formula references - A1 vs. $A$1 vs $A1 vs A$1 explained', 'verification_note': 'Current YouTube result confirms the exact video ID/title and chapters covering relative, absolute and mixed references. Module package bytes are not rewritten; this course-level audit supersedes only the stale verification-status metadata.'}], 'unresolved_source_blockers': 0}"
+    },
+    {
+      "check": "no_uncovered_pending_sources",
+      "passed": true,
+      "evidence": "{'pending': [{'module': 'excel_fundamentals', 'lesson_id': 'EF7', 'url': 'https://www.youtube.com/watch?v=4MVNjzsGokc', 'status': 'RETAINED_PENDING_EXACT_ID_RECONFIRMATION'}], 'uncovered': []}"
+    },
+    {
+      "check": "node_syntax_curriculum.js",
+      "passed": true,
+      "evidence": ""
+    },
+    {
+      "check": "node_syntax_service-worker.js",
+      "passed": true,
+      "evidence": ""
+    },
+    {
+      "check": "node_syntax_inline_html",
+      "passed": true,
+      "evidence": ""
+    },
+    {
+      "check": "no_RENEWWNOW_typo",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_old_internal_QA_route_names",
+      "passed": true,
+      "evidence": "clean route surface"
+    }
+  ]
+}

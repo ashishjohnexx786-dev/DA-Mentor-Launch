@@ -1,0 +1,601 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M03_SQL_FOUNDATIONS",
+  "generated": "2026-09-10",
+  "status": "PASS",
+  "passed": 118,
+  "total": 118,
+  "failed": [],
+  "checks": [
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "93640"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_LAB_SETUP_RC1.sql",
+      "passed": true,
+      "evidence": "6760"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_PRACTICE_TASKS_RC1.sql",
+      "passed": true,
+      "evidence": "10389"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_EVIDENCE_LOG_RC1.xlsx",
+      "passed": true,
+      "evidence": "7035"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "23977"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "7418"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_GATE_A_RC1.sql",
+      "passed": true,
+      "evidence": "6240"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "8400"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_GATE_B_RC1.sql",
+      "passed": true,
+      "evidence": "6611"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "8381"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_GATE_C_RC1.sql",
+      "passed": true,
+      "evidence": "6992"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SQL_FOUNDATIONS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "8408"
+    },
+    {
+      "check": "artifact_exists:C1_M03_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "14166"
+    },
+    {
+      "check": "artifact_exists:C1_M03_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "5556"
+    },
+    {
+      "check": "learner_book_34_pages",
+      "passed": true,
+      "evidence": "34"
+    },
+    {
+      "check": "teacher_page_present",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "contents_present",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "mastery_checklist_present",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "revision_present",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "module_boundary_join_excluded",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "module_boundary_cte_subquery_window_excluded",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "no_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_prohibited_release_claims",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "lesson_16_stage_contract:SF0",
+      "passed": true,
+      "evidence": "pages=6-8; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:SF1",
+      "passed": true,
+      "evidence": "pages=9-11; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:SF2",
+      "passed": true,
+      "evidence": "pages=12-14; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:SF3",
+      "passed": true,
+      "evidence": "pages=15-17; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:SF4",
+      "passed": true,
+      "evidence": "pages=18-20; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:SF5",
+      "passed": true,
+      "evidence": "pages=21-23; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:SF6",
+      "passed": true,
+      "evidence": "pages=24-26; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:SF7",
+      "passed": true,
+      "evidence": "pages=27-29; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:SF8",
+      "passed": true,
+      "evidence": "pages=30-32; missing=[]"
+    },
+    {
+      "check": "learner_external_links_8",
+      "passed": true,
+      "evidence": "8"
+    },
+    {
+      "check": "learner_toc_links_9",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27', '30']"
+    },
+    {
+      "check": "pdf_nonblank:C1_M03_SQL_FOUNDATIONS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=34; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M03_SQL_FOUNDATIONS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M03_SQL_FOUNDATIONS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M03_SQL_FOUNDATIONS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M03_SQL_FOUNDATIONS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M03_SQL_FOUNDATIONS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M03_SQL_FOUNDATIONS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M03_SQL_FOUNDATIONS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M03_SQL_FOUNDATIONS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=10; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M03_SQL_FOUNDATIONS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M03_SQL_FOUNDATIONS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=4; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M03_SQL_FOUNDATIONS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "practice_review_10_pages",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "practice_review_post_attempt",
+      "passed": true,
+      "evidence": "unlock text present"
+    },
+    {
+      "check": "practice_review_changed_retry",
+      "passed": true,
+      "evidence": "fresh retry present"
+    },
+    {
+      "check": "repair_cards_4_pages",
+      "passed": true,
+      "evidence": "4"
+    },
+    {
+      "check": "repair_cards_no_gate_autoprogression",
+      "passed": true,
+      "evidence": "route present"
+    },
+    {
+      "check": "gate_A_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_A_review_post_attempt",
+      "passed": true,
+      "evidence": "protected unlock wording"
+    },
+    {
+      "check": "gate_A_review_control:648,800.00",
+      "passed": true,
+      "evidence": "648,800.00"
+    },
+    {
+      "check": "gate_A_review_control:MO020",
+      "passed": true,
+      "evidence": "MO020"
+    },
+    {
+      "check": "gate_A_review_control:Large=19; Medium=11; Small=12",
+      "passed": true,
+      "evidence": "Large=19; Medium=11; Small=12"
+    },
+    {
+      "check": "gate_B_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_B_review_post_attempt",
+      "passed": true,
+      "evidence": "protected unlock wording"
+    },
+    {
+      "check": "gate_B_review_control:3,170.00",
+      "passed": true,
+      "evidence": "3,170.00"
+    },
+    {
+      "check": "gate_B_review_control:RE011",
+      "passed": true,
+      "evidence": "RE011"
+    },
+    {
+      "check": "gate_B_review_control:Large=17; Medium=15; Small=8",
+      "passed": true,
+      "evidence": "Large=17; Medium=15; Small=8"
+    },
+    {
+      "check": "gate_C_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_C_review_post_attempt",
+      "passed": true,
+      "evidence": "protected unlock wording"
+    },
+    {
+      "check": "gate_C_review_control:1,312,500.00",
+      "passed": true,
+      "evidence": "1,312,500.00"
+    },
+    {
+      "check": "gate_C_review_control:CR027",
+      "passed": true,
+      "evidence": "CR027"
+    },
+    {
+      "check": "gate_C_review_control:Large=14; Medium=21; Small=9",
+      "passed": true,
+      "evidence": "Large=14; Medium=21; Small=9"
+    },
+    {
+      "check": "setup_expected_12_customers",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "setup_expected_48_orders",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "setup_controlled_destructive_scope",
+      "passed": true,
+      "evidence": "safety header present"
+    },
+    {
+      "check": "practice_block_present:SF0",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block_present:SF1",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block_present:SF2",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block_present:SF3",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block_present:SF4",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block_present:SF5",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block_present:SF6",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block_present:SF7",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block_present:SF8",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_has_guided_and_fresh",
+      "passed": true,
+      "evidence": "guided=9; fresh=9"
+    },
+    {
+      "check": "practice_no_destructive_sql",
+      "passed": true,
+      "evidence": "no executable destructive statements"
+    },
+    {
+      "check": "gate_A_table_exact",
+      "passed": true,
+      "evidence": "seller_orders"
+    },
+    {
+      "check": "gate_A_status_exact",
+      "passed": true,
+      "evidence": "Completed"
+    },
+    {
+      "check": "gate_A_measure_exact",
+      "passed": true,
+      "evidence": "order_value"
+    },
+    {
+      "check": "gate_A_nullable_exact",
+      "passed": true,
+      "evidence": "rating"
+    },
+    {
+      "check": "gate_A_duration_exact",
+      "passed": true,
+      "evidence": "fulfillment_days"
+    },
+    {
+      "check": "gate_A_thresholds_exact",
+      "passed": true,
+      "evidence": "30000/15000"
+    },
+    {
+      "check": "gate_A_row_count_comment",
+      "passed": true,
+      "evidence": "42"
+    },
+    {
+      "check": "gate_A_single_table_boundary",
+      "passed": true,
+      "evidence": "boundary present"
+    },
+    {
+      "check": "gate_A_no_executable_advanced_sql",
+      "passed": true,
+      "evidence": "no executable advanced SQL in task tail"
+    },
+    {
+      "check": "gate_B_table_exact",
+      "passed": true,
+      "evidence": "replenishment_events"
+    },
+    {
+      "check": "gate_B_status_exact",
+      "passed": true,
+      "evidence": "Fulfilled"
+    },
+    {
+      "check": "gate_B_measure_exact",
+      "passed": true,
+      "evidence": "requested_qty"
+    },
+    {
+      "check": "gate_B_nullable_exact",
+      "passed": true,
+      "evidence": "lead_days"
+    },
+    {
+      "check": "gate_B_duration_exact",
+      "passed": true,
+      "evidence": "lead_days"
+    },
+    {
+      "check": "gate_B_thresholds_exact",
+      "passed": true,
+      "evidence": "200/100"
+    },
+    {
+      "check": "gate_B_row_count_comment",
+      "passed": true,
+      "evidence": "40"
+    },
+    {
+      "check": "gate_B_single_table_boundary",
+      "passed": true,
+      "evidence": "boundary present"
+    },
+    {
+      "check": "gate_B_no_executable_advanced_sql",
+      "passed": true,
+      "evidence": "no executable advanced SQL in task tail"
+    },
+    {
+      "check": "gate_C_table_exact",
+      "passed": true,
+      "evidence": "renewal_cases"
+    },
+    {
+      "check": "gate_C_status_exact",
+      "passed": true,
+      "evidence": "Renewed"
+    },
+    {
+      "check": "gate_C_measure_exact",
+      "passed": true,
+      "evidence": "renewal_value"
+    },
+    {
+      "check": "gate_C_nullable_exact",
+      "passed": true,
+      "evidence": "health_score"
+    },
+    {
+      "check": "gate_C_duration_exact",
+      "passed": true,
+      "evidence": "days_to_close"
+    },
+    {
+      "check": "gate_C_thresholds_exact",
+      "passed": true,
+      "evidence": "60000/25000"
+    },
+    {
+      "check": "gate_C_row_count_comment",
+      "passed": true,
+      "evidence": "44"
+    },
+    {
+      "check": "gate_C_single_table_boundary",
+      "passed": true,
+      "evidence": "boundary present"
+    },
+    {
+      "check": "gate_C_no_executable_advanced_sql",
+      "passed": true,
+      "evidence": "no executable advanced SQL in task tail"
+    },
+    {
+      "check": "gate_A_B_C_distinct",
+      "passed": true,
+      "evidence": "['d48d115b13bd', '98b8c39c8971', '51a3e48d1f2e']"
+    },
+    {
+      "check": "source_registry_all_9_lessons",
+      "passed": true,
+      "evidence": "['SF0', 'SF1', 'SF2', 'SF3', 'SF4', 'SF5', 'SF6', 'SF7', 'SF8']"
+    },
+    {
+      "check": "source_registry_sf1_book_led",
+      "passed": true,
+      "evidence": "SF1 book-led"
+    },
+    {
+      "check": "source_registry_official_mysql_refs",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "registry_9_lessons",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "registry_16_stage_each",
+      "passed": true,
+      "evidence": "all 9"
+    },
+    {
+      "check": "registry_single_table_boundary_each",
+      "passed": true,
+      "evidence": "all 9"
+    },
+    {
+      "check": "registry_page_map_exact",
+      "passed": true,
+      "evidence": "[6, 9, 12, 15, 18, 21, 24, 27, 30]"
+    },
+    {
+      "check": "evidence_workbook_2_sheets",
+      "passed": true,
+      "evidence": "['START_HERE', 'Mastery_Tracker']"
+    },
+    {
+      "check": "evidence_workbook_no_formula_errors",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    }
+  ]
+}

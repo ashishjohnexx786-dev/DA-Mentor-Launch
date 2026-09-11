@@ -1,0 +1,19 @@
+order_id,return_reason,refund_amount
+O0001,Damaged,8999
+O0005,Changed mind,12745.75
+O0010,Late delivery,1996
+O0014,Wrong item,16572.45
+O0019,Damaged,8998
+O0023,Changed mind,6374.15
+O0028,Late delivery,6495
+O0032,Wrong item,9516.6
+O0037,Damaged,26997
+O0041,Changed mind,5098.3
+O0046,Late delivery,499
+O0050,Wrong item,27620.75
+O0055,Damaged,17996
+O0059,Changed mind,19122.45
+O0064,Late delivery,2598
+O0068,Wrong item,2379.15
+O0073,Damaged,44995
+O0077,Changed mind,10196.6

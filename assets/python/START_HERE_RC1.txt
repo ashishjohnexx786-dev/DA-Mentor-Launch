@@ -1,0 +1,41 @@
+COURSE 1 - M07 PYTHON FOR DATA ANALYSTS - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+M00-M06 competency. Python/Jupyter itself is taught from zero in this module.
+
+START
+1. Open C1_M07_PYTHON_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+2. Start PY0 at page 6.
+3. Open C1_M07_PYTHON_FOR_ANALYSTS_CANONICAL_PRACTICE_NOTEBOOK_RC1.ipynb in Jupyter.
+4. Keep the notebook in the same module folder as Practice_Data/ so relative paths resolve.
+5. Follow PY0 -> PY10 in order. Each lesson has a guided cell and a changed independent cell.
+6. Save notebook evidence before opening protected practice review.
+7. Close review after diagnosis and complete a changed retry.
+8. Complete M-PY at learner-book page 39 and in the practice notebook.
+9. Restart Kernel -> Run All before Gate A.
+
+KEY CORRECTION FROM INHERITED VERSION
+The inherited practice notebook became lesson-shifted after PY2. RC1 does not reuse those shifted headings.
+Every PY0-PY10 lesson now maps directly to its own guided + changed practice cells.
+
+DATA SAFETY / GRAIN
+Preserve raw files.
+Detect before correcting.
+Use merge(validate=..., indicator=True) after proving dimension-key suitability.
+Do not merge order-level refunds directly to line-grain sales and multiply the refund.
+Reconcile important counts and money independently.
+
+GATE STATE MACHINE
+A clean Gate A pass ends M07.
+Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+There is no automatic retest progression and no Gate D.
+
+RUNTIME QA
+The RC1 practice notebook and all three Gate notebooks were executed from a clean Python kernel in the QA environment.
+All executed without cell errors.
+Practice_Data and Gate_Data match the frozen inherited fixture bytes exactly.
+Practice + Gate A/B/C protected metrics were independently recomputed from those source files and match exactly.
+
+STATUS
+M07 internal-QA module candidate only. Course 1 remains unreleased.

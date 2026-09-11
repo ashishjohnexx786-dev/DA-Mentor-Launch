@@ -1,0 +1,852 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M04_SQL_FOR_ANALYSTS",
+  "generated": "2026-09-10",
+  "status": "PASS",
+  "passed": 168,
+  "total": 168,
+  "total_pdf_pages": 63,
+  "failed": [],
+  "checks": [
+    {
+      "check": "lab_count:customers",
+      "passed": true,
+      "evidence": "8"
+    },
+    {
+      "check": "lab_count:products",
+      "passed": true,
+      "evidence": "6"
+    },
+    {
+      "check": "lab_count:orders",
+      "passed": true,
+      "evidence": "30"
+    },
+    {
+      "check": "lab_count:order_items",
+      "passed": true,
+      "evidence": "60"
+    },
+    {
+      "check": "lab_count:return_events",
+      "passed": true,
+      "evidence": "8"
+    },
+    {
+      "check": "lab_line_sales_total_positive",
+      "passed": true,
+      "evidence": "1034167.5"
+    },
+    {
+      "check": "lab_freight_total_positive",
+      "passed": true,
+      "evidence": "13300.0"
+    },
+    {
+      "check": "gate_A_fixture_metric:main_rows",
+      "passed": true,
+      "evidence": "got=30 expected=30"
+    },
+    {
+      "check": "gate_A_fixture_metric:line_rows",
+      "passed": true,
+      "evidence": "got=60 expected=60"
+    },
+    {
+      "check": "gate_A_fixture_metric:event_rows",
+      "passed": true,
+      "evidence": "got=9 expected=9"
+    },
+    {
+      "check": "gate_A_fixture_metric:joined_main_line_rows",
+      "passed": true,
+      "evidence": "got=60 expected=60"
+    },
+    {
+      "check": "gate_A_fixture_metric:main_event_left_join_rows",
+      "passed": true,
+      "evidence": "got=33 expected=33"
+    },
+    {
+      "check": "gate_A_fixture_metric:line_measure_total",
+      "passed": true,
+      "evidence": "got=624888.0 expected=624888.0"
+    },
+    {
+      "check": "gate_A_fixture_metric:main_measure_total",
+      "passed": true,
+      "evidence": "got=12300.0 expected=12300.0"
+    },
+    {
+      "check": "gate_A_fixture_metric:naive_main_measure_after_line_join",
+      "passed": true,
+      "evidence": "got=24600.0 expected=24600.0"
+    },
+    {
+      "check": "gate_A_fixture_metric:distinct_dimension1_in_main",
+      "passed": true,
+      "evidence": "got=8 expected=8"
+    },
+    {
+      "check": "gate_A_fixture_metric:monthly_line_totals",
+      "passed": true,
+      "evidence": "got={'2026-01': 127411.2, '2026-02': 70391.7, '2026-03': 107847.0, '2026-04': 120862.8, '2026-05': 79239.6, '2026-06': 119135.7} expected={'2026-01': 127411.2, '2026-02': 70391.7, '2026-03': 107847.0, '2026-04': 120862.8, '2026-05': 79239.6, '2026-06': 119135.7}"
+    },
+    {
+      "check": "gate_B_fixture_metric:main_rows",
+      "passed": true,
+      "evidence": "got=28 expected=28"
+    },
+    {
+      "check": "gate_B_fixture_metric:line_rows",
+      "passed": true,
+      "evidence": "got=56 expected=56"
+    },
+    {
+      "check": "gate_B_fixture_metric:event_rows",
+      "passed": true,
+      "evidence": "got=7 expected=7"
+    },
+    {
+      "check": "gate_B_fixture_metric:joined_main_line_rows",
+      "passed": true,
+      "evidence": "got=56 expected=56"
+    },
+    {
+      "check": "gate_B_fixture_metric:main_event_left_join_rows",
+      "passed": true,
+      "evidence": "got=30 expected=30"
+    },
+    {
+      "check": "gate_B_fixture_metric:line_measure_total",
+      "passed": true,
+      "evidence": "got=339770.0 expected=339770.0"
+    },
+    {
+      "check": "gate_B_fixture_metric:main_measure_total",
+      "passed": true,
+      "evidence": "got=14700.0 expected=14700.0"
+    },
+    {
+      "check": "gate_B_fixture_metric:naive_main_measure_after_line_join",
+      "passed": true,
+      "evidence": "got=29250.0 expected=29250.0"
+    },
+    {
+      "check": "gate_B_fixture_metric:distinct_dimension1_in_main",
+      "passed": true,
+      "evidence": "got=8 expected=8"
+    },
+    {
+      "check": "gate_B_fixture_metric:monthly_line_totals",
+      "passed": true,
+      "evidence": "got={'2026-02': 76000.0, '2026-03': 72060.0, '2026-04': 71200.0, '2026-05': 68170.0, '2026-06': 52340.0} expected={'2026-02': 76000.0, '2026-03': 72060.0, '2026-04': 71200.0, '2026-05': 68170.0, '2026-06': 52340.0}"
+    },
+    {
+      "check": "gate_C_fixture_metric:main_rows",
+      "passed": true,
+      "evidence": "got=32 expected=32"
+    },
+    {
+      "check": "gate_C_fixture_metric:line_rows",
+      "passed": true,
+      "evidence": "got=65 expected=65"
+    },
+    {
+      "check": "gate_C_fixture_metric:event_rows",
+      "passed": true,
+      "evidence": "got=9 expected=9"
+    },
+    {
+      "check": "gate_C_fixture_metric:joined_main_line_rows",
+      "passed": true,
+      "evidence": "got=65 expected=65"
+    },
+    {
+      "check": "gate_C_fixture_metric:main_event_left_join_rows",
+      "passed": true,
+      "evidence": "got=35 expected=35"
+    },
+    {
+      "check": "gate_C_fixture_metric:line_measure_total",
+      "passed": true,
+      "evidence": "got=1536500.0 expected=1536500.0"
+    },
+    {
+      "check": "gate_C_fixture_metric:main_measure_total",
+      "passed": true,
+      "evidence": "got=12700.0 expected=12700.0"
+    },
+    {
+      "check": "gate_C_fixture_metric:naive_main_measure_after_line_join",
+      "passed": true,
+      "evidence": "got=25800.0 expected=25800.0"
+    },
+    {
+      "check": "gate_C_fixture_metric:distinct_dimension1_in_main",
+      "passed": true,
+      "evidence": "got=8 expected=8"
+    },
+    {
+      "check": "gate_C_fixture_metric:monthly_line_totals",
+      "passed": true,
+      "evidence": "got={'2026-01': 61000.0, '2026-02': 33000.0, '2026-03': 52000.0, '2026-04': 153650.0, '2026-05': 91000.0, '2026-06': 164000.0, '2026-07': 48000.0, '2026-08': 118600.0, '2026-09': 94000.0, '2026-10': 52000.0, '2026-11': 153650.0, '2026-12': 79000.0, '2027-01': 88000.0, '2027-02': 106000.0, '2027-03': 122000.0, '2027-04': 87600.0, '2027-05': 33000.0} expected={'2026-01': 61000.0, '2026-02': 33000.0, '2026-03': 52000.0, '2026-04': 153650.0, '2026-05': 91000.0, '2026-06': 164000.0, '2026-07': 48000.0, '2026-08': 118600.0, '2026-09': 94000.0, '2026-10': 52000.0, '2026-11': 153650.0, '2026-12': 79000.0, '2027-01': 88000.0, '2027-02': 106000.0, '2027-03': 122000.0, '2027-04': 87600.0, '2027-05': 33000.0}"
+    },
+    {
+      "check": "pdf_nonblank:C1_M04_SQL_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=38; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M04_SQL_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M04_SQL_FOR_ANALYSTS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M04_SQL_FOR_ANALYSTS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M04_SQL_FOR_ANALYSTS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M04_SQL_FOR_ANALYSTS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M04_SQL_FOR_ANALYSTS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M04_SQL_FOR_ANALYSTS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M04_SQL_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=11; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M04_SQL_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M04_SQL_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=5; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M04_SQL_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "learner_book_38_pages",
+      "passed": true,
+      "evidence": "38"
+    },
+    {
+      "check": "learner_marker:This book is your teacher",
+      "passed": true,
+      "evidence": "This book is your teacher"
+    },
+    {
+      "check": "learner_marker:Contents / Index",
+      "passed": true,
+      "evidence": "Contents / Index"
+    },
+    {
+      "check": "learner_marker:End-of-module mastery checklist",
+      "passed": true,
+      "evidence": "End-of-module mastery checklist"
+    },
+    {
+      "check": "learner_marker:Revision / SQL quick reference",
+      "passed": true,
+      "evidence": "Revision / SQL quick reference"
+    },
+    {
+      "check": "learner_marker:M-SQLA - Beginner setup and worked micro-example",
+      "passed": true,
+      "evidence": "M-SQLA - Beginner setup and worked micro-example"
+    },
+    {
+      "check": "lesson_16_stage:SA1",
+      "passed": true,
+      "evidence": "pages=6-8; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:SA2",
+      "passed": true,
+      "evidence": "pages=9-11; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:SA3",
+      "passed": true,
+      "evidence": "pages=12-14; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:SA4",
+      "passed": true,
+      "evidence": "pages=15-17; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:SA5",
+      "passed": true,
+      "evidence": "pages=18-20; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:SA6",
+      "passed": true,
+      "evidence": "pages=21-23; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:SA7",
+      "passed": true,
+      "evidence": "pages=24-26; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:SA8",
+      "passed": true,
+      "evidence": "pages=27-29; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:SA9",
+      "passed": true,
+      "evidence": "pages=30-32; missing=[]"
+    },
+    {
+      "check": "learner_external_links_10",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "learner_internal_toc_links_10",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27', '30', '33']"
+    },
+    {
+      "check": "SA4_official_mysql_link",
+      "passed": true,
+      "evidence": "official date ref"
+    },
+    {
+      "check": "SA4_hindi_visual_link",
+      "passed": true,
+      "evidence": "Hindi/Urdu companion"
+    },
+    {
+      "check": "no_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_prohibited_release_claims",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "practice_review_11_pages",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "practice_review_post_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "repair_cards_5_pages",
+      "passed": true,
+      "evidence": "5"
+    },
+    {
+      "check": "repair_no_auto_gate_progression",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_A_review_protected",
+      "passed": true,
+      "evidence": "unlock"
+    },
+    {
+      "check": "gate_A_review_raw_vs_naive",
+      "passed": true,
+      "evidence": "raw=12,300.00; naive=24,600.00"
+    },
+    {
+      "check": "gate_B_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_B_review_protected",
+      "passed": true,
+      "evidence": "unlock"
+    },
+    {
+      "check": "gate_B_review_raw_vs_naive",
+      "passed": true,
+      "evidence": "raw=14,700.00; naive=29,250.00"
+    },
+    {
+      "check": "gate_C_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_C_review_protected",
+      "passed": true,
+      "evidence": "unlock"
+    },
+    {
+      "check": "gate_C_review_raw_vs_naive",
+      "passed": true,
+      "evidence": "raw=12,700.00; naive=25,800.00"
+    },
+    {
+      "check": "practice_block:SA1",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block:SA2",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block:SA3",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block:SA4",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block:SA5",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block:SA6",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block:SA7",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block:SA8",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_block:SA9",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_9_guided",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "practice_9_fresh",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "practice_no_executable_DML",
+      "passed": true,
+      "evidence": "no executable DML"
+    },
+    {
+      "check": "project_marker:STEP 1 - DEFINE BEFORE QUERYING",
+      "passed": true,
+      "evidence": "STEP 1 - DEFINE BEFORE QUERYING"
+    },
+    {
+      "check": "project_marker:STEP 2 - PROVE KEYS / CARDINALITY",
+      "passed": true,
+      "evidence": "STEP 2 - PROVE KEYS / CARDINALITY"
+    },
+    {
+      "check": "project_marker:STEP 3 - WORKED MICRO-EXAMPLE",
+      "passed": true,
+      "evidence": "STEP 3 - WORKED MICRO-EXAMPLE"
+    },
+    {
+      "check": "project_marker:STEP 8 - VALIDATION CONTRACT",
+      "passed": true,
+      "evidence": "STEP 8 - VALIDATION CONTRACT"
+    },
+    {
+      "check": "project_marker:STEP 10 - FRESH RETRY / DEFENSE",
+      "passed": true,
+      "evidence": "STEP 10 - FRESH RETRY / DEFENSE"
+    },
+    {
+      "check": "project_marker:PROJECT PASS",
+      "passed": true,
+      "evidence": "PROJECT PASS"
+    },
+    {
+      "check": "project_no_executable_DML",
+      "passed": true,
+      "evidence": "no executable DML"
+    },
+    {
+      "check": "project_raw_line_reconciliation",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "project_freight_reconciliation",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_task_marker:TASK 1 - GRAIN / KEYS",
+      "passed": true,
+      "evidence": "TASK 1 - GRAIN / KEYS"
+    },
+    {
+      "check": "gate_A_task_marker:TASK 3 - CARDINALITY TRAP",
+      "passed": true,
+      "evidence": "TASK 3 - CARDINALITY TRAP"
+    },
+    {
+      "check": "gate_A_task_marker:TASK 7 - CTE PIPELINE",
+      "passed": true,
+      "evidence": "TASK 7 - CTE PIPELINE"
+    },
+    {
+      "check": "gate_A_task_marker:TASK 8 - WINDOW AGGREGATE",
+      "passed": true,
+      "evidence": "TASK 8 - WINDOW AGGREGATE"
+    },
+    {
+      "check": "gate_A_task_marker:TASK 9 - RANK / LATEST / LAG",
+      "passed": true,
+      "evidence": "TASK 9 - RANK / LATEST / LAG"
+    },
+    {
+      "check": "gate_A_task_marker:TASK 10 - UNION ALL",
+      "passed": true,
+      "evidence": "TASK 10 - UNION ALL"
+    },
+    {
+      "check": "gate_A_task_marker:TASK 11 - VALIDATION EVIDENCE",
+      "passed": true,
+      "evidence": "TASK 11 - VALIDATION EVIDENCE"
+    },
+    {
+      "check": "gate_A_task_marker:TASK 12 - BUSINESS DEFENSE",
+      "passed": true,
+      "evidence": "TASK 12 - BUSINESS DEFENSE"
+    },
+    {
+      "check": "gate_A_task_marker:CRITICAL FAIL",
+      "passed": true,
+      "evidence": "CRITICAL FAIL"
+    },
+    {
+      "check": "gate_A_no_DML_in_assessment_tail",
+      "passed": true,
+      "evidence": "comments only"
+    },
+    {
+      "check": "gate_A_no_distinct_band_aid",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_exact_LEFT_unmatched",
+      "passed": true,
+      "evidence": "explicit"
+    },
+    {
+      "check": "gate_A_conditional_state",
+      "passed": true,
+      "evidence": "state present"
+    },
+    {
+      "check": "gate_B_task_marker:TASK 1 - GRAIN / KEYS",
+      "passed": true,
+      "evidence": "TASK 1 - GRAIN / KEYS"
+    },
+    {
+      "check": "gate_B_task_marker:TASK 3 - CARDINALITY TRAP",
+      "passed": true,
+      "evidence": "TASK 3 - CARDINALITY TRAP"
+    },
+    {
+      "check": "gate_B_task_marker:TASK 7 - CTE PIPELINE",
+      "passed": true,
+      "evidence": "TASK 7 - CTE PIPELINE"
+    },
+    {
+      "check": "gate_B_task_marker:TASK 8 - WINDOW AGGREGATE",
+      "passed": true,
+      "evidence": "TASK 8 - WINDOW AGGREGATE"
+    },
+    {
+      "check": "gate_B_task_marker:TASK 9 - RANK / LATEST / LAG",
+      "passed": true,
+      "evidence": "TASK 9 - RANK / LATEST / LAG"
+    },
+    {
+      "check": "gate_B_task_marker:TASK 10 - UNION ALL",
+      "passed": true,
+      "evidence": "TASK 10 - UNION ALL"
+    },
+    {
+      "check": "gate_B_task_marker:TASK 11 - VALIDATION EVIDENCE",
+      "passed": true,
+      "evidence": "TASK 11 - VALIDATION EVIDENCE"
+    },
+    {
+      "check": "gate_B_task_marker:TASK 12 - BUSINESS DEFENSE",
+      "passed": true,
+      "evidence": "TASK 12 - BUSINESS DEFENSE"
+    },
+    {
+      "check": "gate_B_task_marker:CRITICAL FAIL",
+      "passed": true,
+      "evidence": "CRITICAL FAIL"
+    },
+    {
+      "check": "gate_B_no_DML_in_assessment_tail",
+      "passed": true,
+      "evidence": "comments only"
+    },
+    {
+      "check": "gate_B_no_distinct_band_aid",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_exact_LEFT_unmatched",
+      "passed": true,
+      "evidence": "explicit"
+    },
+    {
+      "check": "gate_B_conditional_state",
+      "passed": true,
+      "evidence": "state present"
+    },
+    {
+      "check": "gate_C_task_marker:TASK 1 - GRAIN / KEYS",
+      "passed": true,
+      "evidence": "TASK 1 - GRAIN / KEYS"
+    },
+    {
+      "check": "gate_C_task_marker:TASK 3 - CARDINALITY TRAP",
+      "passed": true,
+      "evidence": "TASK 3 - CARDINALITY TRAP"
+    },
+    {
+      "check": "gate_C_task_marker:TASK 7 - CTE PIPELINE",
+      "passed": true,
+      "evidence": "TASK 7 - CTE PIPELINE"
+    },
+    {
+      "check": "gate_C_task_marker:TASK 8 - WINDOW AGGREGATE",
+      "passed": true,
+      "evidence": "TASK 8 - WINDOW AGGREGATE"
+    },
+    {
+      "check": "gate_C_task_marker:TASK 9 - RANK / LATEST / LAG",
+      "passed": true,
+      "evidence": "TASK 9 - RANK / LATEST / LAG"
+    },
+    {
+      "check": "gate_C_task_marker:TASK 10 - UNION ALL",
+      "passed": true,
+      "evidence": "TASK 10 - UNION ALL"
+    },
+    {
+      "check": "gate_C_task_marker:TASK 11 - VALIDATION EVIDENCE",
+      "passed": true,
+      "evidence": "TASK 11 - VALIDATION EVIDENCE"
+    },
+    {
+      "check": "gate_C_task_marker:TASK 12 - BUSINESS DEFENSE",
+      "passed": true,
+      "evidence": "TASK 12 - BUSINESS DEFENSE"
+    },
+    {
+      "check": "gate_C_task_marker:CRITICAL FAIL",
+      "passed": true,
+      "evidence": "CRITICAL FAIL"
+    },
+    {
+      "check": "gate_C_no_DML_in_assessment_tail",
+      "passed": true,
+      "evidence": "comments only"
+    },
+    {
+      "check": "gate_C_no_distinct_band_aid",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_exact_LEFT_unmatched",
+      "passed": true,
+      "evidence": "explicit"
+    },
+    {
+      "check": "gate_C_conditional_state",
+      "passed": true,
+      "evidence": "state present"
+    },
+    {
+      "check": "gates_distinct",
+      "passed": true,
+      "evidence": "['b2c087e54f62', '28bcb6b4c5e6', '0188d5cb26b7']"
+    },
+    {
+      "check": "lab_header:customers=8",
+      "passed": true,
+      "evidence": "customers=8"
+    },
+    {
+      "check": "lab_header:products=6",
+      "passed": true,
+      "evidence": "products=6"
+    },
+    {
+      "check": "lab_header:orders=30",
+      "passed": true,
+      "evidence": "orders=30"
+    },
+    {
+      "check": "lab_header:order_items=60",
+      "passed": true,
+      "evidence": "order_items=60"
+    },
+    {
+      "check": "lab_header:return_events=8",
+      "passed": true,
+      "evidence": "return_events=8"
+    },
+    {
+      "check": "lab_header:freight_amount belongs to order grain",
+      "passed": true,
+      "evidence": "freight_amount belongs to order grain"
+    },
+    {
+      "check": "evidence_workbook_sheets",
+      "passed": true,
+      "evidence": "['Evidence_Log', 'Mastery_Tracker']"
+    },
+    {
+      "check": "evidence_workbook_no_errors",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "mastery_tracker_has_project",
+      "passed": true,
+      "evidence": "project row present"
+    },
+    {
+      "check": "source_registry_11_rows",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "source_registry_all_9_lessons",
+      "passed": true,
+      "evidence": "['SA1', 'SA2', 'SA3', 'SA4', 'SA5', 'SA6', 'SA7', 'SA8', 'SA9']"
+    },
+    {
+      "check": "source_segment:SA1",
+      "passed": true,
+      "evidence": "51:10-1:08:03"
+    },
+    {
+      "check": "source_segment:SA2",
+      "passed": true,
+      "evidence": "51:10-1:08:03"
+    },
+    {
+      "check": "source_segment:SA7",
+      "passed": true,
+      "evidence": "1:45:58-1:58:55"
+    },
+    {
+      "check": "source_segment:SA8",
+      "passed": true,
+      "evidence": "1:45:58-1:58:55"
+    },
+    {
+      "check": "source_SA4_official",
+      "passed": true,
+      "evidence": "official"
+    },
+    {
+      "check": "source_SA4_current_visual",
+      "passed": true,
+      "evidence": "Hindi visual"
+    },
+    {
+      "check": "source_SA4_legacy_history",
+      "passed": true,
+      "evidence": "legacy"
+    },
+    {
+      "check": "registry_9_lessons",
+      "passed": true,
+      "evidence": "9"
+    },
+    {
+      "check": "registry_16_stage_each",
+      "passed": true,
+      "evidence": "all 9"
+    },
+    {
+      "check": "registry_project_page",
+      "passed": true,
+      "evidence": "33"
+    },
+    {
+      "check": "registry_prereq_boundary",
+      "passed": true,
+      "evidence": "all 9"
+    }
+  ]
+}

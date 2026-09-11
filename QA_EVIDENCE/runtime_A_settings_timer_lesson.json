@@ -1,0 +1,84 @@
+{
+  "boot": {
+    "tabs": 8,
+    "views": 8,
+    "tab_texts": [
+      "\ud83c\udfe0 Today",
+      "\ud83d\udcd8 Learn",
+      "\ud83d\uddfa Course",
+      "\ud83e\udde9 Repair",
+      "\ud83d\udcc1 Evidence",
+      "\ud83d\ude80 Jobs",
+      "\ud83d\udcca Reports",
+      "\u2699 Settings"
+    ],
+    "lesson_heading": "O1 \u2014 How This Course Works",
+    "review_disabled_initial": true,
+    "storage_key_present_before_first_save": false
+  },
+  "settings": {
+    "name": "QA Learner",
+    "theme": "amoled",
+    "dailyTarget": 3.5,
+    "body_theme": "amoled",
+    "bg": "#000",
+    "storage_key_created": true
+  },
+  "timer": {
+    "active_started": true,
+    "active_after_end": null,
+    "sessions": 1,
+    "last_seconds": 1,
+    "button_text": "START STUDY"
+  },
+  "lesson_before": {
+    "review_disabled": true,
+    "master_disabled": true,
+    "repair_disabled": true,
+    "meta": "foundation \u2022 Foundation \u2022 14\u201321 focused hours \u2022 Teaching Book page 6",
+    "learn_text": "Open the canonical Teaching Book at page 6. This lesson is book-led; no external video is required.",
+    "proof_text": "Complete the matching practice \u2014 O1 independently. Save the real attempt, one validation and your main uncertainty."
+  },
+  "after_attempt": {
+    "review_disabled": false,
+    "review_text": "Open / record protected review"
+  },
+  "after_review": {
+    "repair_disabled": false,
+    "retest_disabled": false,
+    "opened_count": 1
+  },
+  "mastery": {
+    "first_lesson_state": {
+      "guided": true,
+      "attempt": true,
+      "review": true,
+      "retest": true,
+      "explain": true,
+      "mastered": true,
+      "skipped": false
+    },
+    "currentLesson": "O2",
+    "revision_dates": [
+      "2026-09-11",
+      "2026-09-14",
+      "2026-09-20",
+      "2026-10-10"
+    ],
+    "course_mastery_text": "1/120"
+  },
+  "checks": {
+    "exact_8_tabs": true,
+    "settings_primary": true,
+    "storage_key_compatible": true,
+    "settings_persist": true,
+    "amoled_true_black": true,
+    "timer_manual_session": true,
+    "review_locked_before_attempt": true,
+    "review_unlock_after_attempt": true,
+    "repair_unlock_after_review": true,
+    "mastery_sequence_pass": true,
+    "revision_scheduled": true
+  },
+  "status": "PASS"
+}

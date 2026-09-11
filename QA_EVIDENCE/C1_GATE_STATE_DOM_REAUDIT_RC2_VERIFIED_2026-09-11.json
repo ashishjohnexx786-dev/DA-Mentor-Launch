@@ -1,0 +1,23 @@
+{
+  "harness": "Playwright set_content + inlined curriculum + test-only storage shim/state exposure; harness never written into candidate",
+  "checks": {
+    "course_global_repair_control_visible": 0,
+    "course_repair_cards_text_visible": 0,
+    "B_assign_visible_after_fail_only": 0,
+    "B_gate_open_visible_after_fail_only": 0,
+    "B_assign_visible_review_without_reviewViewed": 0,
+    "B_assign_visible_after_review_before_repair": 0,
+    "B_assign_visible_after_repair_without_evidence": 0,
+    "B_assign_visible_after_all_prereqs": 1,
+    "B_assigned_state_after_explicit_click": true,
+    "B_gate_open_visible_after_assignment": 1,
+    "B_gate_open_enabled_after_assignment": true,
+    "C_assign_visible_after_B_fail_only": 0,
+    "C_assign_visible_after_all_prereqs": 1,
+    "C_assigned_state_after_explicit_click": true,
+    "C_gate_open_visible_after_assignment": 1,
+    "normalize_backfills_reviewViewed": true
+  },
+  "page_errors": [],
+  "status": "PASS"
+}

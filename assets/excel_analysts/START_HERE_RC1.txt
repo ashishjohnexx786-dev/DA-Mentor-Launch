@@ -1,0 +1,27 @@
+COURSE 1 - M02 EXCEL FOR ANALYSTS - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+M01 Excel Fundamentals must be stable enough for independent formulas, references, Tables, sort/filter, basic charts, validation and explain-back.
+
+NORMAL ROUTE
+1. Open C1_M02_EXCEL_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+2. Open C1_M02_EXCEL_FOR_ANALYSTS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx.
+3. Begin EFA1 at learner-book page 6 and practice sheet P-EFA1_IF.
+4. Continue EFA1 -> EFA11 using the mapped practice/output sheets.
+5. Save a genuine attempt in Evidence_Log before opening protected review.
+6. Close review after repair and complete a changed retry.
+7. Complete M-XLA using Prepared_Data -> Analysis_Pivots -> Management_Report -> Validation_Log.
+8. Attempt Gate A only after M-XLA is defensible.
+
+GATE STATE MACHINE
+A clean Gate A pass ends the Gate.
+Gate B requires failed Gate A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed Gate B + saved attempt + Review B + targeted repair + explicit assignment.
+No percentage-average shortcut. Critical data/logic/validation failures can block a pass.
+
+LIVE TOOL BOUNDARY
+The static workbook/PDF/container QA is complete for this internal candidate.
+Live Excel Desktop execution of PivotTables, slicers, Power Query refresh and relationship UI is still required before a Course 1 learner release claim.
+
+STATUS
+M02 internal-QA module candidate only. Course 1 remains unreleased.

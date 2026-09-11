@@ -1,0 +1,387 @@
+{
+  "course": "Course 1 - Zero-to-Job-Ready Data Analyst 2026",
+  "module": "M00 Foundation",
+  "build": "RC1",
+  "label": "INTERNAL QA CANDIDATE",
+  "scope": "Module learner materials, practice, protected review/repair, Gate A/B/C family, evidence workbook, source and route controls.",
+  "checks": [
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_START_HERE_RC1.pdf",
+      "result": "PASS",
+      "evidence": "2 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_START_HERE_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "result": "PASS",
+      "evidence": "34 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_BEGINNER_FIRST_PRACTICE_BOOK_RC1.pdf",
+      "result": "PASS",
+      "evidence": "13 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_BEGINNER_FIRST_PRACTICE_BOOK_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_GATE_B_RC1.pdf",
+      "result": "PASS",
+      "evidence": "6 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_GATE_B_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_GATE_A_RC1.pdf",
+      "result": "PASS",
+      "evidence": "6 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_GATE_A_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_GATE_C_RC1.pdf",
+      "result": "PASS",
+      "evidence": "6 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_GATE_C_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_GATE_C_REVIEW_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "2 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_GATE_C_REVIEW_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_GATE_A_REVIEW_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "2 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_GATE_A_REVIEW_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_GATE_B_REVIEW_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "2 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_GATE_B_REVIEW_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "2 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "PDF opens: C1_M00_FOUNDATION_TARGETED_REPAIR_CARDS_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "8 pages"
+    },
+    {
+      "check": "No blank text pages: C1_M00_FOUNDATION_TARGETED_REPAIR_CARDS_PROTECTED_RC1.pdf",
+      "result": "PASS",
+      "evidence": "all pages contain text"
+    },
+    {
+      "check": "Learner architecture: This book is your teacher",
+      "result": "PASS",
+      "evidence": "present"
+    },
+    {
+      "check": "Learner architecture: Contents / Index",
+      "result": "PASS",
+      "evidence": "present"
+    },
+    {
+      "check": "Learner architecture: Module prerequisite & tool map",
+      "result": "PASS",
+      "evidence": "present"
+    },
+    {
+      "check": "Learner architecture: How to study, practise and take the Gate",
+      "result": "PASS",
+      "evidence": "present"
+    },
+    {
+      "check": "Learner architecture: End-of-module mastery checklist",
+      "result": "PASS",
+      "evidence": "present"
+    },
+    {
+      "check": "Learner architecture: Revision / quick reference",
+      "result": "PASS",
+      "evidence": "present"
+    },
+    {
+      "check": "Learner lesson present: O1",
+      "result": "PASS",
+      "evidence": "found"
+    },
+    {
+      "check": "Learner lesson present: O2",
+      "result": "PASS",
+      "evidence": "found"
+    },
+    {
+      "check": "Learner lesson present: O3",
+      "result": "PASS",
+      "evidence": "found"
+    },
+    {
+      "check": "Learner lesson present: F1",
+      "result": "PASS",
+      "evidence": "found"
+    },
+    {
+      "check": "Learner lesson present: F2",
+      "result": "PASS",
+      "evidence": "found"
+    },
+    {
+      "check": "Learner lesson present: F3",
+      "result": "PASS",
+      "evidence": "found"
+    },
+    {
+      "check": "Learner lesson present: F4",
+      "result": "PASS",
+      "evidence": "found"
+    },
+    {
+      "check": "Learner lesson present: F5",
+      "result": "PASS",
+      "evidence": "found"
+    },
+    {
+      "check": "Learner lesson present: F6",
+      "result": "PASS",
+      "evidence": "found"
+    },
+    {
+      "check": "16-stage repetition: 1. Why this lesson matters",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 2. What you are learning",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 3. What you already need / prerequisite",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 4. Picture it in your head",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 5. New words before we use them",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 6. Watch / visual source",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 7. Follow with me once",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 8. What you should see / be able to say",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 9. Why it worked",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 10. Common beginner mistakes",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 11. If you get stuck",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 12. Now you do a small version alone",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 13. Validate your result",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 14. Teach it back in your own words",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 15. Protected review + changed fresh retry",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "16-stage repetition: 16. Evidence / mastery + exact next route",
+      "result": "PASS",
+      "evidence": "count=9, expected=9"
+    },
+    {
+      "check": "Learner clickable internal TOC links",
+      "result": "PASS",
+      "evidence": "page3 links=15"
+    },
+    {
+      "check": "F1 external video clickable",
+      "result": "PASS",
+      "evidence": "page16 links=1"
+    },
+    {
+      "check": "All named local C1_M00 references resolve",
+      "result": "PASS",
+      "evidence": "refs=12, missing=[]"
+    },
+    {
+      "check": "Gate pass is competency-based",
+      "result": "PASS",
+      "evidence": "pass_rule=ALL critical competencies PASS AND no critical failure; no percentage average"
+    },
+    {
+      "check": "Gate A clean pass ends Gate",
+      "result": "PASS",
+      "evidence": {
+        "normal": true,
+        "on_pass": "END_GATE_AND_COMPLETE_M00",
+        "on_fail": "SAVE_ATTEMPT -> REVIEW_A -> TARGETED_REPAIR -> CHANGED_RETRY -> explicit B assignment only"
+      }
+    },
+    {
+      "check": "Gate B protected unlock",
+      "result": "PASS",
+      "evidence": "failed A + saved A attempt + Review A + repair evidence + explicit assignment"
+    },
+    {
+      "check": "Gate C protected unlock",
+      "result": "PASS",
+      "evidence": "failed B + saved B attempt + Review B + second repair evidence + explicit assignment"
+    },
+    {
+      "check": "No automatic Gate D",
+      "result": "PASS",
+      "evidence": "STOP_AUTOMATIC_RETESTS -> directed remediation"
+    },
+    {
+      "check": "Gate A contains unique scenario",
+      "result": "PASS",
+      "evidence": "scenario found"
+    },
+    {
+      "check": "Gate B contains unique scenario",
+      "result": "PASS",
+      "evidence": "scenario found"
+    },
+    {
+      "check": "Gate C contains unique scenario",
+      "result": "PASS",
+      "evidence": "scenario found"
+    },
+    {
+      "check": "No forced timer/Pomodoro UI markers",
+      "result": "PASS",
+      "evidence": "[]"
+    },
+    {
+      "check": "Evidence workbook OOXML CRC",
+      "result": "PASS",
+      "evidence": "sheets=5, badcrc=None"
+    },
+    {
+      "check": "F1 source URL recorded",
+      "result": "PASS",
+      "evidence": {
+        "priority": "OPTIONAL VISUAL COMPANION",
+        "title": "Alex The Analyst - What Does a Data Analyst Do: Meetings, Data, Excel, SQL",
+        "url": "https://www.youtube.com/watch?v=mCSbYbXWmH0",
+        "verification_state": "verified/corroborated in Course 1 source audit RC1",
+        "internal_fallback": "Learner book F1 teaches the complete lesson without external dependency"
+      }
+    },
+    {
+      "check": "F1 internal fallback recorded",
+      "result": "PASS",
+      "evidence": "Learner book F1 teaches the complete lesson without external dependency"
+    },
+    {
+      "check": "Learner PDF visual inspection",
+      "result": "PASS",
+      "evidence": "34/34 pages inspected after render; page16-17 reinspected after hyperlink change; no open visual defect"
+    },
+    {
+      "check": "Practice/Gate/Review PDF visual inspection",
+      "result": "PASS",
+      "evidence": "49/49 generated pages inspected via 13 contact sheets after answer-space repair; no clipping/overlap/blank page observed"
+    },
+    {
+      "check": "Evidence workbook visual inspection",
+      "result": "PASS",
+      "evidence": "READ_ME and MASTERY_SUMMARY rendered and inspected; dropdown indicators and layout visible"
+    }
+  ],
+  "totals": {
+    "checks": 71,
+    "pass": 71,
+    "fail": 0
+  },
+  "module_materials_static_verdict": "PASS",
+  "known_release_blockers": [
+    "Course 1 Mentor has not yet been synchronized to stable rebuilt book/page routes.",
+    "Whole-course M01-M11 rebuild and cross-module learner-path QA are not complete.",
+    "Whole-course release/package reconciliation is not complete."
+  ],
+  "release_ready": false,
+  "note": "A module-level static PASS is not a Course 1 FINAL/CONTENT FREEZE claim."
+}

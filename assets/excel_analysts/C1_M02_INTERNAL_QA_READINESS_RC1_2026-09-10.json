@@ -1,0 +1,46 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M02_EXCEL_FOR_ANALYSTS",
+  "status": "INTERNAL_QA_PASS",
+  "generated": "2026-09-10",
+  "scope": {
+    "canonical_lessons": 11,
+    "project": "M-XLA - Build an Excel Analysis That Can Be Defended",
+    "learner_book_pages": 44,
+    "practice_workbook_sheets": 29,
+    "gate_scenarios": [
+      "A - Retail Orders",
+      "B - Support Tickets",
+      "C - Subscription Billing"
+    ],
+    "source_registry_rows": 13,
+    "external_lesson_links": 11
+  },
+  "qa": {
+    "static_checks_passed": 115,
+    "static_checks_total": 115,
+    "manifest_rows": 15,
+    "manifest_errors": [],
+    "pdf_render_pages": 71,
+    "xlsx_crc": "PASS practice + Gate A/B/C",
+    "per_lesson_16_stage": "PASS EFA1-EFA11",
+    "stale_route_scan": "PASS",
+    "gate_distinctness": "PASS",
+    "protected_review_separation": "PASS"
+  },
+  "corrected_defects": [
+    "Created missing My_Pivots and My_Report output sheets.",
+    "Renamed misleading EFA2 practice route to P-EFA2_ConditionalAgg and removed stale P-EFA2_IFS text.",
+    "Extended EFA1 visual segment from 0:00-3:46 to 0:00-4:45 so multi-condition logic is actually covered.",
+    "Replaced weak whole-book heading-count QA with per-lesson exact page-span 16-stage verification."
+  ],
+  "live_release_blockers": [
+    "Execute PivotTable creation/refresh and EFA8 reconciliation in Excel Desktop.",
+    "Execute EFA9 PivotChart + slicer Report Connections default/filter/clear-state test.",
+    "Execute EFA10 Power Query load + controlled source-change refresh.",
+    "Execute EFA11 relationship creation/manage test where installed Excel edition exposes Data Model UI.",
+    "M03-M11 rebuilds are still pending.",
+    "Whole-course Mentor synchronization and learner simulation are pending."
+  ],
+  "release_boundary": "M02 static internal-QA module pass only; not Course 1 learner release."
+}

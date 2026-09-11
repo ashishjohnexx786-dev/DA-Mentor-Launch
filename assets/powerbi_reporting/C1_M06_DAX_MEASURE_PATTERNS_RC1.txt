@@ -1,0 +1,55 @@
+COURSE 1 - M06 POWER BI DAX & REPORTING - TEACHING REFERENCE RC1
+
+Use these patterns only after the matching learner-book explanation. Type them yourself.
+They are practice-model teaching patterns, NOT Gate answers.
+
+PBD1 - BASE MEASURES
+Line Count = COUNTROWS(Sales)
+Order Count = DISTINCTCOUNT(Sales[Order ID])
+Customer Count = DISTINCTCOUNT(Sales[Customer ID])
+Total Quantity = SUM(Sales[Quantity])
+Gross Sales = SUMX(Sales, Sales[Quantity] * Sales[Unit Price])
+Net Sales = SUMX(Sales, Sales[Quantity] * Sales[Unit Price] * (1 - Sales[Discount]))
+Total Cost = SUMX(Sales, Sales[Quantity] * Sales[Unit Cost])
+Profit = [Net Sales] - [Total Cost]
+Margin % = DIVIDE([Profit], [Net Sales])
+Average Order Value = DIVIDE([Net Sales], [Order Count])
+
+PBD3 - CONTEXT MODIFICATION
+East Sales = CALCULATE([Net Sales], Regions[Region] = "East")
+Electronics Sales = CALCULATE([Net Sales], Products[Category] = "Electronics")
+All Category Sales = CALCULATE([Net Sales], REMOVEFILTERS(Products[Category]))
+Category Share % = DIVIDE([Net Sales], [All Category Sales])
+
+PBD4 - TARGETS
+Sales Target = SUM(Monthly_Targets[Sales Target])
+Variance to Target = [Net Sales] - [Sales Target]
+Attainment % = DIVIDE([Net Sales], [Sales Target])
+Rule: target comparison is meaningful only at supported Region + Month grain.
+
+PBD5 - TIME
+Net Sales YTD = TOTALYTD([Net Sales], 'Date'[Date])
+Net Sales Previous Month = CALCULATE([Net Sales], DATEADD('Date'[Date], -1, MONTH))
+Net Sales Prior Year = CALCULATE([Net Sales], SAMEPERIODLASTYEAR('Date'[Date]))
+MoM Change = [Net Sales] - [Net Sales Previous Month]
+MoM % = DIVIDE([MoM Change], [Net Sales Previous Month])
+YoY Change = [Net Sales] - [Net Sales Prior Year]
+YoY % = DIVIDE([YoY Change], [Net Sales Prior Year])
+
+PRACTICE VALIDATION ANCHORS
+Do not memorize these. Use them only after you build the practice measures:
+Line Count 361
+Order Count 180
+Customer Count 12
+Net Sales 4,074,127.25
+Total Cost 2,469,180.00
+Profit 1,604,947.25
+Margin % about 39.3936%
+
+BOUNDARY RULES
+- A measure result changes with filter context even when its formula does not.
+- CALCULATE changes evaluation context; it does not repair a broken model.
+- REMOVEFILTERS should remove only the filter the denominator is meant to ignore.
+- DIVIDE handles zero/blank denominators more safely than raw /.
+- Time intelligence needs the valid Date dimension from M05.
+- Do not fabricate daily targets from monthly targets.

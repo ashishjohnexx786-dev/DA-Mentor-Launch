@@ -1,0 +1,19 @@
+{
+  "A": {
+    "delivered_rows": 32,
+    "on_time_rate": 0.375,
+    "total_value_delivered": 109118.35
+  },
+  "B": {
+    "eligible_rows": 32,
+    "renewal_rate": 0.6562,
+    "avg_support_tickets_eligible": 2.81,
+    "superseded_baseline_value": 2.91,
+    "superseded_reason": "2.91 averages Support_Tickets across all 44 members, not the eligible renewal cohort used by the case question."
+  },
+  "C": {
+    "completed_visits": 36,
+    "within_wait_target_rate": 0.3889,
+    "completed_billed_total": 71056.02
+  }
+}

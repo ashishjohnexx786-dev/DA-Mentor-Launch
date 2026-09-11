@@ -1,0 +1,341 @@
+{
+  "generated": "2026-09-11",
+  "method": "Independent recomputation from the CURRENT regenerated workbook values extracted through artifact_tool; no reuse of the older QA candidate workbook bytes.",
+  "results": {
+    "practice": {
+      "computed": {
+        "overall": {
+          "valid_orders": 357,
+          "rejected_rows": 4,
+          "revenue": 3497806.19,
+          "margin_rate": 0.390569,
+          "on_time_rate": 0.557423,
+          "return_rate": 0.137255,
+          "avg_satisfaction": 4.028
+        },
+        "by_region": {
+          "East": {
+            "n": 83,
+            "on_time_rate": 0.542169,
+            "return_rate": 0.168675,
+            "margin_rate": 0.391794,
+            "revenue": 791948.66
+          },
+          "North": {
+            "n": 83,
+            "on_time_rate": 0.722892,
+            "return_rate": 0.096386,
+            "margin_rate": 0.401544,
+            "revenue": 841291.17
+          },
+          "South": {
+            "n": 86,
+            "on_time_rate": 0.72093,
+            "return_rate": 0.162791,
+            "margin_rate": 0.398793,
+            "revenue": 831893.66
+          },
+          "West": {
+            "n": 105,
+            "on_time_rate": 0.304762,
+            "return_rate": 0.12381,
+            "margin_rate": 0.374063,
+            "revenue": 1032672.7
+          }
+        },
+        "priority_combo": {
+          "region": "West",
+          "channel": "Marketplace",
+          "n": 36,
+          "on_time_rate": 0.138889,
+          "return_rate": 0.055556,
+          "margin_rate": 0.329487
+        },
+        "category_return_rates": {
+          "Beauty": 0.121212,
+          "Electronics": 0.123596,
+          "Fashion": 0.216981,
+          "Home": 0.072917
+        },
+        "rejections": [
+          [
+            "RP0045",
+            "Missing Region"
+          ],
+          [
+            "RP0112",
+            "Invalid negative Variable_Cost"
+          ],
+          [
+            "RP0178",
+            "Invalid Order_Date"
+          ],
+          [
+            "RP0021",
+            "Exact duplicate Order_ID row"
+          ]
+        ]
+      },
+      "expected": {
+        "overall": {
+          "valid_orders": 357,
+          "rejected_rows": 4,
+          "revenue": 3497806.19,
+          "margin_rate": 0.390569,
+          "on_time_rate": 0.557423,
+          "return_rate": 0.137255,
+          "avg_satisfaction": 4.028
+        },
+        "by_region": {
+          "East": {
+            "n": 83,
+            "on_time_rate": 0.542169,
+            "return_rate": 0.168675,
+            "margin_rate": 0.391794,
+            "revenue": 791948.66
+          },
+          "North": {
+            "n": 83,
+            "on_time_rate": 0.722892,
+            "return_rate": 0.096386,
+            "margin_rate": 0.401544,
+            "revenue": 841291.17
+          },
+          "South": {
+            "n": 86,
+            "on_time_rate": 0.72093,
+            "return_rate": 0.162791,
+            "margin_rate": 0.398793,
+            "revenue": 831893.66
+          },
+          "West": {
+            "n": 105,
+            "on_time_rate": 0.304762,
+            "return_rate": 0.12381,
+            "margin_rate": 0.374063,
+            "revenue": 1032672.7
+          }
+        },
+        "priority_combo": {
+          "region": "West",
+          "channel": "Marketplace",
+          "n": 36,
+          "on_time_rate": 0.138889,
+          "return_rate": 0.055556,
+          "margin_rate": 0.329487
+        },
+        "category_return_rates": {
+          "Beauty": 0.121212,
+          "Electronics": 0.123596,
+          "Fashion": 0.216981,
+          "Home": 0.072917
+        },
+        "rejections": [
+          [
+            "RP0045",
+            "Missing Region"
+          ],
+          [
+            "RP0112",
+            "Invalid negative Variable_Cost"
+          ],
+          [
+            "RP0178",
+            "Invalid Order_Date"
+          ],
+          [
+            "RP0021",
+            "Exact duplicate Order_ID row"
+          ]
+        ]
+      },
+      "diffs": [],
+      "match": true
+    },
+    "A": {
+      "computed": {
+        "valid_rows": 258,
+        "rejected_rows": 3,
+        "overall_no_show_rate": 0.151163,
+        "overall_avg_wait": 36.89,
+        "by_clinic": {
+          "CentralCare": {
+            "n": 66,
+            "no_show_rate": 0.106061,
+            "avg_wait": 30.53,
+            "avg_sat": 3.74
+          },
+          "HillView": {
+            "n": 51,
+            "no_show_rate": 0.137255,
+            "avg_wait": 31.94,
+            "avg_sat": 3.73
+          },
+          "NorthCare": {
+            "n": 65,
+            "no_show_rate": 0.292308,
+            "avg_wait": 31.08,
+            "avg_sat": 3.65
+          },
+          "Riverside": {
+            "n": 76,
+            "no_show_rate": 0.078947,
+            "avg_wait": 50.71,
+            "avg_sat": 3.28
+          }
+        }
+      },
+      "expected": {
+        "valid_rows": 258,
+        "rejected_rows": 3,
+        "overall_no_show_rate": 0.151163,
+        "overall_avg_wait": 36.89,
+        "by_clinic": {
+          "CentralCare": {
+            "n": 66,
+            "no_show_rate": 0.106061,
+            "avg_wait": 30.53,
+            "avg_sat": 3.74
+          },
+          "HillView": {
+            "n": 51,
+            "no_show_rate": 0.137255,
+            "avg_wait": 31.94,
+            "avg_sat": 3.73
+          },
+          "NorthCare": {
+            "n": 65,
+            "no_show_rate": 0.292308,
+            "avg_wait": 31.08,
+            "avg_sat": 3.65
+          },
+          "Riverside": {
+            "n": 76,
+            "no_show_rate": 0.078947,
+            "avg_wait": 50.71,
+            "avg_sat": 3.28
+          }
+        }
+      },
+      "diffs": [],
+      "match": true
+    },
+    "B": {
+      "computed": {
+        "valid_rows": 238,
+        "rejected_rows": 3,
+        "overall_renewal_rate": 0.668067,
+        "by_plan": {
+          "Basic": {
+            "n": 116,
+            "renewal_rate": 0.586207,
+            "avg_support_contacts": 1.67,
+            "monthly_revenue": 69484
+          },
+          "Plus": {
+            "n": 82,
+            "renewal_rate": 0.707317,
+            "avg_support_contacts": 1.88,
+            "monthly_revenue": 81918
+          },
+          "Pro": {
+            "n": 40,
+            "renewal_rate": 0.825,
+            "avg_support_contacts": 1.98,
+            "monthly_revenue": 63960
+          }
+        }
+      },
+      "expected": {
+        "valid_rows": 238,
+        "rejected_rows": 3,
+        "overall_renewal_rate": 0.668067,
+        "by_plan": {
+          "Basic": {
+            "n": 116,
+            "renewal_rate": 0.586207,
+            "avg_support_contacts": 1.67,
+            "monthly_revenue": 69484
+          },
+          "Plus": {
+            "n": 82,
+            "renewal_rate": 0.707317,
+            "avg_support_contacts": 1.88,
+            "monthly_revenue": 81918
+          },
+          "Pro": {
+            "n": 40,
+            "renewal_rate": 0.825,
+            "avg_support_contacts": 1.98,
+            "monthly_revenue": 63960
+          }
+        }
+      },
+      "diffs": [],
+      "match": true
+    },
+    "C": {
+      "computed": {
+        "valid_rows": 248,
+        "rejected_rows": 3,
+        "overall_on_time_rate": 0.548387,
+        "overall_return_rate": 0.16129,
+        "by_tier": {
+          "Bronze": {
+            "n": 86,
+            "on_time_rate": 0.348837,
+            "return_rate": 0.162791,
+            "margin_rate": 0.36811,
+            "avg_rating": 3.95
+          },
+          "Gold": {
+            "n": 42,
+            "on_time_rate": 0.666667,
+            "return_rate": 0.238095,
+            "margin_rate": 0.345837,
+            "avg_rating": 4.31
+          },
+          "Silver": {
+            "n": 120,
+            "on_time_rate": 0.65,
+            "return_rate": 0.133333,
+            "margin_rate": 0.364782,
+            "avg_rating": 4.33
+          }
+        }
+      },
+      "expected": {
+        "valid_rows": 248,
+        "rejected_rows": 3,
+        "overall_on_time_rate": 0.548387,
+        "overall_return_rate": 0.16129,
+        "by_tier": {
+          "Bronze": {
+            "n": 86,
+            "on_time_rate": 0.348837,
+            "return_rate": 0.162791,
+            "margin_rate": 0.36811,
+            "avg_rating": 3.95
+          },
+          "Gold": {
+            "n": 42,
+            "on_time_rate": 0.666667,
+            "return_rate": 0.238095,
+            "margin_rate": 0.345837,
+            "avg_rating": 4.31
+          },
+          "Silver": {
+            "n": 120,
+            "on_time_rate": 0.65,
+            "return_rate": 0.133333,
+            "margin_rate": 0.364782,
+            "avg_rating": 4.33
+          }
+        }
+      },
+      "diffs": [],
+      "match": true
+    }
+  },
+  "all_match": true
+}

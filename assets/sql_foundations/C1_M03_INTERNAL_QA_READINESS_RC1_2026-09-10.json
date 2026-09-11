@@ -1,0 +1,41 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M03_SQL_FOUNDATIONS",
+  "generated": "2026-09-10",
+  "status": "INTERNAL_QA_PASS",
+  "scope": {
+    "canonical_lessons": 9,
+    "learner_book_pages": 34,
+    "setup_fixture": "12 customers + 48 orders",
+    "practice_blocks": "9 guided + 9 fresh",
+    "gate_scenarios": [
+      "A - Marketplace Seller Orders",
+      "B - Inventory Replenishment Events",
+      "C - Customer Success Renewals"
+    ],
+    "module_boundary": "single-table SQL only; JOIN/CTE/subquery/window deferred to M04"
+  },
+  "qa": {
+    "static_checks_passed": 118,
+    "static_checks_total": 118,
+    "manifest_rows": 17,
+    "manifest_errors": [],
+    "protected_gate_fixture_metric_recalculation": "PASS A/B/C exact",
+    "pdf_render_preflight": "PASS",
+    "evidence_workbook_artifact_tool_inspection": "PASS",
+    "live_mysql_runtime": "PENDING - MySQL not installed in build environment"
+  },
+  "corrected_defects": [
+    "Replaced generic Gate task placeholders with exact schema columns.",
+    "Restored Gate-specific CASE thresholds to protected metric parity.",
+    "Corrected Gate A domain label to Marketplace Seller Orders.",
+    "Aligned Gate state-machine wording with A terminal pass and conditional B/C retests."
+  ],
+  "remaining_release_blockers": [
+    "Live MySQL Server/Workbench learner simulation.",
+    "M04-M11 clean regeneration and QA.",
+    "Whole-course Mentor synchronization to stable regenerated routes.",
+    "End-to-end responsive/device and release-level package QA."
+  ],
+  "release_boundary": "M03 static internal-QA module pass only; not Course 1 learner release."
+}

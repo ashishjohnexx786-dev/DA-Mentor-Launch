@@ -1,0 +1,87 @@
+{
+  "generated": "2026-09-11",
+  "metric_contract": {
+    "raw_rows": "All supplied Source_Data rows excluding header.",
+    "exact_duplicate_rows": "Extra exact duplicate records beyond the first copy; flagged separately.",
+    "negative_revenue_rows": "Rows where revenue < 0; flagged separately.",
+    "privacy_flag_rows": "Rows whose privacy_note is not 'none'.",
+    "completed_nonnegative_revenue_total": "SUM(revenue) where status='Completed' and revenue>=0.",
+    "return_rate_returns_over_completed": "COUNT(Returned)/COUNT(Completed).",
+    "top_region_completed_revenue": "Region with highest SUM(revenue) among Completed, nonnegative rows."
+  },
+  "gate_recomputation": {
+    "A": {
+      "computed": {
+        "raw_rows": 48,
+        "exact_duplicate_rows": 1,
+        "negative_revenue_rows": 1,
+        "privacy_flag_rows": 11,
+        "completed_nonnegative_revenue_total": 156107.02,
+        "return_rate_returns_over_completed": 0.4483,
+        "top_region_by_completed_revenue": "South",
+        "top_region_completed_revenue": 53648.86
+      },
+      "expected": {
+        "raw_rows": 48,
+        "exact_duplicate_rows": 1,
+        "negative_revenue_rows": 1,
+        "privacy_flag_rows": 11,
+        "completed_nonnegative_revenue_total": 156107.02,
+        "return_rate_returns_over_completed": 0.4483,
+        "top_region_by_completed_revenue": "South",
+        "top_region_completed_revenue": 53648.86
+      },
+      "match": true,
+      "diffs": {}
+    },
+    "B": {
+      "computed": {
+        "raw_rows": 52,
+        "exact_duplicate_rows": 1,
+        "negative_revenue_rows": 1,
+        "privacy_flag_rows": 13,
+        "completed_nonnegative_revenue_total": 148546.26,
+        "return_rate_returns_over_completed": 0.1875,
+        "top_region_by_completed_revenue": "West",
+        "top_region_completed_revenue": 49503.57
+      },
+      "expected": {
+        "raw_rows": 52,
+        "exact_duplicate_rows": 1,
+        "negative_revenue_rows": 1,
+        "privacy_flag_rows": 13,
+        "completed_nonnegative_revenue_total": 148546.26,
+        "return_rate_returns_over_completed": 0.1875,
+        "top_region_by_completed_revenue": "West",
+        "top_region_completed_revenue": 49503.57
+      },
+      "match": true,
+      "diffs": {}
+    },
+    "C": {
+      "computed": {
+        "raw_rows": 48,
+        "exact_duplicate_rows": 1,
+        "negative_revenue_rows": 1,
+        "privacy_flag_rows": 11,
+        "completed_nonnegative_revenue_total": 164355.53,
+        "return_rate_returns_over_completed": 0.2812,
+        "top_region_by_completed_revenue": "South",
+        "top_region_completed_revenue": 78698.15
+      },
+      "expected": {
+        "raw_rows": 48,
+        "exact_duplicate_rows": 1,
+        "negative_revenue_rows": 1,
+        "privacy_flag_rows": 11,
+        "completed_nonnegative_revenue_total": 164355.53,
+        "return_rate_returns_over_completed": 0.2812,
+        "top_region_by_completed_revenue": "South",
+        "top_region_completed_revenue": 78698.15
+      },
+      "match": true,
+      "diffs": {}
+    }
+  },
+  "all_gate_metrics_match": true
+}

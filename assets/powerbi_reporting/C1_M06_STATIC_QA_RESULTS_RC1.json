@@ -1,0 +1,939 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M06_POWERBI_DAX_REPORTING",
+  "generated": "2026-09-10",
+  "status": "PASS",
+  "passed": 185,
+  "total": 185,
+  "total_pdf_pages": 86,
+  "external_learner_links": 13,
+  "failed": [],
+  "checks": [
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "114511"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_PRACTICE_DATA_RC1.xlsx",
+      "passed": true,
+      "evidence": "52503"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_PRACTICE_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "25715"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "28648"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "7308"
+    },
+    {
+      "check": "artifact_exists:C1_M06_M_PBIR_INTEGRATED_REPORT_PROJECT_RC1.pdf",
+      "passed": true,
+      "evidence": "8013"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_GATE_A_DATA_RC1.xlsx",
+      "passed": true,
+      "evidence": "46630"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_GATE_A_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "7252"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5031"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_GATE_B_DATA_RC1.xlsx",
+      "passed": true,
+      "evidence": "44176"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_GATE_B_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "7274"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5000"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_GATE_C_DATA_RC1.xlsx",
+      "passed": true,
+      "evidence": "47665"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_GATE_C_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "7253"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "5020"
+    },
+    {
+      "check": "artifact_exists:C1_M06_POWERBI_DAX_REPORTING_MASTERY_TRACKER_RC1.xlsx",
+      "passed": true,
+      "evidence": "4824"
+    },
+    {
+      "check": "artifact_exists:C1_M06_DAX_MEASURE_PATTERNS_RC1.txt",
+      "passed": true,
+      "evidence": "2421"
+    },
+    {
+      "check": "artifact_exists:C1_M06_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "18080"
+    },
+    {
+      "check": "artifact_exists:C1_M06_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "6117"
+    },
+    {
+      "check": "artifact_exists:C1_M06_PROTECTED_METRIC_RECOMPUTATION_RC1.json",
+      "passed": true,
+      "evidence": "4947"
+    },
+    {
+      "check": "learner_book_41_pages",
+      "passed": true,
+      "evidence": "41"
+    },
+    {
+      "check": "learner_marker:This book is your teacher",
+      "passed": true,
+      "evidence": "This book is your teacher"
+    },
+    {
+      "check": "learner_marker:Contents / Index",
+      "passed": true,
+      "evidence": "Contents / Index"
+    },
+    {
+      "check": "learner_marker:Module prerequisite and tool map",
+      "passed": true,
+      "evidence": "Module prerequisite and tool map"
+    },
+    {
+      "check": "learner_marker:Exact practice, project and Gate route",
+      "passed": true,
+      "evidence": "Exact practice, project and Gate route"
+    },
+    {
+      "check": "learner_marker:End-of-module mastery checklist",
+      "passed": true,
+      "evidence": "End-of-module mastery checklist"
+    },
+    {
+      "check": "learner_marker:Revision / DAX-report quick reference",
+      "passed": true,
+      "evidence": "Revision / DAX-report quick reference"
+    },
+    {
+      "check": "learner_marker:M-PBIR - Integrated executive report, QA and handoff",
+      "passed": true,
+      "evidence": "M-PBIR - Integrated executive report, QA and handoff"
+    },
+    {
+      "check": "lesson_16_stage:PBD1",
+      "passed": true,
+      "evidence": "pages=6-8; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBD2",
+      "passed": true,
+      "evidence": "pages=9-11; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBD3",
+      "passed": true,
+      "evidence": "pages=12-14; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBD4",
+      "passed": true,
+      "evidence": "pages=15-17; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBD5",
+      "passed": true,
+      "evidence": "pages=18-20; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBD6",
+      "passed": true,
+      "evidence": "pages=21-23; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBD7",
+      "passed": true,
+      "evidence": "pages=24-26; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBD8",
+      "passed": true,
+      "evidence": "pages=27-29; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBD9",
+      "passed": true,
+      "evidence": "pages=30-32; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PBD10",
+      "passed": true,
+      "evidence": "pages=33-35; missing=[]"
+    },
+    {
+      "check": "learner_internal_toc_links_11",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27', '30', '33', '36']"
+    },
+    {
+      "check": "learner_external_links_minimum_13",
+      "passed": true,
+      "evidence": "13"
+    },
+    {
+      "check": "learner_link:PBD1_DAX_visual",
+      "passed": true,
+      "evidence": "lD7TvkoQ6rY"
+    },
+    {
+      "check": "learner_link:PBD3_CALCULATE_official",
+      "passed": true,
+      "evidence": "calculate-function-dax"
+    },
+    {
+      "check": "learner_link:PBD5_time_official",
+      "passed": true,
+      "evidence": "time-intelligence-functions-dax"
+    },
+    {
+      "check": "learner_link:PBD5_dashboard_visual",
+      "passed": true,
+      "evidence": "ooJO7NW4uJU"
+    },
+    {
+      "check": "learner_link:PBD9_publish",
+      "passed": true,
+      "evidence": "desktop-upload-desktop-files"
+    },
+    {
+      "check": "learner_link:PBD9_refresh",
+      "passed": true,
+      "evidence": "refresh-data"
+    },
+    {
+      "check": "learner_link:PBD10_RLS_visual",
+      "passed": true,
+      "evidence": "MxU_FYSSnYU"
+    },
+    {
+      "check": "learner_link:PBD10_RLS_official",
+      "passed": true,
+      "evidence": "row-level-security"
+    },
+    {
+      "check": "no_forced_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_prohibited_release_claims",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_M_PBIR_INTEGRATED_REPORT_PROJECT_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=4; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_M_PBIR_INTEGRATED_REPORT_PROJECT_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=41; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_GATE_A_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_GATE_A_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_GATE_B_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_GATE_B_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_GATE_C_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_GATE_C_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=2; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_PRACTICE_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=11; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_PRACTICE_GUIDE_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=11; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M06_POWERBI_DAX_REPORTING_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=4; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M06_POWERBI_DAX_REPORTING_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "practice_guide_11_pages",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "practice_guide_block:PBD1",
+      "passed": true,
+      "evidence": "PBD1"
+    },
+    {
+      "check": "practice_guide_block:PBD2",
+      "passed": true,
+      "evidence": "PBD2"
+    },
+    {
+      "check": "practice_guide_block:PBD3",
+      "passed": true,
+      "evidence": "PBD3"
+    },
+    {
+      "check": "practice_guide_block:PBD4",
+      "passed": true,
+      "evidence": "PBD4"
+    },
+    {
+      "check": "practice_guide_block:PBD5",
+      "passed": true,
+      "evidence": "PBD5"
+    },
+    {
+      "check": "practice_guide_block:PBD6",
+      "passed": true,
+      "evidence": "PBD6"
+    },
+    {
+      "check": "practice_guide_block:PBD7",
+      "passed": true,
+      "evidence": "PBD7"
+    },
+    {
+      "check": "practice_guide_block:PBD8",
+      "passed": true,
+      "evidence": "PBD8"
+    },
+    {
+      "check": "practice_guide_block:PBD9",
+      "passed": true,
+      "evidence": "PBD9"
+    },
+    {
+      "check": "practice_guide_block:PBD10",
+      "passed": true,
+      "evidence": "PBD10"
+    },
+    {
+      "check": "practice_guide_10_changed_tasks",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "protected_practice_review_11_pages",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "protected_practice_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "protected_practice_review_10_fresh_retries",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "project_4_pages",
+      "passed": true,
+      "evidence": "4"
+    },
+    {
+      "check": "project_marker:Business request",
+      "passed": true,
+      "evidence": "Business request"
+    },
+    {
+      "check": "project_marker:Deliverables",
+      "passed": true,
+      "evidence": "Deliverables"
+    },
+    {
+      "check": "project_marker:Forbidden shortcuts",
+      "passed": true,
+      "evidence": "Forbidden shortcuts"
+    },
+    {
+      "check": "project_marker:Build sequence",
+      "passed": true,
+      "evidence": "Build sequence"
+    },
+    {
+      "check": "project_marker:Validation and evidence checklist",
+      "passed": true,
+      "evidence": "Validation and evidence checklist"
+    },
+    {
+      "check": "project_marker:Rubric and interview defense",
+      "passed": true,
+      "evidence": "Rubric and interview defense"
+    },
+    {
+      "check": "project_target_grain_rule",
+      "passed": true,
+      "evidence": "target-grain shortcut prohibited"
+    },
+    {
+      "check": "project_RLS_security_rule",
+      "passed": true,
+      "evidence": "security distinction present"
+    },
+    {
+      "check": "repair_cards_4_pages",
+      "passed": true,
+      "evidence": "4"
+    },
+    {
+      "check": "repair_gate_state",
+      "passed": true,
+      "evidence": "explicit B/C protected state-machine rule present in regenerated repair cards"
+    },
+    {
+      "check": "gate_A_guide_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_A_protected_first_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_guide_no_protected_numeric_controls",
+      "passed": true,
+      "evidence": "no answer-control table exposed"
+    },
+    {
+      "check": "gate_A_state_machine",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_A_review_has_expected_controls",
+      "passed": true,
+      "evidence": "control table present"
+    },
+    {
+      "check": "gate_A_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_guide_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_B_protected_first_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_guide_no_protected_numeric_controls",
+      "passed": true,
+      "evidence": "no answer-control table exposed"
+    },
+    {
+      "check": "gate_B_state_machine",
+      "passed": true,
+      "evidence": "verified with normalized PDF whitespace; rule spans a rendered line break"
+    },
+    {
+      "check": "gate_B_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_B_review_has_expected_controls",
+      "passed": true,
+      "evidence": "control table present"
+    },
+    {
+      "check": "gate_B_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_guide_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_C_protected_first_attempt",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_guide_no_protected_numeric_controls",
+      "passed": true,
+      "evidence": "no answer-control table exposed"
+    },
+    {
+      "check": "gate_C_state_machine",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_2_pages",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "gate_C_review_has_expected_controls",
+      "passed": true,
+      "evidence": "control table present"
+    },
+    {
+      "check": "gate_C_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "xlsx_crc:practice",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_no_timer:practice",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "xlsx_sheet_names:practice",
+      "passed": true,
+      "evidence": "['README', 'Products', 'Customers', 'Regions', 'Date', 'Sales', 'Monthly_Targets', 'Evidence_Log']"
+    },
+    {
+      "check": "xlsx_no_formula_errors:practice",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "xlsx_M05_prerequisite:practice",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_target_grain:practice",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_append_only_evidence:practice",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_crc:A",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_no_timer:A",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "xlsx_sheet_names:A",
+      "passed": true,
+      "evidence": "['README', 'Plans', 'Clubs', 'Members', 'Date', 'Membership_Events', 'Club_Monthly_Targets', 'Evidence_Log']"
+    },
+    {
+      "check": "xlsx_no_formula_errors:A",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "xlsx_M05_prerequisite:A",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_target_grain:A",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_append_only_evidence:A",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_crc:B",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_no_timer:B",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "xlsx_sheet_names:B",
+      "passed": true,
+      "evidence": "['README', 'Restaurants', 'Zones', 'Date', 'Orders', 'Zone_Monthly_Targets', 'Evidence_Log']"
+    },
+    {
+      "check": "xlsx_no_formula_errors:B",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "xlsx_M05_prerequisite:B",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_target_grain:B",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_append_only_evidence:B",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_crc:C",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "xlsx_no_timer:C",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "xlsx_sheet_names:C",
+      "passed": true,
+      "evidence": "['README', 'Services', 'Clinics', 'Patients', 'Date', 'Visits', 'Clinic_Monthly_Targets', 'Evidence_Log']"
+    },
+    {
+      "check": "xlsx_no_formula_errors:C",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "xlsx_M05_prerequisite:C",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_target_grain:C",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "xlsx_append_only_evidence:C",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "mastery_xlsx_crc",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "mastery_row:PBD1",
+      "passed": true,
+      "evidence": "PBD1"
+    },
+    {
+      "check": "mastery_row:PBD2",
+      "passed": true,
+      "evidence": "PBD2"
+    },
+    {
+      "check": "mastery_row:PBD3",
+      "passed": true,
+      "evidence": "PBD3"
+    },
+    {
+      "check": "mastery_row:PBD4",
+      "passed": true,
+      "evidence": "PBD4"
+    },
+    {
+      "check": "mastery_row:PBD5",
+      "passed": true,
+      "evidence": "PBD5"
+    },
+    {
+      "check": "mastery_row:PBD6",
+      "passed": true,
+      "evidence": "PBD6"
+    },
+    {
+      "check": "mastery_row:PBD7",
+      "passed": true,
+      "evidence": "PBD7"
+    },
+    {
+      "check": "mastery_row:PBD8",
+      "passed": true,
+      "evidence": "PBD8"
+    },
+    {
+      "check": "mastery_row:PBD9",
+      "passed": true,
+      "evidence": "PBD9"
+    },
+    {
+      "check": "mastery_row:PBD10",
+      "passed": true,
+      "evidence": "PBD10"
+    },
+    {
+      "check": "mastery_row:M-PBIR",
+      "passed": true,
+      "evidence": "M-PBIR"
+    },
+    {
+      "check": "mastery_no_formula_errors",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "protected_metric_match:practice",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "protected_metric_match:A",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "protected_metric_match:B",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "protected_metric_match:C",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "dax_pattern:COUNTROWS(Sales)",
+      "passed": true,
+      "evidence": "COUNTROWS(Sales)"
+    },
+    {
+      "check": "dax_pattern:DISTINCTCOUNT(Sales[Order ID])",
+      "passed": true,
+      "evidence": "DISTINCTCOUNT(Sales[Order ID])"
+    },
+    {
+      "check": "dax_pattern:SUMX(Sales",
+      "passed": true,
+      "evidence": "SUMX(Sales"
+    },
+    {
+      "check": "dax_pattern:DIVIDE([Profit], [Net Sales])",
+      "passed": true,
+      "evidence": "DIVIDE([Profit], [Net Sales])"
+    },
+    {
+      "check": "dax_pattern:REMOVEFILTERS(Products[Category])",
+      "passed": true,
+      "evidence": "REMOVEFILTERS(Products[Category])"
+    },
+    {
+      "check": "dax_pattern:TOTALYTD",
+      "passed": true,
+      "evidence": "TOTALYTD"
+    },
+    {
+      "check": "dax_pattern:DATEADD",
+      "passed": true,
+      "evidence": "DATEADD"
+    },
+    {
+      "check": "dax_pattern:SAMEPERIODLASTYEAR",
+      "passed": true,
+      "evidence": "SAMEPERIODLASTYEAR"
+    },
+    {
+      "check": "dax_file_not_gate_answers",
+      "passed": true,
+      "evidence": "teaching boundary present"
+    },
+    {
+      "check": "source_registry_18_rows",
+      "passed": true,
+      "evidence": "18"
+    },
+    {
+      "check": "source_registry_all_10_lessons",
+      "passed": true,
+      "evidence": "['PBD1', 'PBD10', 'PBD2', 'PBD3', 'PBD4', 'PBD5', 'PBD6', 'PBD7', 'PBD8', 'PBD9']"
+    },
+    {
+      "check": "source_registry:PBD1:lD7TvkoQ6rY",
+      "passed": true,
+      "evidence": "lD7TvkoQ6rY"
+    },
+    {
+      "check": "source_registry:PBD5:ooJO7NW4uJU",
+      "passed": true,
+      "evidence": "ooJO7NW4uJU"
+    },
+    {
+      "check": "source_registry:PBD9:desktop-upload-desktop-files",
+      "passed": true,
+      "evidence": "desktop-upload-desktop-files"
+    },
+    {
+      "check": "source_registry:PBD10:MxU_FYSSnYU",
+      "passed": true,
+      "evidence": "MxU_FYSSnYU"
+    },
+    {
+      "check": "source_registry:PBD10:row-level-security",
+      "passed": true,
+      "evidence": "row-level-security"
+    },
+    {
+      "check": "registry_10_lessons",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "registry_16_stage_each",
+      "passed": true,
+      "evidence": "all 10"
+    },
+    {
+      "check": "registry_project_page",
+      "passed": true,
+      "evidence": "36"
+    },
+    {
+      "check": "registry_runtime_boundary",
+      "passed": true,
+      "evidence": "all 10"
+    }
+  ],
+  "post_repair_note": "Repair cards regenerated to include explicit Gate state on every card. Gate B check uses normalized whitespace because PDF line wrapping split the sentence."
+}

@@ -1,0 +1,61 @@
+{
+  "critical_competencies": [
+    {
+      "id": "C1",
+      "name": "F2 Framing",
+      "proof": "Bounded decision-linked question; facts separated from assumptions."
+    },
+    {
+      "id": "C2",
+      "name": "F3 Metric/KPI",
+      "proof": "Reproducible metric definition; explicit eligible denominator for a rate; unresolved rules visible."
+    },
+    {
+      "id": "C3",
+      "name": "F4 Grain/Data",
+      "proof": "Correct source/result grain; legitimate repetition; minimum required fields/rules."
+    },
+    {
+      "id": "C4",
+      "name": "F5 Data Quality",
+      "proof": "Five scenario-specific checks with impact/next action."
+    },
+    {
+      "id": "C5",
+      "name": "F6 Validation/DoD",
+      "proof": "Internal validation, comparable reconciliation, sanity check, assumptions/limitations, testable Definition of Done."
+    },
+    {
+      "id": "C6",
+      "name": "F1 Decision Support",
+      "proof": "Interpretation stays within evidence and supports the stated decision without unsupported cause claims."
+    }
+  ],
+  "pass_rule": "ALL critical competencies PASS AND no critical failure; no percentage average",
+  "critical_failures": [
+    "undefined/wrong rate denominator",
+    "invented business definition hidden as fact",
+    "expected many-row history treated as duplicate records",
+    "quality checks at wrong grain",
+    "non-comparable reconciliation presented as proof",
+    "unsupported causal claim",
+    "untestable Definition of Done"
+  ],
+  "A": {
+    "normal": true,
+    "on_pass": "END_GATE_AND_COMPLETE_M00",
+    "on_fail": "SAVE_ATTEMPT -> REVIEW_A -> TARGETED_REPAIR -> CHANGED_RETRY -> explicit B assignment only"
+  },
+  "B": {
+    "normal": false,
+    "unlock": "failed A + saved A attempt + Review A + repair evidence + explicit assignment",
+    "on_pass": "END_GATE_AND_COMPLETE_M00",
+    "on_fail": "SAVE_ATTEMPT -> REVIEW_B -> SECOND_REPAIR -> CHANGED_RETRY -> explicit C assignment only"
+  },
+  "C": {
+    "normal": false,
+    "unlock": "failed B + saved B attempt + Review B + second repair evidence + explicit assignment",
+    "on_pass": "END_GATE_AND_COMPLETE_M00",
+    "on_fail": "STOP_AUTOMATIC_RETESTS -> directed remediation"
+  }
+}

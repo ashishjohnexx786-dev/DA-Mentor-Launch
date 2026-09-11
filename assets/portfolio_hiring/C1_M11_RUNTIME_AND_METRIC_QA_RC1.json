@@ -1,0 +1,103 @@
+{
+  "generated": "2026-09-11",
+  "capstone_current_bytes": {
+    "computed": {
+      "raw_rows": 221,
+      "exact_duplicate_extra_rows": 1,
+      "unknown_product_id_rows": 1,
+      "invalid_discount_rows": 1,
+      "blank_region_rows": 1,
+      "malformed_actual_date_rows": 1,
+      "reference_route": {
+        "net_revenue_non_cancelled_valid_discount_nonblank_region": 1498615.0,
+        "eligible_completed_or_returned_rows": 174,
+        "returned_rows": 38,
+        "return_rate": 0.21839080459770116,
+        "on_time_eligible_valid_dates": 173,
+        "on_time_rows": 91,
+        "on_time_rate": 0.5260115606936416,
+        "matched_product_margin": 558925.0
+      }
+    },
+    "expected": {
+      "raw_rows": 221,
+      "exact_duplicate_extra_rows": 1,
+      "unknown_product_id_rows": 1,
+      "invalid_discount_rows": 1,
+      "blank_region_rows": 1,
+      "malformed_actual_date_rows": 1,
+      "reference_route": {
+        "policy": "Drop only the extra exact duplicate. Exclude the invalid-discount row from revenue/margin calculations that require a valid 0-1 discount. Flag the blank-Region row but KEEP it in overall revenue/return/on-time metrics; exclude it only from comparisons that require a known Region. Keep the unmatched Product_ID visible and exclude it only from margin until its cost is resolved. Exclude the malformed Actual_Date only from calculations requiring a valid Actual_Date.",
+        "net_revenue_non_cancelled_valid_discount_nonblank_region": 1498615.0,
+        "eligible_completed_or_returned_rows": 174,
+        "returned_rows": 38,
+        "return_rate": 0.2183908046,
+        "on_time_eligible_valid_dates": 173,
+        "on_time_rows": 91,
+        "on_time_rate": 0.5260115607,
+        "matched_product_margin": 558925.0,
+        "blank_region_treatment": "Included in overall metrics; excluded only from Region-specific comparisons."
+      }
+    },
+    "match": true,
+    "diffs": {},
+    "control_correction": "Blank Region remains in overall metrics and is excluded only from Region-specific comparisons."
+  },
+  "job_readiness_current_bytes": {
+    "gate_recomputation": {
+      "A": {
+        "match": true,
+        "diffs": {},
+        "computed": {
+          "delivered_rows": 32,
+          "on_time_rate": 0.375,
+          "total_value_delivered": 109118.35
+        },
+        "expected": {
+          "delivered_rows": 32,
+          "on_time_rate": 0.375,
+          "total_value_delivered": 109118.35
+        }
+      },
+      "B": {
+        "match": true,
+        "diffs": {},
+        "computed": {
+          "eligible_rows": 32,
+          "renewal_rate": 0.6562,
+          "avg_support_tickets_eligible": 2.81,
+          "avg_support_tickets_all_members_for_baseline_bug": 2.91
+        },
+        "expected": {
+          "eligible_rows": 32,
+          "renewal_rate": 0.6562,
+          "avg_support_tickets_eligible": 2.81
+        }
+      },
+      "C": {
+        "match": true,
+        "diffs": {},
+        "computed": {
+          "completed_visits": 36,
+          "within_wait_target_rate": 0.3889,
+          "completed_billed_total": 71056.02
+        },
+        "expected": {
+          "completed_visits": 36,
+          "within_wait_target_rate": 0.3889,
+          "completed_billed_total": 71056.02
+        }
+      }
+    },
+    "all_match": true
+  },
+  "baseline_gate_B_defect": {
+    "old_protected_value": 2.91,
+    "what_old_value_actually_measures": "Average Support_Tickets across all 44 members.",
+    "recomputed_all_members": 2.91,
+    "correct_gate_cohort": "Eligible_Renewal = 1",
+    "eligible_rows": 32,
+    "correct_average": 2.81,
+    "resolution": "Rebuilt Gate B explicitly asks for average support tickets among eligible renewal members and protects 2.81."
+  }
+}

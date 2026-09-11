@@ -1,0 +1,17 @@
+COURSE 1 - M01 EXCEL FUNDAMENTALS - INTERNAL QA CANDIDATE RC1
+
+START:
+1. Open C1_M01_EXCEL_FUNDAMENTALS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+2. Open C1_M01_EXCEL_FUNDAMENTALS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx.
+3. Begin EF1 at learner-book page 6 and practice sheet P-EF1_Navigation.
+4. Follow the exact lesson route: learn -> assigned visual if useful -> follow once -> fresh try -> validate -> explain -> save evidence.
+5. Keep protected review files closed until a genuine attempt is saved.
+
+GATE:
+Complete EF1-EF9 and M-XLF before Gate A.
+A clean Gate A pass ends the Gate.
+Gate B requires failed A + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + Review B + targeted repair + explicit assignment.
+
+STATUS:
+This package is for internal QA only. Course 1 learner release remains blocked by the remaining module rebuilds, Mentor synchronization and end-to-end learner simulation.

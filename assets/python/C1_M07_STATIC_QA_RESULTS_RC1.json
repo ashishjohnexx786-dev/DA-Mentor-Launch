@@ -1,0 +1,868 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M07_PYTHON_FOR_DATA_ANALYSTS",
+  "generated": "2026-09-11",
+  "status": "PASS",
+  "passed": 171,
+  "total": 171,
+  "total_pdf_pages": 71,
+  "learner_external_links": 14,
+  "failed": [],
+  "checks": [
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "125898"
+    },
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_FOR_ANALYSTS_CANONICAL_PRACTICE_NOTEBOOK_RC1.ipynb",
+      "passed": true,
+      "evidence": "28673"
+    },
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "34059"
+    },
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "8819"
+    },
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_GATE_A_RC1.ipynb",
+      "passed": true,
+      "evidence": "4468"
+    },
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "7188"
+    },
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_GATE_B_RC1.ipynb",
+      "passed": true,
+      "evidence": "4506"
+    },
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "7165"
+    },
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_GATE_C_RC1.ipynb",
+      "passed": true,
+      "evidence": "4501"
+    },
+    {
+      "check": "artifact_exists:C1_M07_PYTHON_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "7148"
+    },
+    {
+      "check": "artifact_exists:C1_M07_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "20191"
+    },
+    {
+      "check": "artifact_exists:C1_M07_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "5294"
+    },
+    {
+      "check": "artifact_exists:C1_M07_RUNTIME_AND_SOURCE_QA_RC1.json",
+      "passed": true,
+      "evidence": "9239"
+    },
+    {
+      "check": "notebook_clean_kernel:C1_M07_PYTHON_FOR_ANALYSTS_CANONICAL_PRACTICE_NOTEBOOK_RC1.ipynb",
+      "passed": true,
+      "evidence": "{'status': 'PASS', 'cells': 50, 'executed_copy': 'C1_M07_PYTHON_FOR_ANALYSTS_CANONICAL_PRACTICE_NOTEBOOK_RC1_EXECUTED_QA.ipynb', 'error': None}"
+    },
+    {
+      "check": "notebook_clean_kernel:C1_M07_PYTHON_GATE_A_RC1.ipynb",
+      "passed": true,
+      "evidence": "{'status': 'PASS', 'cells': 7, 'executed_copy': 'C1_M07_PYTHON_GATE_A_RC1_EXECUTED_QA.ipynb', 'error': None}"
+    },
+    {
+      "check": "notebook_clean_kernel:C1_M07_PYTHON_GATE_B_RC1.ipynb",
+      "passed": true,
+      "evidence": "{'status': 'PASS', 'cells': 7, 'executed_copy': 'C1_M07_PYTHON_GATE_B_RC1_EXECUTED_QA.ipynb', 'error': None}"
+    },
+    {
+      "check": "notebook_clean_kernel:C1_M07_PYTHON_GATE_C_RC1.ipynb",
+      "passed": true,
+      "evidence": "{'status': 'PASS', 'cells': 7, 'executed_copy': 'C1_M07_PYTHON_GATE_C_RC1_EXECUTED_QA.ipynb', 'error': None}"
+    },
+    {
+      "check": "direct_PY0_PY10_mapping",
+      "passed": true,
+      "evidence": "all direct"
+    },
+    {
+      "check": "source_data_byte_parity",
+      "passed": true,
+      "evidence": "Practice_Data + Gate_Data exact"
+    },
+    {
+      "check": "protected_metric_match:practice",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "protected_metric_match:A",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "protected_metric_match:B",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "protected_metric_match:C",
+      "passed": true,
+      "evidence": "{}"
+    },
+    {
+      "check": "learner_book_44_pages",
+      "passed": true,
+      "evidence": "44"
+    },
+    {
+      "check": "learner_marker:This book is your teacher",
+      "passed": true,
+      "evidence": "This book is your teacher"
+    },
+    {
+      "check": "learner_marker:Contents / Index",
+      "passed": true,
+      "evidence": "Contents / Index"
+    },
+    {
+      "check": "learner_marker:Module prerequisite and tool map",
+      "passed": true,
+      "evidence": "Module prerequisite and tool map"
+    },
+    {
+      "check": "learner_marker:Exact practice, project and Gate route",
+      "passed": true,
+      "evidence": "Exact practice, project and Gate route"
+    },
+    {
+      "check": "learner_marker:End-of-module mastery checklist",
+      "passed": true,
+      "evidence": "End-of-module mastery checklist"
+    },
+    {
+      "check": "learner_marker:Revision / Python quick reference",
+      "passed": true,
+      "evidence": "Revision / Python quick reference"
+    },
+    {
+      "check": "learner_marker:M-PY - Integrated analyst workflow project",
+      "passed": true,
+      "evidence": "M-PY - Integrated analyst workflow project"
+    },
+    {
+      "check": "lesson_16_stage:PY0",
+      "passed": true,
+      "evidence": "pages=6-8; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY1",
+      "passed": true,
+      "evidence": "pages=9-11; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY2",
+      "passed": true,
+      "evidence": "pages=12-14; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY3",
+      "passed": true,
+      "evidence": "pages=15-17; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY4",
+      "passed": true,
+      "evidence": "pages=18-20; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY5",
+      "passed": true,
+      "evidence": "pages=21-23; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY6",
+      "passed": true,
+      "evidence": "pages=24-26; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY7",
+      "passed": true,
+      "evidence": "pages=27-29; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY8",
+      "passed": true,
+      "evidence": "pages=30-32; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY9",
+      "passed": true,
+      "evidence": "pages=33-35; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage:PY10",
+      "passed": true,
+      "evidence": "pages=36-38; missing=[]"
+    },
+    {
+      "check": "learner_internal_toc_links_12",
+      "passed": true,
+      "evidence": "12"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27', '30', '33', '36', '39']"
+    },
+    {
+      "check": "learner_external_links_min_13",
+      "passed": true,
+      "evidence": "14"
+    },
+    {
+      "check": "learner_link:bootcamp",
+      "passed": true,
+      "evidence": "PSNXoAs2FtQ"
+    },
+    {
+      "check": "learner_link:read_files",
+      "passed": true,
+      "evidence": "dUpyC40cF6Q"
+    },
+    {
+      "check": "learner_link:EDA",
+      "passed": true,
+      "evidence": "Liv6eeb1VfE"
+    },
+    {
+      "check": "learner_link:Jupyter_install",
+      "passed": true,
+      "evidence": "jupyter.org/install"
+    },
+    {
+      "check": "learner_link:pandas_merge",
+      "passed": true,
+      "evidence": "pandas.pydata.org/docs/reference/api/pandas.merge.html"
+    },
+    {
+      "check": "learner_link:Matplotlib_plot_types",
+      "passed": true,
+      "evidence": "matplotlib.org/stable/plot_types"
+    },
+    {
+      "check": "no_old_shift_claim",
+      "passed": true,
+      "evidence": "old drift heading absent"
+    },
+    {
+      "check": "no_forced_timer",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_prohibited_release_claims",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "pdf_nonblank:C1_M07_PYTHON_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=44; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M07_PYTHON_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M07_PYTHON_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=13; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M07_PYTHON_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M07_PYTHON_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=5; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M07_PYTHON_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M07_PYTHON_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M07_PYTHON_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M07_PYTHON_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M07_PYTHON_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M07_PYTHON_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M07_PYTHON_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "practice_review_13_pages",
+      "passed": true,
+      "evidence": "13"
+    },
+    {
+      "check": "practice_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_review_block:PY0",
+      "passed": true,
+      "evidence": "PY0"
+    },
+    {
+      "check": "practice_review_block:PY1",
+      "passed": true,
+      "evidence": "PY1"
+    },
+    {
+      "check": "practice_review_block:PY2",
+      "passed": true,
+      "evidence": "PY2"
+    },
+    {
+      "check": "practice_review_block:PY3",
+      "passed": true,
+      "evidence": "PY3"
+    },
+    {
+      "check": "practice_review_block:PY4",
+      "passed": true,
+      "evidence": "PY4"
+    },
+    {
+      "check": "practice_review_block:PY5",
+      "passed": true,
+      "evidence": "PY5"
+    },
+    {
+      "check": "practice_review_block:PY6",
+      "passed": true,
+      "evidence": "PY6"
+    },
+    {
+      "check": "practice_review_block:PY7",
+      "passed": true,
+      "evidence": "PY7"
+    },
+    {
+      "check": "practice_review_block:PY8",
+      "passed": true,
+      "evidence": "PY8"
+    },
+    {
+      "check": "practice_review_block:PY9",
+      "passed": true,
+      "evidence": "PY9"
+    },
+    {
+      "check": "practice_review_block:PY10",
+      "passed": true,
+      "evidence": "PY10"
+    },
+    {
+      "check": "practice_review_project",
+      "passed": true,
+      "evidence": "project review"
+    },
+    {
+      "check": "practice_review_fresh_retry",
+      "passed": true,
+      "evidence": "12"
+    },
+    {
+      "check": "repair_cards_5_pages",
+      "passed": true,
+      "evidence": "5"
+    },
+    {
+      "check": "repair_gate_state",
+      "passed": true,
+      "evidence": "protected B/C route present"
+    },
+    {
+      "check": "repair_restart_rule",
+      "passed": true,
+      "evidence": "reproducibility route"
+    },
+    {
+      "check": "gate_A_notebook_7_cells",
+      "passed": true,
+      "evidence": "7"
+    },
+    {
+      "check": "gate_A_protected",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_validate_merge",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_restart_run_all",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_critical_failures",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_notebook_7_cells",
+      "passed": true,
+      "evidence": "7"
+    },
+    {
+      "check": "gate_B_protected",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_validate_merge",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_restart_run_all",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_critical_failures",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_notebook_7_cells",
+      "passed": true,
+      "evidence": "7"
+    },
+    {
+      "check": "gate_C_protected",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_validate_merge",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_restart_run_all",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_critical_failures",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_state",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_A_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_controls",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_changed_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_B_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_controls",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_B_review_changed_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_C_review_unlock",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_controls",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_C_review_changed_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_notebook_50_cells",
+      "passed": true,
+      "evidence": "50"
+    },
+    {
+      "check": "practice_nb_heading:PY0",
+      "passed": true,
+      "evidence": "PY0"
+    },
+    {
+      "check": "practice_nb_guided:PY0",
+      "passed": true,
+      "evidence": "PY0"
+    },
+    {
+      "check": "practice_nb_fresh:PY0",
+      "passed": true,
+      "evidence": "PY0"
+    },
+    {
+      "check": "practice_nb_heading:PY1",
+      "passed": true,
+      "evidence": "PY1"
+    },
+    {
+      "check": "practice_nb_guided:PY1",
+      "passed": true,
+      "evidence": "PY1"
+    },
+    {
+      "check": "practice_nb_fresh:PY1",
+      "passed": true,
+      "evidence": "PY1"
+    },
+    {
+      "check": "practice_nb_heading:PY2",
+      "passed": true,
+      "evidence": "PY2"
+    },
+    {
+      "check": "practice_nb_guided:PY2",
+      "passed": true,
+      "evidence": "PY2"
+    },
+    {
+      "check": "practice_nb_fresh:PY2",
+      "passed": true,
+      "evidence": "PY2"
+    },
+    {
+      "check": "practice_nb_heading:PY3",
+      "passed": true,
+      "evidence": "PY3"
+    },
+    {
+      "check": "practice_nb_guided:PY3",
+      "passed": true,
+      "evidence": "PY3"
+    },
+    {
+      "check": "practice_nb_fresh:PY3",
+      "passed": true,
+      "evidence": "PY3"
+    },
+    {
+      "check": "practice_nb_heading:PY4",
+      "passed": true,
+      "evidence": "PY4"
+    },
+    {
+      "check": "practice_nb_guided:PY4",
+      "passed": true,
+      "evidence": "PY4"
+    },
+    {
+      "check": "practice_nb_fresh:PY4",
+      "passed": true,
+      "evidence": "PY4"
+    },
+    {
+      "check": "practice_nb_heading:PY5",
+      "passed": true,
+      "evidence": "PY5"
+    },
+    {
+      "check": "practice_nb_guided:PY5",
+      "passed": true,
+      "evidence": "PY5"
+    },
+    {
+      "check": "practice_nb_fresh:PY5",
+      "passed": true,
+      "evidence": "PY5"
+    },
+    {
+      "check": "practice_nb_heading:PY6",
+      "passed": true,
+      "evidence": "PY6"
+    },
+    {
+      "check": "practice_nb_guided:PY6",
+      "passed": true,
+      "evidence": "PY6"
+    },
+    {
+      "check": "practice_nb_fresh:PY6",
+      "passed": true,
+      "evidence": "PY6"
+    },
+    {
+      "check": "practice_nb_heading:PY7",
+      "passed": true,
+      "evidence": "PY7"
+    },
+    {
+      "check": "practice_nb_guided:PY7",
+      "passed": true,
+      "evidence": "PY7"
+    },
+    {
+      "check": "practice_nb_fresh:PY7",
+      "passed": true,
+      "evidence": "PY7"
+    },
+    {
+      "check": "practice_nb_heading:PY8",
+      "passed": true,
+      "evidence": "PY8"
+    },
+    {
+      "check": "practice_nb_guided:PY8",
+      "passed": true,
+      "evidence": "PY8"
+    },
+    {
+      "check": "practice_nb_fresh:PY8",
+      "passed": true,
+      "evidence": "PY8"
+    },
+    {
+      "check": "practice_nb_heading:PY9",
+      "passed": true,
+      "evidence": "PY9"
+    },
+    {
+      "check": "practice_nb_guided:PY9",
+      "passed": true,
+      "evidence": "PY9"
+    },
+    {
+      "check": "practice_nb_fresh:PY9",
+      "passed": true,
+      "evidence": "PY9"
+    },
+    {
+      "check": "practice_nb_heading:PY10",
+      "passed": true,
+      "evidence": "PY10"
+    },
+    {
+      "check": "practice_nb_guided:PY10",
+      "passed": true,
+      "evidence": "PY10"
+    },
+    {
+      "check": "practice_nb_fresh:PY10",
+      "passed": true,
+      "evidence": "PY10"
+    },
+    {
+      "check": "practice_nb_project",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_nb_restart_final",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_nb_no_solved_gate",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "practice_nb_merge_controls",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_nb_returns_grain_rule",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "practice_rows_160",
+      "passed": true,
+      "evidence": "160"
+    },
+    {
+      "check": "practice_duplicate_id_rows_2",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "practice_invalid_discount_1",
+      "passed": true,
+      "evidence": "1"
+    },
+    {
+      "check": "practice_invalid_actual_date_1",
+      "passed": true,
+      "evidence": "1"
+    },
+    {
+      "check": "source_registry_16_rows",
+      "passed": true,
+      "evidence": "16"
+    },
+    {
+      "check": "source_registry_all_11_lessons",
+      "passed": true,
+      "evidence": "['PY0', 'PY1', 'PY10', 'PY2', 'PY3', 'PY4', 'PY5', 'PY6', 'PY7', 'PY8', 'PY9']"
+    },
+    {
+      "check": "source_registry:PY0:PSNXoAs2FtQ",
+      "passed": true,
+      "evidence": "PSNXoAs2FtQ"
+    },
+    {
+      "check": "source_registry:PY2:dUpyC40cF6Q",
+      "passed": true,
+      "evidence": "dUpyC40cF6Q"
+    },
+    {
+      "check": "source_registry:PY5:pandas.merge.html",
+      "passed": true,
+      "evidence": "pandas.merge.html"
+    },
+    {
+      "check": "source_registry:PY7:matplotlib.org/stable/plot_types",
+      "passed": true,
+      "evidence": "matplotlib.org/stable/plot_types"
+    },
+    {
+      "check": "source_registry:PY8:Liv6eeb1VfE",
+      "passed": true,
+      "evidence": "Liv6eeb1VfE"
+    },
+    {
+      "check": "source_registry_book_led_PY9",
+      "passed": true,
+      "evidence": "PY9 book-led"
+    },
+    {
+      "check": "source_registry_book_led_PY10",
+      "passed": true,
+      "evidence": "PY10 book-led"
+    },
+    {
+      "check": "registry_11_lessons",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "registry_16_stage_each",
+      "passed": true,
+      "evidence": "all 11"
+    },
+    {
+      "check": "registry_page_map",
+      "passed": true,
+      "evidence": "[6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36]"
+    },
+    {
+      "check": "registry_project_page",
+      "passed": true,
+      "evidence": "39"
+    },
+    {
+      "check": "registry_runtime_boundary",
+      "passed": true,
+      "evidence": "all 11"
+    }
+  ]
+}

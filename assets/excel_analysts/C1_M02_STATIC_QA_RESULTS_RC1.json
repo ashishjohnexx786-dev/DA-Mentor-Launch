@@ -1,0 +1,587 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M02_EXCEL_FOR_ANALYSTS",
+  "status": "PASS",
+  "generated": "2026-09-10",
+  "passed": 115,
+  "total": 115,
+  "failed": [],
+  "checks": [
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "122622"
+    },
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx",
+      "passed": true,
+      "evidence": "62787"
+    },
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "32351"
+    },
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "9145"
+    },
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_GATE_A_RC1.xlsx",
+      "passed": true,
+      "evidence": "20587"
+    },
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "8117"
+    },
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_GATE_B_RC1.xlsx",
+      "passed": true,
+      "evidence": "20265"
+    },
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "8111"
+    },
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_GATE_C_RC1.xlsx",
+      "passed": true,
+      "evidence": "20104"
+    },
+    {
+      "check": "artifact_exists:C1_M02_EXCEL_FOR_ANALYSTS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "8082"
+    },
+    {
+      "check": "artifact_exists:C1_M02_CANONICAL_LESSON_REGISTRY_RC1.json",
+      "passed": true,
+      "evidence": "19172"
+    },
+    {
+      "check": "artifact_exists:C1_M02_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "passed": true,
+      "evidence": "4885"
+    },
+    {
+      "check": "pdf_nonblank:C1_M02_EXCEL_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=44; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M02_EXCEL_FOR_ANALYSTS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M02_EXCEL_FOR_ANALYSTS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M02_EXCEL_FOR_ANALYSTS_GATE_A_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M02_EXCEL_FOR_ANALYSTS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M02_EXCEL_FOR_ANALYSTS_GATE_B_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M02_EXCEL_FOR_ANALYSTS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=3; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M02_EXCEL_FOR_ANALYSTS_GATE_C_PROTECTED_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M02_EXCEL_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=13; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M02_EXCEL_FOR_ANALYSTS_PROTECTED_PRACTICE_REVIEW_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "pdf_nonblank:C1_M02_EXCEL_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "pages=5; blanks=[]"
+    },
+    {
+      "check": "pdf_text_bounds:C1_M02_EXCEL_FOR_ANALYSTS_TARGETED_REPAIR_CARDS_RC1.pdf",
+      "passed": true,
+      "evidence": "oob=[]"
+    },
+    {
+      "check": "learner_book_44_pages",
+      "passed": true,
+      "evidence": "44"
+    },
+    {
+      "check": "teacher_page",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "contents_page",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "mastery_checklist",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "revision_page",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "project_micro_example",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "project_rubric",
+      "passed": true,
+      "evidence": "present"
+    },
+    {
+      "check": "no_forced_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "no_release_claims",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "learner_11_external_source_links",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "learner_12_internal_toc_links",
+      "passed": true,
+      "evidence": "12"
+    },
+    {
+      "check": "toc_destinations_exact",
+      "passed": true,
+      "evidence": "['6', '9', '12', '15', '18', '21', '24', '27', '30', '33', '36', '39']"
+    },
+    {
+      "check": "efa1_corrected_segment_link",
+      "passed": true,
+      "evidence": "15NtFld9mVM"
+    },
+    {
+      "check": "efa11_official_excel_ref",
+      "passed": true,
+      "evidence": "Microsoft Support relationship"
+    },
+    {
+      "check": "source_registry_13_rows",
+      "passed": true,
+      "evidence": "13"
+    },
+    {
+      "check": "source_registry_all_11_lessons",
+      "passed": true,
+      "evidence": "['EFA1', 'EFA10', 'EFA11', 'EFA2', 'EFA3', 'EFA4', 'EFA5', 'EFA6', 'EFA7', 'EFA8', 'EFA9']"
+    },
+    {
+      "check": "efa1_segment_corrected",
+      "passed": true,
+      "evidence": "0:00-4:45"
+    },
+    {
+      "check": "efa4_optional_preserved",
+      "passed": true,
+      "evidence": "2"
+    },
+    {
+      "check": "efa6_optional_reference",
+      "passed": true,
+      "evidence": "formula-errors"
+    },
+    {
+      "check": "efa11_excel_specific",
+      "passed": true,
+      "evidence": "Excel-specific relationship reference"
+    },
+    {
+      "check": "registry_11_lessons",
+      "passed": true,
+      "evidence": "11"
+    },
+    {
+      "check": "registry_16_stage_each",
+      "passed": true,
+      "evidence": "all 11"
+    },
+    {
+      "check": "registry_project_page",
+      "passed": true,
+      "evidence": "39"
+    },
+    {
+      "check": "registry_project_outputs",
+      "passed": true,
+      "evidence": "['Prepared_Data', 'Analysis_Pivots', 'Management_Report', 'Validation_Log']"
+    },
+    {
+      "check": "practice_xlsx_crc",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "practice_no_stale_EFA2_route",
+      "passed": true,
+      "evidence": "P-EFA2_IFS absent"
+    },
+    {
+      "check": "practice_no_stale_combined_pivot_route",
+      "passed": true,
+      "evidence": "P-EFA8_9_Pivots absent"
+    },
+    {
+      "check": "practice_no_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "practice_29_sheets",
+      "passed": true,
+      "evidence": "29"
+    },
+    {
+      "check": "practice_all_required_sheet_routes",
+      "passed": true,
+      "evidence": "[]"
+    },
+    {
+      "check": "route_My_Pivots",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"D32\",\"value\":\"My_Pivots + Evidence_Log\",\"formula\":null,\"match\":\"value\"}\n{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"C33\",\"value\":\"Pivot_Source / My_Pivots\",\"formula\":null,\"match\":\"value\"}\n{\"kind\":\"match\",\"sheet\":\"P-EFA8_Pivots\",\"address\":\"A4\",\"value\":\"1. In Pivot_Source, convert A5:H89 to an Excel Table named CallData. 2. Create a PivotTable on My_Pivots. 3. Customer in Rows + Count of Call ID in Values answers calls by customer. 4. Build Avera"
+    },
+    {
+      "check": "route_My_Report",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"D33\",\"value\":\"My_Report + Evidence_Log\",\"formula\":null,\"match\":\"value\"}\n{\"kind\":\"match\",\"sheet\":\"P-EFA9_Report\",\"address\":\"A4\",\"value\":\"Use My_Pivots. Build a monthly call-count PivotTable and line PivotChart on My_Report. Add one Representative slicer. Test default, one filtered state and clear-filter state. Confirm the Pivot and chart remain consistent.\",\"formula\":null,\"match\":\"value\"}"
+    },
+    {
+      "check": "route_Prepared_Data",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"D36\",\"value\":\"Prepared_Data / Analysis_Pivots / Management_Report / Validation_Log\",\"formula\":null,\"match\":\"value\"}\n{\"kind\":\"match\",\"sheet\":\"M-XLA_Project\",\"address\":\"A9\",\"value\":\"Before formulas: write source grain, analytical questions, metric definitions and quality rules in Validation_Log. Work in Prepared_Data, not Project_Sales. Enrich Product/Category/targets only after checking lookup/master-key uniqueness. Keep unknown keys visible.\",\"form"
+    },
+    {
+      "check": "route_Validation_Log",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"D36\",\"value\":\"Prepared_Data / Analysis_Pivots / Management_Report / Validation_Log\",\"formula\":null,\"match\":\"value\"}\n{\"kind\":\"match\",\"sheet\":\"M-XLA_Project\",\"address\":\"A9\",\"value\":\"Before formulas: write source grain, analytical questions, metric definitions and quality rules in Validation_Log. Work in Prepared_Data, not Project_Sales. Enrich Product/Category/targets only after checking lookup/master-key uniqueness. Keep unknown keys visible.\",\"form"
+    },
+    {
+      "check": "gate_A_terminal",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"A19\",\"value\":\"A clean Gate A competency pass ends the Gate. Gate B is only after failed A + saved attempt + Review A + targeted repair + explicit assignment. Gate C is only after failed B + Review B + targeted repair + explicit assignment. No average-percentage shortcut.\",\"formula\":null,\"match\":\"value\"}"
+    },
+    {
+      "check": "gate_B_conditional",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"A19\",\"value\":\"A clean Gate A competency pass ends the Gate. Gate B is only after failed A + saved attempt + Review A + targeted repair + explicit assignment. Gate C is only after failed B + Review B + targeted repair + explicit assignment. No average-percentage shortcut.\",\"formula\":null,\"match\":\"value\"}"
+    },
+    {
+      "check": "gate_C_conditional",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"A19\",\"value\":\"A clean Gate A competency pass ends the Gate. Gate B is only after failed A + saved attempt + Review A + targeted repair + explicit assignment. Gate C is only after failed B + Review B + targeted repair + explicit assignment. No average-percentage shortcut.\",\"formula\":null,\"match\":\"value\"}"
+    },
+    {
+      "check": "practice_no_unintended_#DIV/0!",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "practice_no_unintended_#VALUE!",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "practice_no_unintended_#NAME?",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "practice_no_unintended_#N/A",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "practice_ref_instruction_is_deliberate",
+      "passed": true,
+      "evidence": "instructional #REF! exists only in error-handling lesson context"
+    },
+    {
+      "check": "gate_A_xlsx_crc",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "gate_A_scenario_preserved",
+      "passed": true,
+      "evidence": "Retail Orders"
+    },
+    {
+      "check": "gate_A_no_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "gate_A_10_sheets",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "gate_A_output_sheets",
+      "passed": true,
+      "evidence": "['START_HERE', 'Raw_Fact', 'Master', 'Targets', 'Tasks', 'Evidence_Log', 'Prepared_Data', 'Analysis_Pivots', 'Management_Report', 'Validation_Log']"
+    },
+    {
+      "check": "gate_A_raw_row_count",
+      "passed": true,
+      "evidence": "42"
+    },
+    {
+      "check": "gate_A_one_next_action",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"A14\",\"value\":\"ONE NEXT ACTION\",\"formula\":null,\"match\":\"value\"}"
+    },
+    {
+      "check": "gate_A_no_review_heading_leak",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "gate_B_xlsx_crc",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "gate_B_scenario_preserved",
+      "passed": true,
+      "evidence": "Support Tickets"
+    },
+    {
+      "check": "gate_B_no_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "gate_B_10_sheets",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "gate_B_output_sheets",
+      "passed": true,
+      "evidence": "['START_HERE', 'Raw_Fact', 'Master', 'Targets', 'Tasks', 'Evidence_Log', 'Prepared_Data', 'Analysis_Pivots', 'Management_Report', 'Validation_Log']"
+    },
+    {
+      "check": "gate_B_raw_row_count",
+      "passed": true,
+      "evidence": "44"
+    },
+    {
+      "check": "gate_B_one_next_action",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"A14\",\"value\":\"ONE NEXT ACTION\",\"formula\":null,\"match\":\"value\"}"
+    },
+    {
+      "check": "gate_B_no_review_heading_leak",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "gate_C_xlsx_crc",
+      "passed": true,
+      "evidence": "None"
+    },
+    {
+      "check": "gate_C_scenario_preserved",
+      "passed": true,
+      "evidence": "Subscription Billing"
+    },
+    {
+      "check": "gate_C_no_timer_tokens",
+      "passed": true,
+      "evidence": "clean"
+    },
+    {
+      "check": "gate_C_10_sheets",
+      "passed": true,
+      "evidence": "10"
+    },
+    {
+      "check": "gate_C_output_sheets",
+      "passed": true,
+      "evidence": "['START_HERE', 'Raw_Fact', 'Master', 'Targets', 'Tasks', 'Evidence_Log', 'Prepared_Data', 'Analysis_Pivots', 'Management_Report', 'Validation_Log']"
+    },
+    {
+      "check": "gate_C_raw_row_count",
+      "passed": true,
+      "evidence": "40"
+    },
+    {
+      "check": "gate_C_one_next_action",
+      "passed": true,
+      "evidence": "{\"kind\":\"match\",\"sheet\":\"START_HERE\",\"address\":\"A14\",\"value\":\"ONE NEXT ACTION\",\"formula\":null,\"match\":\"value\"}"
+    },
+    {
+      "check": "gate_C_no_review_heading_leak",
+      "passed": true,
+      "evidence": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "gates_distinct_content",
+      "passed": true,
+      "evidence": "['a800a1214573', '89f52ed5e558', '9a00532b3f2d']"
+    },
+    {
+      "check": "practice_review_13_pages",
+      "passed": true,
+      "evidence": "13"
+    },
+    {
+      "check": "practice_review_saved_attempt_gate",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "practice_review_fresh_retry",
+      "passed": true,
+      "evidence": "found"
+    },
+    {
+      "check": "gate_A_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_A_review_unlock",
+      "passed": true,
+      "evidence": "unlock wording"
+    },
+    {
+      "check": "gate_A_review_expected_control",
+      "passed": true,
+      "evidence": "905,192.00"
+    },
+    {
+      "check": "gate_B_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_B_review_unlock",
+      "passed": true,
+      "evidence": "unlock wording"
+    },
+    {
+      "check": "gate_B_review_expected_control",
+      "passed": true,
+      "evidence": "38.33"
+    },
+    {
+      "check": "gate_C_review_3_pages",
+      "passed": true,
+      "evidence": "3"
+    },
+    {
+      "check": "gate_C_review_unlock",
+      "passed": true,
+      "evidence": "unlock wording"
+    },
+    {
+      "check": "gate_C_review_expected_control",
+      "passed": true,
+      "evidence": "1,522,531.20"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA1",
+      "passed": true,
+      "evidence": "pages=[6, 7, 8]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA2",
+      "passed": true,
+      "evidence": "pages=[9, 10, 11]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA3",
+      "passed": true,
+      "evidence": "pages=[12, 13, 14]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA4",
+      "passed": true,
+      "evidence": "pages=[15, 16, 17]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA5",
+      "passed": true,
+      "evidence": "pages=[18, 19, 20]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA6",
+      "passed": true,
+      "evidence": "pages=[21, 22, 23]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA7",
+      "passed": true,
+      "evidence": "pages=[24, 25, 26]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA8",
+      "passed": true,
+      "evidence": "pages=[27, 28, 29]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA9",
+      "passed": true,
+      "evidence": "pages=[30, 31, 32]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA10",
+      "passed": true,
+      "evidence": "pages=[33, 34, 35]; missing=[]"
+    },
+    {
+      "check": "lesson_16_stage_contract:EFA11",
+      "passed": true,
+      "evidence": "pages=[36, 37, 38]; missing=[]"
+    },
+    {
+      "check": "all_11_lessons_have_exact_16_stage_contract",
+      "passed": true,
+      "evidence": "[{\"lesson_id\": \"EFA1\", \"pages\": [6, 7, 8], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA2\", \"pages\": [9, 10, 11], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA3\", \"pages\": [12, 13, 14], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA4\", \"pages\": [15, 16, 17], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA5\", \"pages\": [18, 19, 20], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA6\", \"pages\": [21, 22, 23], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA7\", \"pages\": [24, 25, 26], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA8\", \"pages\": [27, 28, 29], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA9\", \"pages\": [30, 31, 32], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA10\", \"pages\": [33, 34, 35], \"missing\": [], \"passed\": true}, {\"lesson_id\": \"EFA11\", \"pages\": [36, 37, 38], \"missing\": [], \"passed\": true}]"
+    }
+  ],
+  "qa_method_note": "Global heading counts were replaced with per-lesson 3-page checks because M-XLA deliberately reuses several house-style headings."
+}

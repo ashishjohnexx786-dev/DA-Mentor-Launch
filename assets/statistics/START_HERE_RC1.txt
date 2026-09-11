@@ -1,0 +1,45 @@
+COURSE 1 - M08 STATISTICS & EXPERIMENTAL THINKING - INTERNAL QA CANDIDATE RC1
+
+PREREQUISITE
+M00-M07 competency. Advanced mathematics is not assumed.
+
+START
+1. Open C1_M08_STATISTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf.
+2. Start STAT1 on learner-book page 6.
+3. Open C1_M08_STATISTICS_CANONICAL_PRACTICE_WORKBOOK_RC1.xlsx.
+4. Use the matching STAT1-STAT9 sheet. Each canonical lesson now has its own direct sheet.
+5. Use C1_M08_STATISTICS_VISUAL_SIMULATION_NOTEBOOK_RC1.ipynb only after the matching lesson when visual intuition helps.
+6. Save a genuine attempt before protected review.
+7. Close review after diagnosis and complete a changed fresh retry.
+8. Complete M-STAT at learner-book page 33 / workbook sheet M_STAT_Project before Gate A.
+
+ROUTE
+STAT1 descriptive statistics
+-> STAT2 distributions, percentiles, normal models, z-scores
+-> STAT3 population, samples and sampling bias
+-> STAT4 sampling distributions, SE and CLT
+-> STAT5 confidence intervals
+-> STAT6 hypothesis testing and p-values
+-> STAT7 effect size and business significance
+-> STAT8 correlation/confounding/causal limits
+-> STAT9 A/B design
+-> M-STAT experiment decision
+-> Gate A.
+
+INTERPRETATION RULES
+Large n improves precision but does not repair systematic sampling bias.
+A p-value is not the probability that H0 is true.
+Failing to reject H0 does not prove there is no effect.
+Statistical significance is not the same as practical/business significance.
+A narrow confidence interval does not prove the sample is unbiased.
+Correlation alone does not establish causation.
+Experiment decisions combine design quality, effect size, uncertainty/statistical evidence, business threshold and guardrails.
+
+GATE STATE MACHINE
+A clean Gate A pass ends M08.
+Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+There is no automatic retest progression and no Gate D.
+
+STATUS
+M08 static/runtime internal-QA module candidate only. Course 1 remains unreleased.

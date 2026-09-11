@@ -1,0 +1,85 @@
+{
+  "generated": "2026-09-10",
+  "method": "Parsed actual INSERT fixtures and recomputed cardinality, measure inflation and monthly controls independently.",
+  "lab": {
+    "counts": {
+      "customers": 8,
+      "products": 6,
+      "orders": 30,
+      "order_items": 60,
+      "return_events": 8
+    },
+    "line_sales_total": 1034167.5,
+    "freight_total": 13300.0
+  },
+  "gates": {
+    "A": {
+      "main_rows": 30,
+      "line_rows": 60,
+      "event_rows": 9,
+      "joined_main_line_rows": 60,
+      "main_event_left_join_rows": 33,
+      "line_measure_total": 624888.0,
+      "main_measure_total": 12300.0,
+      "naive_main_measure_after_line_join": 24600.0,
+      "distinct_dimension1_in_main": 8,
+      "monthly_line_totals": {
+        "2026-01": 127411.2,
+        "2026-02": 70391.7,
+        "2026-03": 107847.0,
+        "2026-04": 120862.8,
+        "2026-05": 79239.6,
+        "2026-06": 119135.7
+      }
+    },
+    "B": {
+      "main_rows": 28,
+      "line_rows": 56,
+      "event_rows": 7,
+      "joined_main_line_rows": 56,
+      "main_event_left_join_rows": 30,
+      "line_measure_total": 339770.0,
+      "main_measure_total": 14700.0,
+      "naive_main_measure_after_line_join": 29250.0,
+      "distinct_dimension1_in_main": 8,
+      "monthly_line_totals": {
+        "2026-02": 76000.0,
+        "2026-03": 72060.0,
+        "2026-04": 71200.0,
+        "2026-05": 68170.0,
+        "2026-06": 52340.0
+      }
+    },
+    "C": {
+      "main_rows": 32,
+      "line_rows": 65,
+      "event_rows": 9,
+      "joined_main_line_rows": 65,
+      "main_event_left_join_rows": 35,
+      "line_measure_total": 1536500.0,
+      "main_measure_total": 12700.0,
+      "naive_main_measure_after_line_join": 25800.0,
+      "distinct_dimension1_in_main": 8,
+      "monthly_line_totals": {
+        "2026-01": 61000.0,
+        "2026-02": 33000.0,
+        "2026-03": 52000.0,
+        "2026-04": 153650.0,
+        "2026-05": 91000.0,
+        "2026-06": 164000.0,
+        "2026-07": 48000.0,
+        "2026-08": 118600.0,
+        "2026-09": 94000.0,
+        "2026-10": 52000.0,
+        "2026-11": 153650.0,
+        "2026-12": 79000.0,
+        "2027-01": 88000.0,
+        "2027-02": 106000.0,
+        "2027-03": 122000.0,
+        "2027-04": 87600.0,
+        "2027-05": 33000.0
+      }
+    }
+  },
+  "all_protected_controls_match": true
+}

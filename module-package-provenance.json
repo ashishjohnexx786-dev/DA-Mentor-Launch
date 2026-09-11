@@ -1,0 +1,50 @@
+{
+  "foundation": {
+    "file": "C1_M00_FOUNDATION_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "4a38c31916323ca1a286471c3175470f2167fffcbaf30f40d255e45e5ea219ae"
+  },
+  "excel_fundamentals": {
+    "file": "C1_M01_EXCEL_FUNDAMENTALS_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "bcc0520987ca9a20620312ae33445500f34e646ebf170131ee1d76248655d3a1"
+  },
+  "excel_analysts": {
+    "file": "C1_M02_EXCEL_FOR_ANALYSTS_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "ee1fa935293f9024d23c52177edd70b84b9d76b9e8563edcc2925650c6c97624"
+  },
+  "sql_foundations": {
+    "file": "C1_M03_SQL_FOUNDATIONS_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "3f0b7bb718d6fa80f737fb688795c0cd527b3185fd426e2ff2dc2128e7eff793"
+  },
+  "sql_analysts": {
+    "file": "C1_M04_SQL_FOR_ANALYSTS_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "51f047c03cecd2d41353dd01b3ca92b1e709c6dc0da63add179fbb727710fc7d"
+  },
+  "powerbi_modeling": {
+    "file": "C1_M05_POWERBI_MODELING_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "1d2487f357bdbc4804618e3c0bac4440298f4106593fd31a3a68a33282551e20"
+  },
+  "powerbi_reporting": {
+    "file": "C1_M06_POWERBI_DAX_REPORTING_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "5c858c0d59c33da8a88127c93a42a4434438bd4da6e6b36ade34fce98016b7a8"
+  },
+  "python": {
+    "file": "C1_M07_PYTHON_FOR_ANALYSTS_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "869edf3e48f4d1aabad422a168e42957f03bc59d84d473abda2f768f28add93a"
+  },
+  "statistics": {
+    "file": "C1_M08_STATISTICS_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "167724e7a6faac7a400c8c70d8e90dff39e6c64061895daeab6523650146c667"
+  },
+  "business_analysis": {
+    "file": "C1_M09_BUSINESS_ANALYSIS_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "fe72ff45f2bc5ed07547bd01fb62f878508f2e213e92451f19858c309fe4e9ea"
+  },
+  "ai_assisted": {
+    "file": "C1_M10_AI_ASSISTED_ANALYTICS_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "c24e3d08ae15cb9b24dd8c0ce65904f631f3286c2af47cd780b7df1cdbdd4a71"
+  },
+  "portfolio_hiring": {
+    "file": "C1_M11_PORTFOLIO_CAPSTONE_HIRING_CANONICAL_REBUILD_RC1_INTERNAL_QA_PASS.zip",
+    "sha256": "89c830c7dd9819081f781fc2cb391e9b82b6021a7f10529da901eeea0469385b"
+  }
+}

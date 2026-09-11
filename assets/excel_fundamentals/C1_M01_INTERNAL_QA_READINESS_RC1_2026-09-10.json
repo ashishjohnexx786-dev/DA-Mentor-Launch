@@ -1,0 +1,43 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M01_EXCEL_FUNDAMENTALS",
+  "status": "INTERNAL_QA_PASS",
+  "generated": "2026-09-10",
+  "scope": {
+    "canonical_lessons": 9,
+    "learner_book_pages": 34,
+    "practice_sheets": 13,
+    "gate_scenarios": [
+      "A - Retail Orders",
+      "B - Hotel Bookings",
+      "C - Clinic Supplies"
+    ],
+    "current_primary_source_placements": 7,
+    "book_led_lessons": [
+      "EF3",
+      "EF4"
+    ],
+    "legacy_source_preservation": "EF7 dedicated legacy companion retained pending exact-ID reconfirmation"
+  },
+  "qa": {
+    "static_checks_passed": 98,
+    "static_checks_total": 98,
+    "static_failures": 0,
+    "manifest_rows": 15,
+    "manifest_errors": [],
+    "manifest_sha256": "4d600324fad72208ffede2d8aa04ea29dae8c378fc5d21fea457aef03824cf83",
+    "xlsx_crc": "PASS",
+    "artifact_tool_formula_error_scans": "0 matches in practice + Gate A/B/C",
+    "pdf_render_preflight": "PASS - no blank pages or out-of-bounds text",
+    "learner_book_16_stage_parity": "PASS - 16 stages x 9 lessons",
+    "gate_route": "PASS - A terminal on clean pass; B/C remediation only",
+    "mentor_sync": "PENDING_BY_DESIGN"
+  },
+  "known_release_blockers": [
+    "M02-M11 still require clean beginner-first regeneration.",
+    "Whole-course source/video registry must be reconciled after all module source decisions.",
+    "Course 1 Mentor must be synchronized to stable regenerated file/page routes and eight-tab shell.",
+    "End-to-end mobile/desktop learner simulation and release-level package QA remain pending."
+  ],
+  "release_boundary": "This is an M01 internal-QA module pass, not a Course 1 learner release."
+}

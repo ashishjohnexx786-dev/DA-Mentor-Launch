@@ -1,0 +1,13 @@
+customer_id,customer_name,segment,city,status
+C001,Aarav Stores,SMB,Delhi,Active
+C002,Riya Retail,SMB,Mumbai,ACTIVE 
+C003,Neha Traders,Mid-Market,Delhi ,Active
+C004,Imran Home,Consumer,Pune,Active
+C005,Vikas Mart,Mid-Market,Mumbai,Inactive
+C006,Sara Supply,SMB,Pune ,Active
+C007,Arjun Business,Mid-Market,Delhi,Active
+C008,Mira House,Consumer,Mumbai,Active
+C009,Urban Cart,SMB,Pune,Active
+C010 ,Metro Basket,Mid-Market,Delhi,Active
+C010,Metro Basket Duplicate,Mid-Market,Delhi,Active
+C011,Blue Box,SMB,Mumbai,Active

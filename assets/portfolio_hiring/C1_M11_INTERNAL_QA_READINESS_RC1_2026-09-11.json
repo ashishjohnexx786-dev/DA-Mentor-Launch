@@ -1,0 +1,51 @@
+{
+  "course": "COURSE_1_ZERO_TO_JOB_READY_DATA_ANALYST_2026",
+  "module": "M11_PORTFOLIO_CAPSTONE_HIRING",
+  "generated": "2026-09-11",
+  "status": "INTERNAL_QA_PASS",
+  "scope": {
+    "canonical_lessons": 14,
+    "learner_book_pages": 49,
+    "pdf_pages_inspected": 95,
+    "resume_pages_inspected": 1,
+    "practice_sheets": 18,
+    "portfolio_builder_sheets": 8,
+    "capstone_sheets": 12,
+    "job_tracker_sheets": 5,
+    "gate_scenarios": [
+      "A ParcelFlow",
+      "B RenewNow",
+      "C CareOps"
+    ]
+  },
+  "qa": {
+    "integrated_checks": "198/198 PASS",
+    "marketpulse_current_bytes": "PASS",
+    "job_readiness_gate_metrics": "PASS A/B/C",
+    "gate_B_protected_correction": "2.91 superseded -> 2.81 for eligible cohort",
+    "xlsx_crc": "PASS all 7 authoritative workbooks",
+    "docx_crc": "PASS resume template",
+    "pdf_visual": "PASS 95/95 pages",
+    "resume_visual": "PASS 1/1 page",
+    "workbook_visual": "PASS after layout repair",
+    "manifest_rows": 35,
+    "manifest_errors": []
+  },
+  "corrected_defects": [
+    "Corrected Gate B protected support-ticket cohort average to 2.81.",
+    "Corrected MarketPulse blank-Region overall-vs-region policy inconsistency.",
+    "Repaired generated workbook title/instruction clipping and rerendered.",
+    "Replaced hard-coded tracker dashboard with formulas.",
+    "Added direct PCH1-PCH14 learner routing."
+  ],
+  "quarantined_stale_files": [
+    "C1_M11_JOB_READINESS_GATE_B_RENEWWNOW_RC1.xlsx"
+  ],
+  "remaining_course_release_blockers": [
+    "Course 1 Mentor synchronization",
+    "whole-course Mentor/PWA/device/backup/restore/route QA",
+    "final Course 1 package verification",
+    "COURSE_1_HANDOFF.json"
+  ],
+  "release_boundary": "M11 internal-QA module pass; whole Course 1 not yet released."
+}
