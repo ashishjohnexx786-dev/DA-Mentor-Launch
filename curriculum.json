@@ -80,9 +80,9 @@
           "bookPage": 14,
           "watch": [
             {
-              "name": "DP-700 Full Course — Architectural Decision-Making",
-              "url": "https://www.youtube.com/watch?v=KiB4eAeFRsw",
-              "scope": "2:19:27 onward"
+              "name": "Maven Analytics video — The Data Analysis Framework",
+              "url": "https://mavenanalytics.io/crash-courses/the-framework-for-data-analysis",
+              "scope": "00:25-02:05 — identify the problem and define success before touching data; directly use this to turn a vague request into a measurable analytical question."
             }
           ],
           "planningHours": [
@@ -376,19 +376,19 @@
           "bookPage": 11,
           "watch": [
             {
-              "name": "Chandoo - 6 Essential TEXT functions + Date & Time values",
+              "name": "Chandoo — 6 Essential TEXT functions + Date & Time values",
               "url": "https://chandoo.org/wp/important-text-functions/",
-              "scope": "Focused article sections; optional date companion in source registry · Optional visual/reference reinforcement for text extraction and Excel date serial thinking."
+              "scope": "Focused article sections — text extraction reference."
             },
             {
-              "name": "Chandoo - Date & Time values in Excel",
+              "name": "Chandoo — Date & Time values in Excel",
               "url": "https://chandoo.org/wp/date-time-tips-ms-excel/",
-              "scope": "Focused date/time sections · Reinforces how Excel stores and works with dates."
+              "scope": "Focused date/time sections — how Excel stores and calculates dates."
             },
             {
-              "name": "Excel text functions + converting text dates",
-              "url": "https://www.youtube.com/watch?v=FOseyP-Nrtw",
-              "scope": "Use LEFT/MID/RIGHT/TRIM/LEN and the date-conversion demonstration; then complete the course-specific changed task."
+              "name": "Finally Learn — Extract Text in Excel: LEFT, RIGHT, MID, SEARCH & DATE",
+              "url": "https://www.youtube.com/watch?v=g54uNDP9Uhc",
+              "scope": "01:36-22:41 text extraction; 24:00-27:45 DATE/TEXT conversion. English visual; close it before the changed course task."
             }
           ],
           "planningHours": [
@@ -1480,9 +1480,9 @@
           "bookPage": 34,
           "watch": [
             {
-              "name": "DataTalksClub — Docker/PostgreSQL data-engineering workshop",
-              "url": "https://www.youtube.com/watch?v=lP8xXebHmuE",
-              "scope": "Use the matching ingestion / Python-script / PostgreSQL chapter"
+              "name": "Rishabh Mishra — Complete Data Analytics Portfolio Project (Python + SQL, 2026)",
+              "url": "https://www.youtube.com/watch?v=tTtI2arH214",
+              "scope": "04:52 setup; 06:54 SQL import; 13:57 cleaning; 58:21 analysis; 1:38:00 visualization; 2:36:40 insights. Use as end-to-end analyst workflow visual, then reproduce the course project independently."
             }
           ],
           "planningHours": [
@@ -1674,9 +1674,14 @@
           "bookPage": 4,
           "watch": [
             {
-              "name": "DP-700 Full Course — Architectural Decision-Making",
-              "url": "https://www.youtube.com/watch?v=KiB4eAeFRsw",
-              "scope": "2:19:27 onward"
+              "name": "Maven Analytics video — The Data Analysis Framework",
+              "url": "https://mavenanalytics.io/crash-courses/the-framework-for-data-analysis",
+              "scope": "00:25-02:05 identify problem + define success; 04:35-05:50 communicate findings + advocate for action. Map these steps into the course Analysis Brief."
+            },
+            {
+              "name": "Invensis Learning — What is Stakeholder Management?",
+              "url": "https://www.youtube.com/watch?v=hWwo_C3oNLw",
+              "scope": "00:52 stakeholder management; 04:30 identify stakeholders; 05:06-06:39 engagement; 10:13 stakeholder mapping."
             }
           ],
           "planningHours": [
@@ -1770,9 +1775,9 @@
           "bookPage": 17,
           "watch": [
             {
-              "name": "What does a Data Analyst do? | Explained in 5 minutes (2026)",
-              "url": "https://www.youtube.com/watch?v=fEY68ZxDT6Y",
-              "scope": "03:05 storytelling; 03:34 communication — use as a visual prompt, then make the recommendation action-specific in the learner task."
+              "name": "Maven Analytics video — Data Storytelling: How To Bring Data to Life",
+              "url": "https://mavenanalytics.io/crash-courses/data-storytelling-how-to-tell-a-story-with-data",
+              "scope": "04:00 purpose; 05:00 metrics; 06:30 present data; 11:55 tell the story. Finish with an explicit, feasible action in the course task."
             }
           ],
           "planningHours": [
@@ -1786,9 +1791,9 @@
           "bookPage": 19,
           "watch": [
             {
-              "name": "What does a Data Analyst do? | Explained in 5 minutes (2026)",
-              "url": "https://www.youtube.com/watch?v=fEY68ZxDT6Y",
-              "scope": "03:05 storytelling; 03:34 communication — translate evidence into a concise decision-facing message."
+              "name": "Maven Analytics video — Data Storytelling: How To Bring Data to Life",
+              "url": "https://mavenanalytics.io/crash-courses/data-storytelling-how-to-tell-a-story-with-data",
+              "scope": "04:00 purpose; 06:30 presentation; 08:10 eliminate clutter; 09:10 focus attention; 11:55 story. Convert this into the one-page executive memo."
             }
           ],
           "planningHours": [
@@ -1828,9 +1833,9 @@
           "bookPage": 24,
           "watch": [
             {
-              "name": "DP-700 Full Course — Architectural Decision-Making",
-              "url": "https://www.youtube.com/watch?v=KiB4eAeFRsw",
-              "scope": "2:19:27 onward"
+              "name": "Invensis Learning — What is Stakeholder Management?",
+              "url": "https://www.youtube.com/watch?v=hWwo_C3oNLw",
+              "scope": "05:06-07:50 stakeholder engagement/monitoring; 10:13 mapping; 12:10 best practices. Use as stakeholder context, then defend assumptions and uncertainty using the course scenario."
             }
           ],
           "planningHours": [
@@ -2157,9 +2162,9 @@
           "bookPage": 12,
           "watch": [
             {
-              "name": "Anuj Syal — Data Quality with Great Expectations",
-              "url": "https://www.youtube.com/watch?v=oxOj30rl_xs",
-              "scope": "Data-quality/testing workflow demonstration; map concepts to our test strategy"
+              "name": "End-to-end data validation strategies in Microsoft Fabric (+ 3 demos)",
+              "url": "https://www.youtube.com/watch?v=wAayC-J9TsU",
+              "scope": "02:38 why validation; 03:56 what can go wrong; 11:45 validation types; 31:00 semantic-model validation. Translate the principles to the analyst project before publishing."
             }
           ],
           "planningHours": [
@@ -2173,9 +2178,9 @@
           "bookPage": 14,
           "watch": [
             {
-              "name": "DataTalksClub DE Zoomcamp — dbt video course sequence",
-              "url": "https://www.youtube.com/watch?v=2dYDS4OQbT0",
-              "scope": "Main-class review: project structure → sources → models → tests → docs; then close video and build independently"
+              "name": "Rishabh Mishra — Complete Data Analytics Portfolio Project (Python + SQL, 2026)",
+              "url": "https://www.youtube.com/watch?v=tTtI2arH214",
+              "scope": "04:52 setup through 2:36:40 insights — genuine end-to-end analyst project visual. Do not copy the project; close the video and complete the course capstone independently."
             }
           ],
           "planningHours": [
@@ -2301,9 +2306,9 @@
           "bookPage": 30,
           "watch": [
             {
-              "name": "Luke Barousse — How I Would Learn to Be a Data Engineer (2026)",
-              "url": "https://www.youtube.com/watch?v=_-DzZeixu0w",
-              "scope": "27:38 orchestration + 30:01 terminal/bash/git + 32:36 DataOps/CI-CD + 34:10 architecture"
+              "name": "Maven Analytics video — Data Analyst Roadmap: 5 Steps to Launch Your Career",
+              "url": "https://mavenanalytics.io/crash-courses/data-analyst-roadmap",
+              "scope": "00:40 path; 01:16 think like an analyst; 01:58 foundations; 03:27 portfolio; 04:33 personal brand; 05:24 recap. Use only for final readiness/continuous improvement."
             }
           ],
           "planningHours": [
