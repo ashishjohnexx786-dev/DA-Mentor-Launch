@@ -1244,6 +1244,11 @@
               "name": "Microsoft Learn - Configure scheduled refresh",
               "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh",
               "scope": "Gateway, credentials, schedule, limitations · Use only if the learner has service/workspace access; do not invent availability."
+            },
+            {
+              "name": "How To Use Workspaces in Power BI (2026)",
+              "url": "https://www.youtube.com/watch?v=qKxhxORX2_U",
+              "scope": "Workspace organization, roles, collaboration, publishing and access issues. Official Microsoft publish/refresh docs remain the current authority."
             }
           ],
           "planningHours": [
