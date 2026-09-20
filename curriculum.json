@@ -1996,7 +1996,13 @@
           "id": "PCH8",
           "title": "LinkedIn / professional profile without overclaiming",
           "bookPage": 27,
-          "watch": [],
+          "watch": [
+            {
+              "name": "LinkedIn Complete Guide 2026 - Profile, Headline, About, Job Search",
+              "url": "https://www.youtube.com/watch?v=wXQp9O3iQR8",
+              "scope": "Optional visual - no verified bounded range"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -2016,7 +2022,13 @@
           "id": "PCH10",
           "title": "Project walkthrough interview",
           "bookPage": 33,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Afaque Ahmad - How I Mastered Data Engineering System Design Interviews",
+              "url": "https://www.youtube.com/watch?v=r58Cf_kc_bY",
+              "scope": "04:19-13:21 six-step framework; 13:22-27:32 requirements; 38:38-47:20 batch vs streaming; 01:29:02-01:37:36 quality/observability"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
