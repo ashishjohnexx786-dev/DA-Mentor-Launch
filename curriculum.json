@@ -125,9 +125,9 @@
           "bookPage": 4,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Excel Tutorial for Beginners: Learn it FAST",
               "url": "https://www.youtube.com/watch?v=F7aPazuS8QY&t=75s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:15-4:08 · See workbook, worksheet, cell, Name Box and basic navigation before reproducing them."
             }
           ],
           "planningHours": [
@@ -141,9 +141,9 @@
           "bookPage": 6,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Excel Tutorial for Beginners: Learn it FAST",
               "url": "https://www.youtube.com/watch?v=F7aPazuS8QY&t=249s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "4:09-8:20 · Watch a simple structured tracker being entered and edited before building your changed dataset."
             }
           ],
           "planningHours": [
@@ -177,9 +177,9 @@
           "bookPage": 12,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Excel Tutorial for Beginners: Learn it FAST",
               "url": "https://www.youtube.com/watch?v=F7aPazuS8QY&t=946s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "15:46-21:28 · See formulas built from cell references before writing Revenue/Profit/Margin yourself."
             }
           ],
           "planningHours": [
@@ -193,9 +193,9 @@
           "bookPage": 14,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Excel Tutorial for Beginners: Learn it FAST",
               "url": "https://www.youtube.com/watch?v=F7aPazuS8QY&t=1289s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "21:29-22:38 · Reinforce essential aggregation functions before the workbook validation exercise."
             }
           ],
           "planningHours": [
@@ -209,9 +209,9 @@
           "bookPage": 16,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn ALL the useful Excel concepts in 40 mins - Tables, Formulas, Pivots & Charts",
               "url": "https://www.youtube.com/watch?v=VT479YDPB0I&t=755s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "12:35-20:52 · Current verified visual explanation of relative/absolute cell-reference behavior."
             }
           ],
           "planningHours": [
@@ -225,9 +225,9 @@
           "bookPage": 18,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn ALL the useful Excel concepts in 40 mins - Tables, Formulas, Pivots & Charts",
               "url": "https://www.youtube.com/watch?v=VT479YDPB0I&t=142s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "2:22-12:34 · See what a real Excel Table is and how it behaves before creating PracticeOrders."
             }
           ],
           "planningHours": [
@@ -241,9 +241,9 @@
           "bookPage": 20,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Excel Tutorial for Beginners: Learn it FAST",
               "url": "https://www.youtube.com/watch?v=F7aPazuS8QY&t=1359s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "22:39-27:26 · See chart insertion and formatting before building the guided and changed charts."
             }
           ],
           "planningHours": [
@@ -269,9 +269,9 @@
           "bookPage": 5,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "5 Advanced Tips on how to use IF formula in Excel that will SURPRISE you",
               "url": "https://www.youtube.com/watch?v=15NtFld9mVM&t=0s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "0:00-4:45 · See simple IF, nested/IFS, then the multi-condition section that supports AND/OR logic before reproducing the workbook task."
             }
           ],
           "planningHours": [
@@ -285,9 +285,9 @@
           "bookPage": 7,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Best Excel Formulas in an hour - Beginner to PRO Masterclass",
               "url": "https://www.youtube.com/watch?v=dVJFyqI_Nw4&t=111s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:51-8:28 · See COUNTIFS, SUMIFS and AVERAGEIFS with multiple criteria before building a cell-driven analyst report."
             }
           ],
           "planningHours": [
@@ -301,9 +301,9 @@
           "bookPage": 9,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Data Cleaning in Excel - 10 Tricks (Beginner to PRO)",
               "url": "https://www.youtube.com/watch?v=q7EpoOwBcnM&t=77s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:17-8:49 · See Flash Fill/Text to Columns/duplicate and cleaning patterns, then return to the safer raw-preserving helper-column workflow."
             }
           ],
           "planningHours": [
@@ -315,7 +315,18 @@
           "id": "EFA4",
           "title": "Text extraction and dates you can calculate with",
           "bookPage": 11,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Chandoo - 6 Essential TEXT functions + Date & Time values",
+              "url": "https://chandoo.org/wp/important-text-functions/",
+              "scope": "Focused article sections; optional date companion in source registry · Optional visual/reference reinforcement for text extraction and Excel date serial thinking."
+            },
+            {
+              "name": "Chandoo - Date & Time values in Excel",
+              "url": "https://chandoo.org/wp/date-time-tips-ms-excel/",
+              "scope": "Focused date/time sections · Reinforces how Excel stores and works with dates."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -327,9 +338,9 @@
           "bookPage": 13,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "10 Advanced XLOOKUP Tips & Tricks",
               "url": "https://www.youtube.com/watch?v=YyhJe5tMq58&t=75s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:15-4:18 · See XLOOKUP syntax/basic/multi-column behavior before practicing key uniqueness and Not Found controls."
             }
           ],
           "planningHours": [
@@ -341,7 +352,13 @@
           "id": "EFA6",
           "title": "Handle errors without hiding the cause",
           "bookPage": 15,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Chandoo - Excel Formula Errors: Understand and Debug Them",
+              "url": "https://chandoo.org/wp/excel-formula-errors/",
+              "scope": "Focused error-type and debugging sections · Optional reference for recognizing error types; the lesson controls when an error may be handled versus repaired."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -353,9 +370,9 @@
           "bookPage": 17,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "How to create & use Drop Down lists like a PRO - Advanced Excel Tricks",
               "url": "https://www.youtube.com/watch?v=KSQiMdGi3-0&t=0s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "0:00-3:58 · See dropdown creation and user guidance before building quality controls that separate prevention from detection."
             }
           ],
           "planningHours": [
@@ -369,9 +386,9 @@
           "bookPage": 19,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Excel Pivot Tables - Master Data Analysis in just 45 minutes",
               "url": "https://www.youtube.com/watch?v=zuSNd1ZMfBI&t=51s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "0:51-15:01 · See PivotTable fields, aggregation and layout before building live Pivots on Pivot_Source."
             }
           ],
           "planningHours": [
@@ -385,9 +402,9 @@
           "bookPage": 21,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Excel Pivot Tables - Master Data Analysis in just 45 minutes",
               "url": "https://www.youtube.com/watch?v=zuSNd1ZMfBI&t=1232s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "20:32-24:40 · See PivotChart/slicer reporting patterns before building My_Report and testing filter/clear states."
             }
           ],
           "planningHours": [
@@ -401,9 +418,9 @@
           "bookPage": 23,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Power Query - Beginner to PRO Masterclass in 30 minutes",
               "url": "https://www.youtube.com/watch?v=MMdcczmULrU&t=294s",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "4:54-13:36; 17:50-28:25; 33:35-35:17 · See Editor, cleaning/loading, staff/date transformations and refresh before reproducing the controlled PQ_Source workflow."
             }
           ],
           "planningHours": [
@@ -415,7 +432,18 @@
           "id": "EFA11",
           "title": "Relationships and the Excel Data Model",
           "bookPage": 25,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Microsoft Support - Create a relationship between tables in Excel",
+              "url": "https://support.microsoft.com/en-us/excel/create-a-relationship-between-tables-in-excel",
+              "scope": "Matching keys, uniqueness, one-to-many, create/manage relationships · Use the official Excel relationship explanation after grain/key uniqueness is understood; feature availability can vary by Excel edition."
+            },
+            {
+              "name": "Microsoft Support - Relationships between tables in a Data Model",
+              "url": "https://support.microsoft.com/en-us/excel/relationships-between-tables-in-a-data-model",
+              "scope": "Relationship/cardinality background · Optional deeper official background after the basic relationship lesson."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -439,9 +467,19 @@
           "bookPage": 4,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours - Alex The Analyst",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "0:52-11:18 · See MySQL/Workbench setup visually, then use the current official Workbench docs/download if the interface differs from the video."
+            },
+            {
+              "name": "MySQL Workbench download",
+              "url": "https://dev.mysql.com/downloads/workbench/",
+              "scope": "Current supported download page · Use when the video installer UI differs from the current release."
+            },
+            {
+              "name": "MySQL Workbench Manual",
+              "url": "https://dev.mysql.com/doc/workbench/en/",
+              "scope": "Connections / SQL Development / installation sections · Current official reference for Workbench behavior and interface."
             }
           ],
           "planningHours": [
@@ -465,9 +503,14 @@
           "bookPage": 9,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours - Alex The Analyst",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "11:19-21:46 · See the exact SQL clause/interface behavior before typing the matching query yourself."
+            },
+            {
+              "name": "Codebasics - SQL Tutorial For Beginners | MySQL Tutorial",
+              "url": "https://www.youtube.com/watch?v=Rm0xH2Vpfi0",
+              "scope": "13:06-34:03 · Optional second visual explanation for SELECT/basic query patterns."
             }
           ],
           "planningHours": [
@@ -481,9 +524,14 @@
           "bookPage": 11,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours - Alex The Analyst",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "21:47-33:53 · See the exact SQL clause/interface behavior before typing the matching query yourself."
+            },
+            {
+              "name": "Codebasics - SQL Tutorial For Beginners | MySQL Tutorial",
+              "url": "https://www.youtube.com/watch?v=Rm0xH2Vpfi0",
+              "scope": "13:06-34:03 · Optional second visual explanation for basic filtering/query patterns."
             }
           ],
           "planningHours": [
@@ -497,9 +545,14 @@
           "bookPage": 13,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours - Alex The Analyst",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "47:41-51:09 · Use Alex for LIMIT/aliasing orientation; the learner book fully teaches ORDER BY. The preserved Codebasics companion covers ORDER BY/LIMIT in the broader beginner segment."
+            },
+            {
+              "name": "Codebasics - SQL Tutorial For Beginners | MySQL Tutorial",
+              "url": "https://www.youtube.com/watch?v=Rm0xH2Vpfi0",
+              "scope": "13:06-34:03 · Optional visual reinforcement for basic query ordering/selection workflow; use only after the canonical lesson."
             }
           ],
           "planningHours": [
@@ -513,9 +566,14 @@
           "bookPage": 15,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours - Alex The Analyst",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "33:54-44:18 · See the exact SQL clause/interface behavior before typing the matching query yourself."
+            },
+            {
+              "name": "Codebasics - SQL Tutorial For Beginners | MySQL Tutorial",
+              "url": "https://www.youtube.com/watch?v=Rm0xH2Vpfi0",
+              "scope": "34:04-46:23 · Optional second visual explanation for aggregate functions."
             }
           ],
           "planningHours": [
@@ -529,9 +587,14 @@
           "bookPage": 18,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours - Alex The Analyst",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "33:54-44:17 · See the exact SQL clause/interface behavior before typing the matching query yourself."
+            },
+            {
+              "name": "Codebasics - SQL Tutorial For Beginners | MySQL Tutorial",
+              "url": "https://www.youtube.com/watch?v=Rm0xH2Vpfi0",
+              "scope": "34:04-46:23 · Optional second visual explanation for grouping/aggregates."
             }
           ],
           "planningHours": [
@@ -545,9 +608,14 @@
           "bookPage": 20,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours - Alex The Analyst",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "44:18-47:40 · See the exact SQL clause/interface behavior before typing the matching query yourself."
+            },
+            {
+              "name": "Codebasics - SQL Tutorial For Beginners | MySQL Tutorial",
+              "url": "https://www.youtube.com/watch?v=Rm0xH2Vpfi0",
+              "scope": "46:24-1:05:08 · Optional second visual explanation for HAVING/calculated-query patterns. Stop before advanced topics."
             }
           ],
           "planningHours": [
@@ -561,9 +629,9 @@
           "bookPage": 22,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours - Alex The Analyst",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:26:39-1:35:15 · See the exact SQL clause/interface behavior before typing the matching query yourself."
             }
           ],
           "planningHours": [
@@ -589,9 +657,9 @@
           "bookPage": 4,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "51:10-1:08:03 · See INNER/LEFT/RIGHT join syntax and output behavior before reproducing the course's grain-first join checks."
             }
           ],
           "planningHours": [
@@ -605,9 +673,9 @@
           "bookPage": 6,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "51:10-1:08:03 · Reuse the join chapter visually, but focus on the course demonstration that proves row multiplication and repeated order-level freight."
             }
           ],
           "planningHours": [
@@ -621,9 +689,9 @@
           "bookPage": 9,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:15:10-1:26:38 · See common MySQL string functions before applying the safer raw-vs-cleaned analyst pattern."
             }
           ],
           "planningHours": [
@@ -637,9 +705,14 @@
           "bookPage": 11,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "MySQL 8.0 Reference Manual - Date and Time Functions",
+              "url": "https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html",
+              "scope": "DATEDIFF, YEAR, MONTH, DATE/DATE_FORMAT and temporal-value behavior · Use the current official MySQL reference for exact date-function behavior and types."
+            },
+            {
+              "name": "Yahoo Baba - MySQL Date Functions Tutorial - II in Hindi / Urdu",
               "url": "https://www.youtube.com/watch?v=Wnh_cTUqkKE",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused lesson; use especially DATEDIFF/date-difference examples · Optional Hindi/Urdu visual reinforcement for a learner who benefits from seeing date functions demonstrated."
             }
           ],
           "planningHours": [
@@ -653,9 +726,9 @@
           "bookPage": 13,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:35:16-1:45:57 · See scalar and nested subquery patterns before reasoning about inner-result shape."
             }
           ],
           "planningHours": [
@@ -669,9 +742,9 @@
           "bookPage": 15,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:58:55-2:09:06 · See WITH/CTE syntax, then use the course's grain-at-each-stage method rather than writing one opaque query."
             }
           ],
           "planningHours": [
@@ -685,9 +758,9 @@
           "bookPage": 17,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:45:58-1:58:55 · See OVER and PARTITION BY before comparing a window result with GROUP BY on the same data."
             }
           ],
           "planningHours": [
@@ -701,9 +774,9 @@
           "bookPage": 19,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:45:58-1:58:55 · Use the window chapter for ranking/LAG syntax, then follow the course's deterministic tie-breaker and safe denominator rules."
             }
           ],
           "planningHours": [
@@ -717,9 +790,9 @@
           "bookPage": 22,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:08:04-1:15:09 · See UNION vs UNION ALL before deciding whether duplicate rows are meaningful or should be removed."
             }
           ],
           "planningHours": [
@@ -745,9 +818,14 @@
           "bookPage": 4,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo - Data Modelling & Star Schema for Power BI",
               "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "09:40-11:49 · See Get Data/import/model orientation before reproducing the course import path."
+            },
+            {
+              "name": "Microsoft - Power BI Desktop download",
+              "url": "https://www.microsoft.com/en-in/download/details.aspx?id=58494",
+              "scope": "Official Windows installer/download page · Use the current official installer instead of following an outdated download screen in a video."
             }
           ],
           "planningHours": [
@@ -761,9 +839,14 @@
           "bookPage": 7,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "Microsoft Learn - Using the data profiling tools",
+              "url": "https://learn.microsoft.com/en-us/power-query/data-profiling-tools",
+              "scope": "Column quality, distribution and profile · Current official explanation of Power Query profiling controls; use the visual companion to see the editor in motion."
+            },
+            {
+              "name": "Chandoo - End to End Power Query Data Cleaning Masterclass",
               "url": "https://www.youtube.com/watch?v=UhD3LbbimZ0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "11:40-23:59 · See sample data loading and the Power Query UI after reading the profiling checklist."
             }
           ],
           "planningHours": [
@@ -777,9 +860,19 @@
           "bookPage": 10,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "Microsoft Learn - Data Types in Power Query",
+              "url": "https://learn.microsoft.com/en-us/power-query/data-types",
+              "scope": "Detection, definition and conversion · Current official type behavior before the course's safe-transformation lab."
+            },
+            {
+              "name": "Chandoo - End to End Power Query Data Cleaning Masterclass",
               "url": "https://www.youtube.com/watch?v=UhD3LbbimZ0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "24:00-40:59 · See cleaning/date/text transformations before applying the safer course-specific quality rules."
+            },
+            {
+              "name": "Chandoo - Power Query Beginner to PRO Masterclass",
+              "url": "https://www.youtube.com/watch?v=MMdcczmULrU",
+              "scope": "4:54-13:36; 17:50-28:25 · Alternative visual explanation of the editor, cleaning and date work."
             }
           ],
           "planningHours": [
@@ -793,9 +886,14 @@
           "bookPage": 13,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo - Data Modelling & Star Schema for Power BI",
               "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "00:43-09:39 · See fact/dimension/star-schema thinking visually before classifying the course tables."
+            },
+            {
+              "name": "Microsoft Learn - Understand star schema and the importance for Power BI",
+              "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+              "scope": "Star schema overview; fact/dimension roles and grain · Official conceptual reference after the visual demonstration."
             }
           ],
           "planningHours": [
@@ -809,9 +907,14 @@
           "bookPage": 16,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo - Data Modelling & Star Schema for Power BI",
               "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "11:50-18:07 · See relationship creation/filter flow before performing the course's 1:* single-direction validation."
+            },
+            {
+              "name": "Microsoft Learn - Model relationships in Power BI Desktop",
+              "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand",
+              "scope": "Cardinality, filter propagation and star-schema relationship guidance · Current official relationship/filter reference."
             }
           ],
           "planningHours": [
@@ -825,9 +928,14 @@
           "bookPage": 19,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "Microsoft Learn - Set and use date tables in Power BI Desktop",
+              "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-date-tables",
+              "scope": "Date uniqueness/nonblank/continuity and date-table setup · More exact current official source for the lesson than a generic relationship page."
+            },
+            {
+              "name": "Chandoo - Data Modelling & Star Schema for Power BI",
               "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "11:50-18:07 relationship refresher · Reinforces relationship creation; date-table validity rules remain controlled by the book/official source."
             }
           ],
           "planningHours": [
@@ -841,9 +949,9 @@
           "bookPage": 22,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo - Data Modelling & Star Schema for Power BI",
               "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "00:43-18:07 · Revisit the complete modeling flow while building an independent trust/validation log."
             }
           ],
           "planningHours": [
@@ -857,9 +965,19 @@
           "bookPage": 25,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "Microsoft Learn - Data refresh in Power BI",
+              "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data",
+              "scope": "Refresh dependencies, options and best-practice concepts · Current official refresh reference; use the visual companion for the local Power Query refresh demonstration."
+            },
+            {
+              "name": "Chandoo - End to End Power Query Data Cleaning Masterclass",
               "url": "https://www.youtube.com/watch?v=UhD3LbbimZ0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:02:00-1:07:39 · See close/load, source changes and refresh behavior in Power BI."
+            },
+            {
+              "name": "Chandoo - Power Query Beginner to PRO Masterclass",
+              "url": "https://www.youtube.com/watch?v=MMdcczmULrU",
+              "scope": "33:35-35:17 · Short refresh/close-load reinforcement."
             }
           ],
           "planningHours": [
@@ -885,9 +1003,14 @@
           "bookPage": 4,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo - Learn 80% of DAX in an Hour",
               "url": "https://www.youtube.com/watch?v=lD7TvkoQ6rY",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "3:00-15:08 · See explicit measures, why measures beat auto calculations, and measure-vs-column before typing the base measure set."
+            },
+            {
+              "name": "Microsoft Learn - DAX overview",
+              "url": "https://learn.microsoft.com/en-us/dax/dax-overview",
+              "scope": "Measures / calculated columns / context · Official background after the visual measure introduction."
             }
           ],
           "planningHours": [
@@ -901,9 +1024,14 @@
           "bookPage": 7,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "Microsoft Learn - DAX overview",
+              "url": "https://learn.microsoft.com/en-us/dax/dax-overview",
+              "scope": "Measures and evaluation-context sections · Current official explanation that a measure result depends on the context supplied by the report."
+            },
+            {
+              "name": "Chandoo - Learn 80% of DAX in an Hour",
               "url": "https://www.youtube.com/watch?v=lD7TvkoQ6rY",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "19:24-25:12 · See evaluation context change visually."
             }
           ],
           "planningHours": [
@@ -917,9 +1045,14 @@
           "bookPage": 10,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "Microsoft Learn - CALCULATE function",
+              "url": "https://learn.microsoft.com/en-us/dax/calculate-function-dax",
+              "scope": "Function semantics and modified filter context · Use the current official function semantics while the book teaches denominator/filter reasoning."
+            },
+            {
+              "name": "Chandoo - Learn 80% of DAX in an Hour",
               "url": "https://www.youtube.com/watch?v=lD7TvkoQ6rY",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "30:56-46:35 · See DIVIDE, CALCULATE and multi-filter examples."
             }
           ],
           "planningHours": [
@@ -943,9 +1076,14 @@
           "bookPage": 15,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo - FREE Adv. Masterclass on Power BI - Create a Sales Analytics Dashboard",
               "url": "https://www.youtube.com/watch?v=ooJO7NW4uJU",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "17:43-27:22 · See calendar/time-intelligence measures in a real dashboard before building YTD/previous-month/prior-year checks on the course Date table."
+            },
+            {
+              "name": "Microsoft Learn - DAX time intelligence functions",
+              "url": "https://learn.microsoft.com/en-us/dax/time-intelligence-functions-dax",
+              "scope": "Function index; use DATEADD/SAMEPERIODLASTYEAR/TOTALYTD as assigned · Official function reference after the visual demonstration."
             }
           ],
           "planningHours": [
@@ -959,9 +1097,9 @@
           "bookPage": 18,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo - FREE Adv. Masterclass on Power BI - Create a Sales Analytics Dashboard",
               "url": "https://www.youtube.com/watch?v=ooJO7NW4uJU",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "27:22-44:26 · See wireframe, page hierarchy, KPI cards and formatting choices before building the executive page."
             }
           ],
           "planningHours": [
@@ -975,9 +1113,9 @@
           "bookPage": 21,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo - FREE Adv. Masterclass on Power BI - Create a Sales Analytics Dashboard",
               "url": "https://www.youtube.com/watch?v=ooJO7NW4uJU",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:25:35-1:44:16 · See bookmarks/filter panel/tooltips/interactivity in motion before testing interactions deliberately."
             }
           ],
           "planningHours": [
@@ -999,7 +1137,23 @@
           "id": "PBD9",
           "title": "Publish, workspaces, refresh and sharing basics",
           "bookPage": 27,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Microsoft Learn - Publish semantic models and reports from Power BI Desktop",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-upload-desktop-files",
+              "scope": "Publish workflow, republish and limitations · Current official workflow; avoids teaching stale tenant/workspace UI as universal."
+            },
+            {
+              "name": "Microsoft Learn - Data refresh in Power BI",
+              "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data",
+              "scope": "Desktop vs service refresh, dependencies and best practices · Current refresh concepts and limitations."
+            },
+            {
+              "name": "Microsoft Learn - Configure scheduled refresh",
+              "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh",
+              "scope": "Gateway, credentials, schedule, limitations · Use only if the learner has service/workspace access; do not invent availability."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1011,9 +1165,19 @@
           "bookPage": 30,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Guy in a Cube - How to Setup Row-Level Security (RLS) in Power BI",
               "url": "https://www.youtube.com/watch?v=MxU_FYSSnYU",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "0:00-4:30 · Short visual walkthrough of role creation, View As and service role mapping before the course handoff/security exercise."
+            },
+            {
+              "name": "Microsoft Learn - Row-level security (RLS) with Power BI",
+              "url": "https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security",
+              "scope": "Define roles/rules, role membership, validation and limitations · Current service/RLS behavior and permission caveats."
+            },
+            {
+              "name": "Microsoft Learn - RLS guidance in Power BI Desktop",
+              "url": "https://learn.microsoft.com/en-us/power-bi/guidance/rls-guidance",
+              "scope": "Create/validate roles and design guidance · Useful modeler guidance after the basic RLS walkthrough."
             }
           ],
           "planningHours": [
@@ -1039,9 +1203,14 @@
           "bookPage": 4,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Data Analyst Bootcamp for Beginners - Jupyter installation section",
               "url": "https://www.youtube.com/watch?v=PSNXoAs2FtQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "11:05:31-11:15:33 · See Jupyter installation/open/run workflow before using the course notebook."
+            },
+            {
+              "name": "Project Jupyter - Installing Jupyter",
+              "url": "https://jupyter.org/install",
+              "scope": "Current installation options · Use current installation commands if an older video installer screen differs."
             }
           ],
           "planningHours": [
@@ -1055,9 +1224,9 @@
           "bookPage": 7,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Data Analyst Bootcamp for Beginners - Python variables through functions",
               "url": "https://www.youtube.com/watch?v=PSNXoAs2FtQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "11:15:34-12:32:21 · Visual introduction to variables, conditions, loops and functions before the analyst-sized exercises."
             }
           ],
           "planningHours": [
@@ -1071,9 +1240,14 @@
           "bookPage": 10,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Reading in Files in Pandas",
               "url": "https://www.youtube.com/watch?v=dUpyC40cF6Q",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "0:58-18:05 · See CSV/JSON/Excel loading and DataFrame inspection in a focused beginner pandas lesson."
+            },
+            {
+              "name": "pandas - read_csv",
+              "url": "https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html",
+              "scope": "filepath, dtype, parse/read behavior · Current API reference for CSV loading."
             }
           ],
           "planningHours": [
@@ -1087,9 +1261,9 @@
           "bookPage": 13,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Data Analyst Bootcamp for Beginners - Data Cleaning in Pandas",
               "url": "https://www.youtube.com/watch?v=PSNXoAs2FtQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "15:33:02-16:11:38 · See common cleaning operations, then return to the course's stricter detection-before-correction workflow."
             }
           ],
           "planningHours": [
@@ -1103,9 +1277,9 @@
           "bookPage": 16,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Data Analyst Bootcamp for Beginners - Group By and Aggregate Functions",
               "url": "https://www.youtube.com/watch?v=PSNXoAs2FtQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "14:42:59-14:54:03 · See groupby/aggregation syntax before the course makes result grain explicit."
             }
           ],
           "planningHours": [
@@ -1119,9 +1293,14 @@
           "bookPage": 19,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Data Analyst Bootcamp for Beginners - Merging DataFrames",
               "url": "https://www.youtube.com/watch?v=PSNXoAs2FtQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "14:54:04-15:16:12 · See merge syntax before using validate= and indicator=True as correctness controls."
+            },
+            {
+              "name": "pandas - merge",
+              "url": "https://pandas.pydata.org/docs/reference/api/pandas.merge.html",
+              "scope": "how, indicator and validate parameters · Current authoritative semantics for merge validation and _merge indicator."
             }
           ],
           "planningHours": [
@@ -1135,9 +1314,9 @@
           "bookPage": 22,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Data Analyst Bootcamp for Beginners - indexes/aggregation/merge context",
               "url": "https://www.youtube.com/watch?v=PSNXoAs2FtQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "14:31:37-15:16:12 · Provides visual context for indexes/grouping/merging before the course teaches tidy monthly reshape."
             }
           ],
           "planningHours": [
@@ -1151,9 +1330,14 @@
           "bookPage": 25,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Data Analyst Bootcamp for Beginners - Creating Visualizations using pandas",
               "url": "https://www.youtube.com/watch?v=PSNXoAs2FtQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "15:16:13-15:33:01 · See pandas/Matplotlib chart creation before selecting charts by business question."
+            },
+            {
+              "name": "Matplotlib - Plot types",
+              "url": "https://matplotlib.org/stable/plot_types/",
+              "scope": "line/bar/histogram overview · Current chart-type reference after the visual demonstration."
             }
           ],
           "planningHours": [
@@ -1167,9 +1351,9 @@
           "bookPage": 28,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Exploratory Data Analysis in Pandas",
               "url": "https://www.youtube.com/watch?v=Liv6eeb1VfE",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "1:51-30:41 · See a compact EDA flow from first look through grouped analysis and visual exploration; Seaborn heatmap is optional, not required."
             }
           ],
           "planningHours": [
@@ -1181,7 +1365,13 @@
           "id": "PY9",
           "title": "Notebook quality, outputs and reproducibility",
           "bookPage": 31,
-          "watch": [],
+          "watch": [
+            {
+              "name": "pandas - DataFrame.to_csv",
+              "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html",
+              "scope": "path/index/output parameters · Current output API reference for reproducible saved CSV results."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1215,9 +1405,9 @@
           "bookPage": 4,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "StatQuest - Calculating the Mean, Variance and Standard Deviation, Clearly Explained!!!",
               "url": "https://www.youtube.com/watch?v=SzZ6GpcfoQY",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · Visual explanation of center/variance/SD before the course adds median/IQR/outlier investigation."
             }
           ],
           "planningHours": [
@@ -1231,9 +1421,9 @@
           "bookPage": 7,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "StatQuest - The Normal Distribution, Clearly Explained!!!",
               "url": "https://www.youtube.com/watch?v=rzFX5NWojp0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · See the normal model visually before deciding whether z-score/normal language fits a business metric."
             }
           ],
           "planningHours": [
@@ -1247,9 +1437,9 @@
           "bookPage": 10,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "StatQuest - Sampling from a Distribution, Clearly Explained!!!",
               "url": "https://www.youtube.com/watch?v=XLCWeSVzHUU",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · Makes random sampling variation visible before the course distinguishes chance error from systematic sampling bias."
             }
           ],
           "planningHours": [
@@ -1263,9 +1453,9 @@
           "bookPage": 13,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "StatQuest - The Central Limit Theorem, Clearly Explained!!!",
               "url": "https://www.youtube.com/watch?v=YAlJCEDH2uY",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · Visualize repeated sample means and why their spread changes with n."
             }
           ],
           "planningHours": [
@@ -1279,9 +1469,9 @@
           "bookPage": 16,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "StatQuest - Confidence Intervals, Clearly Explained!!!",
               "url": "https://www.youtube.com/watch?v=TqOeMYtOc1w",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · Visual CI intuition before the course focuses on repeated-procedure interpretation, precision and bias."
             }
           ],
           "planningHours": [
@@ -1295,14 +1485,14 @@
           "bookPage": 18,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "StatQuest - Hypothesis Testing and The Null Hypothesis, Clearly Explained!!!",
               "url": "https://www.youtube.com/watch?v=0oc49DyA3hU",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "0:22-13:44 · See null/reject/fail-to-reject logic before applying the analyst decision rule."
             },
             {
-              "name": "Instructor / official source 2",
+              "name": "StatQuest - p-values: What they are and how to interpret them",
               "url": "https://www.youtube.com/watch?v=vemZtEM63GY",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "0:17-9:47 · Reinforce what p-values mean and common misinterpretations."
             }
           ],
           "planningHours": [
@@ -1316,9 +1506,9 @@
           "bookPage": 21,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "StatQuest - p-values: What they are and how to interpret them",
               "url": "https://www.youtube.com/watch?v=vemZtEM63GY",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Ending emphasis: p-values do not measure effect size · Useful bridge from significance to effect size/business thresholds."
             }
           ],
           "planningHours": [
@@ -1332,14 +1522,14 @@
           "bookPage": 24,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "StatQuest - Pearson's Correlation, Clearly Explained!!!",
               "url": "https://www.youtube.com/watch?v=xZ_z8KWkhXE",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "0:55-17:31 · Visual interpretation of Pearson correlation before the course adds confounding/reverse-causality limits."
             },
             {
-              "name": "Instructor / official source 2",
+              "name": "Khan Academy - Correlation and causality",
               "url": "https://www.youtube.com/watch?v=ROpbdO-gRUo",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · Reinforces third-variable and directionality problems in causal claims."
             }
           ],
           "planningHours": [
@@ -1353,9 +1543,9 @@
           "bookPage": 27,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Khan Academy - Correlation and causality",
               "url": "https://www.youtube.com/watch?v=ROpbdO-gRUo",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Use as a bridge: why randomization strengthens the causal argument · Contrast observational association with randomized experimental design."
             }
           ],
           "planningHours": [
@@ -1411,9 +1601,9 @@
           "bookPage": 10,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "The art of exploring and explaining data",
               "url": "https://www.youtube.com/watch?v=IfKlOC5HSHI",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "02:38-28:20 · See exploration, comparison, simple explanatory charts and the shift from many cuts to a few decision-relevant patterns."
             }
           ],
           "planningHours": [
@@ -1437,9 +1627,9 @@
           "bookPage": 15,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "The art of exploring and explaining data",
               "url": "https://www.youtube.com/watch?v=IfKlOC5HSHI",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "17:15-28:20 · See how exploratory output becomes a focused explanatory message."
             }
           ],
           "planningHours": [
@@ -1473,19 +1663,19 @@
           "bookPage": 21,
           "watch": [
             {
-              "name": "Instructor / official source 1",
-              "url": "https://www.youtube.com/watch?v=kfGbI9wovZk",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
-            },
-            {
-              "name": "Instructor / official source 2",
+              "name": "How to turn data into stories",
               "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "02:20-20:52; 25:54-35:38 · Study decluttering, focus and a decision-ready story sequence."
             },
             {
-              "name": "Instructor / official source 3",
+              "name": "Avoid these 5 slide mistakes",
               "url": "https://www.youtube.com/watch?v=CfBHKy2sebQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "00:25-08:46 · Use when slides have an unclear point, excess colors/graphs/detail or too much text."
+            },
+            {
+              "name": "How to focus attention in data visualization",
+              "url": "https://www.youtube.com/watch?v=kfGbI9wovZk",
+              "scope": "Full focused video · Use when the audience still cannot tell what to look at first."
             }
           ],
           "planningHours": [
@@ -1509,9 +1699,9 @@
           "bookPage": 26,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "The art of exploring and explaining data - persuasion/story section",
               "url": "https://www.youtube.com/watch?v=IfKlOC5HSHI",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "32:30-43:46 · Use after the integrated case draft to strengthen persuasion/story flow without replacing the evidence chain."
             }
           ],
           "planningHours": [
@@ -1545,7 +1735,18 @@
           "id": "AIA1",
           "title": "Prompt design: outcome, context, constraints and verification",
           "bookPage": 6,
-          "watch": [],
+          "watch": [
+            {
+              "name": "OpenAI Academy - Analyzing data with ChatGPT",
+              "url": "https://openai.com/academy/data-analysis/",
+              "scope": "Data analysis directly in ChatGPT + Tips for success · Use current approach-first/file-analysis guidance while the course adds an explicit verification contract."
+            },
+            {
+              "name": "OpenAI Help - Data analysis with ChatGPT",
+              "url": "https://help.openai.com/en/articles/8437071",
+              "scope": "Overview + supported files + charts/code-backed analysis · Current capability awareness; exact plan/account features can vary."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1555,7 +1756,13 @@
           "id": "AIA2",
           "title": "Verify AI analysis and file-based answers",
           "bookPage": 9,
-          "watch": [],
+          "watch": [
+            {
+              "name": "OpenAI Help - File Uploads FAQ",
+              "url": "https://help.openai.com/en/articles/8555545-uploading-files-with-advanced-data-analysis-in-chatgpt",
+              "scope": "File/spreadsheet analysis, limits and retention awareness · Understand current file-analysis surface and why product capability is not proof of analytical correctness."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1567,9 +1774,9 @@
           "bookPage": 11,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Use only for SQL syntax/debugging visuals · Useful syntax refresher; not the primary AI-code-verification lesson."
             }
           ],
           "planningHours": [
@@ -1581,7 +1788,13 @@
           "id": "AIA4",
           "title": "AI-assisted analysis: plan, hypotheses and exploration",
           "bookPage": 13,
-          "watch": [],
+          "watch": [
+            {
+              "name": "OpenAI Academy - Analyzing data with ChatGPT",
+              "url": "https://openai.com/academy/data-analysis/",
+              "scope": "Ask for an approach; anomalies and hypotheses · Use AI to widen possible analyses while keeping facts, assumptions and hypotheses separate."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1601,7 +1814,18 @@
           "id": "AIA6",
           "title": "Privacy, confidentiality and data minimization",
           "bookPage": 18,
-          "watch": [],
+          "watch": [
+            {
+              "name": "OpenAI Help - Data Controls FAQ",
+              "url": "https://help.openai.com/en/articles/7730893-data-controls-faq",
+              "scope": "Current ChatGPT data-control awareness · Know consumer controls without treating them as employer/client approval."
+            },
+            {
+              "name": "OpenAI Help - How your data is used to improve model performance",
+              "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-",
+              "scope": "Individual vs business-service data-use context · Understand that data handling differs across service contexts; governance still comes first."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1623,9 +1847,29 @@
           "bookPage": 23,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "OpenAI - Introducing ChatGPT for Excel and Google Sheets",
               "url": "https://www.youtube.com/watch?v=sfkyiXvlYL0",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused visual · See spreadsheet-native AI in motion; learn the idea, not a button location."
+            },
+            {
+              "name": "OpenAI - Introducing ChatGPT for Excel and new financial data integrations",
+              "url": "https://openai.com/index/chatgpt-for-excel/",
+              "scope": "Spreadsheet-native capability, updates and control concepts · Current OpenAI product context; availability/terms can change."
+            },
+            {
+              "name": "OpenAI Help - Creating and editing documents, spreadsheets, and presentations with ChatGPT Work",
+              "url": "https://help.openai.com/en/articles/20001278-creating-and-editing-documents-spreadsheets-and-presentations-with-chatgpt-work",
+              "scope": "Current Work/Excel workflow awareness · Understand that app/surface/workspace availability and permissions vary."
+            },
+            {
+              "name": "Microsoft Support - Get started with Copilot in Excel",
+              "url": "https://support.microsoft.com/en-us/excel/copilot/get-started-with-copilot-in-excel",
+              "scope": "Current capabilities, modes and availability requirements · Compare transferable review/validation/permission controls across another spreadsheet AI surface."
+            },
+            {
+              "name": "Microsoft Learn - Use Copilot with Power BI reports and semantic models",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-reports-overview",
+              "scope": "Capabilities and requirements · Modern BI-AI awareness; model quality and validation remain prerequisites."
             }
           ],
           "planningHours": [
@@ -1679,7 +1923,18 @@
           "id": "PCH3",
           "title": "Build a GitHub project repository recruiters can inspect",
           "bookPage": 8,
-          "watch": [],
+          "watch": [
+            {
+              "name": "GitHub Docs - Managing your profile README",
+              "url": "https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme",
+              "scope": "Current profile README requirements and setup · Use current GitHub mechanics; the course controls the portfolio evidence standard."
+            },
+            {
+              "name": "GitHub Docs - About READMEs",
+              "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+              "scope": "README purpose and repository display behavior · Confirm how GitHub surfaces repository READMEs; course template adds recruiter/business-analysis requirements."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1691,9 +1946,9 @@
           "bookPage": 10,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Data Analyst Portfolio Project | SQL Data Exploration",
               "url": "https://www.youtube.com/watch?v=qfyynHBFOsM",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "13:40-1:18:00; GitHub at 1:13:35 · See a real analysis-to-GitHub workflow, then use the stricter course README/evidence standard."
             }
           ],
           "planningHours": [
@@ -1727,9 +1982,9 @@
           "bookPage": 16,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Create the Perfect Data Analyst Resume | Free Templates!",
               "url": "https://www.youtube.com/watch?v=WizLaDdsHUs",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · Visual reinforcement for junior-analyst resume structure; final claims must remain truthful and evidence-backed."
             }
           ],
           "planningHours": [
@@ -1773,9 +2028,9 @@
           "bookPage": 24,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Data Analyst Interview Questions",
               "url": "https://www.youtube.com/watch?v=fweZQqB0nwQ",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · Interview-question visual after handbook drills; answer through reasoning and validation, not memorized scripts."
             }
           ],
           "planningHours": [
@@ -1789,9 +2044,9 @@
           "bookPage": 26,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - What To Say vs What NOT To Say",
               "url": "https://www.youtube.com/watch?v=rLKC--8UYSw",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · Optional behavioral-answer comparison; project examples remain labelled projects."
             }
           ],
           "planningHours": [
@@ -1805,9 +2060,9 @@
           "bookPage": 28,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Alex The Analyst - Salary Negotiation",
               "url": "https://www.youtube.com/watch?v=ziurEoqEcO4",
-              "scope": "Mapped source for this lesson — use the exact range printed in the final book."
+              "scope": "Full focused video · Optional negotiation visual only after researching the actual role/company/location."
             }
           ],
           "planningHours": [
