@@ -31,7 +31,18 @@
           "id": "O2",
           "title": "Files, folders and safe data handling",
           "bookPage": 9,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Windows 11 File Explorer for Beginners",
+              "url": "https://www.youtube.com/watch?v=LsHe9ivHSzo&t=386s",
+              "scope": "06:26-10:40 — folders, paths and safe file navigation"
+            },
+            {
+              "name": "Windows 11 File Explorer for Beginners",
+              "url": "https://www.youtube.com/watch?v=LsHe9ivHSzo&t=1662s",
+              "scope": "27:42-29:10 — copy/move/rename workflow"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -51,7 +62,13 @@
           "id": "F1",
           "title": "What does a data analyst actually do?",
           "bookPage": 15,
-          "watch": [],
+          "watch": [
+            {
+              "name": "What does a Data Analyst do? | Explained in 5 minutes (2026)",
+              "url": "https://www.youtube.com/watch?v=fEY68ZxDT6Y",
+              "scope": "00:19 role; 01:11 lifecycle; 01:41 planning; 02:15 cleaning; 02:35 exploration; 03:05 storytelling; 03:34 communication"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -77,7 +94,13 @@
           "id": "F3",
           "title": "Metrics and KPIs",
           "bookPage": 21,
-          "watch": [],
+          "watch": [
+            {
+              "name": "KPI Visual in Power BI — actual vs target and trend (2026)",
+              "url": "https://www.youtube.com/watch?v=k4OAKbW6Mj0",
+              "scope": "Use the KPI/target/trend demonstration to visualize metric definitions; the learner book owns KPI-contract wording."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -108,6 +131,11 @@
               "name": "Statistics Canada — Data Quality in Six Dimensions",
               "url": "https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020001",
               "scope": "Full 8:42 beginner video"
+            },
+            {
+              "name": "Statistics Canada video — Data Quality in Six Dimensions",
+              "url": "https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020001",
+              "scope": "Full 8:42 beginner video — connect quality dimensions to the course validation checklist."
             }
           ],
           "planningHours": [
@@ -119,7 +147,13 @@
           "id": "F6",
           "title": "Analysis validation and the complete analyst brief",
           "bookPage": 30,
-          "watch": [],
+          "watch": [
+            {
+              "name": "End-to-end data validation strategies in Microsoft Fabric (+ 3 demos)",
+              "url": "https://www.youtube.com/watch?v=wAayC-J9TsU",
+              "scope": "02:38 why validation; 03:56 what can go wrong; 11:45 validation types; 31:00 semantic-model validation. Apply the same prove-the-result mindset to the analyst brief."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -173,7 +207,13 @@
           "id": "EF3",
           "title": "Data types, number formats and clean layout",
           "bookPage": 12,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Chandoo — Excel Tutorial for Beginners: Learn it FAST",
+              "url": "https://www.youtube.com/watch?v=F7aPazuS8QY&t=249s",
+              "scope": "04:09-07:35 — entering/structuring data, formats and clean worksheet habits"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -349,6 +389,11 @@
               "name": "Chandoo - Date & Time values in Excel",
               "url": "https://chandoo.org/wp/date-time-tips-ms-excel/",
               "scope": "Focused date/time sections · Reinforces how Excel stores and works with dates."
+            },
+            {
+              "name": "Excel text functions + converting text dates",
+              "url": "https://www.youtube.com/watch?v=FOseyP-Nrtw",
+              "scope": "Use LEFT/MID/RIGHT/TRIM/LEN and the date-conversion demonstration; then complete the course-specific changed task."
             }
           ],
           "planningHours": [
@@ -1099,7 +1144,13 @@
           "id": "PBD4",
           "title": "KPI measures and targets",
           "bookPage": 15,
-          "watch": [],
+          "watch": [
+            {
+              "name": "KPI Visual in Power BI — actual vs target and trend (2026)",
+              "url": "https://www.youtube.com/watch?v=k4OAKbW6Mj0",
+              "scope": "Use the KPI/target/trend visual; then build the assigned measure/target logic independently."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1162,7 +1213,13 @@
           "id": "PBD8",
           "title": "Report validation: prove the story is true",
           "bookPage": 27,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Mastering Data Quality Validation in Microsoft Fabric for Power BI Reports",
+              "url": "https://www.youtube.com/watch?v=G58wQPuXgIo",
+              "scope": "Use source-to-report measure validation and discrepancy logging as visual reinforcement; the course validation checklist remains the required proof."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1405,6 +1462,11 @@
               "name": "pandas - DataFrame.to_csv",
               "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html",
               "scope": "path/index/output parameters · Current output API reference for reproducible saved CSV results."
+            },
+            {
+              "name": "endjin — Microsoft Fabric: Good Notebook Development Practices",
+              "url": "https://www.youtube.com/watch?v=UyS6ZUgh-Wc",
+              "scope": "00:12-13:05 — notebook structure, modularization and reproducible development habits"
             }
           ],
           "planningHours": [
@@ -1626,7 +1688,13 @@
           "id": "IBA2",
           "title": "KPI trees, metric definitions and driver logic",
           "bookPage": 9,
-          "watch": [],
+          "watch": [
+            {
+              "name": "KPI Visual in Power BI — actual vs target and trend (2026)",
+              "url": "https://www.youtube.com/watch?v=k4OAKbW6Mj0",
+              "scope": "Use the KPI/target/trend demonstration only as a visual; the course KPI tree and driver logic are broader."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1636,7 +1704,13 @@
           "id": "IBA3",
           "title": "Analysis planning and prioritization",
           "bookPage": 12,
-          "watch": [],
+          "watch": [
+            {
+              "name": "What does a Data Analyst do? | Explained in 5 minutes (2026)",
+              "url": "https://www.youtube.com/watch?v=fEY68ZxDT6Y",
+              "scope": "01:11 lifecycle; 01:41 planning — connect business need to a bounded analysis plan."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1694,7 +1768,13 @@
           "id": "IBA7",
           "title": "Recommendations that can actually be executed",
           "bookPage": 24,
-          "watch": [],
+          "watch": [
+            {
+              "name": "What does a Data Analyst do? | Explained in 5 minutes (2026)",
+              "url": "https://www.youtube.com/watch?v=fEY68ZxDT6Y",
+              "scope": "03:05 storytelling; 03:34 communication — use as a visual prompt, then make the recommendation action-specific in the learner task."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1704,7 +1784,13 @@
           "id": "IBA8",
           "title": "Executive writing: headline, evidence and one-page memo",
           "bookPage": 27,
-          "watch": [],
+          "watch": [
+            {
+              "name": "What does a Data Analyst do? | Explained in 5 minutes (2026)",
+              "url": "https://www.youtube.com/watch?v=fEY68ZxDT6Y",
+              "scope": "03:05 storytelling; 03:34 communication — translate evidence into a concise decision-facing message."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1784,7 +1870,13 @@
           "id": "AIA0",
           "title": "What AI is for in analyst work",
           "bookPage": 6,
-          "watch": [],
+          "watch": [
+            {
+              "name": "OpenAI — ChatGPT Work for Data Analytics Teams (2026)",
+              "url": "https://www.youtube.com/watch?v=l-YPBP5jTVs",
+              "scope": "Current workflow orientation only. The learner book defines where AI may assist and where independent verification is mandatory."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1804,6 +1896,11 @@
               "name": "OpenAI Help - Data analysis with ChatGPT",
               "url": "https://help.openai.com/en/articles/8437071",
               "scope": "Overview + supported files + charts/code-backed analysis · Current capability awareness; exact plan/account features can vary."
+            },
+            {
+              "name": "OpenAI — ChatGPT Work for Data Analytics Teams (2026)",
+              "url": "https://www.youtube.com/watch?v=l-YPBP5jTVs",
+              "scope": "Use for current data-analysis workflow context; practise the course outcome/context/constraints/verification prompt contract independently."
             }
           ],
           "planningHours": [
@@ -1820,6 +1917,11 @@
               "name": "OpenAI Help - File Uploads FAQ",
               "url": "https://help.openai.com/en/articles/8555545-uploading-files-with-advanced-data-analysis-in-chatgpt",
               "scope": "File/spreadsheet analysis, limits and retention awareness · Understand current file-analysis surface and why product capability is not proof of analytical correctness."
+            },
+            {
+              "name": "OpenAI — ChatGPT Work for Data Analytics Teams (2026)",
+              "url": "https://www.youtube.com/watch?v=l-YPBP5jTVs",
+              "scope": "Use for file-analysis workflow context. A generated answer is not proof; validate against source data and independent checks."
             }
           ],
           "planningHours": [
@@ -1852,6 +1954,11 @@
               "name": "OpenAI Academy - Analyzing data with ChatGPT",
               "url": "https://openai.com/academy/data-analysis/",
               "scope": "Ask for an approach; anomalies and hypotheses · Use AI to widen possible analyses while keeping facts, assumptions and hypotheses separate."
+            },
+            {
+              "name": "OpenAI — ChatGPT Work for Data Analytics Teams (2026)",
+              "url": "https://www.youtube.com/watch?v=l-YPBP5jTVs",
+              "scope": "Use for analysis-workflow orientation; separate facts, hypotheses and suggested next checks in the assigned task."
             }
           ],
           "planningHours": [
@@ -1894,7 +2001,13 @@
           "id": "AIA7",
           "title": "AI-assisted communication and documentation",
           "bookPage": 27,
-          "watch": [],
+          "watch": [
+            {
+              "name": "OpenAI — ChatGPT Work for Data Analytics Teams (2026)",
+              "url": "https://www.youtube.com/watch?v=l-YPBP5jTVs",
+              "scope": "Use for assisted documentation/communication context; retain source traceability and rewrite in your own verified words."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1940,7 +2053,13 @@
           "id": "AIA9",
           "title": "Integrated AI-assisted analyst workflow",
           "bookPage": 33,
-          "watch": [],
+          "watch": [
+            {
+              "name": "OpenAI — ChatGPT Work for Data Analytics Teams (2026)",
+              "url": "https://www.youtube.com/watch?v=l-YPBP5jTVs",
+              "scope": "Use as end-to-end workflow orientation; then execute the integrated analyst workflow using the course verification contract."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1962,7 +2081,13 @@
           "id": "PCH1",
           "title": "What a fresher portfolio must prove",
           "bookPage": 6,
-          "watch": [],
+          "watch": [
+            {
+              "name": "freeCodeCamp — Git & GitHub Crash Course for Beginners (2026)",
+              "url": "https://www.youtube.com/watch?v=mAFoROnOfHs",
+              "scope": "Use the repository/project presentation portions as portfolio context; the course evidence checklist defines what a fresher project must prove."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1972,7 +2097,13 @@
           "id": "PCH2",
           "title": "Choose projects with different business stories",
           "bookPage": 9,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Afaque Ahmad — Data Engineering System Design Interview Framework",
+              "url": "https://www.youtube.com/watch?v=r58Cf_kc_bY",
+              "scope": "04:19-13:21 framework; use only to see how distinct projects can demonstrate different requirements/trade-offs."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -2088,7 +2219,13 @@
           "id": "PCH9",
           "title": "Application strategy: targeted volume with evidence",
           "bookPage": 30,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Google India — organise job applications and prepare for interviews",
+              "url": "https://www.youtube.com/watch?v=aHnGoMDUu8A",
+              "scope": "Use as application-tracking/job-prep orientation; the course requires targeted applications tied to evidence."
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
