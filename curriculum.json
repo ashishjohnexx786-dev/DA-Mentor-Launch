@@ -418,9 +418,14 @@
           "bookPage": 15,
           "watch": [
             {
-              "name": "Chandoo - Excel Formula Errors: Understand and Debug Them",
+              "name": "Chandoo — Excel Formula Errors: Understand and Debug Them",
               "url": "https://chandoo.org/wp/excel-formula-errors/",
-              "scope": "Focused error-type and debugging sections · Optional reference for recognizing error types; the lesson controls when an error may be handled versus repaired."
+              "scope": "Use the error checklist to diagnose the cause before deciding whether an error should be handled or fixed."
+            },
+            {
+              "name": "Maven Analytics video — Excel Error Types: How to Fix #VALUE!, #REF!, #N/A and others",
+              "url": "https://mavenanalytics.io/video/excel-error-types-and-fixes",
+              "scope": "Diagnose common Excel error types and repair root causes. Do not use IFERROR to hide broken logic; validate the repaired formula before adding a deliberate fallback."
             }
           ],
           "planningHours": [
