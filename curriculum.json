@@ -130,12 +130,7 @@
             {
               "name": "Statistics Canada — Data Quality in Six Dimensions",
               "url": "https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020001",
-              "scope": "Full 8:42 beginner video"
-            },
-            {
-              "name": "Statistics Canada video — Data Quality in Six Dimensions",
-              "url": "https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020001",
-              "scope": "Full 8:42 beginner video — connect quality dimensions to the course validation checklist."
+              "scope": "Full 8:42 beginner video — connect the six quality dimensions to the course validation checklist."
             }
           ],
           "planningHours": [
