@@ -61,7 +61,13 @@
           "id": "F2",
           "title": "From vague request to analytical question",
           "bookPage": 18,
-          "watch": [],
+          "watch": [
+            {
+              "name": "DP-700 Full Course — Architectural Decision-Making",
+              "url": "https://www.youtube.com/watch?v=KiB4eAeFRsw",
+              "scope": "2:19:27 onward"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -81,7 +87,13 @@
           "id": "F4",
           "title": "Grain and required data",
           "bookPage": 24,
-          "watch": [],
+          "watch": [
+            {
+              "name": "DataTalksClub DE Zoomcamp — Introduction to data modeling",
+              "url": "https://www.youtube.com/watch?v=uF76d5EmdtU",
+              "scope": "Main modeling class — facts, dimensions, grain and star-schema reasoning"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -91,7 +103,13 @@
           "id": "F5",
           "title": "Data quality",
           "bookPage": 27,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Statistics Canada — Data Quality in Six Dimensions",
+              "url": "https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020001",
+              "scope": "Full 8:42 beginner video"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -165,7 +183,13 @@
           "id": "EF4",
           "title": "Sort and filter safely",
           "bookPage": 15,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Chandoo — Excel Tutorial for Beginners",
+              "url": "https://www.youtube.com/watch?v=F7aPazuS8QY",
+              "scope": "11:37–15:46"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -442,6 +466,11 @@
               "name": "Microsoft Support - Relationships between tables in a Data Model",
               "url": "https://support.microsoft.com/en-us/excel/relationships-between-tables-in-a-data-model",
               "scope": "Relationship/cardinality background · Optional deeper official background after the basic relationship lesson."
+            },
+            {
+              "name": "DataTalksClub DE Zoomcamp — Introduction to data modeling",
+              "url": "https://www.youtube.com/watch?v=uF76d5EmdtU",
+              "scope": "Main modeling class — facts, dimensions, grain and star-schema reasoning"
             }
           ],
           "planningHours": [
@@ -491,7 +520,13 @@
           "id": "SF1",
           "title": "Relational basics, keys and NULL",
           "bookPage": 9,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Luke Barousse — Data Engineer Bootcamp (2026)",
+              "url": "https://www.youtube.com/watch?v=ol9_NnC9-cc",
+              "scope": "10:16:15 — Functions: Date, Text & NULL (focus NULL/COALESCE)"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1381,7 +1416,13 @@
           "id": "PY10",
           "title": "Integrated analyst workflow in Python",
           "bookPage": 36,
-          "watch": [],
+          "watch": [
+            {
+              "name": "DataTalksClub — Docker/PostgreSQL data-engineering workshop",
+              "url": "https://www.youtube.com/watch?v=lP8xXebHmuE",
+              "scope": "Use the matching ingestion / Python-script / PostgreSQL chapter"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1569,7 +1610,13 @@
           "id": "IBA1",
           "title": "Stakeholder request -> decision-focused Analysis Brief",
           "bookPage": 6,
-          "watch": [],
+          "watch": [
+            {
+              "name": "DP-700 Full Course — Architectural Decision-Making",
+              "url": "https://www.youtube.com/watch?v=KiB4eAeFRsw",
+              "scope": "2:19:27 onward"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1615,7 +1662,13 @@
           "id": "IBA5",
           "title": "Root-cause discipline and causal boundaries",
           "bookPage": 18,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Microsoft Azure Friday — Azure SRE Agent: Less Toil, More Uptime, Maximum Innovation",
+              "url": "https://learn.microsoft.com/en-us/shows/azure-friday/azure-sre-agent-less-toil-more-uptime-maximum-innovation",
+              "scope": "Incident workflow, runbook automation, diagnosis/root cause and 12:10 post-deployment health checks"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1687,7 +1740,13 @@
           "id": "IBA10",
           "title": "Stakeholder defense: questions, pushback and uncertainty",
           "bookPage": 33,
-          "watch": [],
+          "watch": [
+            {
+              "name": "DP-700 Full Course — Architectural Decision-Making",
+              "url": "https://www.youtube.com/watch?v=KiB4eAeFRsw",
+              "scope": "2:19:27 onward"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1933,6 +1992,11 @@
               "name": "GitHub Docs - About READMEs",
               "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
               "scope": "README purpose and repository display behavior · Confirm how GitHub surfaces repository READMEs; course template adds recruiter/business-analysis requirements."
+            },
+            {
+              "name": "freeCodeCamp — Git & GitHub Crash Course for Beginners [2026]",
+              "url": "https://www.youtube.com/watch?v=mAFoROnOfHs",
+              "scope": "1:16:48–1:19:57"
             }
           ],
           "planningHours": [
@@ -1960,7 +2024,13 @@
           "id": "PCH5",
           "title": "Project validation before publishing",
           "bookPage": 18,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Anuj Syal — Data Quality with Great Expectations",
+              "url": "https://www.youtube.com/watch?v=oxOj30rl_xs",
+              "scope": "Data-quality/testing workflow demonstration; map concepts to our test strategy"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -1970,7 +2040,13 @@
           "id": "PCH6",
           "title": "Final capstone: independent end-to-end analyst work",
           "bookPage": 21,
-          "watch": [],
+          "watch": [
+            {
+              "name": "DataTalksClub DE Zoomcamp — dbt video course sequence",
+              "url": "https://www.youtube.com/watch?v=2dYDS4OQbT0",
+              "scope": "Main-class review: project structure → sources → models → tests → docs; then close video and build independently"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
@@ -2086,7 +2162,13 @@
           "id": "PCH14",
           "title": "Final readiness and continuous improvement",
           "bookPage": 45,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Luke Barousse — How I Would Learn to Be a Data Engineer (2026)",
+              "url": "https://www.youtube.com/watch?v=_-DzZeixu0w",
+              "scope": "27:38 orchestration + 30:01 terminal/bash/git + 32:36 DataOps/CI-CD + 34:10 architecture"
+            }
+          ],
           "planningHours": [
             2.5,
             4.5
