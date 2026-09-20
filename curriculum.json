@@ -96,9 +96,9 @@
           "bookPage": 16,
           "watch": [
             {
-              "name": "KPI Visual in Power BI — actual vs target and trend (2026)",
-              "url": "https://www.youtube.com/watch?v=k4OAKbW6Mj0",
-              "scope": "Use the KPI/target/trend demonstration to visualize metric definitions; the learner book owns KPI-contract wording."
+              "name": "How to create a KPI visual in Power BI",
+              "url": "https://www.youtube.com/watch?v=AnrGyoYsTmI",
+              "scope": "Verified visual: KPI visual setup and business-metric display. Use it to visualize actual/target/trend; the learner book owns KPI definitions and validation."
             }
           ],
           "planningHours": [
@@ -1146,9 +1146,9 @@
           "bookPage": 13,
           "watch": [
             {
-              "name": "KPI Visual in Power BI — actual vs target and trend (2026)",
-              "url": "https://www.youtube.com/watch?v=k4OAKbW6Mj0",
-              "scope": "Use the KPI/target/trend visual; then build the assigned measure/target logic independently."
+              "name": "How to create a KPI visual in Power BI",
+              "url": "https://www.youtube.com/watch?v=AnrGyoYsTmI",
+              "scope": "Verified visual: KPI visual setup and business-metric display. Use it to visualize actual/target/trend; the learner book owns KPI definitions and validation."
             }
           ],
           "planningHours": [
@@ -1695,9 +1695,9 @@
           "bookPage": 6,
           "watch": [
             {
-              "name": "KPI Visual in Power BI — actual vs target and trend (2026)",
-              "url": "https://www.youtube.com/watch?v=k4OAKbW6Mj0",
-              "scope": "Use the KPI/target/trend demonstration only as a visual; the course KPI tree and driver logic are broader."
+              "name": "How to create a KPI visual in Power BI",
+              "url": "https://www.youtube.com/watch?v=AnrGyoYsTmI",
+              "scope": "Verified visual: KPI visual setup and business-metric display. Use it to visualize actual/target/trend; the learner book owns KPI definitions and validation."
             }
           ],
           "planningHours": [
