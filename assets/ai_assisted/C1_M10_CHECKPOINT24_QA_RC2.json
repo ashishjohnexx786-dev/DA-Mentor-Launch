@@ -1,0 +1,99 @@
+{
+  "checkpoint": "Checkpoint24",
+  "module": "Course 1 M10 AI-Assisted Analytics",
+  "release": "Astra-parity RC2 internal QA PASS",
+  "curriculum_changed": false,
+  "lesson_count_preserved": 10,
+  "route": "AIA0-AIA9 -> non-gating transfer test -> Gate A; B/C remediation-only; no Gate D",
+  "gate_state_machine_changed": false,
+  "assessment_changes": [
+    "Added fresh non-gating full-module VerifyFirst transfer diagnostic + protected review.",
+    "Replaced only Gate A/B/C protected reviews with deeper RC2 reviews covering data-quality controls, denominator-sensitive metrics, secondary diagnostics, privacy/source/causal defects, reproducibility and competency-specific repair routing.",
+    "Preserved learner book, practice workbook, Gate datasets/instructions, protected practice review, repair cards and source/video registry."
+  ],
+  "protected_metric_recomputation": "PASS",
+  "source_link_recheck": "PASS",
+  "pdf_render_qa": {
+    "status": "PASS",
+    "method": "All 5 new RC2 PDFs rendered at 160 dpi; contact-sheet first/last pages and Gate B diagnostic page visually inspected.",
+    "observed": "No clipping, overlap, black boxes or broken glyphs observed."
+  },
+  "pdf_page_counts": {
+    "C1_M10_AI_ASSISTED_ANALYTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf": 37,
+    "C1_M10_AI_ASSISTED_ANALYTICS_MODULE_TEST_PROTECTED_REVIEW_RC2.pdf": 2,
+    "C1_M10_AI_ASSISTED_ANALYTICS_MODULE_TEST_RC2.pdf": 2,
+    "C1_M10_AI_ASSISTED_ANALYTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf": 11,
+    "C1_M10_AI_ASSISTED_ANALYTICS_TARGETED_REPAIR_CARDS_RC1.pdf": 5,
+    "C1_M10_AI_ASSISTED_GATE_A_INSTRUCTIONS_RC1.pdf": 2,
+    "C1_M10_AI_ASSISTED_GATE_A_PROTECTED_REVIEW_RC2.pdf": 3,
+    "C1_M10_AI_ASSISTED_GATE_B_INSTRUCTIONS_RC1.pdf": 2,
+    "C1_M10_AI_ASSISTED_GATE_B_PROTECTED_REVIEW_RC2.pdf": 3,
+    "C1_M10_AI_ASSISTED_GATE_C_INSTRUCTIONS_RC1.pdf": 2,
+    "C1_M10_AI_ASSISTED_GATE_C_PROTECTED_REVIEW_RC2.pdf": 3,
+    "C1_M10_MODULE_QA_REPORT_RC1.pdf": 3
+  },
+  "pdf_text_sanity": {
+    "C1_M10_AI_ASSISTED_ANALYTICS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf": {
+      "pages": 37,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_ANALYTICS_MODULE_TEST_PROTECTED_REVIEW_RC2.pdf": {
+      "pages": 2,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_ANALYTICS_MODULE_TEST_RC2.pdf": {
+      "pages": 2,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_ANALYTICS_PROTECTED_PRACTICE_REVIEW_RC1.pdf": {
+      "pages": 11,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_ANALYTICS_TARGETED_REPAIR_CARDS_RC1.pdf": {
+      "pages": 5,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_GATE_A_INSTRUCTIONS_RC1.pdf": {
+      "pages": 2,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_GATE_A_PROTECTED_REVIEW_RC2.pdf": {
+      "pages": 3,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_GATE_B_INSTRUCTIONS_RC1.pdf": {
+      "pages": 2,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_GATE_B_PROTECTED_REVIEW_RC2.pdf": {
+      "pages": 3,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_GATE_C_INSTRUCTIONS_RC1.pdf": {
+      "pages": 2,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_AI_ASSISTED_GATE_C_PROTECTED_REVIEW_RC2.pdf": {
+      "pages": 3,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    },
+    "C1_M10_MODULE_QA_REPORT_RC1.pdf": {
+      "pages": 3,
+      "has_extractable_text": true,
+      "replacement_character_present": false
+    }
+  },
+  "old_gate_reviews_included": false,
+  "package_structure_status": "PASS"
+}

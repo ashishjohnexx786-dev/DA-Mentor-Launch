@@ -1,0 +1,99 @@
+{
+  "checkpoint": "Checkpoint23",
+  "module": "Course 1 M09 Integrated Business Analysis",
+  "release": "Astra-parity RC2 internal QA PASS",
+  "curriculum_changed": false,
+  "lesson_count_preserved": 11,
+  "lesson_route": "IBA1-IBA11 -> non-gating transfer test -> Gate A; B/C remediation-only; no Gate D",
+  "assessment_changes": [
+    "Added one fresh non-gating ServicePulse module transfer test and protected review covering IBA1-IBA11 competencies.",
+    "Replaced only Gate A/B/C protected reviews with deeper RC2 versions using recomputed quality controls, core metrics, secondary slices, causal boundaries and competency-specific repair routing.",
+    "Preserved learner book, practice workbook, Gate workbooks, Gate instructions, protected practice review, repair cards, lesson registry and source/video registry."
+  ],
+  "protected_metric_recomputation": "PASS",
+  "source_link_recheck": "PASS_WITH_THREE_EXACT_ID_TITLE_CORROBORATIONS_AND_ONE_DIRECT_TITLE_MATCH",
+  "pdf_render_qa": {
+    "status": "PASS",
+    "method": "All 5 newly generated RC2 PDFs rendered at 160 dpi. Representative first/last pages plus Gate A diagnostic page were visually inspected.",
+    "observed": "No clipping, overlap, black boxes or broken glyphs observed."
+  },
+  "pdf_page_counts": {
+    "C1_M09_BUSINESS_ANALYSIS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf": 40,
+    "C1_M09_BUSINESS_ANALYSIS_GATE_A_INSTRUCTIONS_RC1.pdf": 2,
+    "C1_M09_BUSINESS_ANALYSIS_GATE_A_PROTECTED_REVIEW_RC2.pdf": 3,
+    "C1_M09_BUSINESS_ANALYSIS_GATE_B_INSTRUCTIONS_RC1.pdf": 2,
+    "C1_M09_BUSINESS_ANALYSIS_GATE_B_PROTECTED_REVIEW_RC2.pdf": 3,
+    "C1_M09_BUSINESS_ANALYSIS_GATE_C_INSTRUCTIONS_RC1.pdf": 2,
+    "C1_M09_BUSINESS_ANALYSIS_GATE_C_PROTECTED_REVIEW_RC2.pdf": 3,
+    "C1_M09_BUSINESS_ANALYSIS_MODULE_TEST_PROTECTED_REVIEW_RC2.pdf": 2,
+    "C1_M09_BUSINESS_ANALYSIS_MODULE_TEST_RC2.pdf": 2,
+    "C1_M09_BUSINESS_ANALYSIS_PROTECTED_PRACTICE_REVIEW_RC1.pdf": 12,
+    "C1_M09_BUSINESS_ANALYSIS_TARGETED_REPAIR_CARDS_RC1.pdf": 5,
+    "C1_M09_MODULE_QA_REPORT_RC1.pdf": 3
+  },
+  "pdf_text_sanity": {
+    "C1_M09_BUSINESS_ANALYSIS_BEGINNER_FIRST_LEARNER_BOOK_RC1.pdf": {
+      "pages": 40,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_GATE_A_INSTRUCTIONS_RC1.pdf": {
+      "pages": 2,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_GATE_A_PROTECTED_REVIEW_RC2.pdf": {
+      "pages": 3,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_GATE_B_INSTRUCTIONS_RC1.pdf": {
+      "pages": 2,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_GATE_B_PROTECTED_REVIEW_RC2.pdf": {
+      "pages": 3,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_GATE_C_INSTRUCTIONS_RC1.pdf": {
+      "pages": 2,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_GATE_C_PROTECTED_REVIEW_RC2.pdf": {
+      "pages": 3,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_MODULE_TEST_PROTECTED_REVIEW_RC2.pdf": {
+      "pages": 2,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_MODULE_TEST_RC2.pdf": {
+      "pages": 2,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_PROTECTED_PRACTICE_REVIEW_RC1.pdf": {
+      "pages": 12,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_BUSINESS_ANALYSIS_TARGETED_REPAIR_CARDS_RC1.pdf": {
+      "pages": 5,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    },
+    "C1_M09_MODULE_QA_REPORT_RC1.pdf": {
+      "pages": 3,
+      "replacement_character_present": false,
+      "has_extractable_text": true
+    }
+  },
+  "gate_state_machine_changed": false,
+  "old_gate_reviews_included": false,
+  "package_structure_status": "PASS"
+}

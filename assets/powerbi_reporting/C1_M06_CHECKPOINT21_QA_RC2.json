@@ -1,0 +1,21 @@
+{
+  "checkpoint": "21",
+  "module": "C1 M06 Power BI DAX & Reporting",
+  "status": "PASS_STATIC_RC2",
+  "curriculum_changed": false,
+  "module_test": "ADDED_NON_GATING",
+  "gate_state_machine": "UNCHANGED",
+  "protected_reviews": [
+    "A",
+    "B",
+    "C"
+  ],
+  "controls_recomputed_from_workbooks": true,
+  "pdf_render_verification": "PASS",
+  "native_power_bi_runtime": "EXTERNAL_SMOKE_REQUIRED",
+  "notes": [
+    "RC1 learner teaching/data/guides preserved",
+    "Old RC1 Gate protected reviews intentionally superseded in this RC2 package",
+    "Gate B/C remain conditional remediation only"
+  ]
+}

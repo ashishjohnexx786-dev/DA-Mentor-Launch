@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "generated": "2026-09-19",
+  "method": "artifact_tool workbook inspection + independent Python arithmetic on workbook values",
+  "metrics": {
+    "Practice": {
+      "Line Count": 361,
+      "Order Count": 180,
+      "Customer Count": 12,
+      "Gross Sales": 4426197.0,
+      "Net Sales": 4074127.25,
+      "Total Cost": 2469180.0,
+      "Profit": 1604947.25,
+      "Margin": 0.3939364559612123,
+      "Jan 2026": 233374.45,
+      "Dec 2025": 119033.85,
+      "Jan 2025": 135713.2,
+      "R1 Jan 2026 Target": 278000.0,
+      "Top Region": "R3 / 1368507.60"
+    },
+    "Gate A": {
+      "Event Count": 300,
+      "Member Count": 40,
+      "Net Revenue": 345522.0,
+      "Service Cost": 156880.0,
+      "Profit": 188642.0,
+      "Margin": 0.5459623410376184,
+      "Renewal Count": 163,
+      "Renewal Rate": 0.5433333333333333,
+      "Jan 2026": 16887.0,
+      "Dec 2025": 19438.0,
+      "Jan 2025": 20938.0,
+      "CL1 Jan 2026 Target": 30550.0,
+      "Top Club": "CL4 / 79243.00",
+      "Entity totals": {
+        "CL1": 63209.5,
+        "CL2": 71200.5,
+        "CL3": 66208.5,
+        "CL4": 79243.0,
+        "CL5": 65660.5
+      }
+    },
+    "Gate B": {
+      "Order Count": 280,
+      "Net Revenue": 269033.0,
+      "Delivery Cost": 23715.0,
+      "Profit": 245318.0,
+      "Margin": 0.9118509625213264,
+      "On-Time Orders": 167,
+      "On-Time Rate": 0.5964285714285714,
+      "Jan 2026": 7519.0,
+      "Dec 2025": 7185.0,
+      "Jan 2025": 19542.5,
+      "Z1 Jan 2026 Target": 42820.0,
+      "Top Zone": "Z4 / 75097.50",
+      "Entity totals": {
+        "Z1": 70619.0,
+        "Z2": 61756.5,
+        "Z3": 61560.0,
+        "Z4": 75097.5
+      }
+    },
+    "Gate C": {
+      "Visit Count": 290,
+      "Patient Count": 45,
+      "Net Billed": 474075.0,
+      "Direct Cost": 187110.0,
+      "Profit": 286965.0,
+      "Margin": 0.6053156146179401,
+      "Within Wait Target": 162,
+      "Within Wait Rate": 0.5586206896551724,
+      "Jan 2026": 27105.0,
+      "Dec 2025": 26467.0,
+      "Jan 2025": 24675.0,
+      "C01 Jan 2026 Target": 46150.0,
+      "Top Clinic": "C04 / 113666.00",
+      "Entity totals": {
+        "C01": 85662.0,
+        "C02": 92380.0,
+        "C03": 88639.0,
+        "C04": 113666.0,
+        "C05": 93728.0
+      }
+    }
+  }
+}

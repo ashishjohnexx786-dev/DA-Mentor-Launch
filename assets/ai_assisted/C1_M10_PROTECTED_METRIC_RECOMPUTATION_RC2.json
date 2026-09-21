@@ -1,0 +1,148 @@
+{
+  "generated": "2026-09-19",
+  "module": "Course 1 M10 AI-Assisted Analytics",
+  "method": "Gate Source_Data values inspected through artifact_tool. Core controls cross-checked against preserved RC1 runtime/metric QA; RC2 adds secondary regional diagnostics and explicit AI-draft defect controls.",
+  "metric_contract": {
+    "completed_nonnegative_revenue": "SUM(revenue) where status=Completed and revenue>=0 on supplied rows",
+    "return_rate": "COUNT(Returned) / COUNT(Completed) on supplied rows",
+    "duplicate_policy": "Report extra exact duplicates separately; do not silently deduplicate protected controls",
+    "privacy_policy": "privacy_note != none is a flag for minimization/governance review, not permission to upload"
+  },
+  "gate_a": {
+    "quality": {
+      "raw_rows": 48,
+      "extra_exact_duplicate_rows": 1,
+      "duplicate": "RE047",
+      "negative_revenue_rows": 1,
+      "negative_record": "RE012",
+      "privacy_flag_rows": 11
+    },
+    "core": {
+      "completed_nonnegative_revenue": 156107.02,
+      "returned_over_completed": 0.4483,
+      "top_region": "South",
+      "top_region_completed_revenue": 53648.86
+    },
+    "regions": {
+      "East": {
+        "n": 10,
+        "returned_over_completed": 1.0,
+        "avg_duration_all": 38.6,
+        "completed_revenue": 9449.71
+      },
+      "North": {
+        "n": 16,
+        "returned_over_completed": 0.5556,
+        "avg_duration_all": 41.25,
+        "completed_revenue": 41502.2
+      },
+      "South": {
+        "n": 12,
+        "returned_over_completed": 0.25,
+        "avg_duration_all": 23.25,
+        "completed_revenue": 53648.86
+      },
+      "West": {
+        "n": 10,
+        "returned_over_completed": 0.25,
+        "avg_duration_all": 31.8,
+        "completed_revenue": 51506.25
+      }
+    }
+  },
+  "gate_b": {
+    "quality": {
+      "raw_rows": 52,
+      "extra_exact_duplicate_rows": 1,
+      "duplicate": "SU051",
+      "negative_revenue_rows": 1,
+      "negative_record": "SU012",
+      "privacy_flag_rows": 13
+    },
+    "core": {
+      "completed_nonnegative_revenue": 148546.26,
+      "returned_over_completed": 0.1875,
+      "top_region": "West",
+      "top_region_completed_revenue": 49503.57
+    },
+    "regions": {
+      "East": {
+        "n": 16,
+        "avg_duration_all": 38.88,
+        "cancel_rate": 0.25,
+        "returned_over_completed": 0.2
+      },
+      "North": {
+        "n": 13,
+        "avg_duration_all": 33.54,
+        "cancel_rate": 0.0769,
+        "returned_over_completed": 0.2
+      },
+      "South": {
+        "n": 9,
+        "avg_duration_all": 27.89,
+        "cancel_rate": 0.4444,
+        "returned_over_completed": 0.6667
+      },
+      "West": {
+        "n": 14,
+        "avg_duration_all": 33.29,
+        "cancel_rate": 0.3571,
+        "returned_over_completed": 0.0
+      }
+    }
+  },
+  "gate_c": {
+    "quality": {
+      "raw_rows": 48,
+      "extra_exact_duplicate_rows": 1,
+      "duplicate": "SU047",
+      "negative_revenue_rows": 1,
+      "negative_record": "SU012",
+      "privacy_flag_rows": 11
+    },
+    "core": {
+      "completed_nonnegative_revenue": 164355.53,
+      "returned_over_completed": 0.2812,
+      "top_region": "South",
+      "top_region_completed_revenue": 78698.15
+    },
+    "regions": {
+      "East": {
+        "n": 11,
+        "returned_over_completed": 0.125,
+        "completed_revenue": 44231.54
+      },
+      "North": {
+        "n": 11,
+        "returned_over_completed": 0.3333,
+        "completed_revenue": 27437.14
+      },
+      "South": {
+        "n": 18,
+        "returned_over_completed": 0.1429,
+        "completed_revenue": 78698.15
+      },
+      "West": {
+        "n": 8,
+        "returned_over_completed": 1.0,
+        "completed_revenue": 13988.7
+      }
+    },
+    "schema_guardrail": "No renewal/growth field exists in the supplied schema; an AI claim of 78% renewal is fabricated/undefined under this Gate."
+  },
+  "module_test_verifyfirst": {
+    "completed": 100,
+    "returned": 33,
+    "returned_over_completed": 0.33,
+    "region_rates": {
+      "North": 0.25,
+      "South": 0.5,
+      "East": 0.1667,
+      "West": 0.5
+    },
+    "completed_revenue_total": 516000,
+    "privacy_flag_rows": 18,
+    "non_gating": true
+  }
+}

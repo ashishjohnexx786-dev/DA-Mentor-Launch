@@ -1,0 +1,28 @@
+COURSE 1 - M10 AI-ASSISTED ANALYTICS - ASTRA-PARITY RC2 / CHECKPOINT24
+
+PREREQUISITE
+M00-M09 competency. No specific AI product, paid plan, spreadsheet add-in or connected workspace is required.
+
+LEARNER ROUTE (UNCHANGED)
+AIA0 tool/risk boundary -> AIA1 prompt design -> AIA2 output/file audit -> AIA3 code audit -> AIA4 plans/hypotheses -> AIA5 source hierarchy -> AIA6 privacy -> AIA7 communication -> AIA8 modern surfaces -> AIA9 integrated workflow -> non-gating Module Test -> Gate A.
+
+CORE CONTROL
+PROPOSE -> VERIFY -> JUDGE. AI may assist with plans, explanations, draft mechanics, code and communication. The analyst owns approved input, definitions/grain, privacy/source controls, independent verification, interpretation and final decision.
+
+MODULE TEST (NEW RC2, NON-GATING)
+Complete C1_M10_AI_ASSISTED_ANALYTICS_MODULE_TEST_RC2.pdf after AIA9. Save the first attempt before opening the protected review. The test diagnoses transfer across AIA0-AIA9 and has no Gate-state effect.
+
+GATE STATE MACHINE (UNCHANGED)
+A clean Gate A pass ends M10.
+Gate B requires failed A + saved attempt + Review A + targeted repair + changed evidence + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + changed evidence + explicit assignment.
+No Gate D.
+
+PRIVACY / GOVERNANCE
+Use synthetic course data for practice. For real work, follow employer/client governance, minimize/redact data, and never treat a product setting or feature availability as permission to share credentials, secrets, confidential information or personal data.
+
+RC2 CHANGE BOUNDARY
+The 10-lesson curriculum, learner book, practice workbook, Gate workbooks/instructions, protected practice review, repair cards and source/video registry are preserved. RC2 strengthens only the assessment/control layer and adds a dated source-link recheck.
+
+STATUS
+CHECKPOINT24 internal QA PASS for package structure, protected metrics, source-link identity/currentness checks, PDF render inspection and ZIP integrity. Product features and plan/workspace availability can change; current references are awareness aids, not required Gate dependencies.

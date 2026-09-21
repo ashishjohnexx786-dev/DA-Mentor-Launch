@@ -1,0 +1,36 @@
+{
+  "checkpoint": "22",
+  "module": "C1 M08 Statistics & Experimental Thinking",
+  "generated": "2026-09-19",
+  "status": "PASS_STATIC_RC2",
+  "curriculum_changed": false,
+  "canonical_route": "STAT1-STAT9 -> M-STAT -> Gate A; B/C conditional remediation only; no Gate D",
+  "module_test": "ADDED_NON_GATING",
+  "gate_state_machine": "UNCHANGED",
+  "protected_reviews": [
+    "A",
+    "B",
+    "C"
+  ],
+  "gate_workbook_data_quality_recomputed": true,
+  "gate_statistical_controls_recomputed": true,
+  "threshold_ci_distinction_added": true,
+  "source_links_rechecked": true,
+  "pdf_render_verification": "PASS",
+  "preserved_assets": [
+    "RC1 learner book",
+    "canonical practice workbook",
+    "visual simulation notebook",
+    "protected practice review",
+    "targeted repair cards",
+    "Gate A/B/C workbooks",
+    "canonical lesson registry",
+    "source video registry",
+    "RC1 QA evidence"
+  ],
+  "notes": [
+    "Old RC1 Gate protected reviews are superseded in this RC2 package",
+    "Module Test is diagnostic only and cannot alter Gate eligibility",
+    "No advanced-math expansion was added; learner scope remains analyst-level statistics"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "checked": "2026-09-19",
+  "curriculum_change": false,
+  "scope": "Unique external references preserved from C1_M10_SOURCE_VIDEO_REGISTRY_RC1.csv. Current identity/access was rechecked; no useful source was removed.",
+  "results": [
+    {
+      "source": "OpenAI Academy - Analyzing data with ChatGPT",
+      "url": "https://openai.com/academy/data-analysis/",
+      "status": "PASS_CURRENT_OFFICIAL"
+    },
+    {
+      "source": "OpenAI Help - Data analysis with ChatGPT",
+      "url": "https://help.openai.com/en/articles/8437071",
+      "status": "PASS_CURRENT_OFFICIAL"
+    },
+    {
+      "source": "OpenAI Help - File Uploads FAQ",
+      "url": "https://help.openai.com/en/articles/8555545-uploading-files-with-advanced-data-analysis-in-chatgpt",
+      "status": "PASS_CURRENT_OFFICIAL"
+    },
+    {
+      "source": "OpenAI Help - Data Controls FAQ",
+      "url": "https://help.openai.com/en/articles/7730893-data-controls-faq",
+      "status": "PASS_CURRENT_OFFICIAL"
+    },
+    {
+      "source": "OpenAI Help - How your data is used to improve model performance",
+      "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-",
+      "status": "PASS_CURRENT_OFFICIAL"
+    },
+    {
+      "source": "OpenAI - ChatGPT for Excel product page",
+      "url": "https://openai.com/index/chatgpt-for-excel/",
+      "status": "PASS_CURRENT_OFFICIAL"
+    },
+    {
+      "source": "OpenAI Help - ChatGPT Work documents/spreadsheets/presentations",
+      "url": "https://help.openai.com/en/articles/20001278-creating-and-editing-documents-spreadsheets-and-presentations-with-chatgpt-work",
+      "status": "PASS_CURRENT_OFFICIAL"
+    },
+    {
+      "source": "Microsoft Support - Get started with Copilot in Excel",
+      "url": "https://support.microsoft.com/en-us/excel/copilot/get-started-with-copilot-in-excel",
+      "status": "PASS_CURRENT_OFFICIAL"
+    },
+    {
+      "source": "Microsoft Learn - Copilot with Power BI reports and semantic models",
+      "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-reports-overview",
+      "status": "PASS_CURRENT_OFFICIAL"
+    },
+    {
+      "source": "OpenAI video - Introducing ChatGPT for Excel and Google Sheets",
+      "url": "https://www.youtube.com/watch?v=sfkyiXvlYL0",
+      "status": "PASS_EXACT_ID_TITLE_CORROBORATED_CURRENT_WEB"
+    },
+    {
+      "source": "Alex The Analyst - Learn SQL Beginner to Advanced in Under 4 Hours",
+      "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+      "status": "PASS_EXACT_ID_TITLE_CORROBORATED_CURRENT_WEB"
+    }
+  ],
+  "important_currentness_note": "Capabilities, UI, plan availability and workspace permissions can change. The learner book correctly treats these references as awareness/support while keeping verification/governance controls product-independent."
+}

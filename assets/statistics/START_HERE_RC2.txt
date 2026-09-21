@@ -1,0 +1,20 @@
+COURSE 1 - M08 STATISTICS & EXPERIMENTAL THINKING - ASTRA-PARITY RC2 / CHECKPOINT22
+
+STATUS
+Assessment-precision upgrade only. Canonical curriculum remains STAT1-STAT9 -> M-STAT -> Gate A. Gate B/C remain remediation-only. No Gate D.
+
+START
+1. Use the RC1 learner book + canonical practice workbook for STAT1-STAT9.
+2. Complete M-STAT after lesson mastery.
+3. The RC2 Module Test is a non-gating transfer diagnostic across STAT1-STAT9. It may be used before Gate A, but it does not add a prerequisite and cannot unlock Gate B/C.
+4. Take Gate A using the existing Gate A workbook. Open the RC2 Gate A protected review only after a genuine saved attempt.
+5. Gate B requires failed A + saved attempt + Review A + targeted repair + explicit assignment. Gate C requires failed B + saved attempt + Review B + targeted repair + explicit assignment.
+
+WHAT RC2 STRENGTHENS
+- Adds a fresh full-module transfer diagnostic across descriptive statistics, distributions, sampling/bias, SE/CLT, CI, hypothesis tests/p-values, effect size/business thresholds, correlation/causal limits and A/B design.
+- Gate A/B/C reviews now include independently recomputed data-quality controls, statistical controls, diagnostic routing and minimum evidence.
+- Explicitly separates 'observed point estimate exceeds minimum worthwhile effect' from the stronger claim '95% CI lower bound establishes at least the minimum worthwhile effect'. Gate A and Gate C do not satisfy that stronger CI condition.
+- Original lessons, workbooks, simulation notebook, practice review, repair cards, Gate datasets and source registry are preserved.
+
+STATISTICAL INTERPRETATION BOUNDARY
+RC2 preserves the canonical beginner decision rule while tightening language. A p-value is not P(H0 true); fail-to-reject is not proof of no effect; CI precision does not prove unbiased sampling; statistical significance is not business importance; and a point estimate crossing an MWE is not the same as the entire uncertainty interval clearing that MWE.

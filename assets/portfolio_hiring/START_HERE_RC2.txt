@@ -1,0 +1,16 @@
+COURSE 1 - M11 PORTFOLIO, CAPSTONE & HIRING | ASTRA-PARITY RC2 | CHECKPOINT25
+
+WHAT STAYED CANONICAL
+All 14 PCH lessons, the canonical practice workbook/review/repair cards, Portfolio Builder, MarketPulse capstone workbook/instructions/protected review, resume template, credibility checklist, job tracker, interview handbook, Gate A/B/C datasets/instructions and GitHub templates are preserved.
+
+WHAT RC2 CHANGES
+Only the three Job Readiness Gate protected reviews are replaced. RC2 adds deeper denominator/segment controls plus a pass-all evidence rubric across the same eight critical hiring competencies. The MarketPulse capstone protected review is intentionally preserved because its data-quality, metric, causal-boundary and repair controls already meet the target standard.
+
+GATE STATE IS UNCHANGED
+Gate A is the normal terminal assessment. Gate B exists only after failed A + saved attempt + Review A + targeted repair + explicit assignment. Gate C exists only after failed B + saved attempt + Review B + targeted repair + explicit assignment. There is no Gate D. ALL eight critical competencies must PASS; no averaging.
+
+TRUTH / PUBLIC-EVIDENCE SAFETY
+Projects stay labelled as projects. Never invent employment, clients, certifications, referrals, offers, salary facts, interview stages or project metrics. Do not publish credentials, private personal data, confidential company data or unapproved proprietary data. Quantified/technical claims need a reproducible evidence path.
+
+STATUS
+CHECKPOINT25 internal QA PASS for protected-metric recomputation, PDF render inspection, source-link recheck, package structure and ZIP integrity.

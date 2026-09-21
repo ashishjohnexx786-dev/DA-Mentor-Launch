@@ -1,0 +1,63 @@
+{
+  "generated": "2026-09-19",
+  "status": "PASS_WITH_TWO_CORROBORATED_FETCH_LIMITS",
+  "checks": [
+    {
+      "lesson": "STAT1",
+      "url": "https://www.youtube.com/watch?v=SzZ6GpcfoQY",
+      "result": "DIRECT_TITLE_MATCH",
+      "title": "Calculating the Mean, Variance and Standard Deviation, Clearly Explained!!!"
+    },
+    {
+      "lesson": "STAT2",
+      "url": "https://www.youtube.com/watch?v=rzFX5NWojp0",
+      "result": "DIRECT_TITLE_MATCH",
+      "title": "The Normal Distribution, Clearly Explained!!!"
+    },
+    {
+      "lesson": "STAT3",
+      "url": "https://www.youtube.com/watch?v=XLCWeSVzHUU",
+      "result": "DIRECT_TITLE_MATCH",
+      "title": "Sampling from a Distribution, Clearly Explained!!!"
+    },
+    {
+      "lesson": "STAT4",
+      "url": "https://www.youtube.com/watch?v=YAlJCEDH2uY",
+      "result": "DIRECT_TITLE_MATCH",
+      "title": "The Central Limit Theorem, Clearly Explained!!!"
+    },
+    {
+      "lesson": "STAT5",
+      "url": "https://www.youtube.com/watch?v=TqOeMYtOc1w",
+      "result": "CORROBORATED_EXACT_ID_TITLE",
+      "title": "Confidence Intervals, Clearly Explained!!!",
+      "note": "direct fetch limited; exact ID/title corroborated by current indexed course/reference pages"
+    },
+    {
+      "lesson": "STAT6",
+      "url": "https://www.youtube.com/watch?v=0oc49DyA3hU",
+      "result": "DIRECT_METADATA_MATCH",
+      "title": "Hypothesis Testing and The Null Hypothesis, Clearly Explained!!!",
+      "segment": "0:22-13:44 matches indexed YouTube chapters"
+    },
+    {
+      "lesson": "STAT6/STAT7",
+      "url": "https://www.youtube.com/watch?v=vemZtEM63GY",
+      "result": "DIRECT_TITLE_MATCH",
+      "title": "p-values: What they are and how to interpret them"
+    },
+    {
+      "lesson": "STAT8",
+      "url": "https://www.youtube.com/watch?v=xZ_z8KWkhXE",
+      "result": "DIRECT_TITLE_MATCH",
+      "title": "Pearson's Correlation, Clearly Explained!!!"
+    },
+    {
+      "lesson": "STAT8/STAT9",
+      "url": "https://www.youtube.com/watch?v=ROpbdO-gRUo",
+      "result": "CORROBORATED_EXACT_ID_TITLE",
+      "title": "Correlation and Causality",
+      "note": "direct fetch limited; exact ID/title corroborated by Khan-linked educational references"
+    }
+  ]
+}

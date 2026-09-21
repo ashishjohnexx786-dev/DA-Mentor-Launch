@@ -1,0 +1,31 @@
+{
+  "checked": "2026-09-19",
+  "scope": "M09 unique external video URLs preserved from C1_M09_SOURCE_VIDEO_REGISTRY_RC1.csv; no video removed or replaced.",
+  "results": [
+    {
+      "url": "https://www.youtube.com/watch?v=CfBHKy2sebQ",
+      "expected_title": "Avoid these 5 slide mistakes",
+      "status": "PASS_DIRECT_CURRENT_TITLE_MATCH"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
+      "expected_title": "How to turn data into stories",
+      "status": "PASS_EXACT_ID_TITLE_CORROBORATED_CURRENT_WEB",
+      "note": "Direct YouTube fetch was not relied on; exact ID/title was corroborated by current educational/reference pages."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kfGbI9wovZk",
+      "expected_title": "How to focus attention in data visualization",
+      "status": "PASS_EXACT_ID_TITLE_CORROBORATED_CURRENT_WEB",
+      "note": "Exact ID/title corroborated by a current university syllabus/reference page."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IfKlOC5HSHI",
+      "expected_title": "The art of exploring and explaining data",
+      "status": "PASS_EXACT_ID_TITLE_CORROBORATED_CURRENT_WEB",
+      "note": "Exact ID/title corroborated by a current educational/reference page."
+    }
+  ],
+  "curriculum_change": false,
+  "external_resource_policy": "All external videos remain supplemental to the internal learner-book/practice fallback. Verification of page identity does not claim transcript completeness or uninterrupted playback for every learner/device."
+}

@@ -1,0 +1,30 @@
+COURSE 1 - M09 INTEGRATED BUSINESS ANALYSIS - ASTRA-PARITY RC2 / CHECKPOINT23
+
+PREREQUISITE
+M00-M08 competency. No new required analysis software.
+
+LEARNER ROUTE (UNCHANGED)
+IBA1 -> IBA2 -> IBA3 -> IBA4 -> IBA5 -> IBA6 -> IBA7 -> IBA8 -> IBA9 -> IBA10 -> IBA11 -> non-gating Module Test -> Gate A.
+
+MODULE TEST (NEW RC2, NON-GATING)
+Use C1_M09_BUSINESS_ANALYSIS_MODULE_TEST_RC2.pdf only after IBA1-IBA11. Save a genuine first attempt before opening its protected review. This test diagnoses transfer across decision framing, KPI contracts, prioritization, causal boundaries, recommendations, memo/storytelling and stakeholder defense. It cannot unlock, block or replace a Gate.
+
+GATE STATE MACHINE (UNCHANGED)
+A clean Gate A pass ends M09.
+Gate B requires failed A + saved attempt + Review A + targeted repair + changed evidence + explicit assignment.
+Gate C requires failed B + saved attempt + Review B + targeted repair + changed evidence + explicit assignment.
+No Gate D.
+
+DECISION RULES
+- Tool complexity is not graded.
+- Every material result must trace to definition + source/grain + validation.
+- Weighted rates are recomputed from numerators/denominators, not averaged subgroup rates.
+- Observational association is not causal proof.
+- Recommendations require owner + action + scope/timing + success measure + risk/dependency + stop/continue rule.
+- A polished memo or slide cannot compensate for incorrect KPI logic or unsupported causal claims.
+
+RC2 CHANGE BOUNDARY
+The 11-lesson curriculum, learner book, practice workbook, Gate A/B/C workbooks, Gate instructions, protected practice review, targeted repair cards and source/video registry are preserved. RC2 strengthens only the assessment/control layer: one fresh non-gating transfer test plus deeper protected Gate reviews.
+
+STATUS
+CHECKPOINT23 internal QA PASS for package structure, protected metrics, ZIP integrity and static PDF render inspection. Native Excel/Power BI/service/device behavior remains governed by the original external-environment limitations where applicable.

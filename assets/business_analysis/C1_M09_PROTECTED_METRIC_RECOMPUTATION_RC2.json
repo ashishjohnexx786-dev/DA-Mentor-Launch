@@ -1,0 +1,251 @@
+{
+  "generated": "2026-09-19",
+  "module": "Course 1 M09 Integrated Business Analysis",
+  "method": "RC2 diagnostic controls independently recomputed from the supplied Gate workbooks during this checkpoint and cross-checked against the preserved RC1 runtime/metric QA for overlapping controls.",
+  "practice_reference": {
+    "valid_orders": 357,
+    "rejected_rows": 4,
+    "revenue": 3497806.19,
+    "margin_rate": 0.390569,
+    "on_time_rate": 0.557423,
+    "return_rate": 0.137255,
+    "avg_satisfaction": 4.028
+  },
+  "gate_a_carebridge": {
+    "quality": {
+      "valid_rows": 258,
+      "rejected_rows": 3,
+      "rejections": [
+        "CB0082 missing Clinic",
+        "CB0145 negative Wait_Minutes",
+        "CB0016 exact duplicate ID row"
+      ]
+    },
+    "overall": {
+      "no_show_rate": 0.1511627907,
+      "avg_wait_minutes": 36.8915,
+      "avg_satisfaction": 3.5795,
+      "avg_late_start_minutes": 10.5891
+    },
+    "by_clinic": {
+      "Riverside": {
+        "n": 76,
+        "no_show_rate": 0.078947,
+        "avg_wait": 50.71,
+        "avg_satisfaction": 3.28
+      },
+      "NorthCare": {
+        "n": 65,
+        "no_show_rate": 0.292308,
+        "avg_wait": 31.08,
+        "avg_satisfaction": 3.65
+      },
+      "HillView": {
+        "n": 51,
+        "no_show_rate": 0.137255,
+        "avg_wait": 31.94,
+        "avg_satisfaction": 3.73
+      },
+      "CentralCare": {
+        "n": 66,
+        "no_show_rate": 0.106061,
+        "avg_wait": 30.53,
+        "avg_satisfaction": 3.74
+      }
+    },
+    "by_booking_channel": {
+      "Phone": {
+        "n": 112,
+        "no_show_rate": 0.214286,
+        "avg_wait": 36.14
+      },
+      "WalkIn": {
+        "n": 52,
+        "no_show_rate": 0.096154,
+        "avg_wait": 42.15
+      },
+      "App": {
+        "n": 94,
+        "no_show_rate": 0.106383,
+        "avg_wait": 34.87
+      }
+    },
+    "patient_type_no_show": {
+      "FollowUp": 0.150289,
+      "New": 0.152941
+    },
+    "interpretation_guardrail": "NorthCare is worst on no-show rate; Riverside is worst on wait and satisfaction. Do not collapse different KPI weaknesses into one unsupported worst-clinic label."
+  },
+  "gate_b_streamfit": {
+    "quality": {
+      "valid_rows": 238,
+      "rejected_rows": 3,
+      "rejections": [
+        "SF0071 missing Plan",
+        "SF0121 negative Monthly_Revenue",
+        "SF0031 duplicate Subscriber_ID"
+      ]
+    },
+    "overall": {
+      "renewal_rate": 0.668067,
+      "avg_support_contacts": 1.7941,
+      "monthly_revenue": 215362,
+      "revenue_at_risk_nonrenewed": 63921
+    },
+    "by_plan": {
+      "Basic": {
+        "n": 116,
+        "renewal_rate": 0.586207,
+        "avg_support_contacts": 1.67,
+        "monthly_revenue": 69484,
+        "revenue_at_risk": 28752
+      },
+      "Plus": {
+        "n": 82,
+        "renewal_rate": 0.707317,
+        "avg_support_contacts": 1.88,
+        "monthly_revenue": 81918,
+        "revenue_at_risk": 23976
+      },
+      "Pro": {
+        "n": 40,
+        "renewal_rate": 0.825,
+        "avg_support_contacts": 1.98,
+        "monthly_revenue": 63960,
+        "revenue_at_risk": 11193
+      }
+    },
+    "by_acquisition_channel": {
+      "Referral": {
+        "renewal_rate": 0.672414,
+        "revenue_at_risk": 12581
+      },
+      "Direct": {
+        "renewal_rate": 0.693694,
+        "revenue_at_risk": 26966
+      },
+      "Partner": {
+        "renewal_rate": 0.623188,
+        "revenue_at_risk": 24374
+      }
+    },
+    "by_region_renewal": {
+      "West": 0.606061,
+      "North": 0.6,
+      "South": 0.753846,
+      "East": 0.711538
+    },
+    "interpretation_guardrail": "Basic combines the weakest plan renewal rate with the largest plan-level revenue at risk. Prioritize rate plus exposure plus ownership; support contacts are not causal proof of non-renewal."
+  },
+  "gate_c_quickcart": {
+    "quality": {
+      "valid_rows": 248,
+      "rejected_rows": 3,
+      "rejections": [
+        "QC0089 missing Seller_Tier",
+        "QC0167 negative Seller_Cost",
+        "QC0042 duplicate Order_ID"
+      ]
+    },
+    "overall": {
+      "on_time_rate": 0.548387,
+      "return_rate": 0.16129,
+      "margin_rate": 0.362619,
+      "avg_rating": 4.1919,
+      "gmv": 1617954.43
+    },
+    "by_tier": {
+      "Silver": {
+        "n": 120,
+        "on_time_rate": 0.65,
+        "return_rate": 0.133333,
+        "margin_rate": 0.364782,
+        "avg_rating": 4.33
+      },
+      "Gold": {
+        "n": 42,
+        "on_time_rate": 0.666667,
+        "return_rate": 0.238095,
+        "margin_rate": 0.345837,
+        "avg_rating": 4.31
+      },
+      "Bronze": {
+        "n": 86,
+        "on_time_rate": 0.348837,
+        "return_rate": 0.162791,
+        "margin_rate": 0.36811,
+        "avg_rating": 3.95
+      }
+    },
+    "by_region": {
+      "South": {
+        "on_time_rate": 0.393939,
+        "return_rate": 0.227273
+      },
+      "East": {
+        "on_time_rate": 0.622951,
+        "return_rate": 0.131148
+      },
+      "North": {
+        "on_time_rate": 0.578125,
+        "return_rate": 0.140625
+      },
+      "West": {
+        "on_time_rate": 0.614035,
+        "return_rate": 0.140351
+      }
+    },
+    "by_category": {
+      "Home": {
+        "return_rate": 0.135593,
+        "on_time_rate": 0.542373
+      },
+      "Fashion": {
+        "return_rate": 0.222222,
+        "on_time_rate": 0.5
+      },
+      "Beauty": {
+        "return_rate": 0.086957,
+        "on_time_rate": 0.5
+      },
+      "Electronics": {
+        "return_rate": 0.169014,
+        "on_time_rate": 0.633803
+      }
+    },
+    "interpretation_guardrail": "Bronze is the clearest on-time weakness; Gold has the highest tier return rate; South is weak on both. Category mix, especially Fashion, is a plausible confounder for late-delivery/return association."
+  },
+  "module_test_servicepulse": {
+    "tickets": 400,
+    "within_sla": 275,
+    "escalations": 66,
+    "overall_sla_rate": 0.6875,
+    "overall_escalation_rate": 0.165,
+    "regions": {
+      "North": {
+        "tickets": 80,
+        "sla_rate": 0.85,
+        "escalation_rate": 0.1
+      },
+      "South": {
+        "tickets": 120,
+        "sla_rate": 0.6,
+        "escalation_rate": 0.2
+      },
+      "East": {
+        "tickets": 50,
+        "sla_rate": 0.9,
+        "escalation_rate": 0.08
+      },
+      "West": {
+        "tickets": 150,
+        "sla_rate": 0.6,
+        "escalation_rate": 0.2
+      }
+    },
+    "unweighted_mean_regional_sla_rate": 0.7375,
+    "south_west_volume_share": 0.675,
+    "south_west_combined_sla_rate": 0.6,
+    "non_gating": true
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "generated": "2026-09-19",
+  "module": "Course 1 M11 Portfolio, Capstone & Hiring",
+  "method": "Gate Technical_Case tables inspected through artifact_tool; metrics recomputed independently from the exact supplied RC1 Gate workbooks. RC2 does not alter the learner datasets.",
+  "gate_a_parcelflow": {
+    "core": {
+      "total_rows": 42,
+      "delivered_rows": 32,
+      "on_time_rows": 12,
+      "on_time_rate": 0.375,
+      "total_delivered_value": 109118.35
+    },
+    "regions": {
+      "East": {
+        "delivered_n": 6,
+        "on_time_n": 1,
+        "on_time_rate": 0.1667,
+        "avg_actual_minus_planned_hours": 15.0,
+        "late_rows": 5,
+        "delivered_value": 15876.66
+      },
+      "North": {
+        "delivered_n": 11,
+        "on_time_n": 5,
+        "on_time_rate": 0.4545,
+        "avg_actual_minus_planned_hours": 7.36,
+        "late_rows": 6,
+        "delivered_value": 43616.61
+      },
+      "South": {
+        "delivered_n": 10,
+        "on_time_n": 5,
+        "on_time_rate": 0.5,
+        "avg_actual_minus_planned_hours": 4.0,
+        "late_rows": 5,
+        "delivered_value": 36181.42
+      },
+      "West": {
+        "delivered_n": 5,
+        "on_time_n": 1,
+        "on_time_rate": 0.2,
+        "avg_actual_minus_planned_hours": 14.4,
+        "late_rows": 4,
+        "delivered_value": 13443.66
+      }
+    },
+    "diagnostic_guardrail": "East is weakest by observed on-time rate and average gap; North has the most late delivered rows by count. Prioritization must name its metric and may not be presented as a causal finding."
+  },
+  "gate_b_renewnow": {
+    "core": {
+      "total_rows": 44,
+      "eligible_rows": 32,
+      "renewed_rows": 21,
+      "renewal_rate": 0.65625,
+      "avg_support_tickets_eligible": 2.8125,
+      "superseded_all_member_avg": 2.9090909091
+    },
+    "plans": {
+      "Basic": {
+        "eligible_n": 7,
+        "renewed_n": 3,
+        "renewal_rate": 0.4286,
+        "avg_support_tickets": 2.7143,
+        "eligible_monthly_value": 17394.87
+      },
+      "Plus": {
+        "eligible_n": 15,
+        "renewed_n": 10,
+        "renewal_rate": 0.6667,
+        "avg_support_tickets": 3.4,
+        "eligible_monthly_value": 53260.59
+      },
+      "Pro": {
+        "eligible_n": 10,
+        "renewed_n": 8,
+        "renewal_rate": 0.8,
+        "avg_support_tickets": 2.0,
+        "eligible_monthly_value": 28686.57
+      }
+    },
+    "eligible_renewed_groups": {
+      "not_renewed": {
+        "n": 11,
+        "avg_support_tickets": 2.7273,
+        "avg_monthly_value": 2916.99
+      },
+      "renewed": {
+        "n": 21,
+        "avg_support_tickets": 2.8571,
+        "avg_monthly_value": 3202.63
+      }
+    },
+    "diagnostic_guardrail": "Plan-level differences and ticket/value differences are descriptive only. The known 2.91 baseline defect is the wrong all-member cohort and remains superseded."
+  },
+  "gate_c_careops": {
+    "core": {
+      "total_rows": 46,
+      "completed_visits": 36,
+      "within_target_rows": 14,
+      "within_target_rate": 0.3888888889,
+      "completed_billed_total": 71056.02
+    },
+    "clinics": {
+      "Clinic 1": {
+        "completed_n": 21,
+        "within_n": 7,
+        "within_target_rate": 0.3333,
+        "avg_actual_wait_min": 32.19,
+        "avg_actual_minus_target_min": 6.76,
+        "completed_billed": 42529.25
+      },
+      "Clinic 2": {
+        "completed_n": 7,
+        "within_n": 3,
+        "within_target_rate": 0.4286,
+        "avg_actual_wait_min": 36.57,
+        "avg_actual_minus_target_min": 9.0,
+        "completed_billed": 10516.58
+      },
+      "Clinic 3": {
+        "completed_n": 8,
+        "within_n": 4,
+        "within_target_rate": 0.5,
+        "avg_actual_wait_min": 32.25,
+        "avg_actual_minus_target_min": 5.75,
+        "completed_billed": 18010.19
+      }
+    },
+    "diagnostic_guardrail": "Clinic 1 is weakest by within-target rate and has largest completed volume; Clinic 2 has the worst average wait gap. The supplied schema contains no staffing field, so staffing causality is unsupported."
+  },
+  "gate_state_machine_changed": false
+}

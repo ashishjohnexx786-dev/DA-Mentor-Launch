@@ -1,0 +1,48 @@
+{
+  "checked": "2026-09-19",
+  "curriculum_change": false,
+  "scope": "External references already assigned in C1_M11_SOURCE_VIDEO_REGISTRY_RC1.csv; RC2 records a fresh identity/currentness check without removing useful visual support.",
+  "results": [
+    {
+      "source": "GitHub Docs - Managing/customizing profile README",
+      "url": "https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme",
+      "status": "PASS_CURRENT_OFFICIAL_GITHUB_DOCS"
+    },
+    {
+      "source": "GitHub Docs - About repository READMEs",
+      "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+      "status": "PASS_CURRENT_OFFICIAL_GITHUB_DOCS"
+    },
+    {
+      "source": "GitHub Docs - Using your GitHub profile to enhance your resume",
+      "url": "https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume",
+      "status": "PASS_CURRENT_OFFICIAL_OPTIONAL_SUPPORT"
+    },
+    {
+      "source": "Alex The Analyst - SQL Data Exploration portfolio project",
+      "url": "https://www.youtube.com/watch?v=qfyynHBFOsM",
+      "status": "PASS_EXACT_ID_TITLE_CORROBORATED_CURRENT_WEB"
+    },
+    {
+      "source": "Alex The Analyst - Create the Perfect Data Analyst Resume",
+      "url": "https://www.youtube.com/watch?v=WizLaDdsHUs",
+      "status": "PASS_EXACT_ID_CORROBORATED_CURRENT_WEB"
+    },
+    {
+      "source": "Alex The Analyst - Data Analyst Interview Questions",
+      "url": "https://www.youtube.com/watch?v=fweZQqB0nwQ",
+      "status": "PASS_EXACT_ID_TITLE_CORROBORATED_CURRENT_WEB"
+    },
+    {
+      "source": "Alex The Analyst - What To Say vs What NOT To Say",
+      "url": "https://www.youtube.com/watch?v=rLKC--8UYSw",
+      "status": "PASS_EXACT_ID_TITLE_CORROBORATED_CURRENT_WEB"
+    },
+    {
+      "source": "Alex The Analyst - Salary Negotiation",
+      "url": "https://www.youtube.com/watch?v=ziurEoqEcO4",
+      "status": "PASS_EXACT_ID_TITLE_CORROBORATED_CURRENT_WEB"
+    }
+  ],
+  "note": "Video results are identity/title corroborations from current web indexing, not claims of full transcript playback. Internal books/templates remain sufficient if an external video becomes unavailable."
+}
