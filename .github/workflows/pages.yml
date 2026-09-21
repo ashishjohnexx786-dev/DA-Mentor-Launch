@@ -1,4 +1,4 @@
-name: Deploy current Mentor to GitHub Pages
+name: Deploy current Mentor only
 
 on:
   push:
@@ -21,14 +21,29 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout clean release branch
         uses: actions/checkout@v6
+      - name: Verify and extract audited Mentor
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "4ee1c054c8bb057f4a33376f9eb9e545ad6501f7634ddb80af6694757b42e0c4  MENTOR_RELEASE.zip" | sha256sum -c -
+          rm -rf _extract _site
+          mkdir -p _extract _site
+          unzip -q MENTOR_RELEASE.zip -d _extract
+          root="$(find _extract -mindepth 1 -maxdepth 1 -type d -print -quit)"
+          test -n "$root"
+          cp -a "$root"/. _site/
+          touch _site/.nojekyll
+          test -f _site/index.html
+          test -f _site/app.js
+          test -f _site/curriculum.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload static site
+      - name: Upload exact current Mentor site
         uses: actions/upload-pages-artifact@v4
         with:
-          path: '.'
+          path: _site
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4

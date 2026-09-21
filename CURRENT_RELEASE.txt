@@ -1,0 +1,6 @@
+COURSE 1 DATA ANALYST MENTOR — CURRENT RELEASE
+Date: 2026-09-21
+Units: 120
+Gates: 12
+Legacy Mentor tree: removed from active branch
+Candidate SHA-256: 4ee1c054c8bb057f4a33376f9eb9e545ad6501f7634ddb80af6694757b42e0c4
